@@ -61,12 +61,26 @@ first-person voice — is flagged **worth a reply** and triggers an alert. Every
 number here lives in `config.json` and every phrase in `keywords.json`; both are
 plain text and safe to edit.
 
-On the real thread sample this was tested against, 11 of 75 posts were kept.
-The four flagged hot were: a homeowner about to make an offer asking for
-inspectors, somebody asking for advice buying a SOMA condo, a thread about
-realtors underpricing to start bidding wars, and a Chronicle-adjacent piece on
-what new money is doing to SF home design. Nothing about Muni, the zoo, or
-burritos made it through.
+This was tuned against live data, not guesses. A full run over the twelve
+subreddits read **977 posts and kept 42**, of which 17 were flagged worth a
+reply. Among them: a couple selling their Fremont condo and shopping flat-fee
+agents, somebody asking which of two houses to buy at $2.85M, a first-time buyer
+whose father is putting half down, a buyer who wants an hourly attorney instead
+of a commissioned buyer's agent, a tenant being offered a buyout on the duplex
+he lives in, and a request for realtor recommendations. Nothing about Muni, the
+zoo, or burritos made it through.
+
+Two false-positive patterns showed up in that live data and are handled
+explicitly. Renters were the big one — "moving to SF", on its own, was the
+single largest source of fake leads, so relocation phrases sit in their own
+non-lead tier and only become a lead alongside real buy/sell language, and any
+rental signal at all ("shared room", "renter's agent", "month-to-month") removes
+the lead flag outright. The other was crossposts: the same Chronicle article
+submitted to two subreddits showed up twice, so records with the same link or
+title are folded into one entry with an "also in r/…" note.
+
+The repository ships already populated with that run, so the dashboard has
+real content in it the moment Pages goes live.
 
 ---
 
@@ -86,6 +100,34 @@ watcher uses both, plus a third for keyword sweeps:
 Results are merged on the Reddit post ID, so each source only fills in what it
 knows. If one source ever stops working the watcher keeps running on the others —
 it just loses that source's extra fields.
+
+### What that means in practice, measured
+
+The three transports do not behave the same everywhere, and the difference was
+measured on both, not guessed:
+
+| | From a Mac on home internet | From a GitHub Actions runner |
+|---|---|---|
+| Listing RSS | works | works, but rate limited |
+| old.reddit.com HTML | works | **403 — blocked outright** |
+| old.reddit.com search | works | **403 — blocked outright** |
+
+Reddit refuses old.reddit.com to datacenter IP ranges, which is most of the
+cloud. So on GitHub the crawl runs on RSS alone: it still gets every title,
+author, body, timestamp and permalink — everything the scoring needs — but score
+and comment counts come back empty, because only the HTML carries those.
+
+The crawler handles this by itself rather than flailing. After two 403s from a
+host it marks that host blocked and skips it for the rest of the run, so it stops
+burning requests (and stops pushing the shared rate limiter toward throttling the
+transport that *does* work). A 429 is waited out in tens of seconds, honouring
+`Retry-After` where Reddit sends one, and the whole run slows down after the
+first one. Each run reports on the Actions summary page exactly which transports
+were blocked and how many requests were throttled — it is never silent about
+reduced coverage.
+
+If you want the upvote and comment counts back, run it from the Mac instead —
+`local/run_local.sh`, see the fallback section below. Same code, same state file.
 
 ---
 

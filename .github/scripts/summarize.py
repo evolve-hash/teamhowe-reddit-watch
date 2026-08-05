@@ -32,6 +32,18 @@ def main():
     for key, label in labels:
         lines.append("| {} | {} |".format(label, run.get(key)))
 
+    blocked = run.get("blocked_hosts") or {}
+    if blocked:
+        lines += ["", "**Transports blocked from this runner's IP:** " + ", ".join(
+            "`{}` ({})".format(host, why) for host, why in sorted(blocked.items()))]
+        lines += ["", "This is expected on GitHub's servers - old.reddit.com refuses "
+                      "datacenter IPs. The RSS transport carries the crawl; score and "
+                      "comment counts are the only thing lost. Run it from a Mac "
+                      "(`local/run_local.sh`) if you want those back."]
+    if run.get("rate_limited"):
+        lines += ["", "Reddit rate-limited {} request(s); the crawler slowed itself "
+                      "down and retried.".format(run["rate_limited"])]
+
     sweeps = run.get("sweeps_this_run") or []
     if sweeps:
         lines += ["", "Search sweeps this run: " + ", ".join("`%s`" % s for s in sweeps)]

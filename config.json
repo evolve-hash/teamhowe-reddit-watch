@@ -4,7 +4,7 @@
   "site": {
     "title": "Reddit Watch",
     "subtitle": "San Francisco real estate conversations, as they happen",
-    "public_url": "https://evolve-hash.github.io/teamhowe-reddit-watch",
+    "public_url": "",
     "timezone": "America/Los_Angeles"
   },
 
@@ -76,7 +76,7 @@
 
   "crawler": {
     "user_agent": "TeamHoweRedditWatch/1.0 (SF real estate monitoring; contact evolve@teamhowe.com)",
-    "delay_seconds": 2.5,
+    "delay_seconds": 4.0,
     "timeout_seconds": 25,
     "retries": 3,
     "use_listing_rss": true,

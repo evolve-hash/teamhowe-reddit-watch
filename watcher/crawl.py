@@ -72,15 +72,17 @@ def run(config, keywords, store, verbose=True):
                 stats["transport_counts"]["rss"] += len(parsed)
             groups.append(parsed)
 
-        if crawler.get("use_old_reddit_html", True):
-            html = fetcher.get(transports.old_listing_url(name))
+        old_listing = transports.old_listing_url(name)
+        if crawler.get("use_old_reddit_html", True) and not fetcher.blocked(old_listing):
+            html = fetcher.get(old_listing)
             parsed = transports.parse_old_listing(html, name) if html else []
             if parsed:
                 ok = True
                 stats["transport_counts"]["old_html"] += len(parsed)
             groups.append(parsed)
 
-        if crawler.get("use_search_sweeps", True) and scope == "all":
+        if (crawler.get("use_search_sweeps", True) and scope == "all"
+                and not fetcher.blocked(transports.old_search_url(name, "x"))):
             for term in sweep_terms:
                 html = fetcher.get(transports.old_search_url(name, term))
                 parsed = transports.parse_old_search(html) if html else []
@@ -132,7 +134,9 @@ def run(config, keywords, store, verbose=True):
     stats["pruned"] = removed
     stats["duration_seconds"] = round(time.time() - started, 1)
     stats["finished_at"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    stats["fetch_log"] = fetcher.log[-25:]
+    stats["blocked_hosts"] = dict(fetcher.blocked_hosts)
+    stats["rate_limited"] = fetcher.rate_limited
+    stats["fetch_log"] = fetcher.log[-30:]
     store.record_run(stats)
     return stats, new_records
 

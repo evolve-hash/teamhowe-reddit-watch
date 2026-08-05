@@ -38,16 +38,37 @@ class FetchError(Exception):
 
 
 class Fetcher(object):
-    """Polite HTTP GET with retries, backoff and optional mirror fallback."""
+    """
+    Polite HTTP GET with retries, adaptive pacing and optional mirror fallback.
 
-    def __init__(self, user_agent, delay=2.5, timeout=25, retries=3, mirrors=None):
+    Two behaviours here were learned the hard way from a real GitHub Actions
+    run, and they matter:
+
+    * old.reddit.com answers 403 to every request from a datacenter IP. Retrying
+      it 12 more times does not help - it just burns requests and pushes the
+      shared rate limiter closer to throttling the transport that DOES work. So
+      after two 403s a host is marked blocked and skipped for the rest of the run.
+
+    * The RSS feed is rate limited, not blocked. A 429 needs to be waited out in
+      tens of seconds, not four, and once we have seen one we slow everything
+      down for the rest of the run rather than walking into the next one.
+    """
+
+    RATE_LIMIT_BACKOFF = (30, 60, 120)
+    BLOCK_AFTER_403 = 2
+
+    def __init__(self, user_agent, delay=4.0, timeout=25, retries=3, mirrors=None):
         self.user_agent = user_agent
         self.delay = delay
+        self.base_delay = delay
         self.timeout = timeout
         self.retries = retries
         self.mirrors = list(mirrors or [])
         self._last_request = 0.0
         self.log = []
+        self.blocked_hosts = {}      # host -> reason
+        self.rate_limited = 0        # how many 429s we absorbed
+        self._forbidden = {}         # host -> consecutive 403 count
 
     # -- internals ---------------------------------------------------------
     def _wait(self):
@@ -70,6 +91,16 @@ class Fetcher(object):
             raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
         return raw.decode("utf-8", errors="replace")
 
+    @staticmethod
+    def _host(url):
+        try:
+            return urllib.parse.urlsplit(url).netloc.lower()
+        except Exception:
+            return url
+
+    def blocked(self, url):
+        return self._host(url) in self.blocked_hosts
+
     # -- public ------------------------------------------------------------
     def get(self, url):
         """Return page text, or None if every attempt failed."""
@@ -79,27 +110,59 @@ class Fetcher(object):
                 attempts.append(url.replace("old.reddit.com", mirror.strip("/")))
 
         for candidate in attempts:
-            backoff = 4
+            host = self._host(candidate)
+            if host in self.blocked_hosts:
+                continue                           # this host is a dead end today
+            rate_step = 0
             for attempt in range(1, self.retries + 1):
                 self._wait()
                 try:
-                    return self._open(candidate)
+                    body = self._open(candidate)
+                    self._forbidden[host] = 0
+                    return body
                 except urllib.error.HTTPError as exc:
                     self.log.append("HTTP {} {}".format(exc.code, candidate))
-                    if exc.code in (403, 404, 451):
-                        break                      # never going to work; move on
+
+                    if exc.code in (403, 451):
+                        count = self._forbidden.get(host, 0) + 1
+                        self._forbidden[host] = count
+                        if count >= self.BLOCK_AFTER_403:
+                            self.blocked_hosts[host] = "HTTP {}".format(exc.code)
+                            self.log.append(
+                                "SKIPPING {} for the rest of this run "
+                                "({} refused {} times)".format(host, exc.code, count))
+                        break
+                    if exc.code == 404:
+                        break
+
                     if exc.code in (429, 500, 502, 503, 504):
+                        if exc.code == 429:
+                            self.rate_limited += 1
+                            # Slow the whole run down; walking into the next 429
+                            # costs more than waiting does.
+                            self.delay = max(self.delay, self.base_delay * 2)
                         if attempt < self.retries:
-                            time.sleep(backoff)
-                            backoff *= 2
+                            wait = self._retry_after(exc) or self.RATE_LIMIT_BACKOFF[
+                                min(rate_step, len(self.RATE_LIMIT_BACKOFF) - 1)]
+                            rate_step += 1
+                            time.sleep(wait)
                             continue
                     break
                 except Exception as exc:           # timeouts, DNS, resets
                     self.log.append("{} {}".format(type(exc).__name__, candidate))
                     if attempt < self.retries:
-                        time.sleep(backoff)
-                        backoff *= 2
+                        time.sleep(8 * attempt)
                         continue
+        return None
+
+    @staticmethod
+    def _retry_after(exc):
+        try:
+            value = exc.headers.get("Retry-After")
+            if value:
+                return min(180, max(5, int(float(value))))
+        except Exception:
+            pass
         return None
 
 
