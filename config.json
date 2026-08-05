@@ -9,11 +9,11 @@
   },
 
   "subreddits": [
-    { "name": "sanfrancisco",       "scope": "all" },
-    { "name": "AskSF",              "scope": "all" },
+    { "always": true, "name": "sanfrancisco",       "scope": "all" },
+    { "always": true, "name": "AskSF",              "scope": "all" },
     { "name": "bayarea",            "scope": "all" },
-    { "name": "SFBayHousing",       "scope": "all" },
-    { "name": "BayAreaRealEstate",  "scope": "all" },
+    { "always": true, "name": "SFBayHousing",       "scope": "all" },
+    { "always": true, "name": "BayAreaRealEstate",  "scope": "all" },
     { "name": "sanfranciscohousing","scope": "all" },
     { "name": "SFHousing",          "scope": "all" },
     { "name": "OaklandCA",          "scope": "geo" },
@@ -23,6 +23,8 @@
     { "name": "FirstTimeHomeBuyer", "scope": "geo" }
   ],
   "_subreddits_note": "Every name here was verified against live reddit. r/Noe_Valley, r/bernalheights and r/bayareapeninsula do not exist - do not add them back. r/realtors works but is agents talking to agents, so it is left out; add {\"name\":\"realtors\",\"scope\":\"geo\"} if you want market chatter too.",
+
+  "_always_note": "Subreddits with \"always\": true are fetched on every run. The rest rotate crawler.rotating_per_run at a time, because reddit throttles an unauthenticated datacenter IP after about seven requests. Full list still gets covered, just over a few runs.",
 
   "_scope_note": "scope 'all' = any real-estate hit counts. scope 'geo' = the post must ALSO mention San Francisco or the Bay Area to count, so national subs don't flood the dashboard.",
 
@@ -76,10 +78,11 @@
 
   "crawler": {
     "user_agent": "TeamHoweRedditWatch/1.0 (SF real estate monitoring; contact evolve@teamhowe.com)",
-    "delay_seconds": 4.0,
+    "delay_seconds": 6.0,
     "timeout_seconds": 25,
     "retries": 3,
-    "rate_limit_budget_seconds": 150,
+    "rate_limit_budget_seconds": 120,
+    "rotating_per_run": 2,
     "use_listing_rss": true,
     "use_old_reddit_html": true,
     "use_search_sweeps": true,

@@ -27,10 +27,14 @@ def run(config, keywords, store, verbose=True):
     max_age = thresholds.get("max_post_age_days", 21)
     cutoff = transports.now_utc() - max_age * 86400
 
-    # Searching every term against every subreddit on every run would be ~190
-    # requests each time - rude to reddit and slow. Instead each run takes the
-    # next slice of the sweep list and remembers where it stopped, so the whole
-    # list is still covered, just spread over a few runs.
+    # Reddit throttles an unauthenticated datacenter IP after roughly seven
+    # requests, and it always throttled the SAME tail of the list - measured on
+    # a real GitHub run, subreddits 6..12 never once got fetched. So the list is
+    # split: the subreddits marked "always" are fetched every run, and the rest
+    # rotate a couple at a time. Core coverage stays at the schedule interval,
+    # the long tail comes round every hour or so, and no run gets throttled.
+    subreddit_plan = _plan_subreddits(config, store, crawler)
+
     all_sweeps = config.get("search_sweeps", [])
     per_run = int(crawler.get("search_sweeps_per_run", 4) or 0)
     if all_sweeps and 0 < per_run < len(all_sweeps):
@@ -53,12 +57,14 @@ def run(config, keywords, store, verbose=True):
         "leads": 0,
         "transport_counts": {"rss": 0, "old_html": 0, "old_search": 0},
         "sweeps_this_run": list(sweep_terms),
+        "subreddits_this_run": [e.get("name") for e in subreddit_plan],
+        "subreddits_configured": len(config.get("subreddits", [])),
     }
     new_records = []
 
-    for entry in config.get("subreddits", []):
-        name = entry.get("name") if isinstance(entry, dict) else str(entry)
-        scope = (entry.get("scope") if isinstance(entry, dict) else "all") or "all"
+    for entry in subreddit_plan:
+        name = entry.get("name")
+        scope = entry.get("scope") or "all"
         if not name:
             continue
 
@@ -141,6 +147,30 @@ def run(config, keywords, store, verbose=True):
     stats["fetch_log"] = fetcher.log[-30:]
     store.record_run(stats)
     return stats, new_records
+
+
+def _plan_subreddits(config, store, crawler):
+    """Which subreddits this run touches: the 'always' ones plus a rotating slice."""
+    entries = []
+    for entry in config.get("subreddits", []):
+        if isinstance(entry, dict):
+            entries.append(dict(entry))
+        elif entry:
+            entries.append({"name": str(entry), "scope": "all"})
+
+    core = [e for e in entries if e.get("always")]
+    tail = [e for e in entries if not e.get("always")]
+    per_run = int(crawler.get("rotating_per_run", 2) or 0)
+
+    if not tail or per_run <= 0:
+        return core or entries
+    if per_run >= len(tail):
+        return core + tail
+
+    cursor = int(store.state.get("subreddit_cursor", 0)) % len(tail)
+    slice_ = (tail + tail)[cursor:cursor + per_run]
+    store.state["subreddit_cursor"] = (cursor + per_run) % len(tail)
+    return core + slice_
 
 
 def _record(post, result, verdict, subreddit):

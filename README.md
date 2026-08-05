@@ -126,8 +126,27 @@ first one. Each run reports on the Actions summary page exactly which transports
 were blocked and how many requests were throttled — it is never silent about
 reduced coverage.
 
+RSS itself is rate limited from those IPs, and measurably so: Reddit served about
+seven requests and then threw `429` at everything after. That throttled the *same
+tail of the list every single run* — subreddits six through twelve never once got
+fetched. A crawler that quietly covers only the first five subreddits is worse
+than one that admits it, so the list is now split:
+
+- The four marked `"always": true` in `config.json` — r/sanfrancisco, r/AskSF,
+  r/SFBayHousing, r/BayAreaRealEstate — are fetched **every run**, every 20 minutes.
+- The other eight **rotate**, two per run, so the full list comes round about
+  every 80 minutes.
+
+That is six requests a run, which stays under the throttle. Posts sit on `/new`
+for hours, so an hour-old sweep of the long tail loses nothing real; what it buys
+is that no subreddit is silently ignored forever. Which subreddits a run touched
+is printed in the run summary. To change the balance, move the `"always"` flags
+or raise `crawler.rotating_per_run`.
+
 If you want the upvote and comment counts back, run it from the Mac instead —
-`local/run_local.sh`, see the fallback section below. Same code, same state file.
+`local/run_local.sh`, see the fallback section below. Same code, same state file,
+and on home internet all three transports work, so it fetches all twelve
+subreddits in one pass.
 
 ---
 

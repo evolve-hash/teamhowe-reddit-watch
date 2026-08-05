@@ -44,6 +44,13 @@ def main():
         lines += ["", "Reddit rate-limited {} request(s); the crawler slowed itself "
                       "down and retried.".format(run["rate_limited"])]
 
+    subs = run.get("subreddits_this_run") or []
+    if subs:
+        total = run.get("subreddits_configured") or len(subs)
+        lines += ["", "Subreddits this run ({} of {} configured, the rest rotate in "
+                      "later runs): ".format(len(subs), total)
+                  + ", ".join("`r/%s`" % s for s in subs)]
+
     sweeps = run.get("sweeps_this_run") or []
     if sweeps:
         lines += ["", "Search sweeps this run: " + ", ".join("`%s`" % s for s in sweeps)]
