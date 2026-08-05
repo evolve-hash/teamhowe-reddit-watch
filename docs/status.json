@@ -1,42 +1,58 @@
 {
- "generated_at": "2026-08-05T22:23:26+00:00",
+ "generated_at": "2026-08-05T22:35:16+00:00",
  "last_run": {
-  "subreddits_ok": 6,
-  "subreddits_failed": [],
-  "fetched": 569,
-  "considered": 431,
-  "kept": 59,
-  "new": 7,
-  "hot": 17,
-  "leads": 15,
+  "subreddits_ok": 4,
+  "subreddits_failed": [
+   "BayAreaRealEstate",
+   "FirstTimeHomeBuyer"
+  ],
+  "fetched": 400,
+  "considered": 400,
+  "kept": 14,
+  "new": 0,
+  "hot": 0,
+  "leads": 0,
   "transport_counts": {
-   "rss": 510,
-   "old_html": 510,
-   "old_search": 105
+   "rss": 400,
+   "old_html": 0,
+   "old_search": 0
   },
   "sweeps_this_run": [
-   "tenants in common",
-   "mortgage",
-   "open house",
-   "housing market"
+   "property tax",
+   "hoa",
+   "should i buy",
+   "rent vs buy"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 312.7,
-  "finished_at": "2026-08-05T22:23:26+00:00",
-  "blocked_hosts": {},
-  "rate_limited": 1,
-  "rate_limit_wait_seconds": 20.0,
+  "duration_seconds": 186.7,
+  "finished_at": "2026-08-05T22:35:16+00:00",
+  "blocked_hosts": {
+   "old.reddit.com": "HTTP 403"
+  },
+  "rate_limited": 7,
+  "rate_limit_wait_seconds": 120.0,
   "fetch_log": [
-   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100"
+   "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+property+tax&sort=new&t=month&restrict_sr=on",
+   "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "rate-limit wait budget spent; giving up on this request, next run will pick it up",
+   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
+   "rate-limit wait budget spent; giving up on this request, next run will pick it up"
   ]
  }
 }
