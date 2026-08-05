@@ -80,10 +80,12 @@ def main(argv=None):
     exit_code = 0
 
     if args.command in ("crawl", "run"):
-        say("Crawling {} subreddit(s)...".format(len(config.get("subreddits", []))))
         stats, new_records = crawl.run(config, keywords, store, verbose=verbose)
         store.save()
         say("")
+        say("  {} of {} subreddits this run (the rest rotate in later runs)".format(
+            len(stats.get("subreddits_this_run") or []),
+            stats.get("subreddits_configured") or 0))
         say("  fetched {}   kept {}   new {}   hot {}   leads {}".format(
             stats["fetched"], stats["kept"], stats["new"], stats["hot"], stats["leads"]))
         say("  transports: {}".format(stats["transport_counts"]))

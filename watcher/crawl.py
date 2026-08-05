@@ -62,6 +62,10 @@ def run(config, keywords, store, verbose=True):
     }
     new_records = []
 
+    if verbose:
+        print("Crawling {} of {} subreddit(s) this run...".format(
+            len(subreddit_plan), len(config.get("subreddits", []))))
+
     for entry in subreddit_plan:
         name = entry.get("name")
         scope = entry.get("scope") or "all"

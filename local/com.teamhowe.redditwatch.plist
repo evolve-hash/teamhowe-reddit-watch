@@ -26,11 +26,11 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/edu/Documents/TeamHowe-RedditWatch/teamhowe-reddit-watch/local/run_local.sh</string>
+    <string>/Users/edu/teamhowe-reddit-watch/local/run_local.sh</string>
   </array>
 
   <key>WorkingDirectory</key>
-  <string>/Users/edu/Documents/TeamHowe-RedditWatch/teamhowe-reddit-watch</string>
+  <string>/Users/edu/teamhowe-reddit-watch</string>
 
   <key>EnvironmentVariables</key>
   <dict>
