@@ -1,62 +1,51 @@
 {
- "generated_at": "2026-08-05T18:30:37+00:00",
+ "generated_at": "2026-08-05T18:47:59+00:00",
  "last_run": {
-  "subreddits_ok": 5,
-  "subreddits_failed": [
-   "bayarea",
-   "SFBayHousing",
-   "sanfranciscohousing",
-   "OaklandCA",
-   "marincounty",
-   "RealEstate",
-   "FirstTimeHomeBuyer"
-  ],
-  "fetched": 402,
-  "considered": 304,
-  "kept": 47,
-  "new": 26,
+  "subreddits_ok": 12,
+  "subreddits_failed": [],
+  "fetched": 914,
+  "considered": 806,
+  "kept": 51,
+  "new": 0,
   "hot": 11,
   "leads": 9,
   "transport_counts": {
-   "rss": 402,
+   "rss": 914,
    "old_html": 0,
    "old_search": 0
   },
   "sweeps_this_run": [
-   "home prices",
-   "first time home buyer",
-   "condo",
-   "tenants in common"
+   "mortgage",
+   "open house",
+   "housing market",
+   "property tax"
   ],
   "pruned": 0,
-  "duration_seconds": 241.7,
-  "finished_at": "2026-08-05T18:30:37+00:00",
+  "duration_seconds": 695.9,
+  "finished_at": "2026-08-05T18:47:59+00:00",
+  "blocked_hosts": {
+   "old.reddit.com": "HTTP 403"
+  },
+  "rate_limited": 15,
   "fetch_log": [
+   "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+mortgage&sort=new&t=month&restrict_sr=on",
+   "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/SFHousing/new/?limit=100",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3ASFHousing+home+prices&sort=new&t=month&restrict_sr=on",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3ASFHousing+first+time+home+buyer&sort=new&t=month&restrict_sr=on",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3ASFHousing+condo&sort=new&t=month&restrict_sr=on",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3ASFHousing+tenants+in+common&sort=new&t=month&restrict_sr=on",
    "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/OaklandCA/new/?limit=100",
-   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/marincounty/new/?limit=100",
    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/SouthBay/new/?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/RealEstate/new/?limit=100",
    "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/FirstTimeHomeBuyer/new/?limit=100"
+   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
   ]
  }
 }
