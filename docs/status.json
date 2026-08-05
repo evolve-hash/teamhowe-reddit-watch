@@ -1,0 +1,54 @@
+{
+ "generated_at": "2026-08-05T17:30:22+00:00",
+ "last_run": {
+  "subreddits_ok": 12,
+  "subreddits_failed": [],
+  "fetched": 977,
+  "considered": 837,
+  "kept": 42,
+  "new": 42,
+  "hot": 17,
+  "leads": 15,
+  "transport_counts": {
+   "rss": 402,
+   "old_html": 914,
+   "old_search": 99
+  },
+  "sweeps_this_run": [
+   "realtor",
+   "real estate agent",
+   "buying a house",
+   "selling my house"
+  ],
+  "pruned": 0,
+  "duration_seconds": 246.6,
+  "finished_at": "2026-08-05T17:30:22+00:00",
+  "fetch_log": [
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
+  ]
+ }
+}

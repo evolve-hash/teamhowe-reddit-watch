@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+logs/
+local/env.sh
+docs/preview-*.html
+.DS_Store

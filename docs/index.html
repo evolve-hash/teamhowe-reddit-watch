@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Reddit Watch | Team Howe</title>
+<link rel="icon" href="https://teamhowe.com/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+<style>
+:root{
+  --font:'Montserrat', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  --ink:#211f1f; --ink-soft:#4a4646; --muted:#6f6f6f; --muted-2:#848484;
+  --surface:#ffffff; --surface-2:#f8f8f8; --surface-3:#f6f0ea;
+  --border:#eeeeee; --border-2:#e2ded9;
+  --beige:#ccb091; --beige-deep:#86664a; --bar:#a8825c;
+  --hot:#8c2f27; --hot-wash:#f9eeec; --hot-line:#e7c9c4;
+  --lead:#4d5b3d; --lead-wash:#f0f2ec; --lead-line:#cfd8c2;
+  --dark:#211f1f;
+}
+html[data-theme="dark"]{
+  --ink:#f4f2f0; --ink-soft:#d8d4d0; --muted:#a8a29c; --muted-2:#9a938c;
+  --surface:#141414; --surface-2:#1e1c1c; --surface-3:#241f1b;
+  --border:#2e2b2b; --border-2:#3a3634;
+  --beige:#ccb091; --beige-deep:#ccb091; --bar:#ccb091;
+  --hot:#e0a49a; --hot-wash:#2a1b19; --hot-line:#4b302c;
+  --lead:#adc48f; --lead-wash:#1c2118; --lead-line:#333d29;
+  --dark:#0d0d0d;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:var(--font); font-size:16px; line-height:1.65;
+  color:var(--ink); background:var(--surface);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+.eyebrow{
+  font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--beige-deep);margin:0 0 14px;
+}
+h1,h2,h3{font-weight:400;letter-spacing:-.01em;margin:0}
+h1{font-size:45px;line-height:1.12}
+h2{font-size:28px;line-height:1.2}
+h3{font-size:20px;line-height:1.35}
+
+/* ---------------------------------------------------------- masthead --- */
+.masthead{background:var(--dark);color:#fff;padding:0}
+.masthead .wrap{
+  display:flex;align-items:center;gap:24px;min-height:88px;
+  padding-top:14px;padding-bottom:14px;
+}
+.masthead img{height:34px;width:auto;display:block}
+.masthead .rule{width:1px;height:34px;background:rgba(255,255,255,.28)}
+.masthead .tag{
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  font-weight:500;color:#ccb091;
+}
+.masthead .right{margin-left:auto;display:flex;align-items:center;gap:18px}
+.masthead .stamp{font-size:11.5px;letter-spacing:.06em;color:#b6b6b6;text-align:right}
+.themebtn{
+  background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;
+  font-family:var(--font);font-size:10px;font-weight:600;letter-spacing:.18em;
+  text-transform:uppercase;padding:9px 14px;cursor:pointer;
+}
+.themebtn:hover{border-color:#ccb091;color:#ccb091}
+
+/* -------------------------------------------------------------- lede --- */
+.lede{padding:64px 0 40px;border-bottom:1px solid var(--border)}
+.lede p.sub{
+  margin:18px 0 0;max-width:60ch;font-size:17px;color:var(--muted);font-weight:300;
+}
+
+/* --------------------------------------------------------------- kpis --- */
+.kpiband{border-bottom:1px solid var(--border)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr)}
+.kpi{padding:34px 0 32px;border-left:1px solid var(--border);padding-left:26px}
+.kpi:first-child{border-left:0;padding-left:0}
+.kpi .k-label{
+  font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 12px;min-height:2.4em;
+}
+.kpi .k-value{font-size:44px;font-weight:600;line-height:1;letter-spacing:-.02em}
+.kpi .k-delta{font-size:12.5px;color:var(--muted);margin-top:10px;padding-right:20px}
+.kpi.is-hot .k-value{color:var(--hot)}
+
+/* -------------------------------------------------------------- chart --- */
+.chartcard{padding:44px 0 40px;border-bottom:1px solid var(--border)}
+.chart-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+.chart-head h3{font-size:20px}
+.chart-head .note{font-size:12.5px;color:var(--muted)}
+#chart{width:100%;height:170px;display:block;overflow:visible}
+#chart .grid{stroke:var(--border);stroke-width:1;shape-rendering:crispEdges}
+#chart .bar{fill:var(--bar)}
+#chart .bar.dim{fill:var(--border-2)}
+#chart .hit{fill:transparent;cursor:pointer}
+#chart text{font-family:var(--font);fill:var(--muted);font-size:10.5px}
+#chart text.val{fill:var(--ink);font-weight:600;font-size:11px}
+.tt{
+  position:fixed;z-index:60;pointer-events:none;opacity:0;transition:opacity .1s;
+  background:var(--dark);color:#fff;padding:9px 13px;font-size:12px;line-height:1.5;
+  box-shadow:0 8px 24px rgba(0,0,0,.22);white-space:nowrap;
+}
+.tt b{color:#ccb091;font-weight:600}
+details.datatable{margin-top:22px}
+details.datatable summary{
+  cursor:pointer;font-size:11px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--muted);
+}
+details.datatable table{border-collapse:collapse;margin-top:16px;font-size:13px}
+details.datatable th,details.datatable td{
+  border-bottom:1px solid var(--border);padding:7px 20px 7px 0;text-align:left;
+  font-variant-numeric:tabular-nums;font-weight:400;
+}
+details.datatable th{
+  font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;
+}
+
+/* ----------------------------------------------------------- controls --- */
+.controls{
+  position:sticky;top:0;z-index:40;background:var(--surface);
+  border-bottom:1px solid var(--border);padding:16px 0;
+}
+.controls .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.controls input[type=search],.controls select{
+  font-family:var(--font);font-size:13px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--border-2);padding:10px 13px;min-width:0;
+}
+.controls input[type=search]{flex:1 1 240px}
+.controls input[type=search]::placeholder{color:var(--muted-2)}
+.seg{display:flex;border:1px solid var(--border-2)}
+.seg button{
+  font-family:var(--font);font-size:10.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;background:transparent;color:var(--muted);border:0;
+  padding:11px 15px;cursor:pointer;border-left:1px solid var(--border-2);
+}
+.seg button:first-child{border-left:0}
+.seg button[aria-pressed=true]{background:var(--dark);color:#fff}
+html[data-theme=dark] .seg button[aria-pressed=true]{background:var(--beige);color:#211f1f}
+.count{font-size:12.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+/* ------------------------------------------------------------ results --- */
+.results{padding:8px 0 70px}
+.card{
+  padding:28px 0;border-bottom:1px solid var(--border);
+  display:grid;grid-template-columns:76px 1fr;gap:26px;
+}
+.score{text-align:center;padding-top:4px}
+.score .n{font-size:27px;font-weight:600;line-height:1;letter-spacing:-.02em}
+.score .l{
+  font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin-top:6px;
+}
+.card.hot .score .n{color:var(--hot)}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:11px}
+.badge{
+  font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  padding:5px 9px;display:inline-flex;align-items:center;gap:6px;
+}
+.badge.hot{background:var(--hot-wash);color:var(--hot);border:1px solid var(--hot-line)}
+.badge.lead{background:var(--lead-wash);color:var(--lead);border:1px solid var(--lead-line)}
+.badge.new{background:var(--surface-3);color:var(--beige-deep);border:1px solid var(--border-2)}
+.card h3 a{text-decoration:none;background-image:linear-gradient(var(--beige),var(--beige));
+  background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .2s}
+.card h3 a:hover{background-size:100% 1px}
+.meta{font-size:12.5px;color:var(--muted);margin-top:10px;display:flex;flex-wrap:wrap;gap:0}
+.meta span:not(:first-child)::before{content:"·";margin:0 9px;color:var(--border-2)}
+.meta a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--border-2)}
+.meta a:hover{color:var(--ink)}
+.excerpt{margin:14px 0 0;font-size:14.5px;color:var(--ink-soft);font-weight:300;max-width:78ch}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:15px}
+.chip{
+  font-size:11px;color:var(--muted);border:1px solid var(--border);
+  padding:4px 9px;background:var(--surface-2);
+}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{
+  font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  text-decoration:none;padding:11px 17px;border:1px solid var(--ink);color:var(--ink);
+  background:transparent;cursor:pointer;font-family:var(--font);
+}
+.btn:hover{background:var(--ink);color:var(--surface)}
+.btn.primary{background:var(--ink);color:var(--surface)}
+.btn.primary:hover{background:var(--beige-deep);border-color:var(--beige-deep);color:#fff}
+.empty{padding:80px 0;text-align:center;color:var(--muted)}
+.empty strong{display:block;font-size:20px;color:var(--ink);font-weight:400;margin-bottom:8px}
+
+/* ------------------------------------------------------------- footer --- */
+footer{background:var(--dark);color:#b6b6b6;padding:56px 0 46px;font-weight:300}
+footer .top{display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start;margin-bottom:34px}
+footer img{height:30px;width:auto}
+footer .contact{font-size:13px;line-height:1.9}
+footer .contact a{color:#fff;text-decoration:none}
+footer .contact a:hover{color:#ccb091}
+footer .tagline{
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#ccb091;margin-bottom:12px;
+}
+footer .legal{font-size:11px;line-height:1.85;color:#9f9f9f;border-top:1px solid rgba(255,255,255,.14);padding-top:24px}
+footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
+
+@media (max-width:900px){
+  h1{font-size:32px}
+  .wrap{padding:0 20px}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .kpi{border-left:0;border-top:1px solid var(--border);padding:26px 0 24px;padding-left:0}
+  .kpi:nth-child(-n+2){border-top:0}
+  .kpi:nth-child(even){border-left:1px solid var(--border);padding-left:22px}
+  .kpi .k-label{min-height:0}
+  .card{grid-template-columns:1fr;gap:0}
+  .score{display:flex;align-items:baseline;gap:10px;text-align:left;margin-bottom:12px}
+  .score .l{margin-top:0}
+  .masthead .wrap{min-height:70px}
+  .masthead .tag,.masthead .rule{display:none}
+  .lede{padding:44px 0 30px}
+}
+@media print{.controls,.themebtn,.actions{display:none}body{background:#fff}}
+</style>
+</head>
+<body data-palette="#ccb091">
+
+<header class="masthead">
+  <div class="wrap">
+    <a href="https://teamhowe.com"><img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85,fit=scale-down,width=960/https://media-production.lp-cdn.com/media/da43fa44-b24f-4ae6-80bb-2450fcbe04e9" alt="Team Howe | Compass"></a>
+    <div class="rule"></div>
+    <div class="tag">Reddit Watch</div>
+    <div class="right">
+      <div class="stamp">Updated<br>Aug 5, 2026 at 10:30 am PDT</div>
+      <button class="themebtn" id="themebtn" type="button">Dark</button>
+    </div>
+  </div>
+</header>
+
+<section class="lede"><div class="wrap">
+  <p class="eyebrow">Lead intelligence</p>
+  <h1>Who is talking about San Francisco real estate right now</h1>
+  <p class="sub">San Francisco real estate conversations, as they happen</p>
+</div></section>
+
+<section class="kpiband"><div class="wrap"><div class="kpis">
+  <div class="kpi is-hot">
+    <p class="k-label">Worth a reply now</p>
+    <div class="k-value">16</div>
+    <div class="k-delta">Open threads flagged hot or as a lead</div>
+  </div>
+  <div class="kpi">
+    <p class="k-label">New in last 7 days</p>
+    <div class="k-value">23</div>
+    <div class="k-delta">+15 vs 8 the week before</div>
+  </div>
+  <div class="kpi">
+    <p class="k-label">Threads tracked</p>
+    <div class="k-value">41</div>
+    <div class="k-delta">Rolling 60-day window</div>
+  </div>
+  <div class="kpi">
+    <p class="k-label">Subreddits watched</p>
+    <div class="k-value">12</div>
+    <div class="k-delta">7 SF-first, 5 filtered to Bay Area mentions</div>
+  </div>
+</div></div></section>
+
+<section class="chartcard"><div class="wrap">
+  <div class="chart-head">
+    <h3>Matching threads per day</h3>
+    <span class="note">Last 21 days &middot; hover a column for the count</span>
+  </div>
+  <svg id="chart" role="img" aria-label="Matching threads per day over the last 21 days"></svg>
+  <details class="datatable">
+    <summary>View as data table</summary>
+    <table><thead><tr><th>Date</th><th>Matching threads</th></tr></thead>
+    <tbody id="chart-table"></tbody></table>
+  </details>
+</div></section>
+
+<section class="controls"><div class="wrap">
+  <input type="search" id="q" placeholder="Search titles, text, keywords, usernames&hellip;" aria-label="Search threads">
+  <select id="sub" aria-label="Filter by subreddit"></select>
+  <div class="seg" role="group" aria-label="Filter by priority">
+    <button type="button" data-view="hot" aria-pressed="true">Worth a reply</button>
+    <button type="button" data-view="all" aria-pressed="false">Everything</button>
+  </div>
+  <select id="sort" aria-label="Sort">
+    <option value="relevance">Sort: Relevance</option>
+    <option value="new">Sort: Newest</option>
+    <option value="comments">Sort: Most comments</option>
+    <option value="score">Sort: Most upvotes</option>
+  </select>
+  <select id="range" aria-label="Time range">
+    <option value="3">Last 3 days</option>
+    <option value="7">Last 7 days</option>
+    <option value="14" selected>Last 14 days</option>
+    <option value="9999">All tracked</option>
+  </select>
+  <span class="count" id="count"></span>
+</div></section>
+
+<main class="results"><div class="wrap" id="list"></div></main>
+
+<footer><div class="wrap">
+  <div class="top">
+    <div><img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85,fit=scale-down,width=960/https://media-production.lp-cdn.com/media/da43fa44-b24f-4ae6-80bb-2450fcbe04e9" alt="Team Howe | Compass"></div>
+    <div class="contact">
+      <div class="tagline">Remarkably Savvy. Refreshingly Honest.</div>
+      <a href="tel:+14156404664">(415) 640-4664</a><br>
+      3512 16th Street, San Francisco, CA 94114<br>
+      <a href="https://teamhowe.com">teamhowe.com</a>
+    </div>
+  </div>
+  <div class="legal">
+    <span class="cr">Copyright © 2026 Team Howe. All Rights Reserved. </span>
+    Team Howe is a team of real estate agents affiliated with Compass. Compass is a real estate broker licensed by the State of California and abides by Equal Housing Opportunity laws. License Number 01527235. Sherri Howe CA DRE# 01816621. All material presented herein is intended for informational purposes only and is compiled from sources deemed reliable but has not been verified.
+  </div>
+</div></footer>
+
+<div class="tt" id="tt"></div>
+
+<script id="payload" type="application/json">{"posts": [{"id": "t3_1vb6o25", "subreddit": "BayAreaRealEstate", "title": "I ran the numbers on 316 Peninsula sales: house size explains 68% of the price variation inside a city, lot size adds almost nothing on top", "author": "lekranq", "author_url": "https://www.reddit.com/user/lekranq", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vb6o25/i_ran_the_numbers_on_316_peninsula_sales_house/", "created_utc": 1785446436, "score": 30, "comments": 31, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vb6o25/i_ran_the_numbers_on_316_peninsula_sales_house/", "excerpt": "I work on teardown and spec-build deals on the Peninsula and I check sold comps regularly.After researching prices, lot sizes, and house sizes, I came to a rather surprising find. TLDR: you are paying for the house. Fifty percent more land added about 4 percent to the price. If you're choosing between two listings, the extra yard size...", "relevance": 43, "is_lead": true, "verdict": "hot", "hits": ["buying a house", "appraisal", "asking price", "price per square foot", "comps", "sfh", "burlingame", "hillsborough"], "fresh": false, "also_in": []}, {"id": "t3_1vaz3ku", "subreddit": "bayarea", "title": "I shopped around flat fee real estate agents, can I get a vibe check from anybody", "author": "ATXDJ91", "author_url": "https://www.reddit.com/user/ATXDJ91", "permalink": "https://www.reddit.com/r/bayarea/comments/1vaz3ku/i_shopped_around_flat_fee_real_estate_agents_can/", "created_utc": 1785430153, "score": 16, "comments": 46, "domain": "", "external_url": "", "excerpt": "Writing this from my hobby burner account for anonymity. Wife and I are looking to sell our condo in Fremont and move to the peninsula to be closer to work and good schools bc we have a baby on the way. I work in tech and we have been doing very well recently. will probably end up buying a condo again but looking into sfh options to see...", "relevance": 42, "is_lead": true, "verdict": "hot", "hits": ["agent commission", "buying a condo", "flat fee agent", "flat fee real estate", "real estate", "realtors", "comps", "sfh"], "fresh": false, "also_in": []}, {"id": "t3_1v7dwl0", "subreddit": "AskSF", "title": "Considering a move to SF from SJ. Housing market has me rethinking things", "author": "waffle-crispy", "author_url": "https://www.reddit.com/user/waffle-crispy", "permalink": "https://www.reddit.com/r/AskSF/comments/1v7dwl0/considering_a_move_to_sf_from_sj_housing_market/", "created_utc": 1785094965, "score": 15, "comments": 70, "domain": "", "external_url": "", "excerpt": "Hi folks, I have been blissfully unaware of the calamity that is the housing market until this weekend. What the hell? I was thinking it was high time I move up north to enjoy SF while I’m young (and maybe save some $ while I’m at it - was paying $3k for a 1b. I now realize I will not be saving a dime extra). How are you guys surviving?...", "relevance": 40, "is_lead": true, "verdict": "hot", "hits": ["downsizing", "move to sf", "considering a move to sf", "housing market", "housing", "rent controlled"], "fresh": false, "also_in": []}, {"id": "t3_1v0l7nh", "subreddit": "BayAreaRealEstate", "title": "Landlord selling the duplex I live in… offering a buyout… so confused what to do. Welp!", "author": "questioningcub", "author_url": "https://www.reddit.com/user/questioningcub", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v0l7nh/landlord_selling_the_duplex_i_live_in_offering_a/", "created_utc": 1784450435, "score": 6, "comments": 77, "domain": "", "external_url": "", "excerpt": "About 11 yrs ago I got divorced and lost the North Oakland triplex I thought was gonna be my forever home. In the yrs that followed I tried to buy but kept getting priced out. Before my current rental I moved 7 times in 9 yrs. It was hellish and exhausting! In November 2023 I landed at my current spot in Berkeley… a little duplex with a...", "relevance": 36, "is_lead": true, "verdict": "hot", "hits": ["buy a house", "housing", "duplex", "triplex", "landlord", "priced out", "rent board", "adu"], "fresh": false, "also_in": []}, {"id": "t3_1v3kbty", "subreddit": "bayarea", "title": "Oakland wants to start taxing foreclosures. Could this make the city’s blight problem worse?", "author": "ShopProp", "author_url": "https://www.reddit.com/user/ShopProp", "permalink": "https://www.reddit.com/r/bayarea/comments/1v3kbty/oakland_wants_to_start_taxing_foreclosures_could/", "created_utc": 1784736014, "score": 26, "comments": 39, "domain": "", "external_url": "", "excerpt": "Oakland is considering a November ballot measure that would apply its real estate transfer tax to certain foreclosure transactions that are currently exempt. The city estimates the change could generate roughly $4 million to $13 million per year (quite the wide estimate). I understand the appeal. Oakland needs revenue, and the proposal...", "relevance": 35, "is_lead": false, "verdict": "hot", "hits": ["foreclosure", "real estate", "transfer tax", "sfchronicle.com", "bizjournals.com", "$4 million"], "fresh": false, "also_in": [{"subreddit": "BayAreaRealEstate", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v3kam6/oakland_wants_to_start_taxing_foreclosures_could/", "comments": 25, "score": 26}]}, {"id": "t3_1vcw24j", "subreddit": "BayAreaRealEstate", "title": "Which house should we go for?", "author": "Sea-Question2763", "author_url": "https://www.reddit.com/user/Sea-Question2763", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vcw24j/which_house_should_we_go_for/", "created_utc": 1785611878, "score": 3, "comments": 60, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vcw24j/which_house_should_we_go_for/", "excerpt": "Hopefully this type of post is ok. We have two very different potential opportunities for buying our first home, and want to see what others would do in our situation. House 1: - $2.85M purchase price with $2M down - Great location and neighborhood - House is basically move in ready House 2: - $2.1M purchase price in all cash, but the...", "relevance": 33, "is_lead": true, "verdict": "hot", "hits": ["buying our first home", "all cash", "comps", "$300k", "$2.85m"], "fresh": false, "also_in": []}, {"id": "t3_1v3mrgm", "subreddit": "BayAreaRealEstate", "title": "Is it a good idea for me to buy in SF at the moment?", "author": "spicecookie", "author_url": "https://www.reddit.com/user/spicecookie", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v3mrgm/is_it_a_good_idea_for_me_to_buy_in_sf_at_the/", "created_utc": 1784741017, "score": 25, "comments": 62, "domain": "", "external_url": "", "excerpt": "I'm an SF native and I've been wanting to buy my first place. I'm thinking of either a smaller SFH in Bayview/Portola/Excelsior area or a 1 bed 1 bath condo. I know these not apples to apples comparisons. Bayview/Portola/Excelsior are some of the more affordable neighborhoods and an advantage to being there is I can also be near my...", "relevance": 32, "is_lead": true, "verdict": "hot", "hits": ["buy in sf", "hoa", "hoa fees", "housing", "sfh", "$600k", "$2.1 million", "1 bed 1 bath"], "fresh": false, "also_in": []}, {"id": "t3_1vetf3w", "subreddit": "BayAreaRealEstate", "title": "Is a 5,000 sq ft lot a good buy in Irvington (Fremont)? Looking for resale insights.", "author": "Icy-Ad4221", "author_url": "https://www.reddit.com/user/Icy-Ad4221", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vetf3w/is_a_5000_sq_ft_lot_a_good_buy_in_irvington/", "created_utc": 1785799384, "score": 0, "comments": 10, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vetf3w/is_a_5000_sq_ft_lot_a_good_buy_in_irvington/", "excerpt": "I’m considering buying a home in Irvington, Fremont that’s around 1,600 sq ft on a 5,000 sq ft lot. The house has been recently remodeled and is move-in ready, but the backyard is on the smaller side and feels a bit tight. I’m trying to figure out whether this is still a good long-term purchase. For those familiar with the...", "relevance": 28, "is_lead": true, "verdict": "hot", "hits": ["buying a home", "considering buying", "real estate", "000 sq ft"], "fresh": false, "also_in": []}, {"id": "t3_1uz6727", "subreddit": "BayAreaRealEstate", "title": "Advice on if my expectations are realistic for buying in the bay area (Hayward)", "author": "DeadlyClowns", "author_url": "https://www.reddit.com/user/DeadlyClowns", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1uz6727/advice_on_if_my_expectations_are_realistic_for/", "created_utc": 1784309114, "score": 12, "comments": 34, "domain": "", "external_url": "", "excerpt": "My wife and I are currently living in Mountain View but looking at buying in Hayward/Castro valley next year. I really don’t know much about house buying or the market, but I have heard list price on sites like zillow and redfin are a joke. Being about a year out, what are some things I can do now to prepare? So far I have talked to a...", "relevance": 28, "is_lead": true, "verdict": "hot", "hits": ["buying in the bay", "realtor", "sfh", "fixer upper", "2 bed 2 bath"], "fresh": false, "also_in": []}, {"id": "t3_1vdx213", "subreddit": "BayAreaRealEstate", "title": "First time home buyer", "author": "Character_Club_1507", "author_url": "https://www.reddit.com/user/Character_Club_1507", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vdx213/first_time_home_buyer/", "created_utc": 1785713563, "score": 0, "comments": 11, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vdx213/first_time_home_buyer/", "excerpt": "Hey! First time posting here. So like im in my 20s and planning to buy a house with my dad. He said he'll put half down and I'll get a mortgage for the rest. My initial consultation with the bank people said it's possible for me to do that. Anyway I'm lost on how to navigate the whole buying a new home process. It would my parent's first...", "relevance": 27, "is_lead": true, "verdict": "hot", "hits": ["planning to buy", "buy a house", "first time home buyer", "realtor"], "fresh": false, "also_in": []}, {"id": "t3_1vel49j", "subreddit": "BayAreaRealEstate", "title": "Attorney or Agent to Submit Buyer's Offer", "author": "PoolSmart582", "author_url": "https://www.reddit.com/user/PoolSmart582", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vel49j/attorney_or_agent_to_submit_buyers_offer/", "created_utc": 1785780486, "score": 4, "comments": 8, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vel49j/attorney_or_agent_to_submit_buyers_offer/", "excerpt": "I'm going to put in an offer on an East Bay house and not using a commissioned buyer's agent. Could anyone recommend an hourly real estate attorney or agent who will put in the offer on my behalf?", "relevance": 24, "is_lead": true, "verdict": "hot", "hits": ["buyer's agent", "put in an offer", "real estate"], "fresh": false, "also_in": []}, {"id": "t3_1uzauii", "subreddit": "bayarea", "title": "Realtor recommendations in Fremont?", "author": "marrorerra", "author_url": "https://www.reddit.com/user/marrorerra", "permalink": "https://www.reddit.com/r/bayarea/comments/1uzauii/realtor_recommendations_in_fremont/", "created_utc": 1784319252, "score": 0, "comments": 13, "domain": "", "external_url": "", "excerpt": "Looking to buy in Fremont and looking for the best Realtor options. Looking for agents who don’t just pass us off to a team member after the first meeting and haven good proven track records. Thanks!", "relevance": 24, "is_lead": true, "verdict": "hot", "hits": ["realtor recommendations", "best realtor", "realtor"], "fresh": false, "also_in": []}, {"id": "t3_1v126ky", "subreddit": "BayAreaRealEstate", "title": "Moving from Ardenwood to South Bay due to RTO. Where to look if I don't care about public schools? ($2.2M-$2.5M)", "author": "Few-Truck-4873", "author_url": "https://www.reddit.com/user/Few-Truck-4873", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v126ky/moving_from_ardenwood_to_south_bay_due_to_rto/", "created_utc": 1784496168, "score": 6, "comments": 63, "domain": "", "external_url": "", "excerpt": "Hi all, hoping to get some neighborhood recommendations. We bought a house in Ardenwood (Fremont) back in 2023. We spent around $150k-$180k remodeling it and making it our own, but recently my job has been pushing us to be in the Santa Clara office more than our current 2 days a week. The commute is just getting to be too much. Looking...", "relevance": 22, "is_lead": false, "verdict": "watch", "hits": ["comps", "housing", "renovation", "redfin.com", "$150k", "$2.2m"], "fresh": false, "also_in": []}, {"id": "t3_1v0dzzn", "subreddit": "AskSF", "title": "Can nurses afford to buy a house in the bay area?", "author": "Aggravating-Law-6751", "author_url": "https://www.reddit.com/user/Aggravating-Law-6751", "permalink": "https://www.reddit.com/r/AskSF/comments/1v0dzzn/can_nurses_afford_to_buy_a_house_in_the_bay_area/", "created_utc": 1784426771, "score": 0, "comments": 72, "domain": "", "external_url": "", "excerpt": "I am a nurse hoping to relocate to SF permanently for better pay and benefits and greater working conditions. It looks like housing prices as well as rents there are through the roof. I wonder how nurses working in SF handle that. Do they usually buy a house in rural areas and commute to work? Or do they save money and move away where...", "relevance": 22, "is_lead": true, "verdict": "hot", "hits": ["buy a house", "housing prices", "housing"], "fresh": false, "also_in": []}, {"id": "t3_1vgcnim", "subreddit": "BayAreaRealEstate", "title": "List vs Actual + Pricing & DOM Trends - Bay Area, July 2026", "author": "_TurboHome", "author_url": "https://www.reddit.com/user/_TurboHome", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vgcnim/list_vs_actual_pricing_dom_trends_bay_area_july/", "created_utc": 1785948129, "score": 4, "comments": 0, "domain": "old.reddit.com", "external_url": "https://www.reddit.com/gallery/1vgcnim", "excerpt": "July is officially over so as promised, let's take a look at average pricing and DOM trends for the Bay Area. Based on your feedback, I’ve included graphs showing average change in $/sqft for each market and included a North Bay section. We’re still working on comprehensive MLS coverage for some North Bay counties so consider the North...", "relevance": 21, "is_lead": false, "verdict": "watch", "hits": ["days on market", "mls", "sfh", "pacific heights", "nob hill", "eureka valley", "diamond heights", "inner sunset"], "fresh": true, "also_in": []}, {"id": "t3_1uxghgc", "subreddit": "BayAreaRealEstate", "title": "Followup: List vs Actual % - Bay Area Markets Condo/SFH split", "author": "_TurboHome", "author_url": "https://www.reddit.com/user/_TurboHome", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1uxghgc/followup_list_vs_actual_bay_area_markets_condosfh/", "created_utc": 1784145144, "score": 29, "comments": 14, "domain": "", "external_url": "", "excerpt": "Posted this earlier but took it down shortly afterwards bc some of the graphs were tiny and hard to read on mobile. Still a bit cramped but should be easier on the eyes! (East Bay is still a bit snug, sorry) Anyway! Note that my North Bay MLS access is still spotty so I don't have complete data for Marin, Sonoma etc. Had a great...", "relevance": 21, "is_lead": false, "verdict": "watch", "hits": ["days on market", "mls", "sfh", "pacific heights", "nob hill", "potrero hill", "soma", "haight ashbury"], "fresh": false, "also_in": []}, {"id": "t3_1vaxgol", "subreddit": "sanfrancisco", "title": "PSA: The Use of the term NIMBY in San Francisco Politics", "author": "Tancrisism", "author_url": "https://www.reddit.com/user/Tancrisism", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vaxgol/psa_the_use_of_the_term_nimby_in_san_francisco/", "created_utc": 1785426656, "score": 0, "comments": 172, "domain": "", "external_url": "", "excerpt": "There needs to be a clarification here. NIMBY has a clear and real meaning, and it is warped and misused in San Francisco politics. NIMBY specifically refers to when people want something, but don't want it near them. Like if they want a power plant built because there is not enough power, but want it near a different neighborhood, not...", "relevance": 20, "is_lead": false, "verdict": "watch", "hits": ["real estate", "real estate market", "housing", "affordable housing", "upzoning", "nimby", "rent control"], "fresh": false, "also_in": []}, {"id": "t3_1v7s1nz", "subreddit": "BayAreaRealEstate", "title": "Kitchen renovation", "author": "Ok_Knowledge7571", "author_url": "https://www.reddit.com/user/Ok_Knowledge7571", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v7s1nz/kitchen_renovation/", "created_utc": 1785132786, "score": 12, "comments": 33, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1v7s1nz/kitchen_renovation/", "excerpt": "Hi does anyone have any idea how much usually cost for a full kitchen renovation? I am planning to buy a new build house in the bay area but might opt to hire to replace the cabinets and countertop for the design that I wanted. Just want to know how much roughly does the labor costs?", "relevance": 20, "is_lead": true, "verdict": "hot", "hits": ["planning to buy", "renovation"], "fresh": false, "also_in": []}, {"id": "t3_1v5pnuz", "subreddit": "BayAreaRealEstate", "title": "San Francisco home prices have climbed $1 million since the housing crash", "author": "RedfinJeremy", "author_url": "https://www.reddit.com/user/RedfinJeremy", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v5pnuz/san_francisco_home_prices_have_climbed_1_million/", "created_utc": 1784930837, "score": 22, "comments": 24, "domain": "i.redd.it", "external_url": "https://i.redd.it/yrvug713y0fh1.png", "excerpt": "", "relevance": 20, "is_lead": false, "verdict": "watch", "hits": ["home prices", "housing", "san francisco home", "$1 million"], "fresh": false, "also_in": []}, {"id": "t3_1v5ej0o", "subreddit": "BayAreaRealEstate", "title": "San Francisco approved nearly 5,700 homes 15 years ago. They still haven’t been built.", "author": "ShopProp", "author_url": "https://www.reddit.com/user/ShopProp", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v5ej0o/san_francisco_approved_nearly_5700_homes_15_years/", "created_utc": 1784906702, "score": 58, "comments": 36, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1v5ej0o/san_francisco_approved_nearly_5700_homes_15_years/", "excerpt": "San Francisco approved nearly 5,700 new homes at Parkmerced back in 2011. 15 years later, construction still hasn’t started. Now part of the project has gone through foreclosure. Yellowstone Real Estate Investments just took control of four development parcels entitled for nearly 1,700 units after the previous owner ran into major...", "relevance": 20, "is_lead": false, "verdict": "watch", "hits": ["foreclosure", "real estate", "sfstandard.com"], "fresh": false, "also_in": []}, {"id": "t3_1v5ehei", "subreddit": "bayarea", "title": "San Francisco approved nearly 5,700 new homes at Parkmerced back in 2011. They still haven’t been built.", "author": "ShopProp", "author_url": "https://www.reddit.com/user/ShopProp", "permalink": "https://www.reddit.com/r/bayarea/comments/1v5ehei/san_francisco_approved_nearly_5700_new_homes_at/", "created_utc": 1784906603, "score": 151, "comments": 71, "domain": "", "external_url": "", "excerpt": "The neat thing about San Francisco is even when homes do get approved to be built, they still won’t be built! San Francisco approved nearly 5,700 new homes at Parkmerced back in 2011. 15 years later, construction still hasn’t started. Now part of the project has gone through foreclosure. Yellowstone Real Estate Investments just took...", "relevance": 20, "is_lead": false, "verdict": "watch", "hits": ["foreclosure", "real estate", "sfstandard.com"], "fresh": false, "also_in": []}, {"id": "t3_1veu75i", "subreddit": "sanfrancisco", "title": "Castro Theatre sues renovation contractor, alleging $5M in damages", "author": "sfgate", "author_url": "https://www.reddit.com/user/sfgate", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1veu75i/castro_theatre_sues_renovation_contractor/", "created_utc": 1785801412, "score": 136, "comments": 37, "domain": "sfgate.com", "external_url": "https://sfgate.com/local/article/castro-theatre-sues-contractor-22372543.php", "excerpt": "", "relevance": 18, "is_lead": false, "verdict": "watch", "hits": ["renovation", "sfgate.com", "$5m"], "fresh": false, "also_in": []}, {"id": "t3_1v96pjr", "subreddit": "SFBayHousing", "title": "SF Housing Market vs. Public School Educator: Help Us Find an Off-Market Listing Before AI Takes My Apartment Too", "author": "A_Fritzy", "author_url": "https://www.reddit.com/user/A_Fritzy", "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1v96pjr/sf_housing_market_vs_public_school_educator_help/", "created_utc": 1785262974, "score": 5, "comments": 10, "domain": "self.SFBayHousing", "external_url": "/r/SFBayHousing/comments/1v96pjr/sf_housing_market_vs_public_school_educator_help/", "excerpt": "TL;DR: Local public school educator looking for a 2–3 BR with parking in Noe Valley, Bernal Heights, Glen Park, or West Portal . Great credit, references, long-term tenants, flexible move-in date. If you know of an off-market rental or a landlord with an upcoming vacancy, we'd love a contact. Reddit, do your thing! 🙏 Neighbors, we need...", "relevance": 18, "is_lead": false, "verdict": "watch", "hits": ["open house", "housing market", "housing", "landlord", "priced out", "sf housing", "noe valley", "bernal heights"], "fresh": false, "also_in": []}, {"id": "t3_1vg2hzy", "subreddit": "BayAreaRealEstate", "title": "Hypothetically if you had 3 million cash to buy a house anywhere in the bay, where would you buy?", "author": "Even-Window-7299", "author_url": "https://www.reddit.com/user/Even-Window-7299", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vg2hzy/hypothetically_if_you_had_3_million_cash_to_buy_a/", "created_utc": 1785922353, "score": 4, "comments": 100, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vg2hzy/hypothetically_if_you_had_3_million_cash_to_buy_a/", "excerpt": "Also, would you pay cash or finance it, assuming you and your partner have stable jobs/income? Or would you invest the money elsewhere? Might be more of a finance sub question. PS: This hypothetical friend of mine bought cash in San Mateo.", "relevance": 17, "is_lead": false, "verdict": "watch", "hits": ["buy a house", "san mateo"], "fresh": true, "also_in": []}, {"id": "t3_1vgc0la", "subreddit": "sanfrancisco", "title": "Former San Francisco Nordstrom Rack to become apartments", "author": "Tac0Supreme", "author_url": "https://www.reddit.com/user/Tac0Supreme", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vgc0la/former_san_francisco_nordstrom_rack_to_become/", "created_utc": 1785946772, "score": 106, "comments": 20, "domain": "ktvu.com", "external_url": "https://www.ktvu.com/news/former-nordstrom-rack-become-apartments-san-francisco-ramps-up-housing-push?link_source=ta_thread_link&taid=6a72c36f306ffe00010857ab&utm_campaign=trueanthem&utm_medium=social&utm_source=threads.net", "excerpt": "", "relevance": 14, "is_lead": false, "verdict": "watch", "hits": ["housing", "apartments", "ktvu.com"], "fresh": true, "also_in": []}, {"id": "t3_1vg8tdh", "subreddit": "sanfrancisco", "title": "A mysterious landlord. A tenant revolt. Inside a bizarre, only-in-San Francisco housing battle", "author": "stjohnbs", "author_url": "https://www.reddit.com/user/stjohnbs", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vg8tdh/a_mysterious_landlord_a_tenant_revolt_inside_a/", "created_utc": 1785939840, "score": 83, "comments": 36, "domain": "sfchronicle.com", "external_url": "https://www.sfchronicle.com/sf/article/landlord-tenant-apartment-twin-peaks-22362638.php", "excerpt": "Y'all my name is St. John Barned-Smith and I'm a reporter at the Chronicle. I occasionally post here and I just wanted to share this story, I've been working on it since February and actually first got the tip from this sub! I hope you'll read it.", "relevance": 14, "is_lead": false, "verdict": "watch", "hits": ["housing", "landlord", "sfchronicle.com"], "fresh": true, "also_in": []}, {"id": "t3_1vehom6", "subreddit": "sanfrancisco", "title": "Who killed housing affordability in San Francisco?", "author": "binding_swamp", "author_url": "https://www.reddit.com/user/binding_swamp", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vehom6/who_killed_housing_affordability_in_san_francisco/", "created_utc": 1785773127, "score": 36, "comments": 216, "domain": "missionlocal.org", "external_url": "https://missionlocal.org/2026/08/san-francisco-housing-affordability/", "excerpt": "", "relevance": 14, "is_lead": false, "verdict": "watch", "hits": ["housing", "housing affordability", "missionlocal.org"], "fresh": false, "also_in": []}, {"id": "t3_1vd9ltn", "subreddit": "bayarea", "title": "Feel so grateful and guilty to live a comfortable life here", "author": "Soft_Boysenberry4692", "author_url": "https://www.reddit.com/user/Soft_Boysenberry4692", "permalink": "https://www.reddit.com/r/bayarea/comments/1vd9ltn/feel_so_grateful_and_guilty_to_live_a_comfortable/", "created_utc": 1785649250, "score": 0, "comments": 15, "domain": "", "external_url": "", "excerpt": "Moved here from overseas two years ago. Now I live in a house with a good view, close to good friends, with a wonderful partner and a pet. My family can visit often, and I'm healthy. I'm very, very grateful and content with where I am, even though our household income is on the low end for tech. Here's my conflict. I feel guilty that I...", "relevance": 14, "is_lead": true, "verdict": "hot", "hits": ["buy a house"], "fresh": false, "also_in": []}, {"id": "t3_1v91gho", "subreddit": "BayAreaRealEstate", "title": "San Francisco’s housing market is a nightmare. Now it's affecting Oakland.", "author": "DanaR99", "author_url": "https://www.reddit.com/user/DanaR99", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v91gho/san_franciscos_housing_market_is_a_nightmare_now/", "created_utc": 1785251829, "score": 6, "comments": 3, "domain": "sfgate.com", "external_url": "https://www.sfgate.com/local/article/oakland-rent-rising-22359328.php", "excerpt": "", "relevance": 14, "is_lead": false, "verdict": "watch", "hits": ["housing market", "housing", "sfgate.com"], "fresh": false, "also_in": []}, {"id": "t3_1v48m40", "subreddit": "BayAreaRealEstate", "title": "How do off-market homes in Lafayette CA actually work?", "author": "useless_substance", "author_url": "https://www.reddit.com/user/useless_substance", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v48m40/how_do_offmarket_homes_in_lafayette_ca_actually/", "created_utc": 1784798038, "score": 7, "comments": 18, "domain": "", "external_url": "", "excerpt": "Heard multiple times that buying off-market is possible in tight California markets but I haven't understood practically how it works. Is it entirely relationship-driven through your agent? Are there specific platforms or tools? And for a buyer, what are the downsides, is there any risk to buying a house you haven't seen in a competitive...", "relevance": 14, "is_lead": true, "verdict": "hot", "hits": ["buying a house"], "fresh": false, "also_in": []}, {"id": "t3_1v0dks1", "subreddit": "AskSF", "title": "SF neighborhoods with street life & access to parks", "author": "loveshacknumber123", "author_url": "https://www.reddit.com/user/loveshacknumber123", "permalink": "https://www.reddit.com/r/AskSF/comments/1v0dks1/sf_neighborhoods_with_street_life_access_to_parks/", "created_utc": 1784425498, "score": 0, "comments": 17, "domain": "", "external_url": "", "excerpt": "Hi! I'm 38, moving to SF proper for a fellowship. I'm originally a NYC'er (so I don't like driving!), and I'm currently living in a very sleepy, not at all diverse, not at all walkable part of Seattle. Truly, the real estate walkability score is 6.6 but there are no sidewalks... So. For this fellowship yr, I want to live in a SF...", "relevance": 14, "is_lead": false, "verdict": "watch", "hits": ["moving to sf", "real estate"], "fresh": false, "also_in": []}, {"id": "t3_1vgajwp", "subreddit": "bayarea", "title": "California Attorney General Pushes Scales For 80 Willow Road, Menlo Park - San Francisco YIMBY", "author": "Enrique215", "author_url": "https://www.reddit.com/user/Enrique215", "permalink": "https://www.reddit.com/r/bayarea/comments/1vgajwp/california_attorney_general_pushes_scales_for_80/", "created_utc": 1785943663, "score": 5, "comments": 9, "domain": "sfyimby.com", "external_url": "https://sfyimby.com/2026/08/california-attorney-general-pushes-scales-for-80-willow-road-menlo-park.html", "excerpt": "", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["yimby", "sfyimby.com"], "fresh": true, "also_in": []}, {"id": "t3_1vg6v0v", "subreddit": "sanfrancisco", "title": "How ‘savvy’ SF renter lost $18,000 in elaborate real estate scam", "author": "BadBoyMikeBarnes", "author_url": "https://www.reddit.com/user/BadBoyMikeBarnes", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vg6v0v/how_savvy_sf_renter_lost_18000_in_elaborate_real/", "created_utc": 1785935190, "score": 46, "comments": 18, "domain": "sfchronicle.com", "external_url": "https://www.sfchronicle.com/sf/article/how-savvy-renter-lost-18k-real-estate-scam-22374427.php", "excerpt": "", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["real estate", "sfchronicle.com"], "fresh": true, "also_in": []}, {"id": "t3_1vfc7vt", "subreddit": "bayarea", "title": "Palo Alto is giving us the first real-world look at California’s new SB 79 law.", "author": "ShopProp", "author_url": "https://www.reddit.com/user/ShopProp", "permalink": "https://www.reddit.com/r/bayarea/comments/1vfc7vt/palo_alto_is_giving_us_the_first_realworld_look/", "created_utc": 1785854299, "score": 672, "comments": 198, "domain": "self.bayarea", "external_url": "/r/bayarea/comments/1vfc7vt/palo_alto_is_giving_us_the_first_realworld_look/", "excerpt": "Within two weeks of SB 79 taking effect, developers submitted nine housing proposals totaling 341 homes before the city adopted a temporary alternative plan. SB 79, which took effect on July 1, allows qualifying multifamily housing to be built at greater heights and densities near major transit stops, like Caltrain and BART, even if...", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["housing", "sfgate.com"], "fresh": false, "also_in": []}, {"id": "t3_1vfblkr", "subreddit": "bayarea", "title": "Menlo Park local control against developer of Sunset Magazine site finds State Atty General Bonta siding with developers. Atty General does not order project approval. Provides advice opinion backing developers", "author": "PacificaPal", "author_url": "https://www.reddit.com/user/PacificaPal", "permalink": "https://www.reddit.com/r/bayarea/comments/1vfblkr/menlo_park_local_control_against_developer_of/", "created_utc": 1785852936, "score": 20, "comments": 3, "domain": "self.bayarea", "external_url": "/r/bayarea/comments/1vfblkr/menlo_park_local_control_against_developer_of/", "excerpt": "Exclusive: In Menlo Park housing fight, Bonta sends a potential warning to California cities https://www.sfchronicle.com/realestate/article/housing-fight-menlo-park-bonta-22372361.php", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["housing", "sfchronicle.com"], "fresh": false, "also_in": []}, {"id": "t3_1vejskf", "subreddit": "sanfrancisco", "title": "JPMorgan makes a $200 million bet that San Francisco’s housing freeze is thawing (Potrero Power Station Block 8)", "author": "Remarkable_Host6827", "author_url": "https://www.reddit.com/user/Remarkable_Host6827", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vejskf/jpmorgan_makes_a_200_million_bet_that_san/", "created_utc": 1785777628, "score": 137, "comments": 27, "domain": "sfchronicle.com", "external_url": "https://www.sfchronicle.com/realestate/article/jpmorgan-housing-san-francisco-22367970.php?fbclid=PAdGRleATdrEpwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwu4UArwYeqMwcbCzldfA8FBmc-KovCDyR2f99UiLXtV2guR_mY9xDmOAP27_aem_681Hnab4FRcukUoUP6tVrw", "excerpt": "", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["housing", "sfchronicle.com"], "fresh": false, "also_in": []}, {"id": "t3_1vdp6ke", "subreddit": "sanfrancisco", "title": "The Marina Safeway fight was over before it started", "author": "Dafty_duck", "author_url": "https://www.reddit.com/user/Dafty_duck", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vdp6ke/the_marina_safeway_fight_was_over_before_it/", "created_utc": 1785694439, "score": 249, "comments": 137, "domain": "sfstandard.com", "external_url": "https://sfstandard.com/2026/08/02/marina-safeway-align-real-estate-housing-war/", "excerpt": "", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["housing", "sfstandard.com"], "fresh": false, "also_in": []}, {"id": "t3_1vd5255", "subreddit": "sanfrancisco", "title": "San Francisco just bet $140M on keeping artists in the city", "author": "parttimelarry", "author_url": "https://www.reddit.com/user/parttimelarry", "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vd5255/san_francisco_just_bet_140m_on_keeping_artists_in/", "created_utc": 1785635436, "score": 185, "comments": 71, "domain": "sfgate.com", "external_url": "https://www.sfgate.com/local/article/artists-affordable-housing-sf-22368995.php", "excerpt": "", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["housing", "sfgate.com"], "fresh": false, "also_in": []}, {"id": "t3_1v1uqjv", "subreddit": "BayAreaRealEstate", "title": "SF Chronicle Article", "author": "Neither_Concept_8224", "author_url": "https://www.reddit.com/user/Neither_Concept_8224", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1v1uqjv/sf_chronicle_article/", "created_utc": 1784574241, "score": 4, "comments": 11, "domain": "", "external_url": "", "excerpt": "How much truth is there to an article like this? The sources all appear to be realtors, who have an interest in the market getting “crazier and crazier.” Ultimately, can anyone actually predict future prices?...", "relevance": 13, "is_lead": false, "verdict": "watch", "hits": ["realtors", "sfchronicle.com"], "fresh": false, "also_in": []}, {"id": "t3_1veu4um", "subreddit": "BayAreaRealEstate", "title": "[El Cerrito] What $800k gets you these days.", "author": "jaqueh", "author_url": "https://www.reddit.com/user/jaqueh", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1veu4um/el_cerrito_what_800k_gets_you_these_days/", "created_utc": 1785801243, "score": 8, "comments": 31, "domain": "redfin.com", "external_url": "https://www.redfin.com/CA/El-Cerrito/605-Sea-View-Dr-94530/home/1701991", "excerpt": "", "relevance": 12, "is_lead": false, "verdict": "watch", "hits": ["redfin.com", "$800k"], "fresh": false, "also_in": []}, {"id": "t3_1vfwo53", "subreddit": "BayAreaRealEstate", "title": "Bringing back Save Property Tax - Fully Live", "author": "Big-Orchid-693", "author_url": "https://www.reddit.com/user/Big-Orchid-693", "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vfwo53/bringing_back_save_property_tax_fully_live/", "created_utc": 1785902814, "score": 5, "comments": 8, "domain": "self.BayAreaRealEstate", "external_url": "/r/BayAreaRealEstate/comments/1vfwo53/bringing_back_save_property_tax_fully_live/", "excerpt": "Last month I had launched a pilot to help bay area homeowners file an informal decline in value assessment. The response was overwhelming and more than 1,000 people have checked their property and it has so far saved an average of $2,800 per filing for tens of filers. I am now making it available with deadlines approaching for property...", "relevance": 11, "is_lead": false, "verdict": "watch", "hits": ["property tax", "comps", "san mateo", "alameda"], "fresh": true, "also_in": []}], "daily": [{"label": "Thu Jul 16", "short": "Jul 16", "n": 0}, {"label": "Fri Jul 17", "short": "Jul 17", "n": 2}, {"label": "Sat Jul 18", "short": "Jul 18", "n": 0}, {"label": "Sun Jul 19", "short": "Jul 19", "n": 4}, {"label": "Mon Jul 20", "short": "Jul 20", "n": 1}, {"label": "Tue Jul 21", "short": "Jul 21", "n": 0}, {"label": "Wed Jul 22", "short": "Jul 22", "n": 2}, {"label": "Thu Jul 23", "short": "Jul 23", "n": 1}, {"label": "Fri Jul 24", "short": "Jul 24", "n": 3}, {"label": "Sat Jul 25", "short": "Jul 25", "n": 0}, {"label": "Sun Jul 26", "short": "Jul 26", "n": 1}, {"label": "Mon Jul 27", "short": "Jul 27", "n": 1}, {"label": "Tue Jul 28", "short": "Jul 28", "n": 2}, {"label": "Wed Jul 29", "short": "Jul 29", "n": 0}, {"label": "Thu Jul 30", "short": "Jul 30", "n": 3}, {"label": "Fri Jul 31", "short": "Jul 31", "n": 0}, {"label": "Sat Aug 1", "short": "Aug 1", "n": 1}, {"label": "Sun Aug 2", "short": "Aug 2", "n": 4}, {"label": "Mon Aug 3", "short": "Aug 3", "n": 6}, {"label": "Tue Aug 4", "short": "Aug 4", "n": 2}, {"label": "Wed Aug 5", "short": "Aug 5", "n": 7}], "max_posts": 300}</script>
+<script>
+(function(){
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("payload").textContent);
+  var posts = DATA.posts, daily = DATA.daily;
+  var state = {q:"", sub:"", view:"hot", sort:"relevance", range:14};
+
+  /* ------------------------------------------------------------- theme -- */
+  var root = document.documentElement, tbtn = document.getElementById("themebtn");
+  function setTheme(t){
+    root.setAttribute("data-theme", t);
+    tbtn.textContent = (t === "dark" ? "Light" : "Dark");
+    drawChart();
+  }
+  tbtn.addEventListener("click", function(){
+    setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
+  });
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) setTheme("dark");
+
+  /* -------------------------------------------------------------- utils -- */
+  function ago(epoch){
+    if(!epoch) return "unknown time";
+    var s = Math.floor(Date.now()/1000) - epoch;
+    if (s < 90) return "just now";
+    if (s < 3600) return Math.round(s/60) + " min ago";
+    if (s < 86400) { var h = Math.round(s/3600); return h + (h===1?" hour ago":" hours ago"); }
+    var d = Math.round(s/86400);
+    if (d < 14) return d + (d===1?" day ago":" days ago");
+    if (d < 70) return Math.round(d/7) + " weeks ago";
+    return new Date(epoch*1000).toLocaleDateString("en-US",
+      {month:"short", day:"numeric", year:"numeric"});
+  }
+  function plural(n, one, many){ return n + " " + (n === 1 ? one : many); }
+  function esc(s){
+    return String(s === null || s === undefined ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+  function num(n){ return (n === null || n === undefined) ? "–" : String(n); }
+
+  /* ----------------------------------------------------------- tooltip -- */
+  var tt = document.getElementById("tt");
+  function showTip(html, x, y){
+    tt.innerHTML = html; tt.style.opacity = "1";
+    var r = tt.getBoundingClientRect();
+    tt.style.left = Math.max(8, Math.min(x - r.width/2, window.innerWidth - r.width - 8)) + "px";
+    tt.style.top = Math.max(8, y - r.height - 12) + "px";
+  }
+  function hideTip(){ tt.style.opacity = "0"; }
+
+  /* ------------------------------------------------------------- chart -- */
+  var SVG = "http://www.w3.org/2000/svg";
+  function el(name, attrs){
+    var node = document.createElementNS(SVG, name);
+    for (var k in attrs) if (attrs.hasOwnProperty(k)) node.setAttribute(k, attrs[k]);
+    return node;
+  }
+  function drawChart(){
+    var svg = document.getElementById("chart");
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    var W = svg.clientWidth || 1100, H = 170;
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    var padL = 34, padR = 8, padT = 22, padB = 26;
+    var plotW = W - padL - padR, plotH = H - padT - padB;
+    var max = 1;
+    daily.forEach(function(d){ if (d.n > max) max = d.n; });
+    var ticks = niceTicks(max);
+    var top = ticks[ticks.length-1];
+
+    ticks.forEach(function(t){
+      var y = padT + plotH - (t/top)*plotH;
+      svg.appendChild(el("line", {class:"grid", x1:padL, x2:W-padR, y1:y, y2:y}));
+      var label = el("text", {x:padL-9, y:y+3.5, "text-anchor":"end"});
+      label.textContent = t;
+      svg.appendChild(label);
+    });
+
+    var band = plotW / daily.length;
+    var GAP = 2;                                  /* surface gap, 2px */
+    var barW = Math.min(24, Math.max(3, band - GAP));
+    var peak = -1, peakVal = -1;
+    daily.forEach(function(d, i){ if (d.n > peakVal){ peakVal = d.n; peak = i; } });
+
+    daily.forEach(function(d, i){
+      var x = padL + i*band + (band - barW)/2;
+      var h = (d.n/top) * plotH;
+      var y = padT + plotH - h;
+      if (d.n > 0){
+        var r = Math.min(4, barW/2, h);
+        /* rounded data-end, square at the baseline */
+        var path = "M" + x + "," + (padT+plotH) +
+                   " L" + x + "," + (y+r) +
+                   " Q" + x + "," + y + " " + (x+r) + "," + y +
+                   " L" + (x+barW-r) + "," + y +
+                   " Q" + (x+barW) + "," + y + " " + (x+barW) + "," + (y+r) +
+                   " L" + (x+barW) + "," + (padT+plotH) + " Z";
+        svg.appendChild(el("path", {class:"bar", d:path}));
+      }
+      var hit = el("rect", {class:"hit", x:padL+i*band, y:padT, width:band, height:plotH});
+      hit.addEventListener("mousemove", function(ev){
+        showTip("<b>" + d.n + "</b> matching thread" + (d.n===1?"":"s") + "<br>" + d.label, ev.clientX, ev.clientY);
+      });
+      hit.addEventListener("mouseleave", hideTip);
+      svg.appendChild(hit);
+      if (i === peak && peakVal > 0){
+        var val = el("text", {class:"val", x:x + barW/2, y:y-7, "text-anchor":"middle"});
+        val.textContent = peakVal;
+        svg.appendChild(val);
+      }
+      if (i === 0 || i === daily.length-1 || i === Math.floor(daily.length/2)){
+        var tick = el("text", {x:x + barW/2, y:H-8, "text-anchor": i===0 ? "start" : (i===daily.length-1 ? "end" : "middle")});
+        tick.textContent = d.short;
+        svg.appendChild(tick);
+      }
+    });
+  }
+  function niceTicks(max){
+    var step = Math.max(1, Math.ceil(max/4));
+    var mag = Math.pow(10, Math.floor(Math.log(step)/Math.LN10));
+    step = Math.ceil(step/mag)*mag;
+    var out = [], t = 0;
+    while (t <= max + step*0.001){ out.push(t); t += step; }
+    if (out.length < 2) out.push(step);
+    return out;
+  }
+  window.addEventListener("resize", drawChart);
+
+  var tbody = document.getElementById("chart-table");
+  tbody.innerHTML = daily.map(function(d){
+    return "<tr><td>" + esc(d.label) + "</td><td>" + d.n + "</td></tr>";
+  }).join("");
+
+  /* ------------------------------------------------------------ filter -- */
+  var subSelect = document.getElementById("sub");
+  var subs = {};
+  posts.forEach(function(p){ subs[p.subreddit] = (subs[p.subreddit]||0) + 1; });
+  var subNames = Object.keys(subs).sort(function(a,b){ return subs[b]-subs[a]; });
+  subSelect.innerHTML = '<option value="">All subreddits</option>' + subNames.map(function(s){
+    return '<option value="' + esc(s) + '">r/' + esc(s) + " (" + subs[s] + ")</option>";
+  }).join("");
+
+  function matches(p){
+    if (state.sub && p.subreddit !== state.sub) return false;
+    if (state.view === "hot" && p.verdict !== "hot") return false;
+    if (state.range < 9999){
+      var cutoff = Date.now()/1000 - state.range*86400;
+      if ((p.created_utc || 0) < cutoff) return false;
+    }
+    if (state.q){
+      var hay = (p.title + " " + (p.excerpt||"") + " " + p.author + " " + p.subreddit + " " +
+                 (p.hits||[]).join(" ") + " " + (p.domain||"")).toLowerCase();
+      var terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+      for (var i=0;i<terms.length;i++) if (hay.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
+  }
+  var SORTS = {
+    relevance: function(a,b){ return (b.relevance-a.relevance) || ((b.created_utc||0)-(a.created_utc||0)); },
+    "new":     function(a,b){ return (b.created_utc||0)-(a.created_utc||0); },
+    comments:  function(a,b){ return (b.comments||0)-(a.comments||0); },
+    score:     function(a,b){ return (b.score||0)-(a.score||0); }
+  };
+
+  function card(p){
+    var badges = [];
+    if (p.verdict === "hot") badges.push('<span class="badge hot">&#9873; Worth a reply</span>');
+    if (p.is_lead) badges.push('<span class="badge lead">&#9679; Possible client</span>');
+    if (p.fresh) badges.push('<span class="badge new">New</span>');
+
+    var meta = ['<span>r/' + esc(p.subreddit) + "</span>"];
+    meta.push('<span><a href="' + esc(p.author_url||"#") + '" target="_blank" rel="noopener">u/' + esc(p.author) + "</a></span>");
+    meta.push("<span>" + esc(ago(p.created_utc)) + "</span>");
+    if (p.score !== null && p.score !== undefined) meta.push("<span>" + plural(p.score, "upvote", "upvotes") + "</span>");
+    if (p.comments !== null && p.comments !== undefined) meta.push("<span>" + plural(p.comments, "comment", "comments") + "</span>");
+    if (p.domain && p.domain.indexOf("self.") !== 0) meta.push("<span>" + esc(p.domain) + "</span>");
+    if (p.also_in && p.also_in.length){
+      var links = p.also_in.map(function(a){
+        return '<a href="' + esc(a.permalink||"#") + '" target="_blank" rel="noopener">r/' + esc(a.subreddit) + "</a>";
+      }).join(", ");
+      meta.push("<span>also in " + links + "</span>");
+    }
+
+    var chips = (p.hits||[]).slice(0,7).map(function(h){ return '<span class="chip">' + esc(h) + "</span>"; }).join("");
+
+    var actions = '<a class="btn primary" href="' + esc(p.permalink) + '" target="_blank" rel="noopener">Open thread</a>';
+    actions += '<a class="btn" href="' + esc(p.permalink) + '" target="_blank" rel="noopener">Reply on Reddit</a>';
+    if (p.author && p.author !== "unknown")
+      actions += '<a class="btn" href="https://www.reddit.com/user/' + esc(p.author) + '" target="_blank" rel="noopener">See u/' + esc(p.author) + '</a>';
+    if (p.external_url && p.external_url.indexOf("http") === 0 && p.domain.indexOf("self.") !== 0)
+      actions += '<a class="btn" href="' + esc(p.external_url) + '" target="_blank" rel="noopener">Source article</a>';
+
+    return '<article class="card' + (p.verdict === "hot" ? " hot" : "") + '">' +
+      '<div class="score"><div class="n">' + p.relevance + '</div><div class="l">Signal</div></div>' +
+      "<div>" +
+        (badges.length ? '<div class="badges">' + badges.join("") + "</div>" : "") +
+        '<h3><a href="' + esc(p.permalink) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a></h3>" +
+        '<div class="meta">' + meta.join("") + "</div>" +
+        (p.excerpt ? '<p class="excerpt">' + esc(p.excerpt) + "</p>" : "") +
+        (chips ? '<div class="chips">' + chips + "</div>" : "") +
+        '<div class="actions">' + actions + "</div>" +
+      "</div></article>";
+  }
+
+  function render(){
+    var rows = posts.filter(matches).sort(SORTS[state.sort]).slice(0, DATA.max_posts);
+    var list = document.getElementById("list");
+    document.getElementById("count").textContent =
+      rows.length + (rows.length === 1 ? " thread" : " threads");
+    if (!rows.length){
+      list.innerHTML = '<div class="empty"><strong>Nothing matches those filters.</strong>' +
+        "Try widening the time range, or switch to Everything.</div>";
+      return;
+    }
+    list.innerHTML = rows.map(card).join("");
+  }
+
+  document.getElementById("q").addEventListener("input", function(e){ state.q = e.target.value; render(); });
+  subSelect.addEventListener("change", function(e){ state.sub = e.target.value; render(); });
+  document.getElementById("sort").addEventListener("change", function(e){ state.sort = e.target.value; render(); });
+  document.getElementById("range").addEventListener("change", function(e){ state.range = parseInt(e.target.value,10); render(); });
+  Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(btn){
+    btn.addEventListener("click", function(){
+      Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(other){
+        other.setAttribute("aria-pressed", other === btn ? "true" : "false");
+      });
+      state.view = btn.getAttribute("data-view");
+      render();
+    });
+  });
+
+  /* Never land the reader on an empty page: if the default filters find
+     nothing, widen the window (and then the priority) and say so. */
+  function relaxIfEmpty(){
+    if (!posts.length) return;
+    if (posts.filter(matches).length) return;
+    state.range = 9999;
+    document.getElementById("range").value = "9999";
+    if (posts.filter(matches).length) return;
+    state.view = "all";
+    Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(btn){
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-view") === "all" ? "true" : "false");
+    });
+  }
+
+  drawChart();
+  relaxIfEmpty();
+  render();
+})();
+</script>
+</body>
+</html>

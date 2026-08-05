@@ -1,0 +1,47 @@
+name: Weekly digest
+
+# Monday 8:00 am Pacific. Cron is UTC, so that is 15:00 (PDT) - during
+# standard time it lands at 7:00 am Pacific, which is close enough that it is
+# not worth a second schedule.
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build the digest but do not send it"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Send the weekly digest
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+        run: |
+          python cli.py digest ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Keep the rendered digest as an artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-preview
+          path: docs/preview-digest.html
+          if-no-files-found: ignore
+          retention-days: 14

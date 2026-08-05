@@ -1,0 +1,216 @@
+{
+  "_comment": "Team Howe Reddit Watch - keyword scoring dictionary. Edit freely: add or remove phrases inside the \"terms\" arrays. Matching is case-insensitive and whole-phrase. A post's relevance score is the sum of the weights of every tier it hits (each tier counts once, plus a small bonus per extra distinct hit). Tiers with \"lead\": true also flag the post as a possible client opportunity.",
+
+  "intent": {
+    "label": "Buyer / seller intent",
+    "weight": 14,
+    "lead": true,
+    "terms": [
+      "looking for a realtor", "looking for a real estate agent", "looking for an agent",
+      "need a realtor", "need a real estate agent", "recommend a realtor",
+      "realtor recommendation", "realtor recommendations", "agent recommendation",
+      "agent recommendations", "real estate agent recommendation", "best realtor",
+      "good realtor", "any realtor", "which realtor", "realtor advice",
+      "buyer's agent", "buyers agent", "listing agent", "how do i find an agent",
+      "how to find a realtor", "interviewing agents", "agent commission",
+      "thinking of buying", "thinking about buying", "planning to buy",
+      "buying a house", "buying a home", "buying a condo", "buying in sf",
+      "buying in san francisco", "buying in the bay", "buy a house", "buy a home",
+      "buy a condo", "buy in sf", "purchase a home", "purchasing a home",
+      "advice on buying", "help buying", "considering buying", "about buying",
+      "sell my house", "sell my home", "sell my condo", "selling a house",
+      "selling a home", "flat fee agent", "flat fee real estate", "listing agent fee",
+      "commission split", "agent commission",
+      "looking to buy a house", "looking to buy a home", "looking to buy a condo",
+      "in the market for a house", "in the market for a home", "ready to buy",
+      "first time home buyer", "first-time home buyer", "first time homebuyer",
+      "first time buyer", "buying my first home", "buying our first home",
+      "should i buy", "should we buy", "buy or rent", "rent or buy",
+      "rent vs buy", "buy vs rent", "worth buying",
+      "how much house can i afford", "can i afford a house", "can we afford",
+      "pre-approved", "preapproved", "pre-approval", "preapproval",
+      "put in an offer", "putting in an offer", "made an offer", "making an offer",
+      "our offer was accepted", "offer accepted", "lost the bid", "won the bid",
+      "bidding war", "in escrow", "closing on a house", "closing on our home",
+      "just closed on", "under contract",
+      "thinking of selling", "thinking about selling", "planning to sell",
+      "selling my house", "selling my home", "selling my condo", "selling our home",
+      "should i sell", "should we sell", "listing my house", "listing my condo",
+      "list my house", "getting ready to sell", "time to sell",
+      "downsizing", "upsizing", "trading up",
+      "where should i buy", "which neighborhood should i", "best neighborhood to buy"
+    ]
+  },
+
+  "relocation": {
+    "label": "Moving to the area",
+    "_note": "Deliberately NOT a lead tier. Most people moving to SF are renting first - tested against live data, 'moving to SF' on its own was the single biggest source of false leads. A relocation post only becomes a lead when it ALSO hits a real buy/sell phrase.",
+    "weight": 8,
+    "lead": false,
+    "terms": [
+      "moving to san francisco", "moving to sf", "move to sf", "move to san francisco",
+      "relocating to san francisco", "relocating to sf", "moving to the bay area",
+      "relocating to the bay area", "moving to the bay", "new to sf",
+      "moving here from", "considering a move to sf"
+    ]
+  },
+
+  "transaction": {
+    "label": "Transaction mechanics",
+    "weight": 7,
+    "lead": false,
+    "terms": [
+      "escrow", "closing costs", "closing date", "title insurance", "title company",
+      "seller credit", "seller concession", "contingency", "contingencies",
+      "inspection report", "home inspection", "pest report", "disclosure package",
+      "3r report", "preliminary title", "appraisal", "appraised", "appraiser",
+      "under asking", "over asking", "sold over asking", "sold above asking",
+      "asking price", "listing price", "price cut", "price drop", "price reduction",
+      "days on market", "back on market", "off market", "pocket listing",
+      "coming soon listing", "open house", "broker tour", "mls",
+      "down payment", "earnest money", "jumbo loan", "conventional loan",
+      "fha loan", "arm loan", "adjustable rate", "points on a mortgage",
+      "mortgage broker", "loan officer", "refinance", "refinancing", "refi",
+      "cash offer", "all cash", "1031 exchange", "capital gains on a home",
+      "escalation clause", "as-is sale", "probate sale", "short sale",
+      "foreclosure", "trustee sale", "seller financing"
+    ]
+  },
+
+  "market": {
+    "label": "Market talk",
+    "weight": 6,
+    "lead": false,
+    "terms": [
+      "real estate", "realtor", "realtors", "housing market", "real estate market",
+      "home prices", "house prices", "housing prices", "home price", "condo prices",
+      "median home price", "median price", "price per square foot", "price per sq ft",
+      "ppsf", "cost per square foot",
+      "home values", "home value", "property value", "property values",
+      "inventory is", "housing inventory", "low inventory", "market update",
+      "interest rates", "mortgage rate", "mortgage rates", "rate cut",
+      "property tax", "property taxes", "assessed value", "supplemental tax",
+      "hoa", "hoa fees", "hoa dues", "homeowners association", "special assessment",
+      "reserve study", "cc&rs",
+      "zestimate", "comps", "comparable sales", "recent sales",
+      "housing", "apartments", "apartment building", "affordable housing",
+      "housing development", "housing push", "condo building", "mixed use",
+      "housing supply", "new construction", "new development", "condo market",
+      "sfh", "single family home", "single-family home", "duplex", "triplex",
+      "fourplex", "multi unit", "multi-unit", "fixer upper", "fixer-upper",
+      "flipping a house", "house flip", "rental property", "investment property",
+      "cap rate", "cash flow positive", "landlord", "housing affordability",
+      "priced out", "housing crisis", "housing shortage", "upzoning", "rezoning",
+      "housing element", "yimby", "nimby", "permit process", "building permit",
+      "remodel", "renovation", "gut renovation", "seismic retrofit"
+    ]
+  },
+
+  "sf_specific": {
+    "label": "SF-specific real estate signals",
+    "weight": 8,
+    "lead": false,
+    "terms": [
+      "tenants in common", "tenancy in common", "tic ownership", "tic unit",
+      "condo conversion", "ellis act", "owner move in", "owner move-in",
+      "rent control", "rent controlled", "rent board", "just cause eviction",
+      "prop 13", "prop 19", "transfer tax", "prop m", "prop 33",
+      "soft story", "soft-story", "mandatory retrofit", "unreinforced masonry",
+      "adu", "accessory dwelling unit", "in-law unit", "in law unit", "granny unit",
+      "legalize a unit", "unwarranted unit", "sf planning", "dbi",
+      "victorian", "edwardian", "marina style", "earthquake shack",
+      "liquefaction zone", "fog belt", "views of the bay", "sunset district home",
+      "sf mls", "san francisco condo", "san francisco home", "sf housing",
+      "compass real estate", "sherri howe", "team howe"
+    ]
+  },
+
+  "neighborhoods": {
+    "label": "SF neighborhood mention",
+    "weight": 3,
+    "lead": false,
+    "terms": [
+      "noe valley", "pacific heights", "presidio heights", "sea cliff", "seacliff",
+      "cow hollow", "marina district", "russian hill", "nob hill", "telegraph hill",
+      "north beach", "mission district", "mission dolores", "bernal heights",
+      "potrero hill", "dogpatch", "soma", "south beach", "mission bay",
+      "hayes valley", "alamo square", "nopa", "western addition", "fillmore",
+      "japantown", "lower haight", "upper haight", "haight ashbury",
+      "cole valley", "ashbury heights", "corona heights", "duboce triangle",
+      "castro district", "eureka valley", "glen park", "diamond heights",
+      "twin peaks", "miraloma park", "west portal", "forest hill", "st francis wood",
+      "balboa terrace", "monterey heights", "westwood park", "sunnyside",
+      "inner sunset", "outer sunset", "parkside", "lakeshore", "lake merced",
+      "inner richmond", "outer richmond", "lake street", "jordan park",
+      "laurel heights", "anza vista", "excelsior district", "portola district",
+      "crocker amazon", "visitacion valley", "bayview hunters point", "hunters point",
+      "india basin", "ingleside", "oceanview", "outer mission", "tenderloin",
+      "financial district", "jackson square", "yerba buena", "treasure island",
+      "presidio", "sausalito", "mill valley", "tiburon", "burlingame",
+      "hillsborough", "san mateo", "daly city", "brisbane", "oakland hills",
+      "piedmont", "berkeley hills", "alameda", "marin county", "the peninsula"
+    ]
+  },
+
+  "domains": {
+    "label": "Real estate news / listing source",
+    "weight": 7,
+    "lead": false,
+    "terms": [
+      "sfchronicle.com", "sfgate.com", "sfstandard.com", "socketsite.com",
+      "sfyimby.com", "missionlocal.org", "sfexaminer.com", "sfbayca.com",
+      "zillow.com", "redfin.com", "compass.com", "realtor.com", "trulia.com",
+      "homes.com", "movoto.com", "estately.com", "openhousesf.com",
+      "sfar.org", "car.org", "corelogic.com", "attomdata.com",
+      "bizjournals.com", "curbed.com", "theatlantic.com/real-estate",
+      "nytimes.com/real-estate", "wsj.com/real-estate", "marketwatch.com",
+      "bloomberg.com", "cnbc.com", "mercurynews.com", "ktvu.com", "abc7news.com",
+      "nbcbayarea.com", "berkeleyside.org", "sfbusinesstimes.com", "hoodline.com"
+    ]
+  },
+
+  "patterns": {
+    "label": "Price / listing pattern",
+    "weight": 5,
+    "lead": false,
+    "regex": [
+      "\\$\\s?\\d{3,4}\\s?k\\b",
+      "\\$\\s?\\d{1,2}(?:\\.\\d{1,2})?\\s?m(?:il|illion)?\\b",
+      "\\$\\s?\\d{3}[,.]\\d{3}",
+      "\\$\\s?\\d[,.]\\d{3}[,.]\\d{3}",
+      "\\b\\d{3,4}\\s?(?:sq\\.?\\s?ft|sqft|square feet)\\b",
+      "\\b\\d\\s?(?:bed|br|bd)\\b[^.]{0,30}\\b\\d(?:\\.\\d)?\\s?(?:bath|ba)\\b",
+      "\\b\\d(?:\\.\\d)?\\s?(?:bath|ba)\\b[^.]{0,30}\\b\\d\\s?(?:bed|br|bd)\\b",
+      "\\b(?:hoa|dues)\\s?(?:of|is|are|:)?\\s?\\$\\s?\\d{3,4}",
+      "\\b\\d(?:\\.\\d{1,2})?\\s?%\\s?(?:interest|rate|mortgage)\\b"
+    ]
+  },
+
+  "negative": {
+    "label": "Not a sale conversation",
+    "weight": -14,
+    "lead": false,
+    "terms": [
+      "looking for a roommate", "need a roommate", "roommate wanted", "roommate",
+      "roomate", "shared room", "looking for a room", "iso a room",
+      "room for rent", "renting a room", "sublet", "subletting", "sublease",
+      "apartment for rent", "looking for an apartment to rent",
+      "looking for a rental", "rental listing", "craigslist scam",
+      "renter's agent", "renters agent", "rental agent", "apartment hunting",
+      "apartment hunt", "rental market", "find a place to rent", "renting in sf",
+      "looking to rent", "want to rent", "hoping to rent", "rental properties",
+      "lease starting", "leases starting", "month-to-month", "month to month",
+      "security deposit", "renters insurance", "on-campus housing",
+      "semester housing", "studio apartment", "apartment options",
+      "my rent is", "raise my rent", "rent increase", "housing near",
+      "bed 1 bath housing", "tenant looking",
+      "parking spot for rent", "parking space for rent", "storage unit",
+      "airbnb host", "short term rental listing", "hotel recommendation",
+      "hiring", "we're hiring", "job opening", "job posting", "now hiring",
+      "moving company", "movers recommendation", "u-haul",
+      "car for sale", "selling my car", "selling my bike", "free stuff",
+      "restaurant recommendation", "best burrito", "where to eat",
+      "concert", "giants game", "warriors game", "dispensary"
+    ]
+  }
+}

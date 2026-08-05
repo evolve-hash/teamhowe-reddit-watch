@@ -1,0 +1,64 @@
+name: Watch Reddit
+
+# Crawls the watched subreddits, rebuilds the dashboard, and emails any new
+# thread worth replying to. Runs every 20 minutes; GitHub sometimes delays
+# scheduled runs on a busy hour, which is fine - nothing is lost, the next run
+# picks it up.
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+    inputs:
+      skip_email:
+        description: "Build only, do not send any email"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reddit-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Crawl, build and alert
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
+        run: |
+          python cli.py run ${{ inputs.skip_email && '--dry-run' || '' }}
+
+      - name: Commit the new state and dashboard
+        run: |
+          git config user.name  "team-howe-reddit-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "Nothing changed this run."
+            exit 0
+          fi
+          git commit -m "Reddit watch: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && break
+            sleep 5
+          done
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: python .github/scripts/summarize.py
