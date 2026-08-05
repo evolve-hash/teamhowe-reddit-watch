@@ -237,7 +237,17 @@ python3 cli.py build     # regenerate docs/index.html and docs/feed.xml
 python3 cli.py alerts    # email new hot threads
 python3 cli.py digest    # email the weekly digest
 python3 cli.py run       # crawl + build + alerts, what the schedule runs
+python3 cli.py mark-seen # set the alert baseline: treat everything currently
+                         #   tracked as already alerted
 ```
+
+`mark-seen` is worth knowing about. The watcher has been running since before the
+email was switched on, so there is a backlog of threads it has never emailed
+about. Without this, the very first alert email would be twenty-odd threads
+spanning three weeks — which is a reading list, not a "reply now". Run it once
+before adding the SMTP secrets and alerts start clean; the backlog is all still
+on the dashboard. Also worth running after you lower `include_score` or
+`hot_score`, for the same reason.
 
 Add `--dry-run` to any of them and nothing is emailed — instead the message is
 written to `docs/preview-alert.html` or `docs/preview-digest.html` so you can

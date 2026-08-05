@@ -8,6 +8,9 @@ Team Howe Reddit Watch - command line entry point.
     python3 cli.py digest     email the weekly digest
     python3 cli.py run        crawl + build + alerts   (what the schedule runs)
     python3 cli.py test       score the bundled samples, no network needed
+    python3 cli.py mark-seen  treat everything currently tracked as already
+                              alerted, so the next alert email only contains
+                              genuinely new threads
 
 Options:
     --config PATH     default config.json
@@ -41,7 +44,8 @@ def load_json(path):
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Team Howe Reddit Watch")
     parser.add_argument("command",
-                        choices=["crawl", "build", "alerts", "digest", "run", "test"])
+                        choices=["crawl", "build", "alerts", "digest", "run", "test",
+                                 "mark-seen"])
     parser.add_argument("--config", default=os.path.join(HERE, "config.json"))
     parser.add_argument("--keywords", default=os.path.join(HERE, "keywords.json"))
     parser.add_argument("--data", default=os.path.join(HERE, "data", "posts.json"))
@@ -61,6 +65,17 @@ def main(argv=None):
 
     if args.command == "test":
         return _selftest(config, keywords, verbose)
+
+    if args.command == "mark-seen":
+        # Useful right after setup, or after lowering a threshold: the backlog
+        # already sitting in the store is not news, and a 20-thread "reply now"
+        # email is worse than no email. The dashboard still shows all of it.
+        pending = [r["id"] for r in store.posts() if not store.already_alerted(r["id"])]
+        store.mark_alerted(pending)
+        store.save()
+        say("Marked {} tracked thread(s) as already alerted. "
+            "Alerts now only fire for threads found from here on.".format(len(pending)))
+        return 0
 
     exit_code = 0
 
