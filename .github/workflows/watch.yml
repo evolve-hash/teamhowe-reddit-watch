@@ -1,12 +1,17 @@
 name: Watch Reddit
 
 # Crawls the watched subreddits, rebuilds the dashboard, and emails any new
-# thread worth replying to. Runs every 20 minutes; GitHub sometimes delays
-# scheduled runs on a busy hour, which is fine - nothing is lost, the next run
-# picks it up.
+# thread worth replying to.
+#
+# Every 20 minutes, but deliberately NOT on :00/:20/:40. GitHub queues every
+# scheduled workflow on the platform at once, and the round minutes are by far
+# the most congested - a first run on "*/20" was still not dispatched ten
+# minutes late. Odd offsets get picked up promptly. Delays are never data loss
+# either way (reddit's /new still has the posts next time), but a schedule that
+# actually fires when it says it will is worth the two characters.
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
     inputs:
       skip_email:

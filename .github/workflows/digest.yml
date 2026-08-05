@@ -1,11 +1,12 @@
 name: Weekly digest
 
-# Monday 8:00 am Pacific. Cron is UTC, so that is 15:00 (PDT) - during
-# standard time it lands at 7:00 am Pacific, which is close enough that it is
-# not worth a second schedule.
+# Monday morning Pacific. Cron is UTC, so 15:13 is 8:13 am PDT - during
+# standard time it lands at 7:13 am Pacific, close enough that a second
+# schedule is not worth it. The odd minute is on purpose: GitHub's scheduler
+# is busiest on the hour, and a digest that arrives late reads as broken.
 on:
   schedule:
-    - cron: "0 15 * * 1"
+    - cron: "13 15 * * 1"
   workflow_dispatch:
     inputs:
       dry_run:
