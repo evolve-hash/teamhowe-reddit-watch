@@ -45,7 +45,7 @@ html[data-theme="dark"]{
   --dark:#0d0d0d;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0}
+html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden}
 body{
   font-family:var(--font); font-size:16px; line-height:1.65;
   color:var(--ink); background:var(--surface);
@@ -76,6 +76,7 @@ h3{font-size:20px;line-height:1.35}
 }
 .masthead .right{margin-left:auto;display:flex;align-items:center;gap:18px}
 .masthead .stamp{font-size:11.5px;letter-spacing:.06em;color:#b6b6b6;text-align:right}
+.masthead .stamp .when{display:block}
 .themebtn,.refreshbtn{
   background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;
   font-family:var(--font);font-size:10px;font-weight:600;letter-spacing:.18em;
@@ -220,20 +221,79 @@ footer .tagline{
 footer .legal{font-size:11px;line-height:1.85;color:#9f9f9f;border-top:1px solid rgba(255,255,255,.14);padding-top:24px}
 footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
 
+/* ------------------------------------------------------------- mobile --- */
+/* The masthead is the one row that cannot survive being squeezed: a logo, a
+   timestamp and two controls do not fit across a phone. Rather than shrink
+   everything until it overflows, it becomes three short rows -
+   logo + theme toggle, then the timestamp, then Refresh full width, which is
+   also the easiest thing to hit with a thumb. `display:contents` on .right
+   lets its children take part in the wrap directly. */
 @media (max-width:900px){
   h1{font-size:32px}
   .wrap{padding:0 20px}
+
+  .masthead .wrap{
+    flex-wrap:wrap;align-items:center;min-height:0;gap:12px;
+    padding-top:16px;padding-bottom:18px;
+  }
+  .masthead .right{display:contents}
+  .masthead .tag,.masthead .rule{display:none}
+  .masthead img{height:26px}
+  .masthead .brand{order:1;margin-right:auto;min-width:0}
+  .masthead .themebtn{order:2;flex:0 0 auto}
+  .masthead .stamp{
+    order:3;flex:0 0 100%;text-align:left;font-size:11px;line-height:1.5;
+  }
+  .masthead .stamp .when{display:inline}
+  .masthead .refreshbtn{order:4;flex:0 0 100%;text-align:center;padding:13px 14px}
+
   .kpis{grid-template-columns:repeat(2,1fr)}
   .kpi{border-left:0;border-top:1px solid var(--border);padding:26px 0 24px;padding-left:0}
   .kpi:nth-child(-n+2){border-top:0}
   .kpi:nth-child(even){border-left:1px solid var(--border);padding-left:22px}
-  .kpi .k-label{min-height:0}
+  /* Keep two lines of room so a wrapping label does not shove its number out
+     of line with the number beside it. */
+  .kpi .k-label{min-height:3.1em}
+  .kpi .k-value{font-size:38px}
+
   .card{grid-template-columns:1fr;gap:0}
   .score{display:flex;align-items:baseline;gap:10px;text-align:left;margin-bottom:12px}
   .score .l{margin-top:0}
-  .masthead .wrap{min-height:70px}
-  .masthead .tag,.masthead .rule{display:none}
   .lede{padding:44px 0 30px}
+  .lede p.sub{font-size:16px}
+  .chart-head{margin-bottom:20px}
+  .controls{padding:14px 0}
+  .controls .wrap{gap:10px}
+  .count{margin-left:0;flex:0 0 100%}
+  .btn{padding:11px 14px;letter-spacing:.12em}
+  /* The meta line wraps on a phone, and a middot inherited from ::before then
+     dangles at the start of the new line. Drop the separators and let the gap
+     do the work. */
+  .meta{gap:2px 14px}
+  .meta span:not(:first-child)::before{content:"";margin:0}
+}
+
+/* Small phones. Nothing may exceed the viewport here either. */
+@media (max-width:400px){
+  .wrap{padding:0 16px}
+  h1{font-size:28px}
+  .masthead img{height:23px}
+  .masthead .themebtn{padding:8px 10px;letter-spacing:.12em}
+  .masthead .stamp{font-size:10.5px}
+  .kpi .k-value{font-size:32px}
+  .kpi:nth-child(even){padding-left:16px}
+  .seg button{padding:11px 11px;letter-spacing:.1em}
+  .btn{font-size:9.5px;padding:11px 12px}
+  .chip{font-size:10.5px}
+  .excerpt{font-size:14px}
+}
+
+/* Only the narrowest phones give up the two-column stat row. */
+@media (max-width:340px){
+  .kpis{grid-template-columns:1fr}
+  .kpi{border-left:0!important;padding-left:0!important;padding-top:22px;padding-bottom:20px}
+  .kpi:first-child{border-top:0}
+  .kpi .k-label{min-height:0}
 }
 @media print{.controls,.themebtn,.actions{display:none}body{background:#fff}}
 </style>
@@ -242,11 +302,11 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
 
 <header class="masthead">
   <div class="wrap">
-    <a href="__WEBSITE__"><img src="__LOGO_LIGHT__" alt="Team Howe | Compass"></a>
+    <a class="brand" href="__WEBSITE__"><img src="__LOGO_LIGHT__" alt="Team Howe | Compass"></a>
     <div class="rule"></div>
     <div class="tag">__TITLE__</div>
     <div class="right">
-      <div class="stamp">Updated<br>__UPDATED__</div>
+      <div class="stamp">Updated <span class="when">__UPDATED__</span></div>
       __REFRESH_BTN__
       <button class="themebtn" id="themebtn" type="button">Dark</button>
     </div>
