@@ -79,6 +79,7 @@
     "delay_seconds": 4.0,
     "timeout_seconds": 25,
     "retries": 3,
+    "rate_limit_budget_seconds": 150,
     "use_listing_rss": true,
     "use_old_reddit_html": true,
     "use_search_sweeps": true,

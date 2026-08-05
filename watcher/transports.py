@@ -52,12 +52,20 @@ class Fetcher(object):
     * The RSS feed is rate limited, not blocked. A 429 needs to be waited out in
       tens of seconds, not four, and once we have seen one we slow everything
       down for the rest of the run rather than walking into the next one.
+
+    * But waiting has a budget. Retrying every 429 to exhaustion took one real
+      run past eleven minutes, which is useless on a twenty minute schedule.
+      So there is a total sleep allowance per run; once it is spent the crawler
+      stops retrying throttled requests and accepts the gap. Nothing is lost -
+      /new still has those posts when the next run comes round, and the adaptive
+      delay means the next run is less likely to be throttled at all.
     """
 
-    RATE_LIMIT_BACKOFF = (30, 60, 120)
+    RATE_LIMIT_BACKOFF = (20, 45)
     BLOCK_AFTER_403 = 2
 
-    def __init__(self, user_agent, delay=4.0, timeout=25, retries=3, mirrors=None):
+    def __init__(self, user_agent, delay=4.0, timeout=25, retries=3, mirrors=None,
+                 rate_budget=150):
         self.user_agent = user_agent
         self.delay = delay
         self.base_delay = delay
@@ -68,6 +76,8 @@ class Fetcher(object):
         self.log = []
         self.blocked_hosts = {}      # host -> reason
         self.rate_limited = 0        # how many 429s we absorbed
+        self.rate_budget = float(rate_budget)
+        self.rate_waited = 0.0       # seconds actually spent waiting out 429s
         self._forbidden = {}         # host -> consecutive 403 count
 
     # -- internals ---------------------------------------------------------
@@ -141,9 +151,19 @@ class Fetcher(object):
                             # Slow the whole run down; walking into the next 429
                             # costs more than waiting does.
                             self.delay = max(self.delay, self.base_delay * 2)
+                            if self.rate_waited >= self.rate_budget:
+                                self.log.append(
+                                    "rate-limit wait budget spent; giving up on "
+                                    "this request, next run will pick it up")
+                                break
                         if attempt < self.retries:
                             wait = self._retry_after(exc) or self.RATE_LIMIT_BACKOFF[
                                 min(rate_step, len(self.RATE_LIMIT_BACKOFF) - 1)]
+                            if exc.code == 429:
+                                wait = min(wait, max(0, self.rate_budget - self.rate_waited))
+                                if wait <= 0:
+                                    break
+                                self.rate_waited += wait
                             rate_step += 1
                             time.sleep(wait)
                             continue
@@ -160,7 +180,7 @@ class Fetcher(object):
         try:
             value = exc.headers.get("Retry-After")
             if value:
-                return min(180, max(5, int(float(value))))
+                return min(60, max(5, int(float(value))))
         except Exception:
             pass
         return None

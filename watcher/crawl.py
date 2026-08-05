@@ -21,6 +21,7 @@ def run(config, keywords, store, verbose=True):
         timeout=crawler.get("timeout_seconds", 25),
         retries=crawler.get("retries", 3),
         mirrors=crawler.get("mirrors", []),
+        rate_budget=crawler.get("rate_limit_budget_seconds", 150),
     )
     scorer = Scorer(keywords, config.get("geo_terms", []))
     max_age = thresholds.get("max_post_age_days", 21)
@@ -136,6 +137,7 @@ def run(config, keywords, store, verbose=True):
     stats["finished_at"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     stats["blocked_hosts"] = dict(fetcher.blocked_hosts)
     stats["rate_limited"] = fetcher.rate_limited
+    stats["rate_limit_wait_seconds"] = round(fetcher.rate_waited, 1)
     stats["fetch_log"] = fetcher.log[-30:]
     store.record_run(stats)
     return stats, new_records
