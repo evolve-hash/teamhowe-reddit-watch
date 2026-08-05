@@ -219,7 +219,42 @@ Commit and push. TJ can then filter on the `X-TeamHowe-Source: reddit-watch`
 header, or just on the subject line, and the whole stream lands in one label
 instead of on his phone.
 
-### 6. Kick off the first run
+### 6. If scheduled runs never fire
+
+Actions has two kinds of trigger and GitHub treats them differently. Pressing
+**Run workflow** (`workflow_dispatch`) works from the first minute. `schedule`
+does not: on a **brand-new GitHub account** GitHub does not dispatch scheduled
+events at all, and it stays that way until the account has a verified email
+address and a little history. Measured on this repository: five consecutive
+scheduled slots passed with zero runs while manual runs succeeded every time,
+on an account eight minutes older than the repo.
+
+If `Actions -> Watch Reddit` shows only "Manually run" entries and no
+"Scheduled" ones:
+
+1. Verify the email on the GitHub account (**Settings -> Emails**, click the
+   link GitHub sends). This is the usual unlock.
+2. Give it an hour and check again for a run whose trigger reads *Scheduled*.
+3. In the meantime, and permanently if you prefer, use the Mac schedule in
+   `local/` — it publishes to the same site and does not depend on GitHub's
+   scheduler at all.
+
+Nothing about the live site depends on this. GitHub Pages serves a static file;
+it is up whether or not anything has crawled recently. The schedule only affects
+how fresh the numbers are.
+
+### 7. Refreshing it by hand, from the site
+
+The dashboard has a **Refresh now** button in the top-right. It opens the
+Actions page for the workflow, where **Run workflow** is one click. Three
+minutes later the site has rebuilt.
+
+It is a link rather than a real button on purpose: triggering a workflow needs a
+GitHub token, and the dashboard is a public page. Embedding a token there would
+let anyone on the internet act on the repository. One extra click is the right
+price for that.
+
+### 8. Kick off the first run
 
 **Actions → Watch Reddit → Run workflow.** It takes two or three minutes
 because it is polite about request spacing. Watch the run summary: it reports how
@@ -300,9 +335,19 @@ happens:
    ./local/run_local.sh
    ```
 
-   To have it run itself every twenty minutes, edit the two paths in
-   `local/com.teamhowe.redditwatch.plist`, copy it to `~/Library/LaunchAgents/`,
-   and `launchctl load` it. Instructions are in the file.
+   To have it run itself every twenty minutes — crawl, rebuild, commit and
+   push, so the live site stays current with nobody touching anything:
+
+   ```bash
+   cp local/com.teamhowe.redditwatch.plist ~/Library/LaunchAgents/
+   launchctl load ~/Library/LaunchAgents/com.teamhowe.redditwatch.plist
+   tail -f logs/watch.log
+   ```
+
+   The paths in the plist are already set for this checkout; edit them if you
+   move the folder. `launchctl unload` the same path to stop it. This runs only
+   while the Mac is awake and online, which is the one thing GitHub's schedule
+   does better — so the two together cover each other.
 
 Nothing is lost either way — the state file is the source of truth and both
 paths write to the same one.

@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Optional: run the watcher from this Mac every 20 minutes instead of (or as
-  well as) GitHub Actions.
+  Runs the watcher from this Mac every 20 minutes and pushes the result, so the
+  live dashboard stays current without anyone touching anything.
 
-  1. Edit the two paths below so they point at wherever this folder lives.
-  2. cp local/com.teamhowe.redditwatch.plist ~/Library/LaunchAgents/
-  3. launchctl load ~/Library/LaunchAgents/com.teamhowe.redditwatch.plist
+  Install:
+    cp local/com.teamhowe.redditwatch.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.teamhowe.redditwatch.plist
 
-  To stop it:
-     launchctl unload ~/Library/LaunchAgents/com.teamhowe.redditwatch.plist
+  Check it:
+    launchctl list | grep redditwatch
+    tail -f logs/watch.log
+
+  Stop it:
+    launchctl unload ~/Library/LaunchAgents/com.teamhowe.redditwatch.plist
+
+  Note the paths below are absolute and point at this checkout. If you move the
+  folder, edit them and reload.
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -19,11 +26,17 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/CHANGE_ME/teamhowe-reddit-watch/local/run_local.sh</string>
+    <string>/Users/edu/Documents/TeamHowe-RedditWatch/teamhowe-reddit-watch/local/run_local.sh</string>
   </array>
 
   <key>WorkingDirectory</key>
-  <string>/Users/CHANGE_ME/teamhowe-reddit-watch</string>
+  <string>/Users/edu/Documents/TeamHowe-RedditWatch/teamhowe-reddit-watch</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
 
   <key>StartInterval</key>
   <integer>1200</integer>
@@ -38,5 +51,8 @@
 
   <key>ProcessType</key>
   <string>Background</string>
+
+  <key>LowPriorityIO</key>
+  <true/>
 </dict>
 </plist>

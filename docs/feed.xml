@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Team Howe Reddit Watch - San Francisco real estate</title>
-  <link>https://teamhowe.com</link>
-  <atom:link href="https://teamhowe.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://evolve-hash.github.io/teamhowe-reddit-watch</link>
+  <atom:link href="https://evolve-hash.github.io/teamhowe-reddit-watch/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Reddit threads about San Francisco real estate, scored for how much they look like an opening.</description>
   <language>en-us</language>
   <copyright>Copyright © 2026 Team Howe. All Rights Reserved. </copyright>
-  <lastBuildDate>Wed, 05 Aug 2026 18:58:11 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 21:51:18 GMT</lastBuildDate>
   <ttl>20</ttl>
   <item>
     <title>Apartment building can’t rent out affordable housing units (BMR) even with offering 3 free months</title>

@@ -76,12 +76,15 @@ h3{font-size:20px;line-height:1.35}
 }
 .masthead .right{margin-left:auto;display:flex;align-items:center;gap:18px}
 .masthead .stamp{font-size:11.5px;letter-spacing:.06em;color:#b6b6b6;text-align:right}
-.themebtn{
+.themebtn,.refreshbtn{
   background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;
   font-family:var(--font);font-size:10px;font-weight:600;letter-spacing:.18em;
-  text-transform:uppercase;padding:9px 14px;cursor:pointer;
+  text-transform:uppercase;padding:9px 14px;cursor:pointer;text-decoration:none;
+  display:inline-block;white-space:nowrap;
 }
-.themebtn:hover{border-color:#ccb091;color:#ccb091}
+.themebtn:hover,.refreshbtn:hover{border-color:#ccb091;color:#ccb091}
+.refreshbtn{background:#ccb091;border-color:#ccb091;color:#211f1f}
+.refreshbtn:hover{background:transparent;color:#ccb091}
 
 /* -------------------------------------------------------------- lede --- */
 .lede{padding:64px 0 40px;border-bottom:1px solid var(--border)}
@@ -244,6 +247,7 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
     <div class="tag">__TITLE__</div>
     <div class="right">
       <div class="stamp">Updated<br>__UPDATED__</div>
+      __REFRESH_BTN__
       <button class="themebtn" id="themebtn" type="button">Dark</button>
     </div>
   </div>
@@ -662,6 +666,7 @@ def build(config, store, out_path):
         "__COPYRIGHT__": brand.copyright_line(now.year),
         "__LEGAL__": brand.LEGAL,
         "__BAR__": brand.BEIGE,
+        "__REFRESH_BTN__": _refresh_button(site.get("repo_url", "")),
         "__KPI_HOT__": str(len(hot)),
         "__KPI_WEEK__": str(len(this_week)),
         "__KPI_WEEK_DELTA__": week_delta,
@@ -692,6 +697,23 @@ def build(config, store, out_path):
         "hot": len(hot),
         "this_week": len(this_week),
     }
+
+
+def _refresh_button(repo_url):
+    """
+    Link to the Actions page, where "Run workflow" is one click.
+
+    Deliberately a link and not a real button: triggering a workflow needs a
+    GitHub token, and this page is public. Putting a token in it would let
+    anyone on the internet act on the repository. One extra click is the
+    correct price for that.
+    """
+    if not repo_url:
+        return ""
+    return ('<a class="refreshbtn" target="_blank" rel="noopener" '
+            'title="Opens GitHub Actions - press Run workflow there" '
+            'href="{}/actions/workflows/watch.yml">Refresh now</a>').format(
+        repo_url.rstrip("/"))
 
 
 def _daily_series(records, days):
