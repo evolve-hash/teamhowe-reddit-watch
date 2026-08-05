@@ -2,13 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Team Howe Reddit Watch - San Francisco real estate</title>
-  <link>https://teamhowe.com</link>
-  <atom:link href="https://teamhowe.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://evolve-hash.github.io/teamhowe-reddit-watch</link>
+  <atom:link href="https://evolve-hash.github.io/teamhowe-reddit-watch/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Reddit threads about San Francisco real estate, scored for how much they look like an opening.</description>
   <language>en-us</language>
   <copyright>Copyright © 2026 Team Howe. All Rights Reserved. </copyright>
-  <lastBuildDate>Wed, 05 Aug 2026 17:30:22 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 18:30:37 GMT</lastBuildDate>
   <ttl>20</ttl>
+  <item>
+    <title>Apartment building can’t rent out affordable housing units (BMR) even with offering 3 free months</title>
+    <link>https://www.reddit.com/r/sanfrancisco/comments/1vgfa7y/apartment_building_cant_rent_out_affordable/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vgfa7y</guid>
+    <pubDate>Wed, 05 Aug 2026 18:15:08 GMT</pubDate>
+    <category>r/sanfrancisco</category>
+    <author>reddit-watch@teamhowe.com (u/knockdowncenter)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 18&lt;/strong&gt; &amp;middot; r/sanfrancisco &amp;middot; u/knockdowncenter&lt;/p&gt;&lt;p&gt;Can someone explain this one? Why is an apartment complex having so much trouble renting out BMR units that they have to resort to offering 3 free months, and even then it seems no one wants them? https://www.zillow.com/apartments/san-francisco-ca/the-george/CjfxLx&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, apartments, apartment building, affordable housing, zillow.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
   <item>
     <title>List vs Actual + Pricing &amp; DOM Trends - Bay Area, July 2026</title>
     <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vgcnim/list_vs_actual_pricing_dom_trends_bay_area_july/</link>
@@ -73,6 +82,15 @@
     <description>&lt;p&gt;&lt;strong&gt;Signal 11&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Big-Orchid-693&lt;/p&gt;&lt;p&gt;Last month I had launched a pilot to help bay area homeowners file an informal decline in value assessment. The response was overwhelming and more than 1,000 people have checked their property and it has so far saved an average of $2,800 per filing for tens of filers. I am now making it available with deadlines approaching for property...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: property tax, comps, san mateo, alameda&lt;/em&gt;&lt;/p&gt;&lt;p&gt;5 upvotes &amp;middot; 8 comments&lt;/p&gt;</description>
   </item>
   <item>
+    <title>Palo Alto may have just given us one of the first real-world tests of SB 79</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vfc9j4/palo_alto_may_have_just_given_us_one_of_the_first/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vfc9j4</guid>
+    <pubDate>Tue, 04 Aug 2026 14:40:05 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/ShopProp)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 13&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/ShopProp&lt;/p&gt;&lt;p&gt;Within two weeks of SB 79 taking effect, developers submitted nine housing proposals totaling 341 homes before the city adopted a temporary alternative plan. SB 79, which took effect on July 1, allows qualifying multifamily housing to be built at greater heights and densities near major transit stops, like Caltrain and BART, even if...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, sfgate.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>Palo Alto is giving us the first real-world look at California’s new SB 79 law.</title>
     <link>https://www.reddit.com/r/bayarea/comments/1vfc7vt/palo_alto_is_giving_us_the_first_realworld_look/</link>
     <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vfc7vt</guid>
@@ -89,6 +107,24 @@
     <category>r/bayarea</category>
     <author>reddit-watch@teamhowe.com (u/PacificaPal)</author>
     <description>&lt;p&gt;&lt;strong&gt;Signal 13&lt;/strong&gt; &amp;middot; r/bayarea &amp;middot; u/PacificaPal&lt;/p&gt;&lt;p&gt;Exclusive: In Menlo Park housing fight, Bonta sends a potential warning to California cities https://www.sfchronicle.com/realestate/article/housing-fight-menlo-park-bonta-22372361.php&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, sfchronicle.com&lt;/em&gt;&lt;/p&gt;&lt;p&gt;20 upvotes &amp;middot; 3 comments&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>To move or not to move?</title>
+    <link>https://www.reddit.com/r/AskSF/comments/1vf2orr/to_move_or_not_to_move/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vf2orr</guid>
+    <pubDate>Tue, 04 Aug 2026 06:49:21 GMT</pubDate>
+    <category>r/AskSF</category>
+    <author>reddit-watch@teamhowe.com (u/SevereResort8549)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/AskSF &amp;middot; u/SevereResort8549&lt;/p&gt;&lt;p&gt;I currently rent a room in a house in inner sunset for $1540. It’s a big room. Parking, view, laundry, nice area. However, I have two Roomates and wanna live alone. (I’m almost 40) As an sfusd employee, I ranked well in the lottery in a new teacher housing project at 750 golden state (near civic center). link I could potentially get a...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, inner sunset, 600 square feet&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Advice on Ellis Act</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vewnql/advice_on_ellis_act/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vewnql</guid>
+    <pubDate>Tue, 04 Aug 2026 01:43:39 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Chocoturt1098)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 20&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Chocoturt1098&lt;/p&gt;&lt;p&gt;Hey all! I recently relocated from Texas so was unaware of this act and the idea of buying out a tenant. I started renting a condo back in Dec originally for a 18 month contract. Back in May I was given a notice the unit would be taken off market end of Nov, and that I would be given one month free rent (in Nov). I was told I could...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: off market, ellis act, views of the bay, alameda&lt;/em&gt;&lt;/p&gt;</description>
   </item>
   <item>
     <title>Castro Theatre sues renovation contractor, alleging $5M in damages</title>
@@ -145,6 +181,15 @@
     <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/sanfrancisco &amp;middot; u/binding_swamp&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, housing affordability, missionlocal.org&lt;/em&gt;&lt;/p&gt;&lt;p&gt;36 upvotes &amp;middot; 216 comments&lt;/p&gt;</description>
   </item>
   <item>
+    <title>Question About Legal Base Rent for Rent-Controlled Units</title>
+    <link>https://www.reddit.com/r/AskSF/comments/1vdxjx6/question_about_legal_base_rent_for_rentcontrolled/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vdxjx6</guid>
+    <pubDate>Sun, 02 Aug 2026 23:55:30 GMT</pubDate>
+    <category>r/AskSF</category>
+    <author>reddit-watch@teamhowe.com (u/open_reading_frame)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 16&lt;/strong&gt; &amp;middot; r/AskSF &amp;middot; u/open_reading_frame&lt;/p&gt;&lt;p&gt;This is more of a curious question and I don&amp;#x27;t want to bother the overworked and underappreciated SF tenants union. If a landlord offers a new rent-controlled apartment for $3k a month, but offers 3 months free at the end of the first year lease, would the legal base rent, for purposes of maximum allowable increases, be $3k? Or would it...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: landlord, rent control, rent board&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>[WORTH A REPLY / POSSIBLE CLIENT] First time home buyer</title>
     <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vdx213/first_time_home_buyer/</link>
     <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vdx213</guid>
@@ -152,6 +197,15 @@
     <category>r/BayAreaRealEstate</category>
     <author>reddit-watch@teamhowe.com (u/Character_Club_1507)</author>
     <description>&lt;p&gt;&lt;strong&gt;Signal 27&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Character_Club_1507&lt;/p&gt;&lt;p&gt;Hey! First time posting here. So like im in my 20s and planning to buy a house with my dad. He said he&amp;#x27;ll put half down and I&amp;#x27;ll get a mortgage for the rest. My initial consultation with the bank people said it&amp;#x27;s possible for me to do that. Anyway I&amp;#x27;m lost on how to navigate the whole buying a new home process. It would my parent&amp;#x27;s first...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: planning to buy, buy a house, first time home buyer, realtor&lt;/em&gt;&lt;/p&gt;&lt;p&gt;0 upvotes &amp;middot; 11 comments&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>How to offer lower rent without losing control of building?</title>
+    <link>https://www.reddit.com/r/AskSF/comments/1vdwpib/how_to_offer_lower_rent_without_losing_control_of/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vdwpib</guid>
+    <pubDate>Sun, 02 Aug 2026 23:17:25 GMT</pubDate>
+    <category>r/AskSF</category>
+    <author>reddit-watch@teamhowe.com (u/HugoLugo3530)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/AskSF &amp;middot; u/HugoLugo3530&lt;/p&gt;&lt;p&gt;Hello! Hypothetical question for those of you who are familiar with renter laws in San Francisco. Can a landlord rent below market without losing control of a rent controlled unit? Say a property owner has an empty unit in a rent controlled building.They meet someone they like who can only afford rent that is 50% below market. The...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: landlord, rent controlled&lt;/em&gt;&lt;/p&gt;</description>
   </item>
   <item>
     <title>The Marina Safeway fight was over before it started</title>
@@ -181,6 +235,24 @@
     <description>&lt;p&gt;&lt;strong&gt;Signal 13&lt;/strong&gt; &amp;middot; r/sanfrancisco &amp;middot; u/parttimelarry&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, sfgate.com&lt;/em&gt;&lt;/p&gt;&lt;p&gt;185 upvotes &amp;middot; 71 comments&lt;/p&gt;</description>
   </item>
   <item>
+    <title>Any advice on this listing (MTV)</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vd3w8u/any_advice_on_this_listing_mtv/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vd3w8u</guid>
+    <pubDate>Sun, 02 Aug 2026 00:53:45 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/love_berries)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 21&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/love_berries&lt;/p&gt;&lt;p&gt;Will require demo and rebuild. 6000 sq feet (good for us for primary living space + potentially small adu) but concerned about the highway noise. And time/ money investment to build (~3000 sq feet so around 1-1.2m for renovation- is that fair estimate?)&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: renovation, adu, zillow.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>[WORTH A REPLY / POSSIBLE CLIENT] SF craziness</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vczrq7/sf_craziness/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vczrq7</guid>
+    <pubDate>Sat, 01 Aug 2026 21:47:47 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/haterade9425)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/haterade9425&lt;/p&gt;&lt;p&gt;In the market and saw these two last month and lost the bid. Looking at the closing price, it seems crazy for the size of both: https://redf.in/Qy8n6Y https://redf.in/Ukbi4a should I just give up at this point?&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: lost the bid&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>[WORTH A REPLY / POSSIBLE CLIENT] Which house should we go for?</title>
     <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vcw24j/which_house_should_we_go_for/</link>
     <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vcw24j</guid>
@@ -188,6 +260,33 @@
     <category>r/BayAreaRealEstate</category>
     <author>reddit-watch@teamhowe.com (u/Sea-Question2763)</author>
     <description>&lt;p&gt;&lt;strong&gt;Signal 33&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Sea-Question2763&lt;/p&gt;&lt;p&gt;Hopefully this type of post is ok. We have two very different potential opportunities for buying our first home, and want to see what others would do in our situation. House 1: - $2.85M purchase price with $2M down - Great location and neighborhood - House is basically move in ready House 2: - $2.1M purchase price in all cash, but the...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: buying our first home, all cash, comps, $300k, $2.85m&lt;/em&gt;&lt;/p&gt;&lt;p&gt;3 upvotes &amp;middot; 60 comments&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>I’ve been reading more stale listing posts lately in Bay Area subs. Here’s our take.</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vc0fga/ive_been_reading_more_stale_listing_posts_lately/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vc0fga</guid>
+    <pubDate>Fri, 31 Jul 2026 19:16:45 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Soggy-Base-764)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 13&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Soggy-Base-764&lt;/p&gt;&lt;p&gt;I’ve been seeing more Bay Area posts lately where a home or condo sits for 30, 45, 60+ days, gets a price cut, still gets no offer, and then the seller is stuck asking: Do we cut again? Take it off and relist later? Rent it out? Sell as-is? Do repairs before trying again? My take: once a listing goes stale, “just drop the price” is not...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: price cut, hoa&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Marin approved 337 new homes. Now it’s being sued over Bay views.</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vbuvy8/marin_approved_337_new_homes_now_its_being_sued/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vbuvy8</guid>
+    <pubDate>Fri, 31 Jul 2026 15:55:14 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/ShopProp)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 16&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/ShopProp&lt;/p&gt;&lt;p&gt;Welp, it happened. After Marin approved new homes, a lawsuit naturally followed. A lawsuit has been filed to stop Marin County’s approved redevelopment of the former Strawberry seminary site, which would add 337 homes, including 70 affordable units, plus a senior living facility. The lawsuit argues some of the homes would block Bay views...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, marin county, sfchronicle.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Thought this was a wild house</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vbhf1p/thought_this_was_a_wild_house/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vbhf1p</guid>
+    <pubDate>Fri, 31 Jul 2026 05:16:04 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Sonidas)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Sonidas&lt;/p&gt;&lt;p&gt;331 Western Dr, Richmond, CA 94801 | MLS #41140506 | Zillow&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: mls, zillow.com&lt;/em&gt;&lt;/p&gt;</description>
   </item>
   <item>
     <title>[WORTH A REPLY / POSSIBLE CLIENT] I ran the numbers on 316 Peninsula sales: house size explains 68% of the price variation inside a city, lot size adds almost nothing on top</title>
@@ -217,6 +316,60 @@
     <description>&lt;p&gt;&lt;strong&gt;Signal 20&lt;/strong&gt; &amp;middot; r/sanfrancisco &amp;middot; u/Tancrisism&lt;/p&gt;&lt;p&gt;There needs to be a clarification here. NIMBY has a clear and real meaning, and it is warped and misused in San Francisco politics. NIMBY specifically refers to when people want something, but don&amp;#x27;t want it near them. Like if they want a power plant built because there is not enough power, but want it near a different neighborhood, not...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: real estate, real estate market, housing, affordable housing, upzoning, nimby, rent control&lt;/em&gt;&lt;/p&gt;&lt;p&gt;0 upvotes &amp;middot; 172 comments&lt;/p&gt;</description>
   </item>
   <item>
+    <title>SF Property Tax Appeal - Accept Their Settlement Offer or Fight in Hearing?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1vaulca/sf_property_tax_appeal_accept_their_settlement/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vaulca</guid>
+    <pubDate>Thu, 30 Jul 2026 14:04:38 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/oscarbearsf)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/oscarbearsf&lt;/p&gt;&lt;p&gt;I appealed my 2025 property taxes and am finally supposed to have my hearing today. The base value was 1.33mm and I appealed for 1.1mm. I have 5 comps that imply a value ranging from ~$900k-$1.22mm so I feel pretty confident about my support. That being said, the City reached out with a settlement offer at $1.2mm. I am trying to figure...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: property tax, property taxes, comps, $900k&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>why this lynbrook high home sat on market for so long</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1valkdz/why_this_lynbrook_high_home_sat_on_market_for_so/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1valkdz</guid>
+    <pubDate>Thu, 30 Jul 2026 06:27:54 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/maxy_spy)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/maxy_spy&lt;/p&gt;&lt;p&gt;Had checked this listing when I was shopping in 95129 area. I noticed something fishy about the house. The house was listing way under its selling price and probably got sold at the listing price. What could be the reason? I also noticed that the owner was kind of in hurry to sell this according to the seller agent but the reason is not...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: listing price, zillow.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>What&#x27;s going on with this Atherton house</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1va3luu/whats_going_on_with_this_atherton_house/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1va3luu</guid>
+    <pubDate>Wed, 29 Jul 2026 17:52:14 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Confident-Loss153)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 12&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Confident-Loss153&lt;/p&gt;&lt;p&gt;https://www.redfin.com/CA/Atherton/97-Belleau-Ave-94027/home/1947628 Seems in a better condition than last sold at $3,275,000. However, they keep decreasing the price and no one takes the bait. Is the caltrain track nearby that bad? Considering to send an offer so appreciate the insight.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: redfin.com, $3,275,000&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Thoughts on buying a $2.5M property directly behind Sunnyvale Caltrain Station?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1va1he8/thoughts_on_buying_a_25m_property_directly_behind/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1va1he8</guid>
+    <pubDate>Wed, 29 Jul 2026 16:38:09 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/cosmicChtya)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 19&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/cosmicChtya&lt;/p&gt;&lt;p&gt;​I&amp;#x27;m looking at a multi-unit property listed for $2.5M located right behind the Sunnyvale Caltrain station. ​My plan is to house-hack: live on the 2nd floor with my family while renting out the other units (ADU, 1st floor, basement) for a combined ~$7,000–$8,000/month. How much does being this close to the tracks/station impact resale...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: multi-unit, adu, $2.5m&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>San Ramon is converting unused office space to housing. Should other places in the Bay Area follow?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v9z5bu/san_ramon_is_converting_unused_office_space_to/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v9z5bu</guid>
+    <pubDate>Wed, 29 Jul 2026 15:17:12 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/ShopProp)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 13&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/ShopProp&lt;/p&gt;&lt;p&gt;Instead of trying to convert outdated office buildings, San Ramon is rebuilding the sites as housing. As of mid-2026, the overall office vacancy rate in San Ramon stands at 21.6%, which reaches up to 27.8% specifically for its premium Class A spaces. This is considered very high. At Bishop Ranch alone, 1,501 homes are already under...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, sfchronicle.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Why Funding a Down Payment with Retirement Funds Is a Winning Proposition</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v9wkzx/why_funding_a_down_payment_with_retirement_funds/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v9wkzx</guid>
+    <pubDate>Wed, 29 Jul 2026 13:42:13 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/External_Koala971)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 15&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/External_Koala971&lt;/p&gt;&lt;p&gt;To determine whether these incentives make financial sense for aspiring homeowners, we compare returns on owning a home with average annual stock market returns measured by the S&amp;amp;P 500 Index from 1987 to 2025. We evaluate national homeownership returns on an all-cash basis and with two levels of leverage (20 percent down and 3.5 percent...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: down payment, refinance, housing&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>SF Housing Market vs. Public School Educator: Help Us Find an Off-Market Listing Before AI Takes My Apartment Too</title>
     <link>https://www.reddit.com/r/SFBayHousing/comments/1v96pjr/sf_housing_market_vs_public_school_educator_help/</link>
     <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v96pjr</guid>
@@ -235,6 +388,42 @@
     <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/DanaR99&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing market, housing, sfgate.com&lt;/em&gt;&lt;/p&gt;&lt;p&gt;6 upvotes &amp;middot; 3 comments&lt;/p&gt;</description>
   </item>
   <item>
+    <title>What do you all think about this community, and this property itself too? Not sure what&#x27;s going on - price correction?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v8o2x9/what_do_you_all_think_about_this_community_and/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v8o2x9</guid>
+    <pubDate>Tue, 28 Jul 2026 04:47:04 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Whubwhub)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 19&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Whubwhub&lt;/p&gt;&lt;p&gt;In Jan-Mar this year it seemed like the same units (Looking at the 4 bed/3.5 bath with 1920 sq ft) were going for 1.9 mil, like seen here: https://www.redfin.com/CA/Sunnyvale/542-Santa-Maria-Ter-94085/unit-5/home/167209652 https://www.redfin.com/CA/Sunnyvale/557-Charles-Fraker-Ter-94085/unit-1/home/168871742...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: sfh, redfin.com, 1920 sq ft, 4 bed/3.5 bath&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>What are typical seller prep costs in SF?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v8jwst/what_are_typical_seller_prep_costs_in_sf/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v8jwst</guid>
+    <pubDate>Tue, 28 Jul 2026 01:34:00 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/asdfermeister91)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 19&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/asdfermeister91&lt;/p&gt;&lt;p&gt;Have a friend planning to sell a small house ~900 sq ft but over three stories in SF and they&amp;#x27;re getting quoted anywhere from 9-16k just for interior paint...what is typical? and 2k/LED light add-on.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: planning to sell, 900 sq ft&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>[WORTH A REPLY] After reviewing SF sales data, I think the housing problem is also a turnover problem</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v8f4rp/after_reviewing_sf_sales_data_i_think_the_housing/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v8f4rp</guid>
+    <pubDate>Mon, 27 Jul 2026 22:16:43 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/DrRealBug)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 28&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/DrRealBug&lt;/p&gt;&lt;p&gt;If you don’t want to read the long version, I recorded a video. Link is in the first comment. After reviewing a lot of San Francisco and Bay Area sales data, I came away with one insight I wanted to share: San Francisco does not just have a housing supply problem. It has a housing turnover problem. Yes, the city needs more housing. But...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: property tax, assessed value, housing, housing supply, prop 13, san mateo, $586k, $1.65m&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>[WORTH A REPLY] Redwood City voters will decide on rent control this November</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v823nu/redwood_city_voters_will_decide_on_rent_control/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v823nu</guid>
+    <pubDate>Mon, 27 Jul 2026 14:32:04 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/ShopProp)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 34&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/ShopProp&lt;/p&gt;&lt;p&gt;Redwood City is officially putting a pretty aggressive rent control measure before voters this November. The proposal would cap annual rent increases at 5% or 60% of inflation (whichever is lower) and would generally apply to rental buildings constructed before 1995. It also includes additional eviction protections. The part that jumped...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, landlord, housing shortage, rent control, burlingame, san mateo, the peninsula, sfgate.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>[WORTH A REPLY / POSSIBLE CLIENT] Kitchen renovation</title>
     <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v7s1nz/kitchen_renovation/</link>
     <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v7s1nz</guid>
@@ -251,6 +440,51 @@
     <category>r/AskSF</category>
     <author>reddit-watch@teamhowe.com (u/waffle-crispy)</author>
     <description>&lt;p&gt;&lt;strong&gt;Signal 40&lt;/strong&gt; &amp;middot; r/AskSF &amp;middot; u/waffle-crispy&lt;/p&gt;&lt;p&gt;Hi folks, I have been blissfully unaware of the calamity that is the housing market until this weekend. What the hell? I was thinking it was high time I move up north to enjoy SF while I’m young (and maybe save some $ while I’m at it - was paying $3k for a 1b. I now realize I will not be saving a dime extra). How are you guys surviving?...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: downsizing, move to sf, considering a move to sf, housing market, housing, rent controlled&lt;/em&gt;&lt;/p&gt;&lt;p&gt;15 upvotes &amp;middot; 70 comments&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>NIMBY Fight! Does the Marina still have the power to stop 848 new homes?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v77c9n/nimby_fight_does_the_marina_still_have_the_power/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v77c9n</guid>
+    <pubDate>Sun, 26 Jul 2026 15:41:35 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/ShopProp)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 22&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/ShopProp&lt;/p&gt;&lt;p&gt;The battle over the Marina Safeway redevelopment is heating up, and the NIMBYs have had enough once again. The latest proposal actually makes the buildings shorter while increasing the project from 790 to 848 homes, including 86 affordable units. Normally, this would be the beginning of what San Francisco does best: spending the next...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: housing, nimby, sf planning, sfstandard.com&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>[WORTH A REPLY / POSSIBLE CLIENT] Selling Agent fees?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v6je14/selling_agent_fees/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v6je14</guid>
+    <pubDate>Sat, 25 Jul 2026 20:42:48 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/California-Avocado)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/California-Avocado&lt;/p&gt;&lt;p&gt;What is the typical commission for a listing agent? I’ve always assumed 6% split between the agents….but in the time of fixed fees and whatnot, is there a more common fee that’s negotiated??&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: listing agent&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Golden 1 CU</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v6gwzz/golden_1_cu/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v6gwzz</guid>
+    <pubDate>Sat, 25 Jul 2026 19:05:08 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/SS_salttruth)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 12&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/SS_salttruth&lt;/p&gt;&lt;p&gt;I had a great experience working with our home loan consultant at Golden 1 Credit Union. We secured a 4.875% rate with a -$1,500 lender credit with “only” a $500K relationship. We were initially hesitant about using a credit union, but he took the time to explain the process, answered all our questions, and made everything smooth and...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: loan officer, $500k&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>[WORTH A REPLY / POSSIBLE CLIENT] Lender&#x27;s title insurance</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v6dvwc/lenders_title_insurance/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v6dvwc</guid>
+    <pubDate>Sat, 25 Jul 2026 17:09:34 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/mambmani)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 41&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/mambmani&lt;/p&gt;&lt;p&gt;I put in an offer for a single family home at $1.9M and we are in escrow. I went with the suggested title /escrow company - chicago title company and paid the earnest money already. Now reviewing the bank disclosures, and I see a line item for Lender&amp;#x27;s title insurance is $4000!!! Is this normal for bay area or am I being gouged on this?...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: put in an offer, in escrow, escrow, title insurance, title company, earnest money, single family home, $1.9m&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>How much should I offer over asking for Walnut Creek/Pleasant Hill?</title>
+    <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1v5tjv7/how_much_should_i_offer_over_asking_for_walnut/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1v5tjv7</guid>
+    <pubDate>Sat, 25 Jul 2026 00:52:15 GMT</pubDate>
+    <category>r/BayAreaRealEstate</category>
+    <author>reddit-watch@teamhowe.com (u/Inevitable_Bed3777)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 12&lt;/strong&gt; &amp;middot; r/BayAreaRealEstate &amp;middot; u/Inevitable_Bed3777&lt;/p&gt;&lt;p&gt;I’m targeting a 4 bed $1.3M-$1.5M house in Walnut Creek or Pleasant Hill area. How much is typical to offer over the list price?&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: over asking, $1.3m&lt;/em&gt;&lt;/p&gt;</description>
   </item>
   <item>
     <title>San Francisco home prices have climbed $1 million since the housing crash</title>
