@@ -1,58 +1,59 @@
 {
- "generated_at": "2026-08-05T23:31:34+00:00",
+ "generated_at": "2026-08-06T16:05:25+00:00",
  "last_run": {
-  "subreddits_ok": 4,
+  "subreddits_ok": 0,
   "subreddits_failed": [
-   "SFHousing",
-   "OaklandCA"
+   "sanfrancisco",
+   "AskSF",
+   "SFBayHousing",
+   "BayAreaRealEstate",
+   "marincounty",
+   "SouthBay"
   ],
-  "fetched": 400,
-  "considered": 400,
-  "kept": 48,
+  "fetched": 0,
+  "considered": 0,
+  "kept": 0,
   "new": 0,
-  "hot": 12,
-  "leads": 10,
+  "hot": 0,
+  "leads": 0,
   "transport_counts": {
-   "rss": 400,
+   "rss": 0,
    "old_html": 0,
    "old_search": 0
   },
   "sweeps_this_run": [
-   "buying a house",
-   "selling my house",
-   "home prices",
-   "first time home buyer"
+   "condo",
+   "tenants in common",
+   "mortgage",
+   "open house"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "SFHousing",
-   "OaklandCA"
+   "marincounty",
+   "SouthBay"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 186.8,
-  "finished_at": "2026-08-05T23:31:34+00:00",
+  "duration_seconds": 83.7,
+  "finished_at": "2026-08-06T16:05:25+00:00",
   "blocked_hosts": {
-   "old.reddit.com": "HTTP 403"
+   "old.reddit.com": "HTTP 403",
+   "www.reddit.com": "HTTP 403"
   },
-  "rate_limited": 7,
-  "rate_limit_wait_seconds": 120.0,
+  "rate_limited": 2,
+  "rate_limit_wait_seconds": 65.0,
   "fetch_log": [
+   "HTTP 403 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+buying+a+house&sort=new&t=month&restrict_sr=on",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+condo&sort=new&t=month&restrict_sr=on",
    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-   "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
-   "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 403 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "SKIPPING www.reddit.com for the rest of this run (403 refused 2 times)"
   ]
  }
 }
