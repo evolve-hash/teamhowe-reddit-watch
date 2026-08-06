@@ -11,6 +11,8 @@ Team Howe Reddit Watch - command line entry point.
     python3 cli.py mark-seen  treat everything currently tracked as already
                               alerted, so the next alert email only contains
                               genuinely new threads
+    python3 cli.py rescore    re-check everything already stored against the
+                              current area rules and drop what is out of area
 
 Options:
     --config PATH     default config.json
@@ -45,9 +47,11 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Team Howe Reddit Watch")
     parser.add_argument("command",
                         choices=["crawl", "build", "alerts", "digest", "run", "test",
-                                 "mark-seen"])
+                                 "mark-seen", "rescore"])
     parser.add_argument("--config", default=os.path.join(HERE, "config.json"))
     parser.add_argument("--keywords", default=os.path.join(HERE, "keywords.json"))
+    parser.add_argument("--neighborhoods",
+                        default=os.path.join(HERE, "neighborhoods.json"))
     parser.add_argument("--data", default=os.path.join(HERE, "data", "posts.json"))
     parser.add_argument("--out", default=os.path.join(HERE, "docs"))
     parser.add_argument("--dry-run", action="store_true")
@@ -56,6 +60,8 @@ def main(argv=None):
 
     config = load_json(args.config)
     keywords = load_json(args.keywords)
+    # Team Howe's operating area, straight out of Sherri's sales sheet.
+    neighborhoods = load_json(args.neighborhoods).get("neighborhoods", [])
     verbose = not args.quiet
     store = Store(args.data)
 
@@ -64,7 +70,7 @@ def main(argv=None):
             print(*parts)
 
     if args.command == "test":
-        return _selftest(config, keywords, verbose)
+        return _selftest(config, keywords, verbose, neighborhoods)
 
     if args.command == "mark-seen":
         # Useful right after setup, or after lowering a threshold: the backlog
@@ -77,10 +83,14 @@ def main(argv=None):
             "Alerts now only fire for threads found from here on.".format(len(pending)))
         return 0
 
+    if args.command == "rescore":
+        return _rescore(config, keywords, neighborhoods, store, say)
+
     exit_code = 0
 
     if args.command in ("crawl", "run"):
-        stats, new_records = crawl.run(config, keywords, store, verbose=verbose)
+        stats, new_records = crawl.run(config, keywords, store, verbose=verbose,
+                                      neighborhoods=neighborhoods)
         store.save()
         say("")
         say("  {} of {} subreddits this run (the rest rotate in later runs)".format(
@@ -92,11 +102,18 @@ def main(argv=None):
         if stats["subreddits_failed"]:
             say("  no data from: {}".format(", ".join(stats["subreddits_failed"])))
         if not stats["subreddits_ok"]:
-            print("ERROR: every subreddit failed - reddit is refusing this IP.",
+            # Deliberately NOT a non-zero exit. Reddit refusing a datacenter IP
+            # for a few minutes is weather, not a bug, and failing the job also
+            # skipped the publish step - so the site went stale over something
+            # that fixes itself on the next run. A GitHub warning annotation
+            # makes it visible without breaking the pipeline.
+            print("::warning title=Reddit refused this runner::"
+                  "Every subreddit returned nothing this run. The dashboard still "
+                  "shows the last good data; the next run will pick it up.")
+            print("WARNING: every subreddit failed - reddit is refusing this IP.",
                   file=sys.stderr)
             for line in stats["fetch_log"][:6]:
                 print("  " + line, file=sys.stderr)
-            exit_code = 2
         _write_status(args.out, stats)
 
     if args.command in ("build", "run"):
@@ -155,6 +172,100 @@ def main(argv=None):
     return exit_code
 
 
+def _neighborhood_points(hits, scorer):
+    """Re-derive the neighbourhood tier's points under the current weights."""
+    weights = []
+    for hit in hits:
+        best = 0.0
+        needle = str(hit).lower()
+        for phrase, name, weight in scorer.neighborhoods:
+            if needle == phrase or needle == name.lower():
+                best = max(best, weight)
+        if best:
+            weights.append(best)
+    if not weights:
+        return 0.0
+    weights.sort(reverse=True)
+    base = weights[0]
+    return base + min(len(weights) - 1, 4) * 0.25 * base
+
+
+def _rescore(config, keywords, neighborhoods, store, say):
+    """
+    Re-check stored threads against the current operating area and drop the ones
+    that never belonged - run it after editing neighborhoods.json or the
+    out_of_area list.
+
+    Deliberately conservative: it only removes a thread that is *vetoed*, i.e.
+    it names a place outside San Francisco and nothing ties it to the city. It
+    does not recompute relevance, because the store keeps a 340-character
+    excerpt rather than the full body, and re-scoring a truncated body would
+    throw away good threads on missing evidence.
+    """
+    from watcher.scoring import Scorer
+
+    scorer = Scorer(keywords, config.get("geo_terms", []), neighborhoods,
+                    config.get("sf_proof_terms", []))
+    dropped, kept = [], 0
+    for record in list(store.posts()):
+        # The stored tier breakdown was computed from the FULL body at crawl
+        # time, so it is trustworthy in a way the truncated excerpt is not. Use
+        # it to re-apply the "a neighbourhood alone is not a qualifier" rule.
+        stored_tiers = record.get("tiers") or {}
+        if ("neighborhoods" in stored_tiers
+                and not any(k in stored_tiers for k in Scorer.CORE_TIERS)):
+            dropped.append((record, {"veto_reason": "names a neighbourhood but "
+                                                    "nothing about property"}))
+            continue
+
+        # Neighbourhood weights changed (6/4/2 -> 3/2/1). Rather than re-score a
+        # truncated excerpt, recompute just that tier's contribution from the
+        # stored hit list - those hits came from the full body, so the arithmetic
+        # is exact - and adjust the score by the difference.
+        tier = stored_tiers.get("neighborhoods")
+        if tier and tier.get("hits"):
+            fresh = _neighborhood_points(tier["hits"], scorer)
+            delta = fresh - float(tier.get("points") or 0)
+            if delta:
+                record["relevance"] = max(0, int(round(
+                    (record.get("relevance") or 0) + delta)))
+                tier["points"] = round(fresh, 1)
+        if (record.get("relevance") or 0) < config.get("thresholds", {}).get(
+                "include_score", 11):
+            dropped.append((record, {"veto_reason": "score fell below the threshold "
+                                                    "once neighbourhood weight was "
+                                                    "corrected"}))
+            continue
+        result = scorer.score({
+            "title": record.get("title", ""),
+            "body": record.get("excerpt", ""),
+            "domain": record.get("domain", ""),
+            "external_url": record.get("external_url", ""),
+            "flair": record.get("flair", ""),
+        })
+        if result.get("vetoed"):
+            dropped.append((record, result))
+        else:
+            record["neighborhoods"] = result.get("neighborhoods") or []
+            kept += 1
+
+    for record, _result in dropped:
+        store.state["posts"].pop(record["id"], None)
+        store.state["alerted"].pop(record["id"], None)
+    store.save()
+
+    say("Rescored against Team Howe's operating area.")
+    say("  kept {}   dropped {} as out of area".format(kept, len(dropped)))
+    if dropped:
+        say("")
+        say("  Dropped:")
+        for record, result in sorted(dropped, key=lambda d: -d[0].get("relevance", 0)):
+            say("    [{:>3}] {:<58} -> {}".format(
+                record.get("relevance", 0), (record.get("title") or "")[:58],
+                result.get("veto_reason") or "out of area"))
+    return 0
+
+
 def _dump_preview(out_dir, name, html_body, say):
     if not os.path.isdir(out_dir):
         os.makedirs(out_dir)
@@ -174,7 +285,7 @@ def _write_status(out_dir, stats):
         }, handle, indent=1)
 
 
-def _selftest(config, keywords, verbose):
+def _selftest(config, keywords, verbose, neighborhoods=None):
     """Score the bundled sample pages - proves parsing and scoring offline."""
     from watcher import transports
     from watcher.scoring import Scorer, classify
@@ -184,7 +295,8 @@ def _selftest(config, keywords, verbose):
         print("No samples/ directory to test against.", file=sys.stderr)
         return 1
 
-    scorer = Scorer(keywords, config.get("geo_terms", []))
+    scorer = Scorer(keywords, config.get("geo_terms", []), neighborhoods,
+                    config.get("sf_proof_terms", []))
     groups = []
     checks = []
 

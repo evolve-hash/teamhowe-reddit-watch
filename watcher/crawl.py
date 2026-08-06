@@ -12,7 +12,7 @@ from . import transports
 from .scoring import Scorer, classify
 
 
-def run(config, keywords, store, verbose=True):
+def run(config, keywords, store, verbose=True, neighborhoods=None):
     crawler = config.get("crawler", {})
     thresholds = config.get("thresholds", {})
     fetcher = transports.Fetcher(
@@ -23,7 +23,8 @@ def run(config, keywords, store, verbose=True):
         mirrors=crawler.get("mirrors", []),
         rate_budget=crawler.get("rate_limit_budget_seconds", 150),
     )
-    scorer = Scorer(keywords, config.get("geo_terms", []))
+    scorer = Scorer(keywords, config.get("geo_terms", []), neighborhoods,
+                    config.get("sf_proof_terms", []))
     max_age = thresholds.get("max_post_age_days", 21)
     cutoff = transports.now_utc() - max_age * 86400
 
@@ -200,6 +201,8 @@ def _record(post, result, verdict, subreddit):
         "verdict": verdict,
         "hits": result["hits"],
         "tiers": result["tiers"],
+        "neighborhoods": result.get("neighborhoods") or [],
+        "out_of_area": result.get("out_of_area") or [],
         "found_via": post.get("found_via"),
         "sources": post.get("sources") or post.get("source") or "",
         "first_seen": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),

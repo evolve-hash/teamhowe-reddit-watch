@@ -49,8 +49,9 @@ So every post is scored across independent tiers, and the tiers add up:
 | News / listing sources | 7 | sfchronicle.com, socketsite.com, sfyimby.com, zillow.com, redfin.com |
 | Market talk | 6 | home prices, inventory, interest rates, HOA dues, property tax |
 | Price & listing patterns | 5 | `$1.4M`, `$950k`, `3bd/2ba`, `1,200 sq ft`, `6.5% rate` |
-| Neighborhoods | 3 | Noe Valley, Outer Sunset, Sea Cliff, Bernal Heights, and 80 more |
+| Team Howe neighborhood | 6 / 4 / 2 | by Sherri's own H/M/L priority — Bernal Heights and Inner Mission score 6, Russian Hill 4, SoMa 2 |
 | Not-a-sale penalty | −14 | roommate wanted, sublet, apartment for rent, hiring, best burrito |
+| Outside the area | veto | Oakland, Fremont, Palo Alto, Marin, the Peninsula — see below |
 
 A tier scores its weight once, plus a quarter of it for each additional phrase.
 So a post saying "realtor" six times does not outrank a post that genuinely
@@ -81,6 +82,42 @@ title are folded into one entry with an "also in r/…" note.
 
 The repository ships already populated with that run, so the dashboard has
 real content in it the moment Pages goes live.
+
+---
+
+## The operating area is a gate, not a preference
+
+`neighborhoods.json` is the 70 San Francisco neighbourhoods from the **Team Howe
+Sales** sheet of `SF Neighborhoods.xlsx`, with Sherri's own H/M/L priority — 32
+high, 21 medium, 17 low. The priority *is* the weight: a Bernal Heights mention
+is worth three times a Candlestick Point mention, because that is what the sales
+record says.
+
+Anything outside San Francisco is not down-ranked, it is **dropped**. A thread
+that names Fremont, Palo Alto, Oakland or the Peninsula and never ties itself to
+San Francisco never reaches the dashboard, so nobody has to read it to find that
+out. Running this against the threads already collected removed **30 of 85** —
+Fremont realtor requests, a Peninsula price analysis, Redwood City rent control,
+El Cerrito, Lafayette, Menlo Park, Palo Alto, Walnut Creek, Atherton.
+
+A thread naming both — "moving from Oakland to Noe Valley" — is kept, with a
+six-point deduction. It is still someone buying in Noe Valley.
+
+Two false positives were found and fixed while building this, and they are worth
+knowing about because they show the shape of the risk:
+
+- **Chicago Title** is a title insurer used across California, so a thread about
+  lender's title insurance was being thrown out for naming its insurer.
+  `chicago` is therefore deliberately *not* on the out-of-area list.
+- **The Ellis Act** is San Francisco law, but a thread about it mentioned Texas
+  in passing and got vetoed. Hence `sf_proof_terms` in `config.json`: a short,
+  deliberately narrow list of terms that prove San Francisco on their own. Rent
+  control, ADUs and Prop 13 are **not** on it — they are statewide, and including
+  them would have rescued the Redwood City thread.
+
+Subreddits are never excluded by name. r/Noe_Valley and r/bernalheights were
+checked and do not exist; neighbourhood conversation happens in the big general
+subs, so those stay and the filtering happens per thread.
 
 ---
 
@@ -243,16 +280,34 @@ Nothing about the live site depends on this. GitHub Pages serves a static file;
 it is up whether or not anything has crawled recently. The schedule only affects
 how fresh the numbers are.
 
-### 7. Refreshing it by hand, from the site
+### 7. Refreshing it from the page
 
-The dashboard has a **Refresh now** button in the top-right. It opens the
-Actions page for the workflow, where **Run workflow** is one click. Three
-minutes later the site has rebuilt.
+The **Refresh now** button in the top-right starts a crawl, shows a running
+timer, and reloads the page when the new data is live — about four minutes,
+most of it the crawler being polite to Reddit. Nobody visits GitHub.
 
-It is a link rather than a real button on purpose: triggering a workflow needs a
-GitHub token, and the dashboard is a public page. Embedding a token there would
-let anyone on the internet act on the repository. One extra click is the right
-price for that.
+That needs somewhere authenticated to send the request, because a token cannot
+live in a public page. `worker/` holds a ~100-line Cloudflare Worker that does
+exactly one thing: dispatch this one workflow. Free plan, no card.
+**`worker/README.md` is the five-step setup.**
+
+Until `site.refresh_endpoint` is set in `config.json` the button falls back to
+opening the Actions page, so it is never broken mid-setup.
+
+### 7b. Marking something not relevant
+
+Sherri's ask: *"it would be nice to be able to check it off the list as not
+relevant so I don't have to keep seeing it."* Every thread has a **Not relevant**
+button. It disappears, the headline count drops, and it stays gone — kept in that
+browser, so it is instant and needs nothing from the server. "Review dismissed"
+brings the list back if she changes her mind.
+
+Dismissals are also read for a pattern. Dismiss two threads naming the same
+place and the page says so, and hands over the exact line to change in
+`keywords.json` or `neighborhoods.json`, with a copy button. It stops short of
+editing anything itself on purpose: one click silently blacklisting a place could
+quietly switch off Noe Valley, and nobody would know why the good threads
+stopped.
 
 ### 8. Kick off the first run
 

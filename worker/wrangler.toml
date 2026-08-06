@@ -1,0 +1,20 @@
+# Cloudflare Worker that lets the dashboard's Refresh button start a crawl.
+# Free plan, no credit card. Deploy instructions: worker/README.md
+
+name = "teamhowe-reddit-watch"
+main = "index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# Which repository to dispatch, which workflow file, and which branch.
+REPO = "evolve-hash/teamhowe-reddit-watch"
+WORKFLOW = "watch.yml"
+BRANCH = "main"
+
+# Only the dashboard may call this endpoint. Browsers enforce it; it is not a
+# hard security boundary (an Origin header can be forged) which is why the
+# Worker also rate-limits. Add localhost while testing if you want.
+ALLOWED_ORIGINS = "https://evolve-hash.github.io"
+
+# GITHUB_TOKEN is NOT here on purpose. It is a secret:
+#   npx wrangler secret put GITHUB_TOKEN

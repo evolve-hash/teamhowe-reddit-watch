@@ -205,6 +205,34 @@ html[data-theme=dark] .seg button[aria-pressed=true]{background:var(--beige);col
 .btn:hover{background:var(--ink);color:var(--surface)}
 .btn.primary{background:var(--ink);color:var(--surface)}
 .btn.primary:hover{background:var(--beige-deep);border-color:var(--beige-deep);color:#fff}
+.btn.dismiss{border-color:var(--border-2);color:var(--muted)}
+.btn.dismiss:hover{background:var(--hot);border-color:var(--hot);color:#fff}
+.card.gone{display:none}
+.dismissbar{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding:16px 0;border-bottom:1px solid var(--border);
+}
+.dismissbar .n{font-size:12.5px;color:var(--muted)}
+.linkbtn{
+  background:none;border:0;padding:0;cursor:pointer;font-family:var(--font);
+  font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--beige-deep);border-bottom:1px solid var(--border-2);
+}
+.linkbtn:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.learn{
+  background:var(--surface-3);border:1px solid var(--border-2);
+  padding:22px 24px;margin:20px 0 0;
+}
+.learn h3{font-size:15px;font-weight:500;margin:0 0 8px}
+.learn p{margin:0 0 14px;font-size:13.5px;color:var(--ink-soft);font-weight:300;max-width:70ch}
+.learn code{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  padding:12px 14px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:12px;color:var(--ink);white-space:pre-wrap;word-break:break-word;margin:0 0 12px;
+}
+.learn .why{font-size:12.5px;color:var(--muted);margin-bottom:12px}
+.review .card{opacity:.55}
+.review .card .btn.dismiss{border-color:var(--lead);color:var(--lead)}
 .empty{padding:80px 0;text-align:center;color:var(--muted)}
 .empty strong{display:block;font-size:20px;color:var(--ink);font-weight:400;margin-bottom:8px}
 
@@ -377,6 +405,20 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
   <span class="count" id="count"></span>
 </div></section>
 
+<section class="dismissbar" id="dismissbar" hidden><div class="wrap" style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+  <span class="n" id="dismiss-n"></span>
+  <button class="linkbtn" id="dismiss-toggle" type="button">Review dismissed</button>
+  <button class="linkbtn" id="dismiss-clear" type="button">Bring them all back</button>
+</div></section>
+
+<section id="learnwrap"><div class="wrap"><div class="learn" id="learn" hidden>
+  <h3 id="learn-title"></h3>
+  <p id="learn-body"></p>
+  <div class="why" id="learn-why"></div>
+  <code id="learn-code"></code>
+  <button class="btn" id="learn-copy" type="button">Copy this</button>
+</div></div></section>
+
 <main class="results"><div class="wrap" id="list"></div></main>
 
 <footer><div class="wrap">
@@ -403,7 +445,30 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
   "use strict";
   var DATA = JSON.parse(document.getElementById("payload").textContent);
   var posts = DATA.posts, daily = DATA.daily;
-  var state = {q:"", sub:"", view:"hot", sort:"relevance", range:14};
+  var state = {q:"", sub:"", view:"hot", sort:"relevance", range:14, review:false};
+
+  /* ---------------------------------------------------------- dismissals --
+     Sherri's request: "it would be nice to be able to check it off the list as
+     not relevant so I don't have to keep seeing it". Kept in this browser, so
+     it works instantly and offline and needs nothing from the server. What she
+     dismisses is also used to spot a pattern - see renderLearn(). */
+  var DKEY = "teamhowe-reddit-watch-dismissed-v1";
+  var dismissed = {};
+  try { dismissed = JSON.parse(localStorage.getItem(DKEY) || "{}") || {}; }
+  catch (e) { dismissed = {}; }
+  function persist(){
+    try { localStorage.setItem(DKEY, JSON.stringify(dismissed)); } catch (e) {}
+  }
+  function isDismissed(id){ return Object.prototype.hasOwnProperty.call(dismissed, id); }
+  function dismiss(p){
+    dismissed[p.id] = {
+      t: p.title, sub: p.subreddit,
+      places: p.places || [], elsewhere: p.elsewhere || [],
+      when: Math.floor(Date.now()/1000)
+    };
+    persist();
+  }
+  function restore(id){ delete dismissed[id]; persist(); }
 
   /* ------------------------------------------------------------- theme -- */
   var root = document.documentElement, tbtn = document.getElementById("themebtn");
@@ -540,6 +605,8 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
   }).join("");
 
   function matches(p){
+    if (state.review) return isDismissed(p.id);
+    if (isDismissed(p.id)) return false;
     if (state.sub && p.subreddit !== state.sub) return false;
     if (state.view === "hot" && p.verdict !== "hot") return false;
     if (state.range < 9999){
@@ -566,6 +633,9 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
     if (p.verdict === "hot") badges.push('<span class="badge hot">&#9873; Worth a reply</span>');
     if (p.is_lead) badges.push('<span class="badge lead">&#9679; Possible client</span>');
     if (p.fresh) badges.push('<span class="badge new">New</span>');
+    (p.places || []).slice(0,3).forEach(function(place){
+      badges.push('<span class="badge new">' + esc(place) + '</span>');
+    });
 
     var meta = ['<span>r/' + esc(p.subreddit) + "</span>"];
     meta.push('<span><a href="' + esc(p.author_url||"#") + '" target="_blank" rel="noopener">u/' + esc(p.author) + "</a></span>");
@@ -586,6 +656,9 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
     actions += '<a class="btn" href="' + esc(p.permalink) + '" target="_blank" rel="noopener">Reply on Reddit</a>';
     if (p.author && p.author !== "unknown")
       actions += '<a class="btn" href="https://www.reddit.com/user/' + esc(p.author) + '" target="_blank" rel="noopener">See u/' + esc(p.author) + '</a>';
+    actions += state.review
+      ? '<button class="btn dismiss" type="button" data-restore="' + esc(p.id) + '">Bring back</button>'
+      : '<button class="btn dismiss" type="button" data-dismiss="' + esc(p.id) + '">Not relevant</button>';
     if (p.external_url && p.external_url.indexOf("http") === 0 && p.domain.indexOf("self.") !== 0)
       actions += '<a class="btn" href="' + esc(p.external_url) + '" target="_blank" rel="noopener">Source article</a>';
 
@@ -604,16 +677,126 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
   function render(){
     var rows = posts.filter(matches).sort(SORTS[state.sort]).slice(0, DATA.max_posts);
     var list = document.getElementById("list");
+    list.className = state.review ? "wrap review" : "wrap";
     document.getElementById("count").textContent =
-      rows.length + (rows.length === 1 ? " thread" : " threads");
+      rows.length + (rows.length === 1 ? " thread" : " threads")
+      + (state.review ? " dismissed" : "");
     if (!rows.length){
-      list.innerHTML = '<div class="empty"><strong>Nothing matches those filters.</strong>' +
-        "Try widening the time range, or switch to Everything.</div>";
-      return;
+      list.innerHTML = '<div class="empty"><strong>' +
+        (state.review ? "Nothing dismissed yet."
+                      : "Nothing matches those filters.") + "</strong>" +
+        (state.review ? "Use \u201cNot relevant\u201d on a thread and it will stop appearing here."
+                      : "Try widening the time range, or switch to Everything.") + "</div>";
+    } else {
+      list.innerHTML = rows.map(card).join("");
     }
-    list.innerHTML = rows.map(card).join("");
+    renderDismissBar();
+    renderLearn();
+    /* The headline number should reflect what is actually left to read. */
+    var openHot = posts.filter(function(p){
+      return p.verdict === "hot" && !isDismissed(p.id);
+    }).length;
+    var hotEl = document.querySelector(".kpi.is-hot .k-value");
+    if (hotEl) hotEl.textContent = openHot;
   }
 
+  /* ------------------------------------------------------- dismissed bar -- */
+  function renderDismissBar(){
+    var ids = Object.keys(dismissed);
+    var bar = document.getElementById("dismissbar");
+    if (!ids.length){ bar.hidden = true; return; }
+    bar.hidden = false;
+    document.getElementById("dismiss-n").textContent =
+      ids.length + (ids.length === 1 ? " thread marked not relevant" : " threads marked not relevant");
+    document.getElementById("dismiss-toggle").textContent =
+      state.review ? "Back to the list" : "Review dismissed";
+  }
+
+  /* ------------------------------------------------------------ learning --
+     One dismissal is a judgement call; the same place three times is a rule the
+     watcher is missing. So the page counts what keeps leaking and hands over the
+     exact line to add - reviewed by a person, because auto-blacklisting a place
+     from a single click could quietly silence Noe Valley. */
+  function renderLearn(){
+    var box = document.getElementById("learn");
+    var counts = {}, kinds = {};
+    Object.keys(dismissed).forEach(function(id){
+      var d = dismissed[id] || {};
+      (d.elsewhere || []).forEach(function(x){
+        counts[x] = (counts[x]||0) + 1; kinds[x] = "out_of_area";
+      });
+      (d.places || []).forEach(function(x){
+        counts[x] = (counts[x]||0) + 1; kinds[x] = "neighborhood";
+      });
+      if (!(d.elsewhere||[]).length && !(d.places||[]).length){
+        var key = "r/" + (d.sub || "?");
+        counts[key] = (counts[key]||0) + 1; kinds[key] = "subreddit";
+      }
+    });
+    var top = Object.keys(counts).filter(function(k){ return counts[k] >= 2; })
+                    .sort(function(a,b){ return counts[b]-counts[a]; });
+    if (!top.length){ box.hidden = true; return; }
+
+    var term = top[0], kind = kinds[term], n = counts[term];
+    box.hidden = false;
+    document.getElementById("learn-title").textContent =
+      "A pattern in what you are dismissing";
+    var body, code, why;
+    if (kind === "out_of_area"){
+      body = "You have marked " + n + " threads mentioning \u201c" + term +
+             "\u201d as not relevant, and it is already on the out-of-area list \u2014 " +
+             "so these got through because the thread also mentioned San Francisco. " +
+             "Worth a look at whether that pairing is ever useful to you.";
+      code = "already in keywords.json \u2192 out_of_area \u2192 \"" + term + "\"";
+      why = "No change needed unless you want the pairing dropped too.";
+    } else if (kind === "neighborhood"){
+      body = "You have dismissed " + n + " threads about " + term +
+             ", which is on Team Howe\u2019s list. If it is no longer an area you want " +
+             "to hear about, lower or remove it in neighborhoods.json.";
+      code = "neighborhoods.json \u2192 find \"" + term + "\" \u2192 set \"weight\": 0";
+      why = "Weight 0 keeps the record but stops it earning points.";
+    } else {
+      body = "You have dismissed " + n + " threads from " + term +
+             " with no place named. That subreddit may simply not be worth watching.";
+      code = "config.json \u2192 subreddits \u2192 remove { \"name\": \"" +
+             term.replace("r/","") + "\" }";
+      why = "Removing it also frees up requests against Reddit\u2019s rate limit.";
+    }
+    document.getElementById("learn-body").textContent = body;
+    document.getElementById("learn-why").textContent = why;
+    document.getElementById("learn-code").textContent = code;
+  }
+
+  document.getElementById("list").addEventListener("click", function(ev){
+    var el = ev.target.closest ? ev.target.closest("[data-dismiss],[data-restore]") : null;
+    if (!el) return;
+    ev.preventDefault();
+    var id = el.getAttribute("data-dismiss");
+    if (id){
+      var post = null;
+      for (var i=0;i<posts.length;i++) if (posts[i].id === id) { post = posts[i]; break; }
+      if (post) dismiss(post);
+    } else {
+      restore(el.getAttribute("data-restore"));
+    }
+    render();
+  });
+  document.getElementById("dismiss-toggle").addEventListener("click", function(){
+    state.review = !state.review; render();
+    window.scrollTo({top: document.querySelector(".results").offsetTop - 80, behavior: "smooth"});
+  });
+  document.getElementById("dismiss-clear").addEventListener("click", function(){
+    if (!Object.keys(dismissed).length) return;
+    dismissed = {}; persist(); state.review = false; render();
+  });
+  document.getElementById("learn-copy").addEventListener("click", function(){
+    var text = document.getElementById("learn-code").textContent;
+    var btn = this;
+    function done(){ btn.textContent = "Copied"; setTimeout(function(){ btn.textContent = "Copy this"; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, done);
+    } else { done(); }
+  });
   document.getElementById("q").addEventListener("input", function(e){ state.q = e.target.value; render(); });
   subSelect.addEventListener("change", function(e){ state.sub = e.target.value; render(); });
   document.getElementById("sort").addEventListener("change", function(e){ state.sort = e.target.value; render(); });
@@ -639,6 +822,61 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
     state.view = "all";
     Array.prototype.forEach.call(document.querySelectorAll(".seg button"), function(btn){
       btn.setAttribute("aria-pressed", btn.getAttribute("data-view") === "all" ? "true" : "false");
+    });
+  }
+
+  /* ---------------------------------------------------------- refreshing --
+     Press it and the crawl starts on GitHub's servers. The page then watches
+     status.json until the timestamp moves, and reloads itself. Nobody has to
+     visit GitHub, and nobody has to guess whether it worked. */
+  var refreshBtn = document.getElementById("refreshbtn");
+  if (refreshBtn){
+    var POLL_MS = 15000, GIVE_UP_MS = 8 * 60 * 1000;
+    refreshBtn.addEventListener("click", function(){
+      var btn = refreshBtn, endpoint = btn.getAttribute("data-endpoint");
+      var started = Date.now();
+      function say(text){ btn.textContent = text; }
+      function fail(text){
+        btn.disabled = false; say(text);
+        setTimeout(function(){ say("Refresh now"); }, 6000);
+      }
+      btn.disabled = true; say("Starting\u2026");
+
+      fetch(endpoint, {method:"POST", headers:{"Content-Type":"application/json"}})
+        .then(function(res){
+          return res.json().catch(function(){ return {}; }).then(function(body){
+            return {status: res.status, body: body};
+          });
+        })
+        .then(function(r){
+          if (r.status === 202 && r.body.ok){ watch(); return; }
+          if (r.status === 429){ fail("Just refreshed \u2014 wait a minute"); return; }
+          fail("Failed \u2014 see console");
+          if (r.body.error) console.error("[reddit-watch] refresh:", r.body.error);
+        })
+        .catch(function(err){
+          console.error("[reddit-watch] refresh:", err);
+          fail("Could not reach the refresher");
+        });
+
+      function watch(){
+        var elapsed = Date.now() - started;
+        var mins = Math.floor(elapsed/60000), secs = Math.floor((elapsed%60000)/1000);
+        say("Crawling\u2026 " + mins + ":" + (secs < 10 ? "0" : "") + secs);
+        if (elapsed > GIVE_UP_MS){ fail("Still running \u2014 reload shortly"); return; }
+        fetch("status.json?cb=" + Date.now(), {cache:"no-store"})
+          .then(function(res){ return res.ok ? res.json() : null; })
+          .then(function(status){
+            var stamp = status && status.generated_at;
+            if (stamp && DATA.built_at && stamp > DATA.built_at){
+              say("Updated \u2014 reloading");
+              setTimeout(function(){ location.reload(); }, 700);
+            } else {
+              setTimeout(watch, POLL_MS);
+            }
+          })
+          .catch(function(){ setTimeout(watch, POLL_MS); });
+      }
     });
   }
 
@@ -692,6 +930,8 @@ def build(config, store, out_path):
             "hits": record.get("hits", [])[:8],
             "fresh": (record.get("created_utc") or 0) >= fresh_cutoff,
             "also_in": record.get("also_in") or [],
+            "places": record.get("neighborhoods") or [],
+            "elsewhere": record.get("out_of_area") or [],
         })
 
     daily = _daily_series(records, chart_days)
@@ -726,7 +966,8 @@ def build(config, store, out_path):
         "__COPYRIGHT__": brand.copyright_line(now.year),
         "__LEGAL__": brand.LEGAL,
         "__BAR__": brand.BEIGE,
-        "__REFRESH_BTN__": _refresh_button(site.get("repo_url", "")),
+        "__REFRESH_BTN__": _refresh_button(site.get("repo_url", ""),
+                                          site.get("refresh_endpoint", "")),
         "__KPI_HOT__": str(len(hot)),
         "__KPI_WEEK__": str(len(this_week)),
         "__KPI_WEEK_DELTA__": week_delta,
@@ -738,7 +979,8 @@ def build(config, store, out_path):
         "__CHART_DAYS__": str(chart_days),
         "__DATA__": json.dumps(
             {"posts": payload_posts, "daily": daily,
-             "max_posts": int(dash.get("max_posts", 300))},
+             "max_posts": int(dash.get("max_posts", 300)),
+             "built_at": now.replace(microsecond=0).isoformat()},
             ensure_ascii=False,
         ).replace("</", "<\\/"),
     }
@@ -759,15 +1001,20 @@ def build(config, store, out_path):
     }
 
 
-def _refresh_button(repo_url):
+def _refresh_button(repo_url, endpoint=""):
     """
-    Link to the Actions page, where "Run workflow" is one click.
+    A real button when there is somewhere authenticated to send the request, and
+    a link to the Actions page when there is not.
 
-    Deliberately a link and not a real button: triggering a workflow needs a
-    GitHub token, and this page is public. Putting a token in it would let
-    anyone on the internet act on the repository. One extra click is the
-    correct price for that.
+    Triggering a workflow needs a GitHub token and this page is public, so the
+    token lives in a tiny Cloudflare Worker instead (see worker/README.md) and
+    the button calls that. Until `site.refresh_endpoint` is configured the button
+    still works, it just opens GitHub - so the dashboard is never broken
+    mid-setup.
     """
+    if endpoint:
+        return ('<button class="refreshbtn" id="refreshbtn" type="button" '
+                'data-endpoint="{}">Refresh now</button>').format(endpoint.rstrip("/"))
     if not repo_url:
         return ""
     return ('<a class="refreshbtn" target="_blank" rel="noopener" '

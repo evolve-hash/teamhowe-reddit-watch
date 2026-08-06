@@ -1,0 +1,670 @@
+{
+ "_comment": "Team Howe's actual operating area, taken from the 'Team Howe Sales ao 6.22.21' sheet of SF Neighborhoods.xlsx. 70 San Francisco neighborhoods with Sherri's own H/M/L priority, which is what the weight comes from: high 3, medium 2, low 1. Deliberately modest, and only counted when the thread already has a real-estate signal - at higher weights a bare neighbourhood mention pushed local-life posts ('dishwasher installation') onto the dashboard. A neighborhood that is not on this list is not scored - it is not their area.",
+ "_source": "SF Neighborhoods.xlsx / sheet 'Team Howe Sales ao 6.22.21' (2021-06-22)",
+ "neighborhoods": [
+  {
+   "name": "Bernal Heights",
+   "priority": "high",
+   "weight": 3,
+   "sales": 23,
+   "match": [
+    "bernal",
+    "bernal heights"
+   ]
+  },
+  {
+   "name": "Inner Mission",
+   "priority": "high",
+   "weight": 3,
+   "sales": 23,
+   "match": [
+    "inner mission",
+    "mission district",
+    "the mission"
+   ]
+  },
+  {
+   "name": "Noe Valley",
+   "priority": "high",
+   "weight": 3,
+   "sales": 18,
+   "match": [
+    "noe valley"
+   ]
+  },
+  {
+   "name": "Parkside",
+   "priority": "high",
+   "weight": 3,
+   "sales": 11,
+   "match": [
+    "parkside"
+   ]
+  },
+  {
+   "name": "Hayes Valley",
+   "priority": "high",
+   "weight": 3,
+   "sales": 9,
+   "match": [
+    "hayes valley"
+   ]
+  },
+  {
+   "name": "Lower Pacific Heights",
+   "priority": "high",
+   "weight": 3,
+   "sales": 9,
+   "match": [
+    "lower pac heights",
+    "lower pacific heights"
+   ]
+  },
+  {
+   "name": "Eureka Valley / Dolores Heights",
+   "priority": "high",
+   "weight": 3,
+   "sales": 8,
+   "match": [
+    "dolores heights",
+    "eureka valley"
+   ]
+  },
+  {
+   "name": "Excelsior",
+   "priority": "high",
+   "weight": 3,
+   "sales": 8,
+   "match": [
+    "excelsior"
+   ]
+  },
+  {
+   "name": "Inner Sunset",
+   "priority": "high",
+   "weight": 3,
+   "sales": 8,
+   "match": [
+    "inner sunset",
+    "sunset district",
+    "the sunset"
+   ]
+  },
+  {
+   "name": "Lake Street",
+   "priority": "high",
+   "weight": 3,
+   "sales": 7,
+   "match": [
+    "lake street"
+   ]
+  },
+  {
+   "name": "Miraloma Park",
+   "priority": "high",
+   "weight": 3,
+   "sales": 7,
+   "match": [
+    "miraloma",
+    "miraloma park"
+   ]
+  },
+  {
+   "name": "Outer Sunset",
+   "priority": "high",
+   "weight": 3,
+   "sales": 7,
+   "match": [
+    "outer sunset"
+   ]
+  },
+  {
+   "name": "Glen Park",
+   "priority": "high",
+   "weight": 3,
+   "sales": 6,
+   "match": [
+    "glen park"
+   ]
+  },
+  {
+   "name": "Inner Richmond",
+   "priority": "high",
+   "weight": 3,
+   "sales": 6,
+   "match": [
+    "inner richmond",
+    "richmond district",
+    "the richmond"
+   ]
+  },
+  {
+   "name": "Duboce Triangle",
+   "priority": "high",
+   "weight": 3,
+   "sales": 5,
+   "match": [
+    "duboce triangle"
+   ]
+  },
+  {
+   "name": "Mission Dolores",
+   "priority": "high",
+   "weight": 3,
+   "sales": 5,
+   "match": [
+    "mission dolores"
+   ]
+  },
+  {
+   "name": "Outer Richmond",
+   "priority": "high",
+   "weight": 3,
+   "sales": 5,
+   "match": [
+    "outer richmond"
+   ]
+  },
+  {
+   "name": "Sunnyside",
+   "priority": "high",
+   "weight": 3,
+   "sales": 5,
+   "match": [
+    "sunnyside"
+   ]
+  },
+  {
+   "name": "Central Richmond",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "central richmond"
+   ]
+  },
+  {
+   "name": "Forest Knolls",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "forest knolls"
+   ]
+  },
+  {
+   "name": "Inner Parkside",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "inner parkside"
+   ]
+  },
+  {
+   "name": "Midtown Terrace",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "midtown terrace"
+   ]
+  },
+  {
+   "name": "NoPa",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "nopa",
+    "north of panhandle"
+   ]
+  },
+  {
+   "name": "Portola",
+   "priority": "high",
+   "weight": 3,
+   "sales": 4,
+   "match": [
+    "portola",
+    "portola district",
+    "portola place"
+   ]
+  },
+  {
+   "name": "Central Sunset",
+   "priority": "high",
+   "weight": 3,
+   "sales": 3,
+   "match": [
+    "central sunset"
+   ]
+  },
+  {
+   "name": "Ingleside",
+   "priority": "high",
+   "weight": 3,
+   "sales": 3,
+   "match": [
+    "ingleside"
+   ]
+  },
+  {
+   "name": "Outer Mission",
+   "priority": "high",
+   "weight": 3,
+   "sales": 3,
+   "match": [
+    "outer mission"
+   ]
+  },
+  {
+   "name": "Outer Parkside",
+   "priority": "high",
+   "weight": 3,
+   "sales": 3,
+   "match": [
+    "outer parkside"
+   ]
+  },
+  {
+   "name": "Golden Gate Heights",
+   "priority": "high",
+   "weight": 3,
+   "sales": 2,
+   "match": [
+    "gg heights",
+    "golden gate heights"
+   ]
+  },
+  {
+   "name": "Mission Terrace",
+   "priority": "high",
+   "weight": 3,
+   "sales": 2,
+   "match": [
+    "mission terrace"
+   ]
+  },
+  {
+   "name": "West Portal",
+   "priority": "high",
+   "weight": 3,
+   "sales": 2,
+   "match": [
+    "west portal"
+   ]
+  },
+  {
+   "name": "Forest Hill",
+   "priority": "high",
+   "weight": 3,
+   "sales": 1,
+   "match": [
+    "forest hill"
+   ]
+  },
+  {
+   "name": "Russian Hill",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 9,
+   "match": [
+    "russian hill"
+   ]
+  },
+  {
+   "name": "Potrero Hill",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 6,
+   "match": [
+    "potrero hill"
+   ]
+  },
+  {
+   "name": "Central Waterfront / Dogpatch",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 5,
+   "match": [
+    "central waterfront",
+    "dogpatch"
+   ]
+  },
+  {
+   "name": "Marina District",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 5,
+   "match": [
+    "marina district",
+    "the marina"
+   ]
+  },
+  {
+   "name": "Pacific Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 5,
+   "match": [
+    "pac heights",
+    "pacific heights"
+   ]
+  },
+  {
+   "name": "Corona Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 4,
+   "match": [
+    "corona heights"
+   ]
+  },
+  {
+   "name": "Ingleside Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 3,
+   "match": [
+    "ingleside heights"
+   ]
+  },
+  {
+   "name": "Lone Mountain",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 3,
+   "match": [
+    "lone mountain"
+   ]
+  },
+  {
+   "name": "Nob Hill",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 3,
+   "match": [
+    "nob hill"
+   ]
+  },
+  {
+   "name": "Buena Vista / Ashbury Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "ashbury heights",
+    "buena vista"
+   ]
+  },
+  {
+   "name": "Cole Valley",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "cole valley"
+   ]
+  },
+  {
+   "name": "Cow Hollow",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "cow hollow"
+   ]
+  },
+  {
+   "name": "Haight Ashbury",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "haight ashbury",
+    "haight-ashbury",
+    "lower haight",
+    "the haight",
+    "upper haight"
+   ]
+  },
+  {
+   "name": "Jordan Park / Laurel Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "jordan park",
+    "laurel heights",
+    "laurel village"
+   ]
+  },
+  {
+   "name": "Western Addition",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 2,
+   "match": [
+    "western addition"
+   ]
+  },
+  {
+   "name": "Alamo Square",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "alamo square"
+   ]
+  },
+  {
+   "name": "Balboa Terrace",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "balboa terrace"
+   ]
+  },
+  {
+   "name": "Crocker Amazon",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "crocker amazon"
+   ]
+  },
+  {
+   "name": "Diamond Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "diamond heights"
+   ]
+  },
+  {
+   "name": "Merced Heights",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "merced heights"
+   ]
+  },
+  {
+   "name": "Westwood Highlands",
+   "priority": "medium",
+   "weight": 2,
+   "sales": 1,
+   "match": [
+    "westwood highlands"
+   ]
+  },
+  {
+   "name": "South Beach",
+   "priority": "low",
+   "weight": 1,
+   "sales": 18,
+   "match": [
+    "south beach"
+   ]
+  },
+  {
+   "name": "Mission Bay",
+   "priority": "low",
+   "weight": 1,
+   "sales": 14,
+   "match": [
+    "mission bay"
+   ]
+  },
+  {
+   "name": "Downtown SF",
+   "priority": "low",
+   "weight": 1,
+   "sales": 4,
+   "match": [
+    "downtown san francisco",
+    "downtown sf"
+   ]
+  },
+  {
+   "name": "SoMa",
+   "priority": "low",
+   "weight": 1,
+   "sales": 3,
+   "match": [
+    "soma",
+    "south of market"
+   ]
+  },
+  {
+   "name": "Van Ness / Civic Center",
+   "priority": "low",
+   "weight": 1,
+   "sales": 3,
+   "match": [
+    "civic center",
+    "van ness"
+   ]
+  },
+  {
+   "name": "Little Hollywood",
+   "priority": "low",
+   "weight": 1,
+   "sales": 2,
+   "match": [
+    "little hollywood"
+   ]
+  },
+  {
+   "name": "Mt. Davidson Manor",
+   "priority": "low",
+   "weight": 1,
+   "sales": 2,
+   "match": [
+    "davidson manor",
+    "mount davidson",
+    "mt davidson",
+    "mt. davidson"
+   ]
+  },
+  {
+   "name": "Sea Cliff",
+   "priority": "low",
+   "weight": 1,
+   "sales": 2,
+   "match": [
+    "sea cliff",
+    "seacliff"
+   ]
+  },
+  {
+   "name": "St. Francis Wood",
+   "priority": "low",
+   "weight": 1,
+   "sales": 2,
+   "match": [
+    "saint francis wood",
+    "st francis wood",
+    "st. francis wood"
+   ]
+  },
+  {
+   "name": "Anza Vista",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "anza vista"
+   ]
+  },
+  {
+   "name": "Clarendon Heights",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "clarendon heights"
+   ]
+  },
+  {
+   "name": "Lakeside",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "lakeside"
+   ]
+  },
+  {
+   "name": "North Beach",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "north beach"
+   ]
+  },
+  {
+   "name": "Sherwood Forest",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "sherwood forest"
+   ]
+  },
+  {
+   "name": "Silver Terrace",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "silver terrace"
+   ]
+  },
+  {
+   "name": "Twin Peaks",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "twin peaks"
+   ]
+  },
+  {
+   "name": "Candlestick Point",
+   "priority": "low",
+   "weight": 1,
+   "sales": 1,
+   "match": [
+    "candlestick",
+    "candlestick point"
+   ]
+  }
+ ]
+}

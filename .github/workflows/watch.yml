@@ -3,15 +3,17 @@ name: Watch Reddit
 # Crawls the watched subreddits, rebuilds the dashboard, and emails any new
 # thread worth replying to.
 #
-# Every 20 minutes, but deliberately NOT on :00/:20/:40. GitHub queues every
-# scheduled workflow on the platform at once, and the round minutes are by far
-# the most congested - a first run on "*/20" was still not dispatched ten
-# minutes late. Odd offsets get picked up promptly. Delays are never data loss
-# either way (reddit's /new still has the posts next time), but a schedule that
-# actually fires when it says it will is worth the two characters.
+# Hourly, at :17.
+#
+# This started as every 20 minutes and that was measured to not work: over
+# sixteen hours GitHub dispatched 2 of the ~48 expected slots. High-frequency
+# crons on free public repositories are heavily deprioritised, and the round
+# minutes are the most congested of all. Hourly at an odd minute is honoured far
+# more reliably, and losing nothing matters here - posts sit on reddit's /new for
+# hours, and the dashboard's Refresh button covers "I want it now".
 on:
   schedule:
-    - cron: "7,27,47 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       skip_email:
@@ -49,6 +51,7 @@ jobs:
           python cli.py run ${{ inputs.skip_email && '--dry-run' || '' }}
 
       - name: Commit the new state and dashboard
+        if: always()
         run: |
           git config user.name  "team-howe-reddit-watch"
           git config user.email "actions@users.noreply.github.com"
