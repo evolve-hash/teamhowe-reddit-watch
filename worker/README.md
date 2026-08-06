@@ -44,15 +44,31 @@ flow will offer to create one — free, no card.
 npx wrangler secret put GITHUB_TOKEN
 ```
 
-Paste the token when prompted. It is stored encrypted by Cloudflare. It is never
-in this repository, never in the dashboard, and never visible in the Worker's
-logs.
+> **`GITHUB_TOKEN` is the literal name of the secret. Type those 12 characters.**
+> Do **not** put the token itself on this line. Wrangler will then print
+> `? Enter a secret value:` — the token goes *there*, at that prompt.
+>
+> This matters more than it looks. A secret's *name* is not secret: it shows in
+> the Cloudflare dashboard and in `wrangler secret list`. Pasting a token as the
+> name leaks it, and the Worker would not find it anyway, since it reads
+> `env.GITHUB_TOKEN`. If it happens: revoke the token on GitHub first, then
+> `npx wrangler secret delete <the-wrong-name>`, then redo this step.
 
-### 4. Deploy
+Once set, the value is encrypted by Cloudflare. It is never in this repository,
+never in the dashboard, and never printed in the Worker's logs.
+
+### 4. Deploy — and deploy *after* step 3
 
 ```bash
 npx wrangler deploy
 ```
+
+Order matters. `wrangler secret put` publishes a version of the Worker carrying
+only the secret, without the `[vars]` from `wrangler.toml`. If you set the secret
+after deploying, the Worker will answer
+`{"ok":false,"error":"Worker is missing GITHUB_TOKEN or REPO."}` — and the thing
+actually missing is `REPO`, not the token. Running `npx wrangler deploy` again
+restores the vars and keeps the secret. Harmless, just confusing, so deploy last.
 
 Wrangler prints the URL, something like
 `https://teamhowe-reddit-watch.<your-subdomain>.workers.dev`.

@@ -5,7 +5,8 @@
     "subtitle": "San Francisco real estate conversations, as they happen",
     "public_url": "https://evolve-hash.github.io/teamhowe-reddit-watch",
     "repo_url": "https://github.com/evolve-hash/teamhowe-reddit-watch",
-    "timezone": "America/Los_Angeles"
+    "timezone": "America/Los_Angeles",
+    "refresh_endpoint": "https://teamhowe-reddit-watch.teamhowe.workers.dev"
   },
   "subreddits": [
     {
