@@ -1,0 +1,28 @@
+Transport probe from a GitHub Actions runner
+Generated: 2026-08-07 16:24 UTC
+Worker endpoint: https://teamhowe-reddit-watch.teamhowe.workers.dev
+
+ROUTE                              STATUS    BYTES   POSTS  NOTE
+----------------------------------------------------------------------------------------------------
+reddit rss / bot UA                   200   176084     296  <?xml version="1.0" encoding="UTF-8"?><feed 
+reddit rss / browser UA               429        0       0  Too Many Requests
+reddit rss no-slash                   429        0       0  Too Many Requests
+old.reddit listing                    403        0       0  Blocked
+old.reddit rss                        429        0       0  Too Many Requests
+old.reddit search                     403        0       0  Blocked
+pullpush submissions                  502        0       0  Bad Gateway
+pullpush full-text                    502        0       0  Bad Gateway
+redlib catsarch                       200     7537       1  <!doctype html><html lang="en"><head><title>
+redlib perennialte                    503        0       0  Service Unavailable
+redlib privacyredirect                200    24684       1  <!doctype html><html lang="en"><head><title>
+safereddit                            200     4357       1  <!doctype html><html lang="en"><head><title>
+opnxng                                200     7534       1  <!doctype html><html lang="en"><head><title>
+rsshub                                403        0       0  Forbidden
+jina reader -> reddit rss             403        0       0  Forbidden
+bing rss site:                        200     4731       2  <?xml version="1.0" encoding="utf-8" ?><rss 
+google news rss                       200     1168       0  <?xml version="1.0" encoding="UTF-8" standal
+WORKER -> reddit rss                  200   176084     296  <?xml version="1.0" encoding="UTF-8"?><feed 
+WORKER -> old.reddit listing          200   617985     173  <!doctype html><html xmlns="http://www.w3.or
+WORKER -> old.reddit search           200    36854      50  <!doctype html><html xmlns="http://www.w3.or
+
+USABLE ROUTES: reddit rss / bot UA, WORKER -> reddit rss, WORKER -> old.reddit listing, WORKER -> old.reddit search

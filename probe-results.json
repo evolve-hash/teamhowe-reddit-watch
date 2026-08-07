@@ -1,0 +1,182 @@
+[
+ {
+  "label": "reddit rss / bot UA",
+  "url": "https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+  "status": 200,
+  "bytes": 176084,
+  "posts": 296,
+  "seconds": 1.2,
+  "sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"><category term=\"sanfrancisco\" label=\"r/sanfrancisco\"/><u"
+ },
+ {
+  "label": "reddit rss / browser UA",
+  "url": "https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+  "status": 429,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Too Many Requests"
+ },
+ {
+  "label": "reddit rss no-slash",
+  "url": "https://www.reddit.com/r/sanfrancisco/new.rss",
+  "status": 429,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Too Many Requests"
+ },
+ {
+  "label": "old.reddit listing",
+  "url": "https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+  "status": 403,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.2,
+  "sample": "Blocked"
+ },
+ {
+  "label": "old.reddit rss",
+  "url": "https://old.reddit.com/r/sanfrancisco/new/.rss",
+  "status": 429,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Too Many Requests"
+ },
+ {
+  "label": "old.reddit search",
+  "url": "https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+should+i+buy&sort=new&t=month&restrict_sr=on",
+  "status": 403,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Blocked"
+ },
+ {
+  "label": "pullpush submissions",
+  "url": "https://api.pullpush.io/reddit/search/submission/?subreddit=sanfrancisco&size=25",
+  "status": 502,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.3,
+  "sample": "Bad Gateway"
+ },
+ {
+  "label": "pullpush full-text",
+  "url": "https://api.pullpush.io/reddit/search/submission/?q=%22san+francisco%22+house&size=25",
+  "status": 502,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.2,
+  "sample": "Bad Gateway"
+ },
+ {
+  "label": "redlib catsarch",
+  "url": "https://redlib.catsarch.com/r/sanfrancisco/new.rss",
+  "status": 200,
+  "bytes": 7537,
+  "posts": 1,
+  "seconds": 0.4,
+  "sample": "<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=v1.26.2\"><meta na"
+ },
+ {
+  "label": "redlib perennialte",
+  "url": "https://redlib.perennialte.ch/r/sanfrancisco/new.rss",
+  "status": 503,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.4,
+  "sample": "Service Unavailable"
+ },
+ {
+  "label": "redlib privacyredirect",
+  "url": "https://redlib.privacyredirect.com/r/sanfrancisco/new.rss",
+  "status": 200,
+  "bytes": 24684,
+  "posts": 1,
+  "seconds": 1.0,
+  "sample": "<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=v1.26.2\"><meta na"
+ },
+ {
+  "label": "safereddit",
+  "url": "https://safereddit.com/r/sanfrancisco/new.rss",
+  "status": 200,
+  "bytes": 4357,
+  "posts": 1,
+  "seconds": 0.1,
+  "sample": "<!doctype html><html lang=\"en\"><head><title>Verifying your browser\u2026</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.css?cachebuster=devel\"><meta name=\"viewport\" co"
+ },
+ {
+  "label": "opnxng",
+  "url": "https://l.opnxng.com/r/sanfrancisco/new.rss",
+  "status": 200,
+  "bytes": 7534,
+  "posts": 1,
+  "seconds": 0.9,
+  "sample": "<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=v1.26.2\"><meta na"
+ },
+ {
+  "label": "rsshub",
+  "url": "https://rsshub.app/reddit/subreddit/sanfrancisco/new",
+  "status": 403,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Forbidden"
+ },
+ {
+  "label": "jina reader -> reddit rss",
+  "url": "https://r.jina.ai/https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+  "status": 403,
+  "bytes": 0,
+  "posts": 0,
+  "seconds": 0.1,
+  "sample": "Forbidden"
+ },
+ {
+  "label": "bing rss site:",
+  "url": "https://www.bing.com/search?q=site%3Areddit.com%2Fr%2Fsanfrancisco+house&format=rss",
+  "status": 200,
+  "bytes": 4731,
+  "posts": 2,
+  "seconds": 0.2,
+  "sample": "<?xml version=\"1.0\" encoding=\"utf-8\" ?><rss version=\"2.0\"><channel><title>Bing: site:reddit.com/r/sanfrancisco house</title><link>http://www.bing.com:80/search?q=site%3areddit.com%"
+ },
+ {
+  "label": "google news rss",
+  "url": "https://news.google.com/rss/search?q=site%3Areddit.com+san+francisco+housing",
+  "status": 200,
+  "bytes": 1168,
+  "posts": 0,
+  "seconds": 1.3,
+  "sample": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"site:reddit.com"
+ },
+ {
+  "label": "WORKER -> reddit rss",
+  "url": "https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+  "status": 200,
+  "bytes": 176084,
+  "posts": 296,
+  "seconds": 1.3,
+  "sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"><category term=\"sanfrancisco\" label=\"r/sanfrancisco\"/><u"
+ },
+ {
+  "label": "WORKER -> old.reddit listing",
+  "url": "https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+  "status": 200,
+  "bytes": 617985,
+  "posts": 173,
+  "seconds": 1.5,
+  "sample": "<!doctype html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><head><title>newest submissions : sanfrancisco</title><meta name=\"keywords\" content=\" reddit, redd"
+ },
+ {
+  "label": "WORKER -> old.reddit search",
+  "url": "https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bshould%2Bi%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+  "status": 200,
+  "bytes": 36854,
+  "posts": 50,
+  "seconds": 0.3,
+  "sample": "<!doctype html><html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><head><title>reddit.com: search results - subreddit:sanfrancisco should i buy</title><meta name=\"k"
+ }
+]
