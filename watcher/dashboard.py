@@ -323,6 +323,22 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
   .kpi:first-child{border-top:0}
   .kpi .k-label{min-height:0}
 }
+/* Shown only when the last crawl came back empty, or when nothing has been
+   collected in a while. A page that silently republishes two day old threads
+   under a fresh "Updated" stamp is worse than a page that admits it. */
+.stale{background:var(--hot-wash);border-bottom:1px solid var(--hot-line)}
+.stale .wrap{
+  display:flex;align-items:baseline;gap:8px 14px;flex-wrap:wrap;
+  padding-top:14px;padding-bottom:14px;
+}
+.stale .tagword{
+  font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--hot);white-space:nowrap;
+}
+.stale p{margin:0;font-size:14px;line-height:1.5;color:var(--ink-soft);flex:1 1 320px}
+.stale .why{color:var(--muted);font-size:12.5px;display:block;margin-top:3px}
+@media (max-width:400px){.stale p{font-size:13.5px}}
+
 @media print{.controls,.themebtn,.actions{display:none}body{background:#fff}}
 </style>
 </head>
@@ -340,7 +356,7 @@ footer .legal .cr{color:#d0cdca;display:block;margin-bottom:8px}
     </div>
   </div>
 </header>
-
+__STALE_BANNER__
 <section class="lede"><div class="wrap">
   <p class="eyebrow">Lead intelligence</p>
   <h1>__HEADLINE__</h1>
@@ -968,6 +984,7 @@ def build(config, store, out_path):
         "__BAR__": brand.BEIGE,
         "__REFRESH_BTN__": _refresh_button(site.get("repo_url", ""),
                                           site.get("refresh_endpoint", "")),
+        "__STALE_BANNER__": _stale_banner(store, now),
         "__KPI_HOT__": str(len(hot)),
         "__KPI_WEEK__": str(len(this_week)),
         "__KPI_WEEK_DELTA__": week_delta,
@@ -999,6 +1016,86 @@ def build(config, store, out_path):
         "hot": len(hot),
         "this_week": len(this_week),
     }
+
+
+STALE_AFTER_HOURS = 6
+
+
+def _stale_banner(store, now):
+    """
+    Say out loud when the threads on the page are older than the page is.
+
+    This exists because of a real failure: reddit started refusing GitHub's
+    runner addresses, every fetch came back 403, and the crawl still finished
+    "successfully" with 0 posts. The dashboard rebuilt itself, stamped a fresh
+    "Updated" time on the masthead, and served threads from two days earlier.
+    Nothing was broken enough to notice, which is the worst kind of broken.
+    """
+    runs = [r for r in (store.state.get("runs") or []) if isinstance(r, dict)]
+    last = runs[-1] if runs else None
+    if not last:
+        return ""
+
+    reached_reddit = int(last.get("subreddits_ok") or 0) > 0
+    last_ok = store.state.get("last_successful_crawl")
+    if not last_ok:
+        for run in reversed(runs):
+            if int(run.get("subreddits_ok") or 0) > 0:
+                last_ok = run.get("finished_at")
+                break
+
+    age_hours = None
+    if last_ok:
+        try:
+            stamp = datetime.fromisoformat(str(last_ok).replace("Z", "+00:00"))
+            if stamp.tzinfo is None:
+                stamp = stamp.replace(tzinfo=timezone.utc)
+            age_hours = (now - stamp).total_seconds() / 3600.0
+        except Exception:
+            age_hours = None
+
+    if reached_reddit and (age_hours is None or age_hours < STALE_AFTER_HOURS):
+        return ""
+
+    if age_hours is None:
+        age = "an unknown amount of time"
+    elif age_hours < 1:
+        age = "under an hour"
+    elif age_hours < 48:
+        age = "{} hour{}".format(int(round(age_hours)),
+                                 "" if int(round(age_hours)) == 1 else "s")
+    else:
+        age = "{} days".format(int(age_hours // 24))
+
+    blocked = last.get("blocked_hosts") or {}
+    if not reached_reddit:
+        headline = ("Reddit refused every request on the last check, so nothing "
+                    "new could be collected. The threads below were last "
+                    "refreshed {} ago.".format(age))
+    else:
+        headline = ("Nothing new has come in for {}. The threads below are still "
+                    "the most recent ones found.".format(age))
+
+    why = ""
+    if blocked:
+        why = ("Refused: " + ", ".join(sorted(blocked.keys())) +
+               ". Reddit blocks anonymous requests from datacenter networks; "
+               "the crawler retries through the Team Howe worker automatically.")
+
+    return (
+        '\n<section class="stale"><div class="wrap">'
+        '<span class="tagword">Data is stale</span>'
+        '<p>{}{}</p>'
+        '</div></section>'
+    ).format(
+        _escape(headline),
+        '<span class="why">{}</span>'.format(_escape(why)) if why else "",
+    )
+
+
+def _escape(text):
+    return (str(text).replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
 
 
 def _refresh_button(repo_url, endpoint=""):

@@ -25,6 +25,7 @@ off RSS alone - it just loses score and comment counts.
 import gzip
 import html as html_mod
 import io
+import json
 import re
 import time
 import urllib.error
@@ -64,8 +65,33 @@ class Fetcher(object):
     RATE_LIMIT_BACKOFF = (20, 45)
     BLOCK_AFTER_403 = 2
 
+    PROXYABLE_HOSTS = ("www.reddit.com", "old.reddit.com", "reddit.com",
+                       "api.pullpush.io")
+
     def __init__(self, user_agent, delay=4.0, timeout=25, retries=3, mirrors=None,
-                 rate_budget=150):
+                 rate_budget=150, proxy_base=None, proxy_first=True):
+        # Reddit refuses unauthenticated requests from datacenter address space,
+        # and GitHub's runners are datacenter address space. Measured from a
+        # runner on 2026-08-07, probing every route we could think of:
+        #
+        #   direct  www.reddit.com/.rss    200 once, then 429 on every retry
+        #   direct  old.reddit.com         403 Blocked
+        #   direct  old.reddit.com/search  403 Blocked
+        #   pullpush.io                    502 (the service was down)
+        #   redlib / safereddit mirrors    200 but an error page, 0 posts
+        #   rsshub, jina                   403
+        #   VIA THE WORKER  .rss           200, 296 entries
+        #   VIA THE WORKER  old listing    200, 173 posts
+        #   VIA THE WORKER  old search     200,  50 posts
+        #
+        # So the Cloudflare Worker is not a fallback, it is the road. Requests
+        # leave Cloudflare's edge, which reddit answers normally, and that also
+        # brings back the two transports that carry score, comment count and
+        # flair. Direct is kept as the second attempt so the crawler still works
+        # if the Worker is ever removed - and if reddit relents, flipping
+        # crawler.proxy_first back to false is the whole change.
+        self.proxy_base = (proxy_base or "").rstrip("/")
+        self.proxy_first = bool(proxy_first)
         self.user_agent = user_agent
         self.delay = delay
         self.base_delay = delay
@@ -108,8 +134,21 @@ class Fetcher(object):
         except Exception:
             return url
 
+    def proxied(self, url):
+        """The same URL routed through the Worker, or None if not available."""
+        if not self.proxy_base or self._host(url) not in self.PROXYABLE_HOSTS:
+            return None
+        candidate = "{}/fetch?url={}".format(
+            self.proxy_base, urllib.parse.quote(url, safe=""))
+        if self._host(candidate) in self.blocked_hosts:
+            return None
+        return candidate
+
     def blocked(self, url):
-        return self._host(url) in self.blocked_hosts
+        """True only when there is no route left at all - direct or proxied."""
+        if self._host(url) not in self.blocked_hosts:
+            return False
+        return self.proxied(url) is None
 
     # -- public ------------------------------------------------------------
     def get(self, url):
@@ -118,6 +157,11 @@ class Fetcher(object):
         if self.mirrors and "old.reddit.com" in url:
             for mirror in self.mirrors:
                 attempts.append(url.replace("old.reddit.com", mirror.strip("/")))
+        detour = self.proxied(url)
+        if detour and self.proxy_first:
+            attempts.insert(0, detour)
+        elif detour:
+            attempts.append(detour)
 
         for candidate in attempts:
             host = self._host(candidate)
@@ -328,6 +372,57 @@ def parse_old_search(html):
     return posts
 
 
+# ------------------------------------------------------------ transport 4 ----
+def parse_pullpush(payload, subreddit=None):
+    """
+    pullpush.io -> list of partial post dicts.
+
+    pullpush is the public, keyless successor to pushshift: it mirrors reddit
+    submissions and serves them as plain JSON with no OAuth and no account. It
+    is the only route here that gives us the full body, the score and the
+    comment count in one request, so when it is up it is the best transport we
+    have. It is also somebody's free hobby service, so it is treated as a bonus
+    rather than a dependency - a 502 from it costs nothing.
+    """
+    posts = []
+    try:
+        data = json.loads(payload or "{}").get("data") or []
+    except Exception:
+        return posts
+    for item in data:
+        raw_id = item.get("id")
+        if not raw_id:
+            continue
+        post_id = raw_id if str(raw_id).startswith("t3_") else "t3_" + str(raw_id)
+        permalink = item.get("permalink") or ""
+        if permalink and not permalink.startswith("http"):
+            permalink = "https://www.reddit.com" + permalink
+        external = item.get("url") or ""
+        if external and "reddit.com/r/" in external:
+            external = ""
+        body = (item.get("selftext") or "").strip()
+        if body in ("[removed]", "[deleted]"):
+            body = ""
+        posts.append({
+            "id": post_id,
+            "subreddit": item.get("subreddit") or subreddit or "",
+            "title": html_mod.unescape(item.get("title") or ""),
+            "author": (item.get("author") or "").lstrip("/u/"),
+            "permalink": permalink or
+                         "https://www.reddit.com/comments/{}".format(post_id[3:]),
+            "created_utc": _int(item.get("created_utc")),
+            "score": _int(item.get("score")),
+            "comments": _int(item.get("num_comments")),
+            "body": body,
+            "external_url": external,
+            "domain": item.get("domain") or _domain_of(external),
+            "flair": item.get("link_flair_text") or "",
+            "nsfw": bool(item.get("over_18")),
+            "source": "pullpush",
+        })
+    return posts
+
+
 # ------------------------------------------------------------------ merge ----
 _PREFERRED = ("score", "comments", "flair", "domain", "external_url")
 
@@ -366,6 +461,20 @@ def listing_rss_url(subreddit):
 
 def old_listing_url(subreddit):
     return "https://old.reddit.com/r/{}/new/?limit=100".format(subreddit)
+
+
+def pullpush_listing_url(subreddit, size=100, since_days=21):
+    since = now_utc() - int(since_days) * 86400
+    return ("https://api.pullpush.io/reddit/search/submission/"
+            "?subreddit={}&size={}&after={}&sort=desc&sort_type=created_utc"
+            .format(urllib.parse.quote(subreddit), int(size), since))
+
+
+def pullpush_search_url(term, size=100, since_days=21):
+    since = now_utc() - int(since_days) * 86400
+    return ("https://api.pullpush.io/reddit/search/submission/"
+            "?q={}&size={}&after={}&sort=desc&sort_type=created_utc"
+            .format(urllib.parse.quote_plus(term), int(size), since))
 
 
 def old_search_url(subreddit, term, sort="new", period="month"):

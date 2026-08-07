@@ -1,183 +1,185 @@
 {
-  "_comment": "Team Howe Reddit Watch - main settings. Everything here is safe to edit by hand.",
-  "site": {
-    "title": "Reddit Watch",
-    "subtitle": "San Francisco real estate conversations, as they happen",
-    "public_url": "https://evolve-hash.github.io/teamhowe-reddit-watch",
-    "repo_url": "https://github.com/evolve-hash/teamhowe-reddit-watch",
-    "timezone": "America/Los_Angeles",
-    "refresh_endpoint": "https://teamhowe-reddit-watch.teamhowe.workers.dev"
+ "_comment": "Team Howe Reddit Watch - main settings. Everything here is safe to edit by hand.",
+ "site": {
+  "title": "Reddit Watch",
+  "subtitle": "San Francisco real estate conversations, as they happen",
+  "public_url": "https://evolve-hash.github.io/teamhowe-reddit-watch",
+  "repo_url": "https://github.com/evolve-hash/teamhowe-reddit-watch",
+  "timezone": "America/Los_Angeles",
+  "refresh_endpoint": "https://teamhowe-reddit-watch.teamhowe.workers.dev"
+ },
+ "subreddits": [
+  {
+   "always": true,
+   "name": "sanfrancisco",
+   "scope": "all"
   },
-  "subreddits": [
-    {
-      "always": true,
-      "name": "sanfrancisco",
-      "scope": "all"
-    },
-    {
-      "always": true,
-      "name": "AskSF",
-      "scope": "all"
-    },
-    {
-      "name": "bayarea",
-      "scope": "all"
-    },
-    {
-      "always": true,
-      "name": "SFBayHousing",
-      "scope": "all"
-    },
-    {
-      "always": true,
-      "name": "BayAreaRealEstate",
-      "scope": "all"
-    },
-    {
-      "name": "sanfranciscohousing",
-      "scope": "all"
-    },
-    {
-      "name": "SFHousing",
-      "scope": "all"
-    },
-    {
-      "name": "OaklandCA",
-      "scope": "geo"
-    },
-    {
-      "name": "marincounty",
-      "scope": "geo"
-    },
-    {
-      "name": "SouthBay",
-      "scope": "geo"
-    },
-    {
-      "name": "RealEstate",
-      "scope": "geo"
-    },
-    {
-      "name": "FirstTimeHomeBuyer",
-      "scope": "geo"
-    }
-  ],
-  "_subreddits_note": "Every name here was verified against live reddit. r/Noe_Valley, r/bernalheights and r/bayareapeninsula do not exist - do not add them back. r/realtors works but is agents talking to agents, so it is left out; add {\"name\":\"realtors\",\"scope\":\"geo\"} if you want market chatter too.",
-  "_always_note": "Subreddits with \"always\": true are fetched on every run. The rest rotate crawler.rotating_per_run at a time, because reddit throttles an unauthenticated datacenter IP after about seven requests. Full list still gets covered, just over a few runs.",
-  "_scope_note": "scope 'all' = any real-estate hit counts. scope 'geo' = the post must ALSO prove it is about San Francisco, either by naming the city or by naming a neighbourhood from neighborhoods.json. The non-SF subreddits are kept on 'geo' so a thread like 'moving from Oakland to Noe Valley' still reaches you, while ordinary Oakland or South Bay chatter does not.",
-  "geo_terms": [
-    "san francisco",
-    "sf",
-    "s.f.",
-    "the city of san francisco",
-    "94102",
-    "94103",
-    "94104",
-    "94105",
-    "94107",
-    "94108",
-    "94109",
-    "94110",
-    "94111",
-    "94112",
-    "94114",
-    "94115",
-    "94116",
-    "94117",
-    "94118",
-    "94121",
-    "94122",
-    "94123",
-    "94124",
-    "94127",
-    "94129",
-    "94130",
-    "94131",
-    "94132",
-    "94133",
-    "94134",
-    "94158"
-  ],
-  "search_sweeps": [
-    "realtor",
-    "real estate agent",
-    "buying a house",
-    "selling my house",
-    "home prices",
-    "first time home buyer",
-    "condo",
-    "tenants in common",
-    "mortgage",
-    "open house",
-    "housing market",
-    "property tax",
-    "hoa",
-    "should i buy",
-    "rent vs buy",
-    "escrow",
-    "down payment"
-  ],
-  "_search_sweeps_note": "Extra keyword sweeps run against reddit's own search for the 'all'-scope subreddits. This catches older or slow-burning threads that already scrolled off /new. Only crawler.search_sweeps_per_run terms are used each run, rotating through this list, so no single run hammers reddit.",
-  "thresholds": {
-    "include_score": 11,
-    "hot_score": 24,
-    "alert_on_lead": true,
-    "max_post_age_days": 21
+  {
+   "always": true,
+   "name": "AskSF",
+   "scope": "all"
   },
-  "dashboard": {
-    "max_posts": 300,
-    "history_days": 60
+  {
+   "name": "bayarea",
+   "scope": "all"
   },
-  "email": {
-    "enabled": true,
-    "from_name": "Team Howe Reddit Watch",
-    "digest_recipients": [],
-    "alert_recipients": [],
-    "digest_subject": "Reddit Watch - SF real estate, week of {week}",
-    "alert_subject": "Reddit Watch: {count} new SF real estate thread(s) worth a reply"
+  {
+   "always": true,
+   "name": "SFBayHousing",
+   "scope": "all"
   },
-  "asana": {
-    "enabled": false,
-    "project_gid": "",
-    "assignee_gid": "",
-    "only_hot": true
+  {
+   "always": true,
+   "name": "BayAreaRealEstate",
+   "scope": "all"
   },
-  "crawler": {
-    "user_agent": "TeamHoweRedditWatch/1.0 (SF real estate monitoring; contact evolve@teamhowe.com)",
-    "delay_seconds": 6.0,
-    "timeout_seconds": 25,
-    "retries": 3,
-    "rate_limit_budget_seconds": 120,
-    "rotating_per_run": 2,
-    "use_listing_rss": true,
-    "use_old_reddit_html": true,
-    "use_search_sweeps": true,
-    "search_sweeps_per_run": 4,
-    "mirrors": []
+  {
+   "name": "sanfranciscohousing",
+   "scope": "all"
   },
-  "_mirrors_note": "Optional Redlib/Libreddit mirror hosts (e.g. \"redlib.example.org\") used only if old.reddit.com refuses the request from the runner's IP. Leave empty unless you need them.",
-  "_geo_terms_note": "San Francisco only. 'bay area' used to be in here, which is why Oakland and Peninsula threads kept getting through. Neighbourhood names from neighborhoods.json also count as proof of San Francisco, so they do not need repeating here.",
-  "sf_proof_terms": [
-    "ellis act",
-    "tenants in common",
-    "tenancy in common",
-    "tic unit",
-    "tic ownership",
-    "condo conversion",
-    "3r report",
-    "sf planning",
-    "sf mls",
-    "sf rent board",
-    "owner move-in",
-    "owner move in",
-    "just cause eviction",
-    "san francisco condo",
-    "san francisco home",
-    "san francisco house",
-    "sf housing",
-    "sf real estate",
-    "sherri howe",
-    "team howe"
-  ],
-  "_sf_proof_note": "Terms that prove a thread is about San Francisco even when the city is never named. Kept deliberately narrow: rent control, ADU and Prop 13 are NOT here because they are statewide, and putting them here would rescue out-of-area threads."
+  {
+   "name": "SFHousing",
+   "scope": "all"
+  },
+  {
+   "name": "OaklandCA",
+   "scope": "geo"
+  },
+  {
+   "name": "marincounty",
+   "scope": "geo"
+  },
+  {
+   "name": "SouthBay",
+   "scope": "geo"
+  },
+  {
+   "name": "RealEstate",
+   "scope": "geo"
+  },
+  {
+   "name": "FirstTimeHomeBuyer",
+   "scope": "geo"
+  }
+ ],
+ "_subreddits_note": "Every name here was verified against live reddit. r/Noe_Valley, r/bernalheights and r/bayareapeninsula do not exist - do not add them back. r/realtors works but is agents talking to agents, so it is left out; add {\"name\":\"realtors\",\"scope\":\"geo\"} if you want market chatter too.",
+ "_always_note": "Subreddits with \"always\": true are fetched on every run. The rest rotate crawler.rotating_per_run at a time, because reddit throttles an unauthenticated datacenter IP after about seven requests. Full list still gets covered, just over a few runs.",
+ "_scope_note": "scope 'all' = any real-estate hit counts. scope 'geo' = the post must ALSO prove it is about San Francisco, either by naming the city or by naming a neighbourhood from neighborhoods.json. The non-SF subreddits are kept on 'geo' so a thread like 'moving from Oakland to Noe Valley' still reaches you, while ordinary Oakland or South Bay chatter does not.",
+ "geo_terms": [
+  "san francisco",
+  "sf",
+  "s.f.",
+  "the city of san francisco",
+  "94102",
+  "94103",
+  "94104",
+  "94105",
+  "94107",
+  "94108",
+  "94109",
+  "94110",
+  "94111",
+  "94112",
+  "94114",
+  "94115",
+  "94116",
+  "94117",
+  "94118",
+  "94121",
+  "94122",
+  "94123",
+  "94124",
+  "94127",
+  "94129",
+  "94130",
+  "94131",
+  "94132",
+  "94133",
+  "94134",
+  "94158"
+ ],
+ "search_sweeps": [
+  "realtor",
+  "real estate agent",
+  "buying a house",
+  "selling my house",
+  "home prices",
+  "first time home buyer",
+  "condo",
+  "tenants in common",
+  "mortgage",
+  "open house",
+  "housing market",
+  "property tax",
+  "hoa",
+  "should i buy",
+  "rent vs buy",
+  "escrow",
+  "down payment"
+ ],
+ "_search_sweeps_note": "Extra keyword sweeps run against reddit's own search for the 'all'-scope subreddits. This catches older or slow-burning threads that already scrolled off /new. Only crawler.search_sweeps_per_run terms are used each run, rotating through this list, so no single run hammers reddit.",
+ "thresholds": {
+  "include_score": 11,
+  "hot_score": 24,
+  "alert_on_lead": true,
+  "max_post_age_days": 21
+ },
+ "dashboard": {
+  "max_posts": 300,
+  "history_days": 60
+ },
+ "email": {
+  "enabled": true,
+  "from_name": "Team Howe Reddit Watch",
+  "digest_recipients": [],
+  "alert_recipients": [],
+  "digest_subject": "Reddit Watch - SF real estate, week of {week}",
+  "alert_subject": "Reddit Watch: {count} new SF real estate thread(s) worth a reply"
+ },
+ "asana": {
+  "enabled": false,
+  "project_gid": "",
+  "assignee_gid": "",
+  "only_hot": true
+ },
+ "crawler": {
+  "user_agent": "TeamHoweRedditWatch/1.0 (SF real estate monitoring; contact evolve@teamhowe.com)",
+  "delay_seconds": 6.0,
+  "timeout_seconds": 25,
+  "retries": 3,
+  "rate_limit_budget_seconds": 120,
+  "rotating_per_run": 2,
+  "use_listing_rss": true,
+  "use_old_reddit_html": true,
+  "use_search_sweeps": true,
+  "search_sweeps_per_run": 4,
+  "mirrors": [],
+  "proxy_first": true,
+  "use_pullpush": false
+ },
+ "_mirrors_note": "Optional Redlib/Libreddit mirror hosts (e.g. \"redlib.example.org\") used only if old.reddit.com refuses the request from the runner's IP. Leave empty unless you need them.",
+ "_geo_terms_note": "San Francisco only. 'bay area' used to be in here, which is why Oakland and Peninsula threads kept getting through. Neighbourhood names from neighborhoods.json also count as proof of San Francisco, so they do not need repeating here.",
+ "sf_proof_terms": [
+  "ellis act",
+  "tenants in common",
+  "tenancy in common",
+  "tic unit",
+  "tic ownership",
+  "condo conversion",
+  "3r report",
+  "sf planning",
+  "sf mls",
+  "sf rent board",
+  "owner move-in",
+  "owner move in",
+  "just cause eviction",
+  "san francisco condo",
+  "san francisco home",
+  "san francisco house",
+  "sf housing",
+  "sf real estate",
+  "sherri howe",
+  "team howe"
+ ],
+ "_sf_proof_note": "Terms that prove a thread is about San Francisco even when the city is never named. Kept deliberately narrow: rent control, ADU and Prop 13 are NOT here because they are statewide, and putting them here would rescue out-of-area threads."
 }

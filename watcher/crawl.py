@@ -22,6 +22,11 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
         retries=crawler.get("retries", 3),
         mirrors=crawler.get("mirrors", []),
         rate_budget=crawler.get("rate_limit_budget_seconds", 150),
+        # Falls back to the refresh Worker, which is already deployed and free,
+        # when reddit refuses this runner's address directly.
+        proxy_base=(crawler.get("proxy_base")
+                    or config.get("site", {}).get("refresh_endpoint", "")),
+        proxy_first=crawler.get("proxy_first", True),
     )
     scorer = Scorer(keywords, config.get("geo_terms", []), neighborhoods,
                     config.get("sf_proof_terms", []))
@@ -56,7 +61,8 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
         "new": 0,
         "hot": 0,
         "leads": 0,
-        "transport_counts": {"rss": 0, "old_html": 0, "old_search": 0},
+        "transport_counts": {"rss": 0, "old_html": 0, "old_search": 0,
+                             "pullpush": 0},
         "sweeps_this_run": list(sweep_terms),
         "subreddits_this_run": [e.get("name") for e in subreddit_plan],
         "subreddits_configured": len(config.get("subreddits", [])),
@@ -82,6 +88,18 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
             if parsed:
                 ok = True
                 stats["transport_counts"]["rss"] += len(parsed)
+            groups.append(parsed)
+
+        # pullpush is keyless and returns body, score and comment count in one
+        # request, so it is worth asking before the HTML scrapers. It is a free
+        # community service though, so a failure is logged and shrugged off.
+        if crawler.get("use_pullpush", True):
+            payload = fetcher.get(transports.pullpush_listing_url(
+                name, since_days=max_age))
+            parsed = transports.parse_pullpush(payload, name) if payload else []
+            if parsed:
+                ok = True
+                stats["transport_counts"]["pullpush"] += len(parsed)
             groups.append(parsed)
 
         old_listing = transports.old_listing_url(name)
@@ -150,6 +168,14 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
     stats["rate_limited"] = fetcher.rate_limited
     stats["rate_limit_wait_seconds"] = round(fetcher.rate_waited, 1)
     stats["fetch_log"] = fetcher.log[-30:]
+    stats["proxy_base"] = fetcher.proxy_base or ""
+    # A run that reaches nothing still "succeeds" - it just republishes what was
+    # already stored. That is exactly how a two day old dashboard managed to
+    # look current. Say so explicitly, and let the page say so too.
+    stats["healthy"] = stats["subreddits_ok"] > 0
+    if stats["healthy"]:
+        store.state["last_successful_crawl"] = stats["finished_at"]
+    stats["last_successful_crawl"] = store.state.get("last_successful_crawl")
     store.record_run(stats)
     return stats, new_records
 
