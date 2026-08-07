@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T14:40:14+00:00",
+ "generated_at": "2026-08-07T16:10:01+00:00",
  "last_run": {
   "subreddits_ok": 0,
   "subreddits_failed": [
@@ -7,8 +7,8 @@
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "RealEstate",
-   "FirstTimeHomeBuyer"
+   "bayarea",
+   "sanfranciscohousing"
   ],
   "fetched": 0,
   "considered": 0,
@@ -22,34 +22,35 @@
    "old_search": 0
   },
   "sweeps_this_run": [
-   "open house",
-   "housing market",
-   "property tax",
-   "hoa"
+   "should i buy",
+   "rent vs buy",
+   "escrow",
+   "down payment"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "RealEstate",
-   "FirstTimeHomeBuyer"
+   "bayarea",
+   "sanfranciscohousing"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 18.1,
-  "finished_at": "2026-08-07T14:40:14+00:00",
+  "duration_seconds": 38.2,
+  "finished_at": "2026-08-07T16:10:01+00:00",
   "blocked_hosts": {
    "old.reddit.com": "HTTP 403",
    "www.reddit.com": "HTTP 403"
   },
-  "rate_limited": 0,
-  "rate_limit_wait_seconds": 0.0,
+  "rate_limited": 1,
+  "rate_limit_wait_seconds": 20.0,
   "fetch_log": [
    "HTTP 403 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+open+house&sort=new&t=month&restrict_sr=on",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+should+i+buy&sort=new&t=month&restrict_sr=on",
    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
    "HTTP 403 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
    "SKIPPING www.reddit.com for the rest of this run (403 refused 2 times)"
   ]
