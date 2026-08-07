@@ -1,58 +1,46 @@
 {
- "generated_at": "2026-08-07T16:10:01+00:00",
+ "generated_at": "2026-08-07T16:43:28+00:00",
  "last_run": {
-  "subreddits_ok": 0,
-  "subreddits_failed": [
-   "sanfrancisco",
-   "AskSF",
-   "SFBayHousing",
-   "BayAreaRealEstate",
-   "bayarea",
-   "sanfranciscohousing"
-  ],
-  "fetched": 0,
-  "considered": 0,
-  "kept": 0,
-  "new": 0,
-  "hot": 0,
-  "leads": 0,
+  "subreddits_ok": 6,
+  "subreddits_failed": [],
+  "fetched": 549,
+  "considered": 524,
+  "kept": 32,
+  "new": 4,
+  "hot": 12,
+  "leads": 10,
   "transport_counts": {
-   "rss": 0,
-   "old_html": 0,
-   "old_search": 0
+   "rss": 502,
+   "old_html": 502,
+   "old_search": 72,
+   "pullpush": 0
   },
   "sweeps_this_run": [
-   "should i buy",
-   "rent vs buy",
-   "escrow",
-   "down payment"
+   "realtor",
+   "real estate agent",
+   "buying a house",
+   "selling my house"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "bayarea",
-   "sanfranciscohousing"
+   "SFHousing",
+   "OaklandCA"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 38.2,
-  "finished_at": "2026-08-07T16:10:01+00:00",
-  "blocked_hosts": {
-   "old.reddit.com": "HTTP 403",
-   "www.reddit.com": "HTTP 403"
-  },
+  "duration_seconds": 398.4,
+  "finished_at": "2026-08-07T16:43:28+00:00",
+  "blocked_hosts": {},
   "rate_limited": 1,
   "rate_limit_wait_seconds": 20.0,
   "fetch_log": [
-   "HTTP 403 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
-   "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+should+i+buy&sort=new&t=month&restrict_sr=on",
-   "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-   "HTTP 403 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-   "SKIPPING www.reddit.com for the rest of this run (403 refused 2 times)"
-  ]
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100"
+  ],
+  "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+  "healthy": true,
+  "last_successful_crawl": "2026-08-07T16:43:28+00:00"
  }
 }
