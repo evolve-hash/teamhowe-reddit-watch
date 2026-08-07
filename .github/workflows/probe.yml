@@ -1,0 +1,61 @@
+name: Probe transports
+
+# Diagnostic, not part of the hourly job.
+#
+# Reddit answers 403 to unauthenticated requests from datacenter address space,
+# and GitHub's hosted runners are datacenter address space. This workflow asks
+# every candidate route the same question from the machine that actually has to
+# do the crawling, and commits the answer to probe-results.txt so the transport
+# chain can be chosen from measurements.
+#
+# It runs on a push that touches the probe itself, so pushing the probe is
+# enough to get results. Committing the results does not re-trigger it - the
+# paths filter only watches the two files below.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/probe_transports.py"
+      - ".github/workflows/probe.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reddit-watch-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Probe every route into reddit
+        run: |
+          REFRESH_ENDPOINT="$(python -c "import json;print(json.load(open('config.json'))['site'].get('refresh_endpoint',''))")"
+          export REFRESH_ENDPOINT
+          echo "Worker endpoint: ${REFRESH_ENDPOINT:-(none)}"
+          python tools/probe_transports.py
+
+      - name: Commit the results
+        if: always()
+        run: |
+          git config user.name  "team-howe-reddit-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f probe-results.txt probe-results.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No probe output to commit."
+            exit 0
+          fi
+          git commit -m "Transport probe: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && break
+            sleep 5
+          done
+          git push origin "HEAD:${GITHUB_REF_NAME}"

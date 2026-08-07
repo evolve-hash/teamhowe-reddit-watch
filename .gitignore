@@ -4,3 +4,6 @@ logs/
 local/env.sh
 docs/preview-*.html
 .DS_Store
+
+# Scratch: the remote bridge cannot delete files, only move them here.
+_to_delete/

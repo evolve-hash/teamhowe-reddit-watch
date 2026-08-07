@@ -16,6 +16,78 @@
 const ALLOWED_METHODS = "POST, OPTIONS";
 const COOLDOWN_SECONDS = 90;
 
+/**
+ * Hosts /fetch is willing to read on the crawler's behalf. Keeping this list
+ * short is the whole security model: the endpoint has to be public (a GitHub
+ * runner cannot present a browser Origin), so it must not be usable as a
+ * general purpose open proxy. Reddit and one keyless reddit archive, nothing
+ * else, GET only, no request body forwarded, no cookies.
+ */
+const FETCH_ALLOWED_HOSTS = [
+  "www.reddit.com",
+  "old.reddit.com",
+  "reddit.com",
+  "api.pullpush.io",
+];
+
+const FETCH_UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+  "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
+
+/**
+ * Read-through proxy for the crawler.
+ *
+ * Why: reddit refuses unauthenticated requests from datacenter address space,
+ * and GitHub's hosted runners are datacenter address space - a scheduled run on
+ * 2026-08-07 fetched 0 posts from 6 subreddits, every one a 403. Requests made
+ * from a Worker leave Cloudflare's edge instead, which is a different answer to
+ * the same question. Responses are cached briefly so a burst of subreddits does
+ * not turn into a burst of upstream hits.
+ */
+async function proxyFetch(request, env) {
+  const target = new URL(request.url).searchParams.get("url");
+  if (!target) {
+    return json({ ok: false, error: "Pass ?url=" }, 400, {});
+  }
+  let parsed;
+  try {
+    parsed = new URL(target);
+  } catch (err) {
+    return json({ ok: false, error: "Malformed url." }, 400, {});
+  }
+  const hosts = (env.FETCH_HOSTS || FETCH_ALLOWED_HOSTS.join(","))
+    .split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
+  if (parsed.protocol !== "https:" || !hosts.includes(parsed.hostname.toLowerCase())) {
+    return json({ ok: false, error: "Host not allowed." }, 403, {});
+  }
+
+  let upstream;
+  try {
+    upstream = await fetch(parsed.toString(), {
+      headers: {
+        "User-Agent": env.FETCH_UA || FETCH_UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+      },
+      cf: { cacheTtl: 120, cacheEverything: true },
+      redirect: "follow",
+    });
+  } catch (err) {
+    return json({ ok: false, error: "Upstream unreachable." }, 502, {});
+  }
+
+  return new Response(upstream.body, {
+    status: upstream.status,
+    headers: {
+      "Content-Type":
+        upstream.headers.get("Content-Type") || "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=120",
+      "X-Upstream-Status": String(upstream.status),
+      "X-Upstream-Host": parsed.hostname,
+    },
+  });
+}
+
 function corsHeaders(origin, allowed) {
   const headers = {
     "Access-Control-Allow-Methods": ALLOWED_METHODS,
@@ -62,6 +134,16 @@ export default {
       .split(",").map((s) => s.trim()).filter(Boolean);
     const origin = request.headers.get("Origin");
     const cors = corsHeaders(origin, allowed);
+
+    // The crawler's read-through proxy. Deliberately before the POST-only gate:
+    // this one is a GET, and it is called from a GitHub runner, which has no
+    // browser Origin to check. Its protection is the host allow-list.
+    if (new URL(request.url).pathname === "/fetch") {
+      if (request.method !== "GET" && request.method !== "HEAD") {
+        return json({ ok: false, error: "Use GET." }, 405, {});
+      }
+      return proxyFetch(request, env);
+    }
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: cors });
