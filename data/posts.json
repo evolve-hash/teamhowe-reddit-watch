@@ -208,7 +208,7 @@
     "redfin.com"
    ],
    "id": "t3_1v0i3rk",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": true,
    "last_seen": "2026-08-05T21:56:33+00:00",
    "neighborhoods": [],
@@ -245,7 +245,8 @@
     }
    },
    "title": "How much would it cost to fix a fixer upper",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1v1nzg0": {
    "author": "Witty-Medicine3617",
@@ -292,6 +293,7 @@
     }
    },
    "title": "Sell now or rent for 6–8 months and sell next spring?",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1v1uqjv": {
@@ -788,7 +790,7 @@
     "$1.9m"
    ],
    "id": "t3_1v6dvwc",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-05T23:31:13+00:00",
    "neighborhoods": [],
@@ -836,7 +838,8 @@
     }
    },
    "title": "Lender's title insurance",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1v6gwzz": {
    "author": "SS_salttruth",
@@ -883,6 +886,7 @@
     }
    },
    "title": "Golden 1 CU",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1v6je14": {
@@ -901,7 +905,7 @@
     "listing agent"
    ],
    "id": "t3_1v6je14",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-05T23:31:13+00:00",
    "neighborhoods": [],
@@ -921,7 +925,8 @@
     }
    },
    "title": "Selling Agent fees?",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1v77c9n": {
    "author": "ShopProp",
@@ -1080,7 +1085,7 @@
     "renovation"
    ],
    "id": "t3_1v7s1nz",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-07T16:41:51+00:00",
    "neighborhoods": [],
@@ -1109,7 +1114,8 @@
     }
    },
    "title": "Kitchen renovation",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1v8f4rp": {
    "author": "DrRealBug",
@@ -1485,6 +1491,7 @@
     }
    },
    "title": "Why Funding a Down Payment with Retirement Funds Is a Winning Proposition",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1v9x2mt": {
@@ -1591,6 +1598,7 @@
     }
    },
    "title": "why this lynbrook high home sat on market for so long",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1vaulca": {
@@ -1673,11 +1681,7 @@
    "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-07T16:38:15+00:00",
-   "neighborhoods": [
-    "Inner Mission",
-    "Inner Richmond",
-    "Marina District"
-   ],
+   "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vaxgol/psa_the_use_of_the_term_nimby_in_san_francisco/",
    "relevance": 24,
@@ -1766,6 +1770,7 @@
     }
    },
    "title": "Thought this was a wild house",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1vbifck": {
@@ -1867,6 +1872,7 @@
     }
    },
    "title": "I’ve been reading more stale listing posts lately in Bay Area subs. Here’s our take.",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1vc0nv7": {
@@ -1938,7 +1944,7 @@
     "$2.85m"
    ],
    "id": "t3_1vcw24j",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-07T16:41:49+00:00",
    "neighborhoods": [],
@@ -1984,7 +1990,8 @@
     }
    },
    "title": "Which house should we go for?",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1vczrq7": {
    "author": "haterade9425",
@@ -2080,6 +2087,7 @@
     }
    },
    "title": "Any advice on this listing (MTV)",
+   "unplaced": true,
    "verdict": "watch"
   },
   "t3_1vd5255": {
@@ -2145,7 +2153,7 @@
     "buy a house"
    ],
    "id": "t3_1vd9ltn",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": true,
    "last_seen": "2026-08-05T17:27:15+00:00",
    "neighborhoods": [],
@@ -2165,7 +2173,8 @@
     }
    },
    "title": "Feel so grateful and guilty to live a comfortable life here",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1vdp6ke": {
    "author": "Dafty_duck",
@@ -2282,7 +2291,7 @@
     "realtor"
    ],
    "id": "t3_1vdx213",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-07T16:41:48+00:00",
    "neighborhoods": [],
@@ -2313,7 +2322,8 @@
     }
    },
    "title": "First time home buyer",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1vdxjx6": {
    "author": "open_reading_frame",
@@ -2838,111 +2848,6 @@
    "title": "Former San Francisco Nordstrom Rack to become apartments",
    "verdict": "watch"
   },
-  "t3_1vgcnim": {
-   "author": "_TurboHome",
-   "author_url": "https://www.reddit.com/user/_TurboHome",
-   "comments": 8,
-   "created_utc": 1785948129,
-   "domain": "old.reddit.com",
-   "excerpt": "July is officially over so as promised, let's take a look at average pricing and DOM trends for the Bay Area. Based on your feedback, I’ve included graphs showing average change in $/sqft for each market and included a North Bay section. We’re still working on comprehensive MLS coverage for some North Bay counties so consider the North...",
-   "external_url": "https://www.reddit.com/gallery/1vgcnim",
-   "first_seen": "2026-08-07T16:41:48+00:00",
-   "flair": "",
-   "found_via": "real estate agent",
-   "has_body": true,
-   "hits": [
-    "days on market",
-    "mls",
-    "sfh",
-    "oakland",
-    "berkeley",
-    "el cerrito",
-    "vallejo",
-    "fairfield",
-    "east bay",
-    "Eureka Valley / Dolores Heights",
-    "Inner Sunset",
-    "Outer Richmond"
-   ],
-   "id": "t3_1vgcnim",
-   "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-08-07T16:41:48+00:00",
-   "neighborhoods": [
-    "Eureka Valley / Dolores Heights",
-    "Inner Sunset",
-    "Outer Richmond",
-    "Central Richmond",
-    "Pacific Heights",
-    "Nob Hill",
-    "Diamond Heights"
-   ],
-   "out_of_area": [
-    "berkeley",
-    "burlingame",
-    "east bay",
-    "el cerrito",
-    "fairfield",
-    "oakland",
-    "san mateo",
-    "vallejo"
-   ],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vgcnim/list_vs_actual_pricing_dom_trends_bay_area_july/",
-   "relevance": 15,
-   "score": 23,
-   "sources": "old_html+old_search+rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "sfh"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 7,
-     "hits": [
-      "Eureka Valley / Dolores Heights",
-      "Inner Sunset",
-      "Outer Richmond",
-      "Central Richmond",
-      "Pacific Heights",
-      "Nob Hill",
-      "Diamond Heights"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 6.0
-    },
-    "out_of_area": {
-     "count": 14,
-     "hits": [
-      "oakland",
-      "berkeley",
-      "el cerrito",
-      "vallejo",
-      "fairfield",
-      "east bay",
-      "burlingame",
-      "san mateo"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "transaction": {
-     "count": 2,
-     "hits": [
-      "days on market",
-      "mls"
-     ],
-     "label": "Transaction mechanics",
-     "points": 8.8
-    }
-   },
-   "title": "List vs Actual + Pricing & DOM Trends - Bay Area, July 2026",
-   "verdict": "watch"
-  },
   "t3_1vgfa7y": {
    "author": "knockdowncenter",
    "author_url": "https://www.reddit.com/user/knockdowncenter",
@@ -3024,7 +2929,7 @@
     "housing"
    ],
    "id": "t3_1vgjju0",
-   "is_lead": true,
+   "is_lead": false,
    "is_new": false,
    "last_seen": "2026-08-07T16:41:47+00:00",
    "neighborhoods": [],
@@ -3087,7 +2992,8 @@
     }
    },
    "title": "Can a cash-like offer help you buy a home?",
-   "verdict": "hot"
+   "unplaced": true,
+   "verdict": "watch"
   },
   "t3_1vglcpp": {
    "author": "wsj",
@@ -3137,56 +3043,6 @@
    "title": "A San Francisco Apartment Tower Ignites a Generational Fight Over Housing",
    "verdict": "watch"
   },
-  "t3_1vhd4nt": {
-   "author": "h2o2024",
-   "author_url": "https://www.reddit.com/user/h2o2024",
-   "comments": 0,
-   "created_utc": 1786042270,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Has anyone bought a home from Nino Homes in King City? We’re thinking about buying and would love to hear your experience. How were the builder incentives and pricing? Did your monthly payment change a lot after property taxes and insurance were added? Were there any surprises after closing? Overall, are you happy with your home, and...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vhd4nt/monterey_county/",
-   "first_seen": "2026-08-07T16:41:47+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "thinking about buying",
-    "about buying",
-    "property taxes"
-   ],
-   "id": "t3_1vhd4nt",
-   "is_lead": true,
-   "is_new": true,
-   "last_seen": "2026-08-07T16:41:47+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vhd4nt/monterey_county/",
-   "relevance": 24,
-   "score": 1,
-   "sources": "old_html+rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 2,
-     "hits": [
-      "thinking about buying",
-      "about buying"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 17.5
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "property taxes"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Monterey county",
-   "verdict": "hot"
-  },
   "t3_1vhlmv7": {
    "author": "quantumcontroller",
    "author_url": "https://www.reddit.com/user/quantumcontroller",
@@ -3211,8 +3067,6 @@
    "is_new": true,
    "last_seen": "2026-08-07T16:39:23+00:00",
    "neighborhoods": [
-    "Inner Mission",
-    "Hayes Valley",
     "Mission Bay"
    ],
    "out_of_area": [],

@@ -111,7 +111,7 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
                 stats["transport_counts"]["old_html"] += len(parsed)
             groups.append(parsed)
 
-        if (crawler.get("use_search_sweeps", True) and scope == "all"
+        if (crawler.get("use_search_sweeps", True) and scope in ("all", "bay")
                 and not fetcher.blocked(transports.old_search_url(name, "x"))):
             for term in sweep_terms:
                 html = fetcher.get(transports.old_search_url(name, term))
@@ -149,7 +149,22 @@ def run(config, keywords, store, verbose=True, neighborhoods=None):
             if verdict == "skip":
                 continue
 
+            # Bay-wide subreddits. r/BayAreaRealEstate is where somebody asks
+            # "Monterey county - has anyone bought from Nino Homes in King
+            # City?", and that thread was arriving flagged HOT LEAD. Requiring
+            # San Francisco proof outright would be too blunt - half those
+            # threads name no city at all and some of them are SF sellers - so
+            # instead a thread with nothing tying it to the city can still be
+            # listed, but it cannot be a lead and it cannot sit at the top of
+            # Sherri's page ahead of a thread that IS demonstrably SF.
+            unplaced = False
+            if scope == "bay" and not result["matched_geo"]:
+                unplaced = True
+                result["is_lead"] = False
+                verdict = "watch"
+
             record = _record(post, result, verdict, name)
+            record["unplaced"] = unplaced
             saved = store.upsert(record)
             stats["kept"] += 1
             if saved.get("is_new"):

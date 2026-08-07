@@ -190,6 +190,14 @@ def _neighborhood_points(hits, scorer):
     return base + min(len(weights) - 1, 4) * 0.25 * base
 
 
+def _scope_of(config, subreddit):
+    for entry in config.get("subreddits", []):
+        if isinstance(entry, dict) and (entry.get("name") or "").lower() == \
+                (subreddit or "").lower():
+            return entry.get("scope") or "all"
+    return "all"
+
+
 def _rescore(config, keywords, neighborhoods, store, say):
     """
     Re-check stored threads against the current operating area and drop the ones
@@ -247,6 +255,14 @@ def _rescore(config, keywords, neighborhoods, store, say):
             dropped.append((record, result))
         else:
             record["neighborhoods"] = result.get("neighborhoods") or []
+            # Same rule the crawler applies to Bay-wide subreddits: no San
+            # Francisco proof, no lead flag and no top billing.
+            if (_scope_of(config, record.get("subreddit")) == "bay"
+                    and not result["matched_geo"]):
+                record["unplaced"] = True
+                record["is_lead"] = False
+                if record.get("verdict") == "hot":
+                    record["verdict"] = "watch"
             kept += 1
 
     for record, _result in dropped:

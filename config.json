@@ -21,17 +21,17 @@
   },
   {
    "name": "bayarea",
-   "scope": "all"
+   "scope": "bay"
   },
   {
    "always": true,
    "name": "SFBayHousing",
-   "scope": "all"
+   "scope": "bay"
   },
   {
    "always": true,
    "name": "BayAreaRealEstate",
-   "scope": "all"
+   "scope": "bay"
   },
   {
    "name": "sanfranciscohousing",
