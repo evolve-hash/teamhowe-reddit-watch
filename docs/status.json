@@ -1,44 +1,47 @@
 {
- "generated_at": "2026-08-09T08:06:02+00:00",
+ "generated_at": "2026-08-09T10:13:46+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 572,
-  "considered": 544,
-  "kept": 28,
-  "new": 1,
-  "hot": 7,
-  "leads": 6,
+  "fetched": 521,
+  "considered": 501,
+  "kept": 22,
+  "new": 0,
+  "hot": 4,
+  "leads": 4,
   "transport_counts": {
    "rss": 502,
    "old_html": 502,
-   "old_search": 124,
+   "old_search": 32,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "open house",
-   "housing market",
-   "property tax",
-   "hoa"
+   "should i buy",
+   "rent vs buy",
+   "escrow",
+   "down payment"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "bayarea",
-   "sanfranciscohousing"
+   "SFHousing",
+   "OaklandCA"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 216.1,
-  "finished_at": "2026-08-09T08:06:02+00:00",
+  "duration_seconds": 443.5,
+  "finished_at": "2026-08-09T10:13:46+00:00",
   "blocked_hosts": {},
-  "rate_limited": 0,
-  "rate_limit_wait_seconds": 0.0,
-  "fetch_log": [],
+  "rate_limited": 2,
+  "rate_limit_wait_seconds": 65.0,
+  "fetch_log": [
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100"
+  ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-08-09T08:06:02+00:00"
+  "last_successful_crawl": "2026-08-09T10:13:46+00:00"
  }
 }
