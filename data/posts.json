@@ -43,7 +43,7 @@
   "t3_1vgc0la": "2026-08-05T19:02:10+00:00",
   "t3_1vgfa7y": "2026-08-05T19:02:10+00:00"
  },
- "last_successful_crawl": "2026-08-10T18:08:54+00:00",
+ "last_successful_crawl": "2026-08-10T20:28:33+00:00",
  "posts": {
   "t3_1uxkb7n": {
    "author": "musingsofme",
@@ -1524,10 +1524,10 @@
    "created_utc": 1785262974,
    "domain": "self.SFBayHousing",
    "excerpt": "TL;DR: Local public school educator looking for a 2–3 BR with parking in Noe Valley, Bernal Heights, Glen Park, or West Portal . Great credit, references, long-term tenants, flexible move-in date. If you know of an off-market rental or a landlord with an upcoming vacancy, we'd love a contact. Reddit, do your thing! 🙏 Neighbors, we need...",
-   "external_url": "/r/SFBayHousing/comments/1v96pjr/sf_housing_market_vs_public_school_educator_help/",
+   "external_url": "",
    "first_seen": "2026-08-05T17:27:42+00:00",
    "flair": "",
-   "found_via": "home prices",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "open house",
@@ -1546,7 +1546,7 @@
    "id": "t3_1v96pjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:47+00:00",
+   "last_seen": "2026-08-10T20:26:47+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -1559,7 +1559,7 @@
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1v96pjr/sf_housing_market_vs_public_school_educator_help/",
    "relevance": 11,
    "score": 9,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "SFBayHousing",
    "tiers": {
     "market": {
@@ -1800,13 +1800,13 @@
    "id": "t3_1valkdz",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:25+00:00",
+   "last_seen": "2026-08-10T20:27:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1valkdz/why_this_lynbrook_high_home_sat_on_market_for_so/",
    "relevance": 14,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -1837,7 +1837,7 @@
    "created_utc": 1785420278,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "I appealed my 2025 property taxes and am finally supposed to have my hearing today. The base value was 1.33mm and I appealed for 1.1mm. I have 5 comps that imply a value ranging from ~$900k-$1.22mm so I feel pretty confident about my support. That being said, the City reached out with a settlement offer at $1.2mm. I am trying to figure...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vaulca/sf_property_tax_appeal_accept_their_settlement/",
+   "external_url": "",
    "first_seen": "2026-08-05T18:28:25+00:00",
    "flair": "",
    "found_via": null,
@@ -1851,13 +1851,13 @@
    "id": "t3_1vaulca",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:25+00:00",
+   "last_seen": "2026-08-10T20:27:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vaulca/sf_property_tax_appeal_accept_their_settlement/",
    "relevance": 14,
    "score": 7,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -2054,13 +2054,13 @@
    "id": "t3_1vbhf1p",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:24+00:00",
+   "last_seen": "2026-08-10T20:27:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vbhf1p/thought_this_was_a_wild_house/",
    "relevance": 14,
    "score": 12,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -2146,10 +2146,10 @@
    "created_utc": 1785525405,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "I’ve been seeing more Bay Area posts lately where a home or condo sits for 30, 45, 60+ days, gets a price cut, still gets no offer, and then the seller is stuck asking: Do we cut again? Take it off and relist later? Rent it out? Sell as-is? Do repairs before trying again? My take: once a listing goes stale, “just drop the price” is not...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vc0fga/ive_been_reading_more_stale_listing_posts_lately/",
+   "external_url": "",
    "first_seen": "2026-08-05T18:28:25+00:00",
    "flair": "",
-   "found_via": "home prices",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "price cut",
@@ -2158,13 +2158,13 @@
    "id": "t3_1vc0fga",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:24+00:00",
+   "last_seen": "2026-08-10T20:27:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vc0fga/ive_been_reading_more_stale_listing_posts_lately/",
    "relevance": 13,
    "score": 4,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -2255,10 +2255,10 @@
    "created_utc": 1785611878,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Hopefully this type of post is ok. We have two very different potential opportunities for buying our first home, and want to see what others would do in our situation. House 1: - $2.85M purchase price with $2M down - Great location and neighborhood - House is basically move in ready House 2: - $2.1M purchase price in all cash, but the...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vcw24j/which_house_should_we_go_for/",
+   "external_url": "",
    "first_seen": "2026-08-05T17:28:10+00:00",
    "flair": "",
-   "found_via": "buying a house",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "buying our first home",
@@ -2270,13 +2270,13 @@
    "id": "t3_1vcw24j",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:24+00:00",
+   "last_seen": "2026-08-10T20:27:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vcw24j/which_house_should_we_go_for/",
    "relevance": 33,
    "score": 4,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -2324,7 +2324,7 @@
    "created_utc": 1785620867,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "In the market and saw these two last month and lost the bid. Looking at the closing price, it seems crazy for the size of both: https://redf.in/Qy8n6Y https://redf.in/Ukbi4a should I just give up at this point?",
-   "external_url": "/r/BayAreaRealEstate/comments/1vczrq7/sf_craziness/",
+   "external_url": "",
    "first_seen": "2026-08-05T18:28:25+00:00",
    "flair": "",
    "found_via": null,
@@ -2335,13 +2335,13 @@
    "id": "t3_1vczrq7",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:24+00:00",
+   "last_seen": "2026-08-10T20:27:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vczrq7/sf_craziness/",
    "relevance": 14,
    "score": 13,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -2377,13 +2377,13 @@
    "id": "t3_1vd3w8u",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:24+00:00",
+   "last_seen": "2026-08-10T20:27:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vd3w8u/any_advice_on_this_listing_mtv/",
    "relevance": 21,
    "score": 7,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -2604,10 +2604,10 @@
    "created_utc": 1785713563,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Hey! First time posting here. So like im in my 20s and planning to buy a house with my dad. He said he'll put half down and I'll get a mortgage for the rest. My initial consultation with the bank people said it's possible for me to do that. Anyway I'm lost on how to navigate the whole buying a new home process. It would my parent's first...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vdx213/first_time_home_buyer/",
+   "external_url": "",
    "first_seen": "2026-08-05T17:28:10+00:00",
    "flair": "",
-   "found_via": "buying a house",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "planning to buy",
@@ -2618,13 +2618,13 @@
    "id": "t3_1vdx213",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:23+00:00",
+   "last_seen": "2026-08-10T20:27:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vdx213/first_time_home_buyer/",
    "relevance": 27,
    "score": 0,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -2860,7 +2860,7 @@
    "created_utc": 1785807819,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Hey all! I recently relocated from Texas so was unaware of this act and the idea of buying out a tenant. I started renting a condo back in Dec originally for a 18 month contract. Back in May I was given a notice the unit would be taken off market end of Nov, and that I would be given one month free rent (in Nov). I was told I could...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vewnql/advice_on_ellis_act/",
+   "external_url": "",
    "first_seen": "2026-08-05T18:28:25+00:00",
    "flair": "",
    "found_via": null,
@@ -2876,7 +2876,7 @@
    "id": "t3_1vewnql",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:23+00:00",
+   "last_seen": "2026-08-10T20:27:24+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "alameda",
@@ -2886,7 +2886,7 @@
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vewnql/advice_on_ellis_act/",
    "relevance": 11,
    "score": 9,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "out_of_area": {
@@ -3183,7 +3183,7 @@
    "author_url": "https://www.reddit.com/user/_TurboHome",
    "comments": 16,
    "created_utc": 1785948129,
-   "domain": "old.reddit.com",
+   "domain": "reddit.com",
    "excerpt": "July is officially over so as promised, let's take a look at average pricing and DOM trends for the Bay Area. Based on your feedback, I’ve included graphs showing average change in $/sqft for each market and included a North Bay section. We’re still working on comprehensive MLS coverage for some North Bay counties so consider the North...",
    "external_url": "https://www.reddit.com/gallery/1vgcnim",
    "first_seen": "2026-08-07T18:10:18+00:00",
@@ -3207,7 +3207,7 @@
    "id": "t3_1vgcnim",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:22+00:00",
+   "last_seen": "2026-08-10T20:27:23+00:00",
    "neighborhoods": [
     "Eureka Valley / Dolores Heights",
     "Inner Sunset",
@@ -3230,7 +3230,7 @@
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vgcnim/list_vs_actual_pricing_dom_trends_bay_area_july/",
    "relevance": 15,
    "score": 25,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -3346,10 +3346,10 @@
    "created_utc": 1785962876,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "You don’t have the funds to make an all cash offer. However you could submit a cash-like offer. Are they worth it? Can it help me buy a home? What is a \"Cash-Like Offer\"? A cash-like offer—often called a \"cash-backed\" or \"certified\" offer—allows buyers who need a mortgage to compete directly with all-cash buyers. The cash-like programs...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vgjju0/can_a_cashlike_offer_help_you_buy_a_home/",
+   "external_url": "",
    "first_seen": "2026-08-05T21:56:31+00:00",
    "flair": "",
-   "found_via": "buying a house",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "buy a home",
@@ -3368,13 +3368,13 @@
    "id": "t3_1vgjju0",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:22+00:00",
+   "last_seen": "2026-08-10T20:27:23+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vgjju0/can_a_cashlike_offer_help_you_buy_a_home/",
    "relevance": 52,
    "score": 0,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -3696,10 +3696,10 @@
    "created_utc": 1786066503,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Unpopular opinion: intentionally underpricing a San Francisco home is not automatically brilliant marketing. Sometimes it creates a bidding war. Sometimes it manufactures an impressive “sold 25% over asking” statistic while telling us almost nothing about whether the seller actually got the best possible price. Don’t feel like reading...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vhn12m/san_francisco_agents_love_sold_over_asking/",
+   "external_url": "",
    "first_seen": "2026-08-07T16:41:47+00:00",
    "flair": "",
-   "found_via": "home prices",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "bidding war",
@@ -3716,13 +3716,13 @@
    "id": "t3_1vhn12m",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-08-10T18:08:21+00:00",
+   "last_seen": "2026-08-10T20:27:22+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vhn12m/san_francisco_agents_love_sold_over_asking/",
    "relevance": 48,
    "score": 0,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -3882,7 +3882,7 @@
    "created_utc": 1786149428,
    "domain": "self.AskSF",
    "excerpt": "Hi everyone! Moving from the east coast to SF in a month! I have virtual toured a couple of aparments in FiDi and SoMa and realized many of the older apartments built in early 2000s or the 90s does not have AC. Should we make AC a hard requipement? Or are people pretty happy with the temperature or a protable unit? I know this topic has...",
-   "external_url": "/r/AskSF/comments/1vihofv/moving_to_sf_is_ac_required_in_soma_area_aparments/",
+   "external_url": "",
    "first_seen": "2026-08-08T03:58:19+00:00",
    "flair": "",
    "found_via": null,
@@ -3895,7 +3895,7 @@
    "id": "t3_1vihofv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:12+00:00",
+   "last_seen": "2026-08-10T20:26:13+00:00",
    "neighborhoods": [
     "SoMa"
    ],
@@ -3903,7 +3903,7 @@
    "permalink": "https://www.reddit.com/r/AskSF/comments/1vihofv/moving_to_sf_is_ac_required_in_soma_area_aparments/",
    "relevance": 15,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "AskSF",
    "tiers": {
     "market": {
@@ -3940,7 +3940,7 @@
    "author_url": "https://www.reddit.com/user/1001pinestreet",
    "comments": 15,
    "created_utc": 1786200642,
-   "domain": "old.reddit.com",
+   "domain": "reddit.com",
    "excerpt": "Hello everyone, Listing my condo for rent in Pine Terrace, 1001 Pine Street, cross of Taylor Street. Pine Terrace is a quiet, 75% owner-occupied building with fantastic views and a great location with very convenient access to downtown restaurants and offices. I've lived in the area since 2013 and thoroughly enjoyed the experience, with...",
    "external_url": "https://www.reddit.com/gallery/1vixym1",
    "first_seen": "2026-08-08T15:52:58+00:00",
@@ -3959,7 +3959,7 @@
    "id": "t3_1vixym1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:45+00:00",
+   "last_seen": "2026-08-10T20:26:44+00:00",
    "neighborhoods": [
     "Nob Hill"
    ],
@@ -3967,7 +3967,7 @@
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1vixym1/1bd1ba_high_floor_nob_hill_condo_for_rent_4495/",
    "relevance": 12,
    "score": 1,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "SFBayHousing",
    "tiers": {
     "domains": {
@@ -4024,10 +4024,10 @@
    "created_utc": 1786241720,
    "domain": "self.AskSF",
    "excerpt": "Hi, Given how SF housing has moved, I'm considering buying an older home and doing renovation. I haven't done much work like this before, so I'd like to find a GC that would be willing to consult on an hourly basis as I'm considering homes. Are there any recommendations for a good GC that works in the city and would give a realistic...",
-   "external_url": "/r/AskSF/comments/1vjdoje/gc_consultant_recommendation_to_take_to_open/",
+   "external_url": "",
    "first_seen": "2026-08-09T14:20:22+00:00",
    "flair": "",
-   "found_via": "buying a house",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "considering buying",
@@ -4038,13 +4038,13 @@
    "id": "t3_1vjdoje",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:11+00:00",
+   "last_seen": "2026-08-10T20:26:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1vjdoje/gc_consultant_recommendation_to_take_to_open/",
    "relevance": 30,
    "score": 1,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "AskSF",
    "tiers": {
     "intent": {
@@ -4096,13 +4096,13 @@
    "id": "t3_1vjuanz",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:06:33+00:00",
+   "last_seen": "2026-08-10T20:25:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vjuanz/the_pandemic_exodus_was_easy_the_return_is_a/",
    "relevance": 13,
    "score": 180,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -4145,13 +4145,13 @@
    "id": "t3_1vjzlzd",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:06:33+00:00",
+   "last_seen": "2026-08-10T20:25:32+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vjzlzd/a_supervisor_wants_to_double_the_number_of/",
    "relevance": 13,
    "score": 113,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -4182,7 +4182,7 @@
    "created_utc": 1786321427,
    "domain": "self.AskSF",
    "excerpt": "Hi, moving to SF, and we have 24 hours to accept some lease terms- hoping to get a local's input. Base rent for a 700sf 2br/1ba in outer richmond is $3250 (no parking) but electric is $120 per person, adding $480 per month. Is that reasonable? And also, much does water, garbage/recycling, and gas cost for a household of that size...",
-   "external_url": "/r/AskSF/comments/1vk5v4v/is_120person_for_electric_reasonable_2_adults_2/",
+   "external_url": "",
    "first_seen": "2026-08-10T05:12:57+00:00",
    "flair": "",
    "found_via": null,
@@ -4197,7 +4197,7 @@
    "id": "t3_1vk5v4v",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:09+00:00",
+   "last_seen": "2026-08-10T20:26:09+00:00",
    "neighborhoods": [
     "Outer Richmond"
    ],
@@ -4205,7 +4205,7 @@
    "permalink": "https://www.reddit.com/r/AskSF/comments/1vk5v4v/is_120person_for_electric_reasonable_2_adults_2/",
    "relevance": 29,
    "score": 6,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "AskSF",
    "tiers": {
     "domains": {
@@ -4260,7 +4260,7 @@
    "created_utc": 1786326961,
    "domain": "self.AskSF",
    "excerpt": "I live in a rent controlled $2k apartment in Duboce/Lower Haight that I got during the pandemic. My landlord has never raised my rent. I actually negotiated a discount after my first year because the market was still very bad. In some ways I've outgrown my apartment and want to upgrade to a place with a better office setup, in unit...",
-   "external_url": "/r/AskSF/comments/1vk7tgz/can_i_approach_my_landlord_about_a_tenant_buyout/",
+   "external_url": "",
    "first_seen": "2026-08-10T05:12:57+00:00",
    "flair": "",
    "found_via": null,
@@ -4273,7 +4273,7 @@
    "id": "t3_1vk7tgz",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-10T18:07:09+00:00",
+   "last_seen": "2026-08-10T20:26:09+00:00",
    "neighborhoods": [
     "Haight Ashbury"
    ],
@@ -4281,7 +4281,7 @@
    "permalink": "https://www.reddit.com/r/AskSF/comments/1vk7tgz/can_i_approach_my_landlord_about_a_tenant_buyout/",
    "relevance": 16,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "AskSF",
    "tiers": {
     "market": {
@@ -4312,63 +4312,122 @@
    "title": "Can I approach my landlord about a tenant buyout?",
    "unplaced": false,
    "verdict": "watch"
+  },
+  "t3_1vks3nf": {
+   "author": "ASK_ABT_MY_USERNAME",
+   "author_url": "https://www.reddit.com/user/ASK_ABT_MY_USERNAME",
+   "comments": null,
+   "created_utc": 1786384421,
+   "domain": "self.bayarea",
+   "excerpt": "Time is a flat circle You make $100,000 a year (today: ~$203,000) and you still can't afford to buy a house. You make six figures but can only afford to drive a baseline Honda Civic. Your commute time is 45 minutes and you only live eight miles away from work. You see more millionaires driving beat-up Volvos than sports cars. Your real...",
+   "external_url": "",
+   "first_seen": "2026-08-10T20:27:58+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "buy a house",
+    "down payment",
+    "real estate",
+    "fixer-upper",
+    "$1.3 million",
+    "$100,000"
+   ],
+   "id": "t3_1vks3nf",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-08-10T20:27:58+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/bayarea/comments/1vks3nf/anyone_remember_this_list_from_1999_you_know_you/",
+   "relevance": 35,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "bayarea",
+   "tiers": {
+    "intent": {
+     "count": 1,
+     "hits": [
+      "buy a house"
+     ],
+     "label": "Buyer / seller intent",
+     "points": 14.0
+    },
+    "market": {
+     "count": 2,
+     "hits": [
+      "real estate",
+      "fixer-upper"
+     ],
+     "label": "Market talk",
+     "points": 7.5
+    },
+    "patterns": {
+     "count": 2,
+     "hits": [
+      "$1.3 million",
+      "$100,000"
+     ],
+     "label": "Price / listing pattern",
+     "points": 6.2
+    },
+    "transaction": {
+     "count": 1,
+     "hits": [
+      "down payment"
+     ],
+     "label": "Transaction mechanics",
+     "points": 7.0
+    }
+   },
+   "title": "Anyone remember this list from 1999 \"You know you live in the Bay Area when...\"",
+   "unplaced": true,
+   "verdict": "watch"
+  },
+  "t3_1vkunw6": {
+   "author": "UninterestedCassette",
+   "author_url": "https://www.reddit.com/user/UninterestedCassette",
+   "comments": null,
+   "created_utc": 1786389984,
+   "domain": "self.BayAreaRealEstate",
+   "excerpt": "I’m hoping to buy somewhere in the Bay Area within the next year, so I’ve started paying more attention to what homes are actually selling for and trying to understand what makes one worth the price. For first-time buyers, when you finally put in an offer, did you feel like you understood the home and its value pretty well, or was there...",
+   "external_url": "",
+   "first_seen": "2026-08-10T20:27:20+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "put in an offer",
+    "putting in an offer"
+   ],
+   "id": "t3_1vkunw6",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-08-10T20:27:20+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vkunw6/how_much_did_you_really_understand_about_the/",
+   "relevance": 18,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "BayAreaRealEstate",
+   "tiers": {
+    "intent": {
+     "count": 2,
+     "hits": [
+      "put in an offer",
+      "putting in an offer"
+     ],
+     "label": "Buyer / seller intent",
+     "points": 17.5
+    }
+   },
+   "title": "How much did you really understand about the house before putting in an offer?",
+   "unplaced": true,
+   "verdict": "watch"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403"
-   },
-   "considered": 300,
-   "duration_seconds": 186.7,
-   "fetch_log": [
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+down+payment&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 302,
-   "finished_at": "2026-08-05T18:58:11+00:00",
-   "hot": 0,
-   "kept": 13,
-   "leads": 0,
-   "new": 0,
-   "pruned": 0,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "BayAreaRealEstate",
-    "bayarea"
-   ],
-   "subreddits_ok": 4,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "down payment",
-    "realtor",
-    "real estate agent",
-    "buying a house"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "rss": 302
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 555,
@@ -6122,9 +6181,50 @@
     "pullpush": 0,
     "rss": 600
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 500,
+   "duration_seconds": 213.2,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-08-10T20:28:33+00:00",
+   "healthy": true,
+   "hot": 4,
+   "kept": 22,
+   "last_successful_crawl": "2026-08-10T20:28:33+00:00",
+   "leads": 3,
+   "new": 2,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 0,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "condo",
+    "tenants in common",
+    "mortgage",
+    "open house"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 6,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 10,
  "version": 1
 }
