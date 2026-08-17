@@ -7,8 +7,17 @@
   <description>Reddit threads about San Francisco real estate, scored for how much they look like an opening.</description>
   <language>en-us</language>
   <copyright>Copyright © 2026 Team Howe. All Rights Reserved. </copyright>
-  <lastBuildDate>Mon, 17 Aug 2026 21:08:07 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 22:01:46 GMT</lastBuildDate>
   <ttl>20</ttl>
+  <item>
+    <title>Free tool for exploring SF Rent Board buyout filings by address</title>
+    <link>https://www.reddit.com/r/sanfrancisco/comments/1vr5q8d/free_tool_for_exploring_sf_rent_board_buyout/</link>
+    <guid isPermaLink="false">teamhowe-reddit-watch-t3_1vr5q8d</guid>
+    <pubDate>Mon, 17 Aug 2026 21:38:45 GMT</pubDate>
+    <category>r/sanfrancisco</category>
+    <author>reddit-watch@teamhowe.com (u/pizzadoughnuts)</author>
+    <description>&lt;p&gt;&lt;strong&gt;Signal 14&lt;/strong&gt; &amp;middot; r/sanfrancisco &amp;middot; u/pizzadoughnuts&lt;/p&gt;&lt;p&gt;Hey all, I put together a small site that makes the SF Rent Board’s public buyout data easier to explore: https://buyoutsf.org You can search an address and see nearby buyout agreements, amounts, dates, and how recent agreements compare. I found the city dataset useful but pretty difficult to understand without downloading and sorting...&lt;/p&gt;&lt;p&gt;&lt;em&gt;Matched: landlord, rent board&lt;/em&gt;&lt;/p&gt;</description>
+  </item>
   <item>
     <title>Mayor Lurie blasts Prop. I as a ‘slush fund.’ His office would control the money.</title>
     <link>https://www.reddit.com/r/sanfrancisco/comments/1vqy63t/mayor_lurie_blasts_prop_i_as_a_slush_fund_his/</link>
