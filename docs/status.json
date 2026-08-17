@@ -1,44 +1,47 @@
 {
- "generated_at": "2026-08-17T15:05:57+00:00",
+ "generated_at": "2026-08-17T16:02:58+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 564,
-  "considered": 518,
-  "kept": 38,
+  "fetched": 529,
+  "considered": 410,
+  "kept": 35,
   "new": 0,
-  "hot": 6,
-  "leads": 5,
+  "hot": 4,
+  "leads": 4,
   "transport_counts": {
-   "rss": 502,
-   "old_html": 502,
-   "old_search": 114,
+   "rss": 511,
+   "old_html": 511,
+   "old_search": 29,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "open house",
-   "housing market",
-   "property tax",
-   "hoa"
+   "should i buy",
+   "rent vs buy",
+   "escrow",
+   "down payment"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "SFHousing",
-   "OaklandCA"
+   "marincounty",
+   "SouthBay"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 200.3,
-  "finished_at": "2026-08-17T15:05:57+00:00",
+  "duration_seconds": 254.2,
+  "finished_at": "2026-08-17T16:02:58+00:00",
   "blocked_hosts": {},
   "rate_limited": 0,
   "rate_limit_wait_seconds": 0.0,
-  "fetch_log": [],
+  "fetch_log": [
+   "HTTP 503 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253ABayAreaRealEstate%2Bshould%2Bi%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+   "HTTP 500 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253ABayAreaRealEstate%2Bshould%2Bi%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don"
+  ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-08-17T15:05:57+00:00"
+  "last_successful_crawl": "2026-08-17T16:02:58+00:00"
  }
 }
