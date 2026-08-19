@@ -1,46 +1,44 @@
 {
- "generated_at": "2026-08-19T19:39:54+00:00",
+ "generated_at": "2026-08-19T21:15:47+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 513,
-  "considered": 402,
-  "kept": 23,
-  "new": 1,
-  "hot": 3,
-  "leads": 3,
+  "fetched": 667,
+  "considered": 624,
+  "kept": 33,
+  "new": 3,
+  "hot": 7,
+  "leads": 6,
   "transport_counts": {
-   "rss": 513,
-   "old_html": 0,
-   "old_search": 0,
+   "rss": 600,
+   "old_html": 600,
+   "old_search": 125,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "first time home buyer",
-   "condo",
-   "tenants in common",
-   "mortgage"
+   "open house",
+   "housing market",
+   "property tax",
+   "hoa"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 236.8,
-  "finished_at": "2026-08-19T19:39:53+00:00",
+  "duration_seconds": 177.3,
+  "finished_at": "2026-08-19T21:15:47+00:00",
   "blocked_hosts": {},
-  "rate_limited": 1,
-  "rate_limit_wait_seconds": 20.0,
-  "fetch_log": [
-   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100"
-  ],
+  "rate_limited": 0,
+  "rate_limit_wait_seconds": 0.0,
+  "fetch_log": [],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-08-19T19:39:53+00:00"
+  "last_successful_crawl": "2026-08-19T21:15:47+00:00"
  }
 }
