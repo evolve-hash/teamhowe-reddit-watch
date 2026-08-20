@@ -43,7 +43,7 @@
   "t3_1vgc0la": "2026-08-05T19:02:10+00:00",
   "t3_1vgfa7y": "2026-08-05T19:02:10+00:00"
  },
- "last_successful_crawl": "2026-08-20T21:50:52+00:00",
+ "last_successful_crawl": "2026-08-20T23:08:09+00:00",
  "posts": {
   "t3_1uxkb7n": {
    "author": "musingsofme",
@@ -4393,7 +4393,7 @@
    "created_utc": 1786389984,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "I’m hoping to buy somewhere in the Bay Area within the next year, so I’ve started paying more attention to what homes are actually selling for and trying to understand what makes one worth the price. For first-time buyers, when you finally put in an offer, did you feel like you understood the home and its value pretty well, or was there...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vkunw6/how_much_did_you_really_understand_about_the/",
+   "external_url": "",
    "first_seen": "2026-08-10T20:27:20+00:00",
    "flair": "",
    "found_via": null,
@@ -4405,13 +4405,13 @@
    "id": "t3_1vkunw6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:40+00:00",
+   "last_seen": "2026-08-20T23:07:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vkunw6/how_much_did_you_really_understand_about_the/",
    "relevance": 18,
    "score": 35,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -4531,7 +4531,7 @@
    "author_url": "https://www.reddit.com/user/FandSConstruction",
    "comments": 15,
    "created_utc": 1786480376,
-   "domain": "old.reddit.com",
+   "domain": "reddit.com",
    "excerpt": "We are going to start remodeling this multi-family in San Francisco purchased for $2.21 Million in June. We recently took over another multi-family project about 10 minutes away where the client fired the previous contractor. We have 4 relatively large projects going on right now and 3 smaller quick turnaround projects. We have the...",
    "external_url": "https://www.reddit.com/gallery/1vlt58a",
    "first_seen": "2026-08-11T23:10:37+00:00",
@@ -4546,13 +4546,13 @@
    "id": "t3_1vlt58a",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:40+00:00",
+   "last_seen": "2026-08-20T23:07:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vlt58a/multifamily_renovation_in_sf/",
    "relevance": 12,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -4714,10 +4714,10 @@
    "created_utc": 1786553986,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "https://www.redfin.com/CA/San-Francisco/2558-24th-Ave-94116/home/662829 https://www.redfin.com/CA/San-Francisco/1871-25th-Ave-94122/home/1262290 These both went for 2.8M - fully remodeled. They are quite large as well compared to most houses in the area, but didn't seem to fetch what I would expect in this new market ($3M+). What's the...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vmjw42/remodeled_sunset_houses_selling_less_than_expected/",
+   "external_url": "",
    "first_seen": "2026-08-12T18:13:57+00:00",
    "flair": "",
-   "found_via": "housing market",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "redfin.com",
@@ -4726,13 +4726,13 @@
    "id": "t3_1vmjw42",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:39+00:00",
+   "last_seen": "2026-08-20T23:07:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vmjw42/remodeled_sunset_houses_selling_less_than_expected/",
    "relevance": 12,
    "score": 14,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -4763,7 +4763,7 @@
    "created_utc": 1786558832,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Hi, I’m Kate Talerico, a reporter at the San Francisco Chronicle . I’m writing about the ways — legal and not-so-legal — that landlords are trying to get people to move from their homes so that they can capitalize on increasing rents around the Bay Area. Have you been asked to leave your place? Offered you a buyout ? Has your landlord...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vmm6u9/have_you_been_offered_a_rent_buyout_for_your/",
+   "external_url": "",
    "first_seen": "2026-08-12T20:26:15+00:00",
    "flair": "",
    "found_via": null,
@@ -4776,13 +4776,13 @@
    "id": "t3_1vmm6u9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:39+00:00",
+   "last_seen": "2026-08-20T23:07:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vmm6u9/have_you_been_offered_a_rent_buyout_for_your/",
    "relevance": 21,
    "score": 1,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -4821,10 +4821,10 @@
    "created_utc": 1786566307,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "526-528 22nd Ave, Central Richmond . Sold last month for $1.95M. Three stories, two flats plus a bottom in-law. Middle unit has a rent-controlled tenant at $3,200/month. Top floor (1,500 sq ft) and the in-law are both vacant. Rent roll if you lease all three: Middle, sitting tenant: $3,200 Top floor, 2BR, needs paint job maybe:...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vmpklv/am_i_missing_something_with_this_richmond/",
+   "external_url": "",
    "first_seen": "2026-08-12T20:26:15+00:00",
    "flair": "",
-   "found_via": "property tax",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "property tax",
@@ -4837,7 +4837,7 @@
    "id": "t3_1vmpklv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:39+00:00",
+   "last_seen": "2026-08-20T23:07:19+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "Central Richmond"
@@ -4846,7 +4846,7 @@
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vmpklv/am_i_missing_something_with_this_richmond/",
    "relevance": 17,
    "score": 6,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -4939,7 +4939,7 @@
    "created_utc": 1786593012,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "We’re looking to buy SFH in this area and trying to find an agent. It’s still a seller’s market so trying to get a buying agent who’s experienced in this area and can help us with different strategies of submitting offers. Not sure about how they charge fees or percentages but open to suggestions. Thank you!",
-   "external_url": "/r/BayAreaRealEstate/comments/1vmzv4m/do_you_have_any_real_estate_agent_recommendations/",
+   "external_url": "",
    "first_seen": "2026-08-13T05:54:34+00:00",
    "flair": "",
    "found_via": null,
@@ -4952,13 +4952,13 @@
    "id": "t3_1vmzv4m",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:39+00:00",
+   "last_seen": "2026-08-20T23:07:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vmzv4m/do_you_have_any_real_estate_agent_recommendations/",
    "relevance": 22,
    "score": 5,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -5188,7 +5188,7 @@
    "created_utc": 1786650955,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "I am considering converting my 2 car garage to an ADU or JADU for rental income as the cost of living in Bay Area keeps going up. I am curious to learn about experiences, pros and cons, and any recommendations or tips. I will be financing portion of the build. I will probably need to hire a GC who can do everything from start to finish...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vnlgu2/garage_conversion_adu/",
+   "external_url": "",
    "first_seen": "2026-08-13T20:08:51+00:00",
    "flair": "",
    "found_via": null,
@@ -5200,13 +5200,13 @@
    "id": "t3_1vnlgu2",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:39+00:00",
+   "last_seen": "2026-08-20T23:07:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vnlgu2/garage_conversion_adu/",
    "relevance": 14,
    "score": 5,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -5437,10 +5437,10 @@
    "created_utc": 1786734493,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "This weekend's San Francisco list covers a pretty wide market. Asking prices run from $0.765M in Visitacion Valley to $8.500M on Marina Boulevard , with everything from sub-1,000sf houses to properties above 4,000sf. There is also a useful mix of listing ages. Several homes show just 0-1 DOM , while others have been exposed to the market...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vogfsn/san_francisco_open_houses_for_aug_1516_75_homes/",
+   "external_url": "",
    "first_seen": "2026-08-14T19:40:19+00:00",
    "flair": "",
-   "found_via": "housing market",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "planning to buy",
@@ -5459,7 +5459,7 @@
    "id": "t3_1vogfsn",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:38+00:00",
+   "last_seen": "2026-08-20T23:07:18+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Inner Mission",
@@ -5500,7 +5500,7 @@
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vogfsn/san_francisco_open_houses_for_aug_1516_75_homes/",
    "relevance": 32,
    "score": 11,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "intent": {
@@ -5621,7 +5621,7 @@
    "created_utc": 1786741655,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "If the assessor's office grants you a reduction how does prop 13 kick in? For example, if you paid $1M this would be the base for prop 13 and a 2% annual increase. under prop 8 if the assessor agrees your house in 2026 is now $800K, how does prop 13 kick in for 2027? what happens if the house value stays under $1M? what happens if the...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vojl1a/how_does_prop_8_and_prop_13_work/",
+   "external_url": "",
    "first_seen": "2026-08-14T22:00:40+00:00",
    "flair": "",
    "found_via": null,
@@ -5634,13 +5634,13 @@
    "id": "t3_1vojl1a",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:38+00:00",
+   "last_seen": "2026-08-20T23:07:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vojl1a/how_does_prop_8_and_prop_13_work/",
    "relevance": 14,
    "score": 3,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "patterns": {
@@ -5772,7 +5772,7 @@
    "created_utc": 1786833646,
    "domain": "self.SFBayHousing",
    "excerpt": "Hi! I’m looking for someone to take over my lease at Mosso SF from October 1 through May 15 . It’s a spacious ~1,000 sq ft, 1 bedroom / 1.5 bathroom townhouse-style apartment with tons of natural light and a private outdoor space. It’s also fully furnished , so it would be perfect for someone relocating to SF or looking for a...",
-   "external_url": "/r/SFBayHousing/comments/1vpgar6/1br_15ba_furnished_townhouse_in_soma_1000_sq_ft/",
+   "external_url": "",
    "first_seen": "2026-08-15T22:58:39+00:00",
    "flair": "",
    "found_via": null,
@@ -5786,7 +5786,7 @@
    "id": "t3_1vpgar6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:00+00:00",
+   "last_seen": "2026-08-20T23:06:40+00:00",
    "neighborhoods": [
     "SoMa"
    ],
@@ -5794,7 +5794,7 @@
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1vpgar6/1br_15ba_furnished_townhouse_in_soma_1000_sq_ft/",
    "relevance": 15,
    "score": 8,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "SFBayHousing",
    "tiers": {
     "neighborhoods": {
@@ -5887,10 +5887,10 @@
    "created_utc": 1786893467,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "We moved to Lamorinda in 2021 with our kids. We really appreciate some things about living here - especially that our kids can walk to school - but culturally, it hasn’t been a great fit for our family. We definitely don’t want to stay longer than necessary, but looking at the current real estate market is making us a little anxious. A...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vpzpkv/lamorinda_real_estate_prices/",
+   "external_url": "",
    "first_seen": "2026-08-16T15:57:33+00:00",
    "flair": "",
-   "found_via": "housing market",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "real estate",
@@ -5900,13 +5900,13 @@
    "id": "t3_1vpzpkv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:37+00:00",
+   "last_seen": "2026-08-20T23:07:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vpzpkv/lamorinda_real_estate_prices/",
    "relevance": 12,
    "score": 36,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -5998,7 +5998,7 @@
    "created_utc": 1786896504,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "The plan would let eligible buyers put down just 3% of a home’s price, with a state-backed second loan covering up to 17% more, effectively enabling a 20% down payment without requiring full upfront savings. Eligibility could extend to households earning up to 200% of area median income, including in high-cost California markets. The...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vq0znq/california_wants_to_help_buyers_put_just_3_down/",
+   "external_url": "",
    "first_seen": "2026-08-16T17:02:59+00:00",
    "flair": "",
    "found_via": null,
@@ -6012,13 +6012,13 @@
    "id": "t3_1vq0znq",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:37+00:00",
+   "last_seen": "2026-08-20T23:07:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vq0znq/california_wants_to_help_buyers_put_just_3_down/",
    "relevance": 22,
    "score": 16,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -6255,13 +6255,13 @@
    "id": "t3_1vqx5rt",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:49+00:00",
+   "last_seen": "2026-08-20T23:05:30+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vqx5rt/mayor_luries_budget_kills_one_of_the_strongest/",
    "relevance": 18,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -6371,7 +6371,7 @@
    "excerpt": "",
    "external_url": "https://missionlocal.org/2026/08/mayor-daniel-lurie-slush-fund-proposition-i-affordable-housing-social-housing-democratic-socialists-of-america-dsa/",
    "first_seen": "2026-08-17T17:14:02+00:00",
-   "flair": "Local Politics",
+   "flair": "",
    "found_via": null,
    "has_body": false,
    "hits": [
@@ -6381,13 +6381,13 @@
    "id": "t3_1vqy63t",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:49+00:00",
+   "last_seen": "2026-08-20T23:05:30+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vqy63t/mayor_lurie_blasts_prop_i_as_a_slush_fund_his/",
    "relevance": 13,
    "score": 72,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -6418,7 +6418,7 @@
    "created_utc": 1787002725,
    "domain": "self.sanfrancisco",
    "excerpt": "Hey all, I put together a small site that makes the SF Rent Board’s public buyout data easier to explore: https://buyoutsf.org You can search an address and see nearby buyout agreements, amounts, dates, and how recent agreements compare. I found the city dataset useful but pretty difficult to understand without downloading and sorting...",
-   "external_url": "/r/sanfrancisco/comments/1vr5q8d/free_tool_for_exploring_sf_rent_board_buyout/",
+   "external_url": "",
    "first_seen": "2026-08-17T21:59:30+00:00",
    "flair": "",
    "found_via": null,
@@ -6430,13 +6430,13 @@
    "id": "t3_1vr5q8d",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:49+00:00",
+   "last_seen": "2026-08-20T23:05:30+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vr5q8d/free_tool_for_exploring_sf_rent_board_buyout/",
    "relevance": 14,
    "score": 41,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "market": {
@@ -6479,13 +6479,13 @@
    "id": "t3_1vr68mj",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:48+00:00",
+   "last_seen": "2026-08-20T23:05:30+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vr68mj/sf_city_hall_drama_lawmaker_argues_he_was/",
    "relevance": 13,
    "score": 41,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -6607,12 +6607,12 @@
    "author_url": "https://www.reddit.com/user/_TurboHome",
    "comments": 16,
    "created_utc": 1787076945,
-   "domain": "old.reddit.com",
+   "domain": "reddit.com",
    "excerpt": "I pulled new listings and closed sales for every Bay Area zone, this year versus last, to answer a question I keep seeing: has inventory actually gotten better? Short answer: yes, everywhere, in terms of raw listing counts. But that's not all. The real finding came from checking how much of that new inventory is actually closing. San...",
    "external_url": "https://www.reddit.com/gallery/1vrx9zs",
    "first_seen": "2026-08-18T19:42:26+00:00",
    "flair": "",
-   "found_via": "housing market",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "over asking",
@@ -6630,7 +6630,7 @@
    "id": "t3_1vrx9zs",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:36+00:00",
+   "last_seen": "2026-08-20T23:07:16+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -6641,7 +6641,7 @@
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vrx9zs/has_bay_area_housing_inventory_improved_in_2026/",
    "relevance": 15,
    "score": 25,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -6759,7 +6759,7 @@
    "created_utc": 1787158372,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Hello! I’m a student working on an independent research paper on how recent rent control laws have affected rental housing availability in California. I have a short survey of just 6-8 (mostly multiple-choice) questions, which are completely anonymous and are based on what you've observed in your neighbourhood, so any long-term resident...",
-   "external_url": "/r/BayAreaRealEstate/comments/1vss284/help_filling_out_a_survey/",
+   "external_url": "",
    "first_seen": "2026-08-19T17:16:11+00:00",
    "flair": "",
    "found_via": null,
@@ -6771,13 +6771,13 @@
    "id": "t3_1vss284",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:36+00:00",
+   "last_seen": "2026-08-20T23:07:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vss284/help_filling_out_a_survey/",
    "relevance": 14,
    "score": 1,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "market": {
@@ -6859,7 +6859,7 @@
    "created_utc": 1787163047,
    "domain": "self.sanfrancisco",
    "excerpt": "I'd say since 2018 or 2019 the YIMBY movement went mainstream, with many YIMBY-aligned candidates winning elections in 2024. But the data certainly doesn't show any results in terms of actual numbers -- San Francisco is building less housing than ever, with a decline in completed units over the half decade[1]. Meanwhile the AI boom means...",
-   "external_url": "/r/sanfrancisco/comments/1vsuax0/has_the_yimby_movement_in_sf_failed_or_is_it_just/",
+   "external_url": "",
    "first_seen": "2026-08-19T19:36:27+00:00",
    "flair": "",
    "found_via": null,
@@ -6873,13 +6873,13 @@
    "id": "t3_1vsuax0",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:46+00:00",
+   "last_seen": "2026-08-20T23:05:27+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vsuax0/has_the_yimby_movement_in_sf_failed_or_is_it_just/",
    "relevance": 16,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "market": {
@@ -6912,10 +6912,10 @@
    "created_utc": 1787170140,
    "domain": "self.AskSF",
    "excerpt": "Hello SF friends. Long time SF (central richmond) resident here. Bill's on Clement is for sale. My honest (entirely baseless) take is that the food is not bad and if they simply remodeled the place, it could join the retro diner resurgence and be a great restaurant. No menu change, just better cleanliness/atmosphere. Am I crazy or does...",
-   "external_url": "/r/AskSF/comments/1vsxlp3/should_i_buy_bills_place/",
+   "external_url": "",
    "first_seen": "2026-08-19T21:13:57+00:00",
    "flair": "",
-   "found_via": "should i buy",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "should i buy",
@@ -6924,7 +6924,7 @@
    "id": "t3_1vsxlp3",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-08-20T21:48:23+00:00",
+   "last_seen": "2026-08-20T23:06:03+00:00",
    "neighborhoods": [
     "Central Richmond"
    ],
@@ -6932,7 +6932,7 @@
    "permalink": "https://www.reddit.com/r/AskSF/comments/1vsxlp3/should_i_buy_bills_place/",
    "relevance": 17,
    "score": 327,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "AskSF",
    "tiers": {
     "intent": {
@@ -6963,10 +6963,10 @@
    "created_utc": 1787173785,
    "domain": "self.sanfrancisco",
    "excerpt": "I voted for Lurie and have been happy with his performance because it FELT like things were getting better. But increasingly, I’m not so sure… are things actually getting better? I’d love to hear what Reddit has to say about this… Homelessness: In the Mission, the homeless situation is worse than ever. The BART plazas are an unmitigated...",
-   "external_url": "/r/sanfrancisco/comments/1vsz946/mayor_lurie_vibes_vs_reality/",
+   "external_url": "",
    "first_seen": "2026-08-19T21:13:20+00:00",
-   "flair": "Local Politics",
-   "found_via": "housing market",
+   "flair": "",
+   "found_via": null,
    "has_body": true,
    "hits": [
     "housing",
@@ -6977,7 +6977,7 @@
    "id": "t3_1vsz946",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:46+00:00",
+   "last_seen": "2026-08-20T23:05:27+00:00",
    "neighborhoods": [
     "Inner Mission",
     "Van Ness / Civic Center"
@@ -6986,7 +6986,7 @@
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vsz946/mayor_lurie_vibes_vs_reality/",
    "relevance": 11,
    "score": 601,
-   "sources": "old_html+old_search+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "market": {
@@ -7032,7 +7032,7 @@
    "id": "t3_1vt0s2q",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:45+00:00",
+   "last_seen": "2026-08-20T23:05:27+00:00",
    "neighborhoods": [
     "Downtown SF"
    ],
@@ -7040,7 +7040,7 @@
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vt0s2q/exclusive_downtown_sf_planet_fitness_evicted/",
    "relevance": 13,
    "score": 218,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -7188,7 +7188,7 @@
    "created_utc": 1787209018,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Noe* Seems like a pretty turn key condo in a desirable area. It sold over asking but surprised it’s only ~15 percent over asking. https://www.zillow.com/homedetails/557-27th-St-2-San-Francisco-CA-94131/15182326_zpid/ https://websites.open.homes/site/1f153048-348b-65e8-840a-02ffd8b76bfd",
-   "external_url": "/r/BayAreaRealEstate/comments/1vtc128/why_did_this_now_valley_condo_sell_for_so_less/",
+   "external_url": "",
    "first_seen": "2026-08-20T07:31:30+00:00",
    "flair": "",
    "found_via": null,
@@ -7201,13 +7201,13 @@
    "id": "t3_1vtc128",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:35+00:00",
+   "last_seen": "2026-08-20T23:07:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vtc128/why_did_this_now_valley_condo_sell_for_so_less/",
    "relevance": 16,
    "score": 0,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -7239,7 +7239,7 @@
    "created_utc": 1787234167,
    "domain": "self.SFBayHousing",
    "excerpt": "https://abc7news.com/post/san-francisco-landlord-skirts-rent-control-laws-doubling-familys-pushing/19699525/",
-   "external_url": "/r/SFBayHousing/comments/1vtk7zv/greedy_slumlords_are_ruining_san_francisco/",
+   "external_url": "",
    "first_seen": "2026-08-20T14:22:13+00:00",
    "flair": "",
    "found_via": null,
@@ -7251,13 +7251,13 @@
    "id": "t3_1vtk7zv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:48:58+00:00",
+   "last_seen": "2026-08-20T23:06:38+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1vtk7zv/greedy_slumlords_are_ruining_san_francisco/",
    "relevance": 13,
    "score": 24,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "SFBayHousing",
    "tiers": {
     "domains": {
@@ -7301,7 +7301,7 @@
    "id": "t3_1vtkuvc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:45+00:00",
+   "last_seen": "2026-08-20T23:05:26+00:00",
    "neighborhoods": [
     "Inner Sunset",
     "Van Ness / Civic Center"
@@ -7310,7 +7310,7 @@
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vtkuvc/i_created_the_great_highway_compromise_heres_why/",
    "relevance": 11,
    "score": 299,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -7413,13 +7413,13 @@
    "id": "t3_1vtld6k",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:47:44+00:00",
+   "last_seen": "2026-08-20T23:05:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vtld6k/sf_landlord_skirts_rent_control_laws_doubling/",
    "relevance": 21,
    "score": 113,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "sanfrancisco",
    "tiers": {
     "domains": {
@@ -7458,7 +7458,7 @@
    "created_utc": 1787248288,
    "domain": "self.BayAreaRealEstate",
    "excerpt": "Went to the open house. I really liked it. https://www.redfin.com/CA/San-Francisco/142-Josiah-Ave-94112/home/1215309?600390594=copy\\_variant&utm\\_source=ios\\_share&utm\\_medium=share&utm\\_nooverride=1&utm\\_content=link&utm\\_campaign=share\\_sheet",
-   "external_url": "/r/BayAreaRealEstate/comments/1vtqma5/how_much_do_you_think_this_house_will_go_for/",
+   "external_url": "",
    "first_seen": "2026-08-20T19:21:08+00:00",
    "flair": "",
    "found_via": null,
@@ -7470,13 +7470,13 @@
    "id": "t3_1vtqma5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-08-20T21:49:35+00:00",
+   "last_seen": "2026-08-20T23:07:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vtqma5/how_much_do_you_think_this_house_will_go_for/",
    "relevance": 14,
    "score": 3,
-   "sources": "old_html+rss",
+   "sources": "rss",
    "subreddit": "BayAreaRealEstate",
    "tiers": {
     "domains": {
@@ -7502,47 +7502,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 502,
-   "duration_seconds": 196.8,
-   "fetch_log": [],
-   "fetched": 529,
-   "finished_at": "2026-08-18T03:16:15+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 34,
-   "last_successful_crawl": "2026-08-18T03:16:15+00:00",
-   "leads": 5,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "tenants in common",
-    "mortgage",
-    "open house",
-    "housing market"
-   ],
-   "transport_counts": {
-    "old_html": 402,
-    "old_search": 46,
-    "pullpush": 0,
-    "rss": 502
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 416,
@@ -9152,9 +9111,50 @@
     "pullpush": 0,
     "rss": 502
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 480,
+   "duration_seconds": 194.9,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-08-20T23:08:09+00:00",
+   "healthy": true,
+   "hot": 2,
+   "kept": 27,
+   "last_successful_crawl": "2026-08-20T23:08:09+00:00",
+   "leads": 2,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 0,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "rent vs buy",
+    "escrow",
+    "down payment",
+    "realtor"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 14,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 1,
  "version": 1
 }
