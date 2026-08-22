@@ -1,44 +1,44 @@
 {
- "generated_at": "2026-08-22T06:03:43+00:00",
+ "generated_at": "2026-08-22T07:52:54+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 600,
-  "considered": 600,
-  "kept": 34,
+  "fetched": 527,
+  "considered": 515,
+  "kept": 40,
   "new": 0,
-  "hot": 2,
+  "hot": 3,
   "leads": 2,
   "transport_counts": {
-   "rss": 600,
-   "old_html": 0,
-   "old_search": 0,
+   "rss": 502,
+   "old_html": 302,
+   "old_search": 32,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "real estate agent",
-   "buying a house",
-   "selling my house",
-   "home prices"
+   "first time home buyer",
+   "condo",
+   "tenants in common",
+   "mortgage"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "RealEstate",
-   "FirstTimeHomeBuyer"
+   "bayarea",
+   "sanfranciscohousing"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 168.2,
-  "finished_at": "2026-08-22T06:03:43+00:00",
+  "duration_seconds": 217.5,
+  "finished_at": "2026-08-22T07:52:54+00:00",
   "blocked_hosts": {},
   "rate_limited": 0,
   "rate_limit_wait_seconds": 0.0,
   "fetch_log": [],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-08-22T06:03:43+00:00"
+  "last_successful_crawl": "2026-08-22T07:52:54+00:00"
  }
 }
