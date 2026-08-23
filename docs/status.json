@@ -1,60 +1,44 @@
 {
- "generated_at": "2026-08-23T15:04:13+00:00",
+ "generated_at": "2026-08-23T16:00:18+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 600,
-  "considered": 600,
-  "kept": 31,
-  "new": 0,
-  "hot": 2,
-  "leads": 2,
+  "fetched": 546,
+  "considered": 525,
+  "kept": 41,
+  "new": 1,
+  "hot": 4,
+  "leads": 3,
   "transport_counts": {
-   "rss": 600,
-   "old_html": 0,
-   "old_search": 0,
+   "rss": 502,
+   "old_html": 502,
+   "old_search": 75,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "hoa",
-   "should i buy",
-   "rent vs buy",
-   "escrow"
+   "down payment",
+   "realtor",
+   "real estate agent",
+   "buying a house"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "RealEstate",
-   "FirstTimeHomeBuyer"
+   "bayarea",
+   "sanfranciscohousing"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 255.8,
-  "finished_at": "2026-08-23T15:04:13+00:00",
-  "blocked_hosts": {
-   "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403",
-   "old.reddit.com": "HTTP 403"
-  },
-  "rate_limited": 5,
-  "rate_limit_wait_seconds": 120.0,
-  "fetch_log": [
-   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
-   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253AAskSF%2Bescrow%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3AAskSF+escrow&sort=new&t=month&restrict_sr=on",
-   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
-   "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-   "HTTP 403 https://old.reddit.com/r/SFBayHousing/new/?limit=100",
-   "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
-  ],
+  "duration_seconds": 252.5,
+  "finished_at": "2026-08-23T16:00:18+00:00",
+  "blocked_hosts": {},
+  "rate_limited": 0,
+  "rate_limit_wait_seconds": 0.0,
+  "fetch_log": [],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-08-23T15:04:13+00:00"
+  "last_successful_crawl": "2026-08-23T16:00:18+00:00"
  }
 }
