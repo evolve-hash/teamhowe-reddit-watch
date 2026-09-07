@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-07T16:32:02+00:00",
+ "generated_at": "2026-09-07T20:37:48+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
   "fetched": 502,
-  "considered": 500,
-  "kept": 32,
+  "considered": 472,
+  "kept": 26,
   "new": 0,
   "hot": 2,
   "leads": 0,
@@ -16,31 +16,29 @@
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "property tax",
-   "hoa",
-   "should i buy",
-   "rent vs buy"
+   "escrow",
+   "down payment",
+   "realtor",
+   "real estate agent"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "bayarea",
-   "sanfranciscohousing"
+   "SFHousing",
+   "OaklandCA"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 231.3,
-  "finished_at": "2026-09-07T16:32:02+00:00",
+  "duration_seconds": 192.8,
+  "finished_at": "2026-09-07T20:37:48+00:00",
   "blocked_hosts": {},
   "rate_limited": 0,
   "rate_limit_wait_seconds": 0.0,
-  "fetch_log": [
-   "HTTP 504 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253ASFBayHousing%2Bhoa%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don"
-  ],
+  "fetch_log": [],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-09-07T16:32:02+00:00"
+  "last_successful_crawl": "2026-09-07T20:37:48+00:00"
  }
 }
