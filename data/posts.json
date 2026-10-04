@@ -1,157 +1,7 @@
 {
- "alerted": {
-  "t3_1vgfa7y": "2026-08-05T19:02:10+00:00"
- },
- "last_successful_crawl": "2026-10-04T17:38:54+00:00",
+ "alerted": {},
+ "last_successful_crawl": "2026-10-04T21:29:48+00:00",
  "posts": {
-  "t3_1vgfa7y": {
-   "author": "knockdowncenter",
-   "author_url": "https://www.reddit.com/user/knockdowncenter",
-   "comments": 190,
-   "created_utc": 1785953708,
-   "domain": "i.redd.it",
-   "excerpt": "Can someone explain this one? Why is an apartment complex having so much trouble renting out BMR units that they have to resort to offering 3 free months, and even then it seems no one wants them? https://www.zillow.com/apartments/san-francisco-ca/the-george/CjfxLx",
-   "external_url": "https://i.redd.it/jsnqcqa3llhh1.jpeg",
-   "first_seen": "2026-08-05T18:26:48+00:00",
-   "flair": "Pic / Video",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "apartments",
-    "apartment building",
-    "affordable housing",
-    "zillow.com"
-   ],
-   "id": "t3_1vgfa7y",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-08T23:49:14+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vgfa7y/apartment_building_cant_rent_out_affordable/",
-   "relevance": 18,
-   "score": 172,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "zillow.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 4,
-     "hits": [
-      "housing",
-      "apartments",
-      "apartment building",
-      "affordable housing"
-     ],
-     "label": "Market talk",
-     "points": 10.5
-    }
-   },
-   "title": "Apartment building can’t rent out affordable housing units (BMR) even with offering 3 free months",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vgjju0": {
-   "author": "Scott_in_the_BayArea",
-   "author_url": "https://www.reddit.com/user/Scott_in_the_BayArea",
-   "comments": 4,
-   "created_utc": 1785962876,
-   "domain": "",
-   "excerpt": "You don’t have the funds to make an all cash offer. However you could submit a cash-like offer. Are they worth it? Can it help me buy a home? What is a \"Cash-Like Offer\"? A cash-like offer—often called a \"cash-backed\" or \"certified\" offer—allows buyers who need a mortgage to compete directly with all-cash buyers. The cash-like programs...",
-   "external_url": "",
-   "first_seen": "2026-08-05T21:56:31+00:00",
-   "flair": "",
-   "found_via": "mortgage",
-   "has_body": true,
-   "hits": [
-    "buy a home",
-    "closing costs",
-    "contingency",
-    "contingencies",
-    "appraisal",
-    "cash offer",
-    "all cash",
-    "realtor",
-    "housing market",
-    "home price",
-    "property value",
-    "housing"
-   ],
-   "id": "t3_1vgjju0",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-26T14:10:19+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vgjju0/can_a_cashlike_offer_help_you_buy_a_home/",
-   "relevance": 52,
-   "score": 0,
-   "sources": "old_search",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "realtor.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buy a home"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "market": {
-     "count": 6,
-     "hits": [
-      "realtor",
-      "housing market",
-      "home price",
-      "property value",
-      "housing",
-      "single-family home"
-     ],
-     "label": "Market talk",
-     "points": 12.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$1 million"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "transaction": {
-     "count": 6,
-     "hits": [
-      "closing costs",
-      "contingency",
-      "contingencies",
-      "appraisal",
-      "cash offer",
-      "all cash"
-     ],
-     "label": "Transaction mechanics",
-     "points": 14.0
-    }
-   },
-   "title": "Can a cash-like offer help you buy a home?",
-   "unplaced": true,
-   "verdict": "watch"
-  },
   "t3_1vglcpp": {
    "author": "wsj",
    "author_url": "https://www.reddit.com/user/wsj",
@@ -13775,7 +13625,7 @@
    "id": "t3_1wlz5al",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wlz5al/600k_for_a_cabin_in_the_woods/",
@@ -13824,7 +13674,7 @@
    "id": "t3_1wm45xa",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wm45xa/buying_in_sf_vs_penninsula/",
@@ -13865,7 +13715,7 @@
    "id": "t3_1wmjjmk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wmjjmk/neighborhood_considerations_for_buying_a_house_in/",
@@ -13905,7 +13755,7 @@
    "id": "t3_1wmpt88",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wmpt88/foundation_shifting_moisture_what_are_we_getting/",
@@ -13946,7 +13796,7 @@
    "id": "t3_1wmupoq",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:07+00:00",
+   "last_seen": "2026-10-04T21:28:23+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1wmupoq/family_of_sf_landlord_who_allegedly_killed_tenant/",
@@ -14166,7 +14016,7 @@
    "id": "t3_1wnenc9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -14244,7 +14094,7 @@
    "id": "t3_1wnglqi",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wnglqi/learnings_from_sf_property_tax_hearing/",
@@ -14311,7 +14161,7 @@
    "id": "t3_1wnkd6q",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:46+00:00",
+   "last_seen": "2026-10-04T21:29:01+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wnkd6q/cambrian_park_real_estate/",
@@ -14426,7 +14276,7 @@
    "id": "t3_1wnyh7u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:07+00:00",
+   "last_seen": "2026-10-04T21:28:22+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -14584,7 +14434,7 @@
    "id": "t3_1wofja8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:45+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wofja8/partially_demolished_pool/",
@@ -14627,7 +14477,7 @@
    "id": "t3_1wohuod",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:45+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wohuod/homebuyers_friendly_headsup_from_a_loan_officer/",
@@ -14733,7 +14583,7 @@
    "id": "t3_1won8z5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:45+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1won8z5/who_is_getting_a_mortgage_at_75_or_higher/",
@@ -14928,7 +14778,7 @@
    "id": "t3_1wpagcy",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:45+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wpagcy/how_are_realtors_able_to_delete_the_history_of_a/",
@@ -14987,7 +14837,7 @@
    "id": "t3_1wpgezk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:45+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wpgezk/speaking_of_rate_this_house_just_closed_today_72m/",
@@ -15042,7 +14892,7 @@
    "id": "t3_1wporre",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:44+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wporre/marina_house_bought_for_35m_in_february_listed/",
@@ -15327,7 +15177,7 @@
    "id": "t3_1wq79tc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:44+00:00",
+   "last_seen": "2026-10-04T21:29:00+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -15689,7 +15539,7 @@
    "id": "t3_1wroptn",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:43+00:00",
+   "last_seen": "2026-10-04T21:28:59+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -16038,7 +15888,7 @@
    "id": "t3_1wtjd38",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:42+00:00",
+   "last_seen": "2026-10-04T21:28:58+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wtjd38/bridge_loan_help/",
@@ -16259,7 +16109,7 @@
    "id": "t3_1wu98f1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:42+00:00",
+   "last_seen": "2026-10-04T21:28:58+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wu98f1/arm_or_conventional_loan/",
@@ -16365,7 +16215,7 @@
    "id": "t3_1wujmrj",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:36:34+00:00",
+   "last_seen": "2026-10-04T21:27:48+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1wujmrj/is_there_a_community_for_small_housing_providers/",
@@ -16415,7 +16265,7 @@
    "id": "t3_1wv1ns8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:42+00:00",
+   "last_seen": "2026-10-04T21:28:58+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wv1ns8/closing_escrow_tomorrow_on_sf_bay_area_duplex/",
@@ -16475,7 +16325,7 @@
    "id": "t3_1wv6013",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:41+00:00",
+   "last_seen": "2026-10-04T21:28:58+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -16613,7 +16463,7 @@
    "id": "t3_1wvjqiv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:41+00:00",
+   "last_seen": "2026-10-04T21:28:57+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wvjqiv/jumbo_rates_in_the_5s_after_september/",
@@ -16676,7 +16526,7 @@
    "id": "t3_1wvvend",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:36:31+00:00",
+   "last_seen": "2026-10-04T21:27:47+00:00",
    "neighborhoods": [
     "Hayes Valley",
     "Mission Bay",
@@ -16847,7 +16697,7 @@
    "id": "t3_1ww8w54",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:41+00:00",
+   "last_seen": "2026-10-04T21:28:57+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -16969,7 +16819,7 @@
    "id": "t3_1wwb96r",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:35:56+00:00",
+   "last_seen": "2026-10-04T21:27:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wwb96r/voter_friendly_way_to_get_more_housing_supply/",
@@ -17028,7 +16878,7 @@
    "id": "t3_1wwob4a",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:41+00:00",
+   "last_seen": "2026-10-04T21:28:57+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -17107,7 +16957,7 @@
    "id": "t3_1wws05i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-04T17:37:40+00:00",
+   "last_seen": "2026-10-04T21:28:57+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wws05i/sf_housing_is_out_of_control/",
@@ -17136,50 +16986,60 @@
    "title": "SF Housing Is Out of Control",
    "unplaced": false,
    "verdict": "watch"
+  },
+  "t3_1wxn5gj": {
+   "author": "Scary-Log-460",
+   "author_url": "https://www.reddit.com/user/Scary-Log-460",
+   "comments": null,
+   "created_utc": 1791139416,
+   "domain": "self.BayAreaRealEstate",
+   "excerpt": "Because the Bay Area has no more flat land for development, so all the new housing is high density condos and apartments. So if you want to raise a family in a single family homes, you are out of luck? Those $500k+ jobs are also disappearing because of AI and tech layoffs too",
+   "external_url": "",
+   "first_seen": "2026-10-04T21:28:57+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "housing",
+    "apartments",
+    "$500k"
+   ],
+   "id": "t3_1wxn5gj",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-10-04T21:28:57+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wxn5gj/will_single_family_homes_be_forever_unaffordable/",
+   "relevance": 12,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "BayAreaRealEstate",
+   "tiers": {
+    "market": {
+     "count": 2,
+     "hits": [
+      "housing",
+      "apartments"
+     ],
+     "label": "Market talk",
+     "points": 7.5
+    },
+    "patterns": {
+     "count": 1,
+     "hits": [
+      "$500k"
+     ],
+     "label": "Price / listing pattern",
+     "points": 5.0
+    }
+   },
+   "title": "Will single family homes be forever unaffordable unless you make $500k+ per year?",
+   "unplaced": true,
+   "verdict": "watch"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 449,
-   "duration_seconds": 188.9,
-   "fetch_log": [],
-   "fetched": 502,
-   "finished_at": "2026-09-26T07:46:18+00:00",
-   "healthy": true,
-   "hot": 7,
-   "kept": 39,
-   "last_successful_crawl": "2026-09-26T07:46:18+00:00",
-   "leads": 4,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "condo",
-    "tenants in common",
-    "mortgage",
-    "open house"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 502
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 383,
@@ -18782,9 +18642,50 @@
     "pullpush": 0,
     "rss": 502
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 455,
+   "duration_seconds": 190.0,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-10-04T21:29:48+00:00",
+   "healthy": true,
+   "hot": 5,
+   "kept": 29,
+   "last_successful_crawl": "2026-10-04T21:29:48+00:00",
+   "leads": 3,
+   "new": 1,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "should i buy",
+    "rent vs buy",
+    "escrow",
+    "down payment"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 13,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 0,
  "version": 1
 }
