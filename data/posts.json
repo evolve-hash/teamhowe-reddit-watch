@@ -1,156 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-12T07:25:30+00:00",
+ "last_successful_crawl": "2026-10-12T17:59:16+00:00",
  "posts": {
-  "t3_1vncti1": {
-   "author": "Head-Programmer-1517",
-   "author_url": "https://www.reddit.com/user/Head-Programmer-1517",
-   "comments": 273,
-   "created_utc": 1786632507,
-   "domain": "self.sanfrancisco",
-   "excerpt": "every year the Chronicle publishes this info but never asks or shows how this compares to other cities. To me these are insane total comps including “overtime” which is a setup for abuse. https://www.sfchronicle.com/projects/2026/san-francisco-employee-pay/",
-   "external_url": "/r/sanfrancisco/comments/1vncti1/is_it_crazy_how_much_the_police_and_others_are/",
-   "first_seen": "2026-08-13T18:12:49+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "comps",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1vncti1",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-17T15:59:19+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vncti1/is_it_crazy_how_much_the_police_and_others_are/",
-   "relevance": 13,
-   "score": 249,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "comps"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Is it crazy how much the police and others are paid in S.F.?",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vnem1l": {
-   "author": "AcademicSand1034",
-   "author_url": "https://www.reddit.com/user/AcademicSand1034",
-   "comments": 287,
-   "created_utc": 1786636369,
-   "domain": "sfchronicle.com",
-   "excerpt": "During the lengthy approval process the original builder said he took part in over 1,000 meetings about the project, including weekly “beer with a developer” sessions at the Madrone Art Bar, a block away from the development site. By the time the project was approved in 2019 construction costs had increased to a point where the project...",
-   "external_url": "https://www.sfchronicle.com/sf/article/apartment-divisadero-street-san-francisco-22386042.php",
-   "first_seen": "2026-08-13T18:12:48+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "apartments",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1vnem1l",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-17T19:59:18+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vnem1l/sf_chronicle_sfs_notorious_housing_saga_at/",
-   "relevance": 14,
-   "score": 647,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 2,
-     "hits": [
-      "housing",
-      "apartments"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    }
-   },
-   "title": "SF Chronicle: S.F.’s notorious housing saga at Divisadero car wash is over, 203 apartments are coming",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vnfelf": {
-   "author": "SFChronicle",
-   "author_url": "https://www.reddit.com/user/SFChronicle",
-   "comments": 225,
-   "created_utc": 1786638023,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/projects/2026/san-francisco-employee-pay/?utm_source=reddit",
-   "first_seen": "2026-08-13T18:12:48+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "sfchronicle.com",
-    "$900k"
-   ],
-   "id": "t3_1vnfelf",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-17T21:05:54+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vnfelf/sfs_toppaid_employee_made_900k_heres_what_every/",
-   "relevance": 12,
-   "score": 529,
-   "sources": "old_html",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$900k"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "S.F.’s top-paid employee made $900K. Here’s what every city worker gets paid",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1vnjpvv": {
    "author": "Remarkable_Host6827",
    "author_url": "https://www.reddit.com/user/Remarkable_Host6827",
@@ -12187,7 +12038,7 @@
    "id": "t3_1wmupoq",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:23:44+00:00",
+   "last_seen": "2026-10-12T17:57:51+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1wmupoq/family_of_sf_landlord_who_allegedly_killed_tenant/",
@@ -12667,7 +12518,7 @@
    "id": "t3_1wnyh7u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:23:44+00:00",
+   "last_seen": "2026-10-12T17:57:51+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -13930,7 +13781,7 @@
    "id": "t3_1wroptn",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:22+00:00",
+   "last_seen": "2026-10-12T17:58:29+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -14279,7 +14130,7 @@
    "id": "t3_1wtjd38",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:21+00:00",
+   "last_seen": "2026-10-12T17:58:28+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wtjd38/bridge_loan_help/",
@@ -14500,7 +14351,7 @@
    "id": "t3_1wu98f1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:21+00:00",
+   "last_seen": "2026-10-12T17:58:28+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wu98f1/arm_or_conventional_loan/",
@@ -14656,7 +14507,7 @@
    "id": "t3_1wv1ns8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:21+00:00",
+   "last_seen": "2026-10-12T17:58:27+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wv1ns8/closing_escrow_tomorrow_on_sf_bay_area_duplex/",
@@ -14716,7 +14567,7 @@
    "id": "t3_1wv6013",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:20+00:00",
+   "last_seen": "2026-10-12T17:58:27+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -14854,7 +14705,7 @@
    "id": "t3_1wvjqiv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:20+00:00",
+   "last_seen": "2026-10-12T17:58:27+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wvjqiv/jumbo_rates_in_the_5s_after_september/",
@@ -15088,7 +14939,7 @@
    "id": "t3_1ww8w54",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:20+00:00",
+   "last_seen": "2026-10-12T17:58:27+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -15269,7 +15120,7 @@
    "id": "t3_1wwob4a",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:19+00:00",
+   "last_seen": "2026-10-12T17:58:27+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -15348,7 +15199,7 @@
    "id": "t3_1wws05i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:19+00:00",
+   "last_seen": "2026-10-12T17:58:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wws05i/sf_housing_is_out_of_control/",
@@ -15497,7 +15348,7 @@
    "id": "t3_1wy2ijm",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:19+00:00",
+   "last_seen": "2026-10-12T17:58:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wy2ijm/is_bayview_india_basin_a_nice_place_to_live/",
@@ -15707,7 +15558,7 @@
    "id": "t3_1wyz5to",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:18+00:00",
+   "last_seen": "2026-10-12T17:58:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wyz5to/why_do_some_agents_hate_discounting_commissions/",
@@ -15752,7 +15603,7 @@
    "id": "t3_1wzcf3u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:18+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -16010,7 +15861,7 @@
    "id": "t3_1x06213",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:23:09+00:00",
+   "last_seen": "2026-10-12T17:57:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1x06213/moving_to_sf_for_12_years_for_academic_research/",
@@ -16063,7 +15914,7 @@
    "id": "t3_1x09wqk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:18+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x09wqk/will_surging_mortgage_rates_cool_san_franciscos/",
@@ -16232,7 +16083,7 @@
    "id": "t3_1x13wv4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:17+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x13wv4/mortgage_lender_recommendations/",
@@ -16484,7 +16335,7 @@
    "id": "t3_1x1u813",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:17+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -16650,7 +16501,7 @@
    "id": "t3_1x1ypjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:17+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x1ypjr/i_read_22_bay_area_inspection_reports_front_to/",
@@ -16700,7 +16551,7 @@
    "id": "t3_1x20hgc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:17+00:00",
+   "last_seen": "2026-10-12T17:58:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x20hgc/house_disclosures/",
@@ -16752,7 +16603,7 @@
    "id": "t3_1x21f5i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:22:30+00:00",
+   "last_seen": "2026-10-12T17:56:39+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x21f5i/a_public_bank_could_be_key_to_fixing_san/",
@@ -16803,7 +16654,7 @@
    "id": "t3_1x2361s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:17+00:00",
+   "last_seen": "2026-10-12T17:58:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2361s/oof_not_sure_on_this_renovation/",
@@ -16924,7 +16775,7 @@
    "id": "t3_1x26m0t",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-12T07:22:30+00:00",
+   "last_seen": "2026-10-12T17:56:39+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x26m0t/after_6_years_and_37_million_historic_mission/",
@@ -17026,7 +16877,7 @@
    "id": "t3_1x2vwgo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:16+00:00",
+   "last_seen": "2026-10-12T17:58:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2vwgo/property_tax_decline_in_value/",
@@ -17091,7 +16942,7 @@
    "id": "t3_1x3i266",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-12T07:24:16+00:00",
+   "last_seen": "2026-10-12T17:58:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x3i266/what_if_any_obligation_does_a_realtor_have_when/",
@@ -17141,50 +16992,49 @@
    "title": "What (if any) obligation does a Realtor have when listing a property w/illegal work?",
    "unplaced": false,
    "verdict": "hot"
+  },
+  "t3_1x3vgbr": {
+   "author": "Scary_Percentage1294",
+   "author_url": "https://www.reddit.com/user/Scary_Percentage1294",
+   "comments": null,
+   "created_utc": 1791789988,
+   "domain": "self.sanfrancisco",
+   "excerpt": "Hello, I am travelling with my wife and 4 years old to SF this October. We are from Europe and it is out first visit to United States. During our stay we also want to experience driverless taxi like Waymo, Zoox or Robotaxi. The easiest way is to order a cab from its application. Since we are from Europe, I cannot download directly the...",
+   "external_url": "",
+   "first_seen": "2026-10-12T17:56:36+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "should i buy"
+   ],
+   "id": "t3_1x3vgbr",
+   "is_lead": true,
+   "is_new": true,
+   "last_seen": "2026-10-12T17:56:36+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x3vgbr/how_to_order_driverless_taxis_in_sf_as_an_european/",
+   "relevance": 14,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "sanfrancisco",
+   "tiers": {
+    "intent": {
+     "count": 1,
+     "hits": [
+      "should i buy"
+     ],
+     "label": "Buyer / seller intent",
+     "points": 14.0
+    }
+   },
+   "title": "how to order driverless taxis in SF as an European ?",
+   "unplaced": false,
+   "verdict": "hot"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 457,
-   "duration_seconds": 192.7,
-   "fetch_log": [],
-   "fetched": 502,
-   "finished_at": "2026-10-03T08:10:25+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 29,
-   "last_successful_crawl": "2026-10-03T08:10:25+00:00",
-   "leads": 3,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "escrow",
-    "down payment",
-    "realtor",
-    "real estate agent"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 502
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 379,
@@ -18787,9 +18637,50 @@
     "pullpush": 0,
     "rss": 502
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 467,
+   "duration_seconds": 191.3,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-10-12T17:59:16+00:00",
+   "healthy": true,
+   "hot": 7,
+   "kept": 26,
+   "last_successful_crawl": "2026-10-12T17:59:16+00:00",
+   "leads": 7,
+   "new": 1,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 3,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "first time home buyer",
+    "condo",
+    "tenants in common",
+    "mortgage"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 5,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 9,
  "version": 1
 }
