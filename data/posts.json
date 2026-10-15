@@ -1,91 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-15T19:11:50+00:00",
+ "last_successful_crawl": "2026-10-15T22:23:21+00:00",
  "posts": {
-  "t3_1vq8rtr": {
-   "author": "loudfroggie",
-   "author_url": "https://www.reddit.com/user/loudfroggie",
-   "comments": 15,
-   "created_utc": 1786914654,
-   "domain": "",
-   "excerpt": "I'm late twenties and going through a divorce and from Texas. I'm gay, no pets, make a good living, and travel a lot for work (3-5 work trips per month, 10-15 international per year). I work in marketing and own my company so can be based pretty much anywhere. Things I absolutely love: - Proximity to ski (Tahoe) - Nightlife / techno /...",
-   "external_url": "",
-   "first_seen": "2026-08-16T21:53:09+00:00",
-   "flair": "",
-   "found_via": "property tax",
-   "has_body": true,
-   "hits": [
-    "should i buy",
-    "buy or rent",
-    "moving to sf",
-    "move to sf",
-    "property values",
-    "texas",
-    "Van Ness / Civic Center"
-   ],
-   "id": "t3_1vq8rtr",
-   "is_lead": true,
-   "is_new": false,
-   "last_seen": "2026-08-31T15:22:39+00:00",
-   "neighborhoods": [
-    "Van Ness / Civic Center"
-   ],
-   "out_of_area": [
-    "texas"
-   ],
-   "permalink": "https://www.reddit.com/r/AskSF/comments/1vq8rtr/should_i_move_to_sf_where_should_i_live/",
-   "relevance": 28,
-   "score": 0,
-   "sources": "old_search",
-   "subreddit": "AskSF",
-   "tiers": {
-    "intent": {
-     "count": 2,
-     "hits": [
-      "should i buy",
-      "buy or rent"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 17.5
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "property values"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Van Ness / Civic Center"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "texas"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "relocation": {
-     "count": 2,
-     "hits": [
-      "moving to sf",
-      "move to sf"
-     ],
-     "label": "Moving to the area",
-     "points": 10.0
-    }
-   },
-   "title": "Should I move to SF? Where should I live?",
-   "unplaced": false,
-   "verdict": "hot"
-  },
   "t3_1vqbqek": {
    "author": "Booknerdish",
    "author_url": "https://www.reddit.com/user/Booknerdish",
@@ -13211,7 +13127,7 @@
    "id": "t3_1wtjd38",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:26+00:00",
+   "last_seen": "2026-10-15T22:22:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wtjd38/bridge_loan_help/",
@@ -13432,7 +13348,7 @@
    "id": "t3_1wu98f1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:26+00:00",
+   "last_seen": "2026-10-15T22:22:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wu98f1/arm_or_conventional_loan/",
@@ -13588,7 +13504,7 @@
    "id": "t3_1wv1ns8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:26+00:00",
+   "last_seen": "2026-10-15T22:22:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wv1ns8/closing_escrow_tomorrow_on_sf_bay_area_duplex/",
@@ -13648,7 +13564,7 @@
    "id": "t3_1wv6013",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:25+00:00",
+   "last_seen": "2026-10-15T22:22:12+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -13786,7 +13702,7 @@
    "id": "t3_1wvjqiv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:25+00:00",
+   "last_seen": "2026-10-15T22:22:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wvjqiv/jumbo_rates_in_the_5s_after_september/",
@@ -14020,7 +13936,7 @@
    "id": "t3_1ww8w54",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:25+00:00",
+   "last_seen": "2026-10-15T22:22:12+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -14201,7 +14117,7 @@
    "id": "t3_1wwob4a",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:25+00:00",
+   "last_seen": "2026-10-15T22:22:11+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -14280,7 +14196,7 @@
    "id": "t3_1wws05i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:25+00:00",
+   "last_seen": "2026-10-15T22:22:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wws05i/sf_housing_is_out_of_control/",
@@ -14429,7 +14345,7 @@
    "id": "t3_1wy2ijm",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wy2ijm/is_bayview_india_basin_a_nice_place_to_live/",
@@ -14639,7 +14555,7 @@
    "id": "t3_1wyz5to",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wyz5to/why_do_some_agents_hate_discounting_commissions/",
@@ -14684,7 +14600,7 @@
    "id": "t3_1wzcf3u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:10+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -14995,7 +14911,7 @@
    "id": "t3_1x09wqk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x09wqk/will_surging_mortgage_rates_cool_san_franciscos/",
@@ -15164,7 +15080,7 @@
    "id": "t3_1x13wv4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x13wv4/mortgage_lender_recommendations/",
@@ -15221,7 +15137,7 @@
    "id": "t3_1x14tng",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:10:47+00:00",
+   "last_seen": "2026-10-15T22:21:32+00:00",
    "neighborhoods": [
     "Mission Bay"
    ],
@@ -15502,7 +15418,7 @@
    "id": "t3_1x1u813",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:24+00:00",
+   "last_seen": "2026-10-15T22:22:09+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -15668,7 +15584,7 @@
    "id": "t3_1x1ypjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x1ypjr/i_read_22_bay_area_inspection_reports_front_to/",
@@ -15718,7 +15634,7 @@
    "id": "t3_1x20hgc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x20hgc/house_disclosures/",
@@ -15821,7 +15737,7 @@
    "id": "t3_1x2361s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2361s/oof_not_sure_on_this_renovation/",
@@ -16044,7 +15960,7 @@
    "id": "t3_1x2vwgo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:08+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2vwgo/property_tax_decline_in_value/",
@@ -16109,7 +16025,7 @@
    "id": "t3_1x3i266",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:08+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x3i266/what_if_any_obligation_does_a_realtor_have_when/",
@@ -16269,7 +16185,7 @@
    "id": "t3_1x4wjnp",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:09:38+00:00",
+   "last_seen": "2026-10-15T22:20:23+00:00",
    "neighborhoods": [
     "Sea Cliff"
    ],
@@ -16328,7 +16244,7 @@
    "id": "t3_1x564n2",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:09:37+00:00",
+   "last_seen": "2026-10-15T22:20:22+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x564n2/sf_housing_simulator/",
@@ -16380,7 +16296,7 @@
    "id": "t3_1x58y9p",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:23+00:00",
+   "last_seen": "2026-10-15T22:22:08+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -16458,7 +16374,7 @@
    "id": "t3_1x5c18r",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T04:43:41+00:00",
+   "last_seen": "2026-10-15T22:22:50+00:00",
    "neighborhoods": [
     "Inner Sunset",
     "Inner Richmond",
@@ -16543,7 +16459,7 @@
    "id": "t3_1x5hcy5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:09:36+00:00",
+   "last_seen": "2026-10-15T22:20:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x5hcy5/mayor_daniel_lurie_touted_a_key_housing_reform/",
@@ -16592,7 +16508,7 @@
    "id": "t3_1x5hvo6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:22+00:00",
+   "last_seen": "2026-10-15T22:22:07+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5hvo6/home_insurance_recommendations/",
@@ -16635,7 +16551,7 @@
    "id": "t3_1x5ll8w",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:22+00:00",
+   "last_seen": "2026-10-15T22:22:07+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5ll8w/sfusd_votes_to_overhaul_current_lottery_system/",
@@ -16691,8 +16607,8 @@
    ],
    "id": "t3_1x5uf0i",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-10-15T04:43:39+00:00",
+   "is_new": false,
+   "last_seen": "2026-10-15T22:22:48+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/bayarea/comments/1x5uf0i/home_insurance_recommendations_in_bayarea/",
@@ -16735,7 +16651,7 @@
    "id": "t3_1x64c16",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:22+00:00",
+   "last_seen": "2026-10-15T22:22:07+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x64c16/jumbo_loan_832k_rate_survey_10142026_76_arm/",
@@ -16788,7 +16704,7 @@
    "id": "t3_1x65ydo",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:09:35+00:00",
+   "last_seen": "2026-10-15T22:20:19+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "florida"
@@ -16857,7 +16773,7 @@
    "id": "t3_1x66j7s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T19:11:22+00:00",
+   "last_seen": "2026-10-15T22:22:07+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x66j7s/200k_attic_conversion_worth_it/",
@@ -16916,7 +16832,7 @@
    "id": "t3_1x6dns6",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-15T19:10:10+00:00",
+   "last_seen": "2026-10-15T22:20:55+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -16998,8 +16914,8 @@
    ],
    "id": "t3_1x6redl",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-10-15T19:09:34+00:00",
+   "is_new": false,
+   "last_seen": "2026-10-15T22:20:17+00:00",
    "neighborhoods": [
     "Van Ness / Civic Center"
    ],
@@ -17047,50 +16963,84 @@
    "title": "36-Story Tower Proposed For 1301 Van Ness Avenue, San Francisco - San Francisco YIMBY",
    "unplaced": false,
    "verdict": "watch"
+  },
+  "t3_1x6xvq2": {
+   "author": "Helena7x7",
+   "author_url": "https://www.reddit.com/user/Helena7x7",
+   "comments": null,
+   "created_utc": 1792099020,
+   "domain": "self.bayarea",
+   "excerpt": "A record-breaking 91.6% of San Francisco homes sold above their asking price last month, driven by low inventory and intense competition in the luxury market. Single-family home prices rose 17% year-over-year to a median of $2.05 million, while the condo market also showed a modest recovery and faster turnover, according to Compass chief...",
+   "external_url": "",
+   "first_seen": "2026-10-15T22:22:44+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "sold above asking",
+    "asking price",
+    "home prices",
+    "low inventory",
+    "condo market",
+    "single-family home",
+    "bizjournals.com",
+    "$2.05 million"
+   ],
+   "id": "t3_1x6xvq2",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-10-15T22:22:44+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/bayarea/comments/1x6xvq2/nearly_92_of_san_francisco_homes_sold_above/",
+   "relevance": 31,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "bayarea",
+   "tiers": {
+    "domains": {
+     "count": 1,
+     "hits": [
+      "bizjournals.com"
+     ],
+     "label": "Real estate news / listing source",
+     "points": 7.0
+    },
+    "market": {
+     "count": 4,
+     "hits": [
+      "home prices",
+      "low inventory",
+      "condo market",
+      "single-family home"
+     ],
+     "label": "Market talk",
+     "points": 10.5
+    },
+    "patterns": {
+     "count": 1,
+     "hits": [
+      "$2.05 million"
+     ],
+     "label": "Price / listing pattern",
+     "points": 5.0
+    },
+    "transaction": {
+     "count": 2,
+     "hits": [
+      "sold above asking",
+      "asking price"
+     ],
+     "label": "Transaction mechanics",
+     "points": 8.8
+    }
+   },
+   "title": "Nearly 92% of San Francisco homes sold above asking last month",
+   "unplaced": false,
+   "verdict": "hot"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 468,
-   "duration_seconds": 210.2,
-   "fetch_log": [],
-   "fetched": 502,
-   "finished_at": "2026-10-06T17:15:07+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 28,
-   "last_successful_crawl": "2026-10-06T17:15:07+00:00",
-   "leads": 3,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "tenants in common",
-    "mortgage",
-    "open house",
-    "housing market"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 502
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 458,
@@ -18693,9 +18643,50 @@
     "pullpush": 0,
     "rss": 600
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 470,
+   "duration_seconds": 214.5,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-10-15T22:23:21+00:00",
+   "healthy": true,
+   "hot": 7,
+   "kept": 34,
+   "last_successful_crawl": "2026-10-15T22:23:21+00:00",
+   "leads": 6,
+   "new": 1,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 1,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "rent vs buy",
+    "escrow",
+    "down payment",
+    "realtor"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 14,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 1,
  "version": 1
 }
