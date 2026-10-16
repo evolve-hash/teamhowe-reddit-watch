@@ -1,174 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-16T12:28:54+00:00",
+ "last_successful_crawl": "2026-10-16T17:28:29+00:00",
  "posts": {
-  "t3_1vqx5rt": {
-   "author": "Cool-Present7260",
-   "author_url": "https://www.reddit.com/user/Cool-Present7260",
-   "comments": 20,
-   "created_utc": 1786984416,
-   "domain": "",
-   "excerpt": "Op-ed in the SF Chronicle: Mayor Daniel Lurie’s budget, recently approved by the Board of Supervisors, essentially terminates the San Francisco Pretrial Diversion Project — a nonprofit that for 50 years has monitored and supervised defendants released from jail while awaiting trial — and transfers that responsibility to the Adult...",
-   "external_url": "",
-   "first_seen": "2026-08-17T17:14:02+00:00",
-   "flair": "",
-   "found_via": "buying a house",
-   "has_body": true,
-   "hits": [
-    "housing",
-    "$11 million"
-   ],
-   "id": "t3_1vqx5rt",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-31T17:22:06+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vqx5rt/mayor_luries_budget_kills_one_of_the_strongest/",
-   "relevance": 11,
-   "score": 9,
-   "sources": "old_search",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$11 million"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "Mayor Lurie’s budget kills one of the strongest antidotes to crime in San Francisco",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vqxabd": {
-   "author": "fouroza",
-   "author_url": "https://www.reddit.com/user/fouroza",
-   "comments": 421,
-   "created_utc": 1786984669,
-   "domain": "",
-   "excerpt": "I’ve got a job offer near San Jose for $165k + a title bump but would require me to be in person 5 days per week. This about 40k more than I currently make and would be pretty good for my career. The problem is I currently have a really nice 2bd apartment in SF that’s rent controlled and is cheaper than anything else in the market here...",
-   "external_url": "",
-   "first_seen": "2026-08-17T17:14:39+00:00",
-   "flair": "",
-   "found_via": "housing market",
-   "has_body": true,
-   "hits": [
-    "housing",
-    "rent controlled",
-    "$165k",
-    "san jose"
-   ],
-   "id": "t3_1vqxabd",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-22T03:12:17+00:00",
-   "neighborhoods": [],
-   "out_of_area": [
-    "san jose"
-   ],
-   "permalink": "https://www.reddit.com/r/AskSF/comments/1vqxabd/is_it_worth_giving_up_my_rent_controlled_apartment/",
-   "relevance": 13,
-   "score": 307,
-   "sources": "old_search",
-   "subreddit": "AskSF",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "san jose"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$165k"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "rent controlled"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "Is it worth giving up my rent controlled apartment?",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vqy63t": {
-   "author": "bobtheblob728",
-   "author_url": "https://www.reddit.com/user/bobtheblob728",
-   "comments": 203,
-   "created_utc": 1786986484,
-   "domain": "missionlocal.org",
-   "excerpt": "",
-   "external_url": "https://missionlocal.org/2026/08/mayor-daniel-lurie-slush-fund-proposition-i-affordable-housing-social-housing-democratic-socialists-of-america-dsa/",
-   "first_seen": "2026-08-17T17:14:02+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "missionlocal.org"
-   ],
-   "id": "t3_1vqy63t",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-21T03:33:44+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vqy63t/mayor_lurie_blasts_prop_i_as_a_slush_fund_his/",
-   "relevance": 13,
-   "score": 72,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "missionlocal.org"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Mayor Lurie blasts Prop. I as a ‘slush fund.’ His office would control the money.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1vr5q8d": {
    "author": "pizzadoughnuts",
    "author_url": "https://www.reddit.com/user/pizzadoughnuts",
@@ -13248,7 +13081,7 @@
    "id": "t3_1wu98f1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:30+00:00",
+   "last_seen": "2026-10-16T17:27:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wu98f1/arm_or_conventional_loan/",
@@ -13404,7 +13237,7 @@
    "id": "t3_1wv1ns8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:30+00:00",
+   "last_seen": "2026-10-16T17:27:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wv1ns8/closing_escrow_tomorrow_on_sf_bay_area_duplex/",
@@ -13464,7 +13297,7 @@
    "id": "t3_1wv6013",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:21+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -13602,7 +13435,7 @@
    "id": "t3_1wvjqiv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wvjqiv/jumbo_rates_in_the_5s_after_september/",
@@ -13836,7 +13669,7 @@
    "id": "t3_1ww8w54",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:20+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -14017,7 +13850,7 @@
    "id": "t3_1wwob4a",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:20+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -14096,7 +13929,7 @@
    "id": "t3_1wws05i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wws05i/sf_housing_is_out_of_control/",
@@ -14245,7 +14078,7 @@
    "id": "t3_1wy2ijm",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:29+00:00",
+   "last_seen": "2026-10-16T17:27:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wy2ijm/is_bayview_india_basin_a_nice_place_to_live/",
@@ -14455,7 +14288,7 @@
    "id": "t3_1wyz5to",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wyz5to/why_do_some_agents_hate_discounting_commissions/",
@@ -14500,7 +14333,7 @@
    "id": "t3_1wzcf3u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:18+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -14811,7 +14644,7 @@
    "id": "t3_1x09wqk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x09wqk/will_surging_mortgage_rates_cool_san_franciscos/",
@@ -14980,7 +14813,7 @@
    "id": "t3_1x13wv4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x13wv4/mortgage_lender_recommendations/",
@@ -15037,7 +14870,7 @@
    "id": "t3_1x14tng",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:27:51+00:00",
+   "last_seen": "2026-10-16T17:26:41+00:00",
    "neighborhoods": [
     "Mission Bay"
    ],
@@ -15318,7 +15151,7 @@
    "id": "t3_1x1u813",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:18+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -15484,7 +15317,7 @@
    "id": "t3_1x1ypjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x1ypjr/i_read_22_bay_area_inspection_reports_front_to/",
@@ -15534,7 +15367,7 @@
    "id": "t3_1x20hgc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x20hgc/house_disclosures/",
@@ -15637,7 +15470,7 @@
    "id": "t3_1x2361s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:28+00:00",
+   "last_seen": "2026-10-16T17:27:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2361s/oof_not_sure_on_this_renovation/",
@@ -15860,7 +15693,7 @@
    "id": "t3_1x2vwgo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2vwgo/property_tax_decline_in_value/",
@@ -15925,7 +15758,7 @@
    "id": "t3_1x3i266",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x3i266/what_if_any_obligation_does_a_realtor_have_when/",
@@ -16196,7 +16029,7 @@
    "id": "t3_1x58y9p",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:16+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -16359,7 +16192,7 @@
    "id": "t3_1x5hcy5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:26:41+00:00",
+   "last_seen": "2026-10-16T17:25:31+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x5hcy5/mayor_daniel_lurie_touted_a_key_housing_reform/",
@@ -16408,7 +16241,7 @@
    "id": "t3_1x5hvo6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5hvo6/home_insurance_recommendations/",
@@ -16451,7 +16284,7 @@
    "id": "t3_1x5ll8w",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5ll8w/sfusd_votes_to_overhaul_current_lottery_system/",
@@ -16508,7 +16341,7 @@
    "id": "t3_1x5uf0i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-15T22:22:48+00:00",
+   "last_seen": "2026-10-16T17:27:58+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/bayarea/comments/1x5uf0i/home_insurance_recommendations_in_bayarea/",
@@ -16551,7 +16384,7 @@
    "id": "t3_1x64c16",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x64c16/jumbo_loan_832k_rate_survey_10142026_76_arm/",
@@ -16604,7 +16437,7 @@
    "id": "t3_1x65ydo",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:26:40+00:00",
+   "last_seen": "2026-10-16T17:25:29+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "florida"
@@ -16673,7 +16506,7 @@
    "id": "t3_1x66j7s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:27+00:00",
+   "last_seen": "2026-10-16T17:27:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x66j7s/200k_attic_conversion_worth_it/",
@@ -16732,7 +16565,7 @@
    "id": "t3_1x6dns6",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-16T12:27:15+00:00",
+   "last_seen": "2026-10-16T17:26:05+00:00",
    "neighborhoods": [
     "Inner Sunset"
    ],
@@ -16815,7 +16648,7 @@
    "id": "t3_1x6redl",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:26:39+00:00",
+   "last_seen": "2026-10-16T17:25:27+00:00",
    "neighborhoods": [
     "Van Ness / Civic Center"
    ],
@@ -16888,8 +16721,8 @@
    ],
    "id": "t3_1x6xvq2",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-10-15T22:22:44+00:00",
+   "is_new": false,
+   "last_seen": "2026-10-16T17:27:54+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/bayarea/comments/1x6xvq2/nearly_92_of_san_francisco_homes_sold_above/",
@@ -17045,7 +16878,7 @@
    "id": "t3_1x74op9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-16T12:28:26+00:00",
+   "last_seen": "2026-10-16T17:27:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x74op9/sf_prop_tax_dropped_40_from_last_year/",
@@ -17133,50 +16966,60 @@
    "title": "SF Gentrification fueling new office leases",
    "unplaced": false,
    "verdict": "watch"
+  },
+  "t3_1x7g6is": {
+   "author": "BadBoyMikeBarnes",
+   "author_url": "https://www.reddit.com/user/BadBoyMikeBarnes",
+   "comments": null,
+   "created_utc": 1792157162,
+   "domain": "sfstandard.com",
+   "excerpt": "",
+   "external_url": "https://sfstandard.com/2026/10/15/manny-yekutiel-s-campaign-hasn-t-repaid-255k-public-financing-city-says/",
+   "first_seen": "2026-10-16T17:25:26+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": false,
+   "hits": [
+    "sfstandard.com",
+    "$255k",
+    "$255,000"
+   ],
+   "id": "t3_1x7g6is",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-10-16T17:25:26+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1x7g6is/manny_yekutiels_campaign_hasnt_repaid_255k_in/",
+   "relevance": 13,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "sanfrancisco",
+   "tiers": {
+    "domains": {
+     "count": 1,
+     "hits": [
+      "sfstandard.com"
+     ],
+     "label": "Real estate news / listing source",
+     "points": 7.0
+    },
+    "patterns": {
+     "count": 2,
+     "hits": [
+      "$255k",
+      "$255,000"
+     ],
+     "label": "Price / listing pattern",
+     "points": 6.2
+    }
+   },
+   "title": "Manny Yekutiel’s campaign hasn’t repaid $255k in public financing yet, city says - Manny Yekutiel says suspended, not ended — a distinction that could determine whether he must return $255,000 in taxpayer funds.",
+   "unplaced": false,
+   "verdict": "watch"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 468,
-   "duration_seconds": 212.6,
-   "fetch_log": [],
-   "fetched": 502,
-   "finished_at": "2026-10-07T16:33:05+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 28,
-   "last_successful_crawl": "2026-10-07T16:33:05+00:00",
-   "leads": 4,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "condo",
-    "tenants in common",
-    "mortgage",
-    "open house"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 502
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 461,
@@ -18777,9 +18620,50 @@
     "pullpush": 0,
     "rss": 600
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 474,
+   "duration_seconds": 213.7,
+   "fetch_log": [],
+   "fetched": 502,
+   "finished_at": "2026-10-16T17:28:29+00:00",
+   "healthy": true,
+   "hot": 7,
+   "kept": 32,
+   "last_successful_crawl": "2026-10-16T17:28:29+00:00",
+   "leads": 6,
+   "new": 1,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 3,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "should i buy",
+    "rent vs buy",
+    "escrow",
+    "down payment"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 502
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 13,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 0,
  "version": 1
 }
