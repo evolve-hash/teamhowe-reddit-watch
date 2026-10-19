@@ -1,44 +1,48 @@
 {
- "generated_at": "2026-10-19T15:39:24+00:00",
+ "generated_at": "2026-10-19T21:08:51+00:00",
  "last_run": {
   "subreddits_ok": 6,
   "subreddits_failed": [],
-  "fetched": 513,
-  "considered": 389,
+  "fetched": 600,
+  "considered": 550,
   "kept": 31,
   "new": 0,
-  "hot": 7,
-  "leads": 7,
+  "hot": 9,
+  "leads": 9,
   "transport_counts": {
-   "rss": 513,
+   "rss": 600,
    "old_html": 0,
    "old_search": 0,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "realtor",
-   "real estate agent",
-   "buying a house",
-   "selling my house"
+   "home prices",
+   "first time home buyer",
+   "condo",
+   "tenants in common"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "subreddits_configured": 12,
-  "pruned": 4,
-  "duration_seconds": 165.6,
-  "finished_at": "2026-10-19T15:39:24+00:00",
+  "pruned": 1,
+  "duration_seconds": 303.2,
+  "finished_at": "2026-10-19T21:08:51+00:00",
   "blocked_hosts": {},
-  "rate_limited": 0,
-  "rate_limit_wait_seconds": 0.0,
-  "fetch_log": [],
+  "rate_limited": 3,
+  "rate_limit_wait_seconds": 65.0,
+  "fetch_log": [
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100"
+  ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-10-19T15:39:24+00:00"
+  "last_successful_crawl": "2026-10-19T21:08:51+00:00"
  }
 }
