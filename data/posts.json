@@ -1,332 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-20T11:41:22+00:00",
+ "last_successful_crawl": "2026-10-20T17:11:04+00:00",
  "posts": {
-  "t3_1vue2ng": {
-   "author": "TallInevitable2979",
-   "author_url": "https://www.reddit.com/user/TallInevitable2979",
-   "comments": 0,
-   "created_utc": 1787312769,
-   "domain": "self.sanfrancisco",
-   "excerpt": "Do any people with a rent controlled lease need a reliable sub letter for a couple of years. Looking for a 2 or 3 bed in duboce Hayes cow hollow pac heights Fidi Russian hill north beach. Just need somewhere affordable for my toddler husband and I. This is getting insane. Help help please if you know anyone in this situation we are...",
-   "external_url": "/r/sanfrancisco/comments/1vue2ng/rental_control_unit_connect_with_people/",
-   "first_seen": "2026-08-21T12:04:42+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "rent controlled",
-    "Russian Hill",
-    "Pacific Heights",
-    "Cow Hollow",
-    "North Beach"
-   ],
-   "id": "t3_1vue2ng",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-21T14:10:10+00:00",
-   "neighborhoods": [
-    "Russian Hill",
-    "Pacific Heights",
-    "Cow Hollow",
-    "North Beach"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vue2ng/rental_control_unit_connect_with_people/",
-   "relevance": 12,
-   "score": 0,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "neighborhoods": {
-     "count": 4,
-     "hits": [
-      "Russian Hill",
-      "Pacific Heights",
-      "Cow Hollow",
-      "North Beach"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 3.5
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "rent controlled"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "Rental control unit connect with people",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vuialh": {
-   "author": "binding_swamp",
-   "author_url": "https://www.reddit.com/user/binding_swamp",
-   "comments": 104,
-   "created_utc": 1787323360,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/california/article/solano-development-housing-jobs-legislation-22397135.php",
-   "first_seen": "2026-08-21T19:37:00+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1vuialh",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-23T15:59:45+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1vuialh/california_forever_housing_plan_sidelined_as/",
-   "relevance": 13,
-   "score": 63,
-   "sources": "old_html+rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "California Forever housing plan sidelined as shipyard and manufacturing proposal advances",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1vukawh": {
-   "author": "ExcellentSink8671",
-   "author_url": "https://www.reddit.com/user/ExcellentSink8671",
-   "comments": 0,
-   "created_utc": 1787327810,
-   "domain": "self.SFBayHousing",
-   "excerpt": "Quiet & safe Pleasant Hill 3/2 SFH, 1600sqft with 2 car garage and a nice backyard. In a good school district (college park), minutes away from BART and 680. Walkable to shopping. 100% renovated and comes with brand new appliances, it's like a new house!...",
-   "external_url": "",
-   "first_seen": "2026-08-21T17:52:05+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "sfh",
-    "1600sqft"
-   ],
-   "id": "t3_1vukawh",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-11T14:28:19+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1vukawh/nice_home_for_rent/",
-   "relevance": 11,
-   "score": 2,
-   "sources": "rss",
-   "subreddit": "SFBayHousing",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "sfh"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "1600sqft"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "Nice home for rent",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1vuliqg": {
-   "author": "SightInverted",
-   "author_url": "https://www.reddit.com/user/SightInverted",
-   "comments": 20,
-   "created_utc": 1787330497,
-   "domain": "sfyimby.com",
-   "excerpt": "Replaces an existing parking garage for those who don’t know. “The 212-foot-tall structure is expected to yield around 175,700 square feet, including 102,500 square feet of housing and 36,080 square feet of parking. Unit sizes will vary with 24 studios, 82 one-bedrooms, 43 two-bedrooms, and nine three-bedrooms. The application states all...",
-   "external_url": "https://sfyimby.com/2026/08/updated-illustrations-for-550-ofarrell-street-in-tenderloin-san-francisco.html",
-   "first_seen": "2026-08-21T17:50:53+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "sfyimby.com",
-    "700 square feet"
-   ],
-   "id": "t3_1vuliqg",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-24T17:08:09+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vuliqg/updated_illustrations_for_550_ofarrell_street_in/",
-   "relevance": 18,
-   "score": 58,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfyimby.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "700 square feet"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "Updated Illustrations For 550 O’Farrell Street in Tenderloin, San Francisco",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vulkpw": {
-   "author": "forgotthesugar",
-   "author_url": "https://www.reddit.com/user/forgotthesugar",
-   "comments": 9,
-   "created_utc": 1787330616,
-   "domain": "self.AskSF",
-   "excerpt": "I will be moving to SF to work at UCSF in mission bay. I would highly prefer to be able to walk to work so Bluxome seems convenient location wise and there are grocery stores nearby. Does anyone have any experience living here or in this general area (around 4th and king st)? I'd likely only be here for a year, so more of a temporary...",
-   "external_url": "",
-   "first_seen": "2026-08-21T17:51:29+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "moving to sf",
-    "apartments",
-    "Mission Bay"
-   ],
-   "id": "t3_1vulkpw",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-24T22:03:27+00:00",
-   "neighborhoods": [
-    "Mission Bay"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/AskSF/comments/1vulkpw/looking_for_insight_from_anyone_who_has_lived_at/",
-   "relevance": 15,
-   "score": 7,
-   "sources": "rss",
-   "subreddit": "AskSF",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "apartments"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Mission Bay"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    },
-    "relocation": {
-     "count": 1,
-     "hits": [
-      "moving to sf"
-     ],
-     "label": "Moving to the area",
-     "points": 8.0
-    }
-   },
-   "title": "Looking for insight from anyone who has lived at 77 Bluxome Apartments.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vulztp": {
-   "author": "Remarkable_Host6827",
-   "author_url": "https://www.reddit.com/user/Remarkable_Host6827",
-   "comments": 135,
-   "created_utc": 1787331542,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/bayarea/article/apartment-home-san-francisco-22393569.php",
-   "first_seen": "2026-08-21T17:50:53+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "apartments",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1vulztp",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-24T20:59:08+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vulztp/with_rents_surging_developers_race_to_build_san/",
-   "relevance": 13,
-   "score": 167,
-   "sources": "old_html+rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "apartments"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "With rents surging, developers race to build San Francisco apartments again",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1vumn5n": {
    "author": "Traditional-Tap9588",
    "author_url": "https://www.reddit.com/user/Traditional-Tap9588",
@@ -12445,7 +12120,7 @@
    "id": "t3_1wwob4a",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:01+00:00",
+   "last_seen": "2026-10-20T17:10:38+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "east bay",
@@ -12524,7 +12199,7 @@
    "id": "t3_1wws05i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:01+00:00",
+   "last_seen": "2026-10-20T17:10:37+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wws05i/sf_housing_is_out_of_control/",
@@ -12673,7 +12348,7 @@
    "id": "t3_1wy2ijm",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:01+00:00",
+   "last_seen": "2026-10-20T17:10:37+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wy2ijm/is_bayview_india_basin_a_nice_place_to_live/",
@@ -12883,7 +12558,7 @@
    "id": "t3_1wyz5to",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:36+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wyz5to/why_do_some_agents_hate_discounting_commissions/",
@@ -12928,7 +12603,7 @@
    "id": "t3_1wzcf3u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:36+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -13239,7 +12914,7 @@
    "id": "t3_1x09wqk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:36+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x09wqk/will_surging_mortgage_rates_cool_san_franciscos/",
@@ -13408,7 +13083,7 @@
    "id": "t3_1x13wv4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:36+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x13wv4/mortgage_lender_recommendations/",
@@ -13465,7 +13140,7 @@
    "id": "t3_1x14tng",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:23+00:00",
+   "last_seen": "2026-10-20T17:09:58+00:00",
    "neighborhoods": [
     "Mission Bay"
    ],
@@ -13746,7 +13421,7 @@
    "id": "t3_1x1u813",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:35+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -13912,7 +13587,7 @@
    "id": "t3_1x1ypjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:35+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x1ypjr/i_read_22_bay_area_inspection_reports_front_to/",
@@ -13962,7 +13637,7 @@
    "id": "t3_1x20hgc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:41:00+00:00",
+   "last_seen": "2026-10-20T17:10:35+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x20hgc/house_disclosures/",
@@ -14065,7 +13740,7 @@
    "id": "t3_1x2361s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:35+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2361s/oof_not_sure_on_this_renovation/",
@@ -14235,7 +13910,7 @@
    "id": "t3_1x2thkk",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-19T21:08:21+00:00",
+   "last_seen": "2026-10-20T17:10:46+00:00",
    "neighborhoods": [
     "Lakeside"
    ],
@@ -14288,7 +13963,7 @@
    "id": "t3_1x2vwgo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:34+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2vwgo/property_tax_decline_in_value/",
@@ -14353,7 +14028,7 @@
    "id": "t3_1x3i266",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:34+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x3i266/what_if_any_obligation_does_a_realtor_have_when/",
@@ -14624,7 +14299,7 @@
    "id": "t3_1x58y9p",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:34+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -14836,7 +14511,7 @@
    "id": "t3_1x5hvo6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:34+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5hvo6/home_insurance_recommendations/",
@@ -14879,7 +14554,7 @@
    "id": "t3_1x5ll8w",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5ll8w/sfusd_votes_to_overhaul_current_lottery_system/",
@@ -14979,7 +14654,7 @@
    "id": "t3_1x64c16",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x64c16/jumbo_loan_832k_rate_survey_10142026_76_arm/",
@@ -15101,7 +14776,7 @@
    "id": "t3_1x66j7s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:59+00:00",
+   "last_seen": "2026-10-20T17:10:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x66j7s/200k_attic_conversion_worth_it/",
@@ -15394,7 +15069,7 @@
    "id": "t3_1x6y4n5",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-19T21:08:21+00:00",
+   "last_seen": "2026-10-20T17:10:45+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "austin",
@@ -15473,7 +15148,7 @@
    "id": "t3_1x74op9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x74op9/sf_prop_tax_dropped_40_from_last_year/",
@@ -15688,7 +15363,7 @@
    "id": "t3_1x7n3wk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:33+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "daly city",
@@ -15771,7 +15446,7 @@
    "id": "t3_1x7qs12",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:32+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -16041,7 +15716,7 @@
    "id": "t3_1x8loqu",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:32+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x8loqu/how_do_you_start_working_with_a_realtor_to_buy_a/",
@@ -16093,7 +15768,7 @@
    "id": "t3_1x8o3el",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:22+00:00",
+   "last_seen": "2026-10-20T17:09:55+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -16153,7 +15828,7 @@
    "id": "t3_1x97clu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:32+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x97clu/reasonable_timeline_for_reno/",
@@ -16205,7 +15880,7 @@
    "id": "t3_1x9el2p",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-19T21:08:47+00:00",
+   "last_seen": "2026-10-20T17:11:01+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "boston"
@@ -16272,7 +15947,7 @@
    "id": "t3_1x9njvz",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:31+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x9njvz/if_a_house_has_knob_and_tube_does_that_have/",
@@ -16313,7 +15988,7 @@
    "id": "t3_1xaasyr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:58+00:00",
+   "last_seen": "2026-10-20T17:10:31+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xaasyr/rental_home/",
@@ -16367,7 +16042,7 @@
    "id": "t3_1xahynp",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-20T11:40:57+00:00",
+   "last_seen": "2026-10-20T17:10:31+00:00",
    "neighborhoods": [
     "Downtown SF"
    ],
@@ -16420,50 +16095,109 @@
    "title": "Selling SF home and buying a condo instead. Thoughts?",
    "unplaced": false,
    "verdict": "hot"
+  },
+  "t3_1xauukr": {
+   "author": "Dafty_duck",
+   "author_url": "https://www.reddit.com/user/Dafty_duck",
+   "comments": null,
+   "created_utc": 1792509358,
+   "domain": "sfstandard.com",
+   "excerpt": "",
+   "external_url": "https://sfstandard.com/2026/10/20/california-housing-streamlining-laws-nimby-lawsuits/?gift=fizjiwdrvUGzuyfF0LIZEytDY0_hWQkl",
+   "first_seen": "2026-10-20T17:08:42+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": false,
+   "hits": [
+    "housing",
+    "nimby",
+    "sfstandard.com"
+   ],
+   "id": "t3_1xauukr",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-10-20T17:08:42+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xauukr/nimbys_lost_the_big_arguments_now_theyre_fighting/",
+   "relevance": 14,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "sanfrancisco",
+   "tiers": {
+    "domains": {
+     "count": 1,
+     "hits": [
+      "sfstandard.com"
+     ],
+     "label": "Real estate news / listing source",
+     "points": 7.0
+    },
+    "market": {
+     "count": 2,
+     "hits": [
+      "housing",
+      "nimby"
+     ],
+     "label": "Market talk",
+     "points": 7.5
+    }
+   },
+   "title": "NIMBYs lost the big arguments. Now they’re fighting over fine print",
+   "unplaced": false,
+   "verdict": "watch"
+  },
+  "t3_1xawmbe": {
+   "author": "SFStandard",
+   "author_url": "https://www.reddit.com/user/SFStandard",
+   "comments": null,
+   "created_utc": 1792513293,
+   "domain": "sfstandard.com",
+   "excerpt": "Last May, Iona Derman got an email threatening her over SF Daily Photo, her Instagram account featuring San Francisco properties that started as a lighthearted retirement project. The sender included a disturbing amount of personal information, from her old addresses and phone numbers to the home address of her daughter and son-in-law....",
+   "external_url": "https://sfstandard.com/2026/10/20/sf-daily-photo-gets-doxxed/?access=ctLTIodeViL-CThv79wSgHmCv8kHDfEs",
+   "first_seen": "2026-10-20T17:08:42+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "real estate",
+    "sfstandard.com"
+   ],
+   "id": "t3_1xawmbe",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-10-20T17:08:42+00:00",
+   "neighborhoods": [],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xawmbe/doxxed_but_not_deterred_the_72yearold_embroiled/",
+   "relevance": 13,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "sanfrancisco",
+   "tiers": {
+    "domains": {
+     "count": 1,
+     "hits": [
+      "sfstandard.com"
+     ],
+     "label": "Real estate news / listing source",
+     "points": 7.0
+    },
+    "market": {
+     "count": 1,
+     "hits": [
+      "real estate"
+     ],
+     "label": "Market talk",
+     "points": 6.0
+    }
+   },
+   "title": "‘Doxxed but not deterred’: The 72-year-old embroiled in SF’s pettiest real estate drama",
+   "unplaced": false,
+   "verdict": "watch"
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 562,
-   "duration_seconds": 175.6,
-   "fetch_log": [],
-   "fetched": 600,
-   "finished_at": "2026-10-13T07:46:06+00:00",
-   "healthy": true,
-   "hot": 8,
-   "kept": 26,
-   "last_successful_crawl": "2026-10-13T07:46:06+00:00",
-   "leads": 8,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "should i buy",
-    "rent vs buy",
-    "escrow",
-    "down payment"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 600
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 471,
@@ -18066,9 +17800,50 @@
     "pullpush": 0,
     "rss": 513
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 551,
+   "duration_seconds": 172.2,
+   "fetch_log": [],
+   "fetched": 600,
+   "finished_at": "2026-10-20T17:11:04+00:00",
+   "healthy": true,
+   "hot": 10,
+   "kept": 33,
+   "last_successful_crawl": "2026-10-20T17:11:04+00:00",
+   "leads": 10,
+   "new": 2,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 6,
+   "rate_limit_wait_seconds": 0.0,
+   "rate_limited": 0,
+   "subreddits_configured": 12,
+   "subreddits_failed": [],
+   "subreddits_ok": 6,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "selling my house",
+    "home prices",
+    "first time home buyer",
+    "condo"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 600
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 3,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 7,
  "version": 1
 }
