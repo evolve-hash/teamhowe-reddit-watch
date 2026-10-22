@@ -1,44 +1,65 @@
 {
- "generated_at": "2026-10-22T10:15:35+00:00",
+ "generated_at": "2026-10-22T15:20:58+00:00",
  "last_run": {
-  "subreddits_ok": 6,
-  "subreddits_failed": [],
-  "fetched": 502,
-  "considered": 475,
-  "kept": 34,
+  "subreddits_ok": 4,
+  "subreddits_failed": [
+   "SFHousing",
+   "OaklandCA"
+  ],
+  "fetched": 400,
+  "considered": 375,
+  "kept": 32,
   "new": 0,
-  "hot": 8,
+  "hot": 7,
   "leads": 7,
   "transport_counts": {
-   "rss": 502,
+   "rss": 400,
    "old_html": 0,
    "old_search": 0,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "first time home buyer",
-   "condo",
-   "tenants in common",
-   "mortgage"
+   "open house",
+   "housing market",
+   "property tax",
+   "hoa"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "bayarea",
-   "sanfranciscohousing"
+   "SFHousing",
+   "OaklandCA"
   ],
   "subreddits_configured": 12,
   "pruned": 0,
-  "duration_seconds": 213.0,
-  "finished_at": "2026-10-22T10:15:35+00:00",
-  "blocked_hosts": {},
-  "rate_limited": 0,
-  "rate_limit_wait_seconds": 0.0,
-  "fetch_log": [],
+  "duration_seconds": 194.1,
+  "finished_at": "2026-10-22T15:20:58+00:00",
+  "blocked_hosts": {
+   "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403",
+   "old.reddit.com": "HTTP 403"
+  },
+  "rate_limited": 6,
+  "rate_limit_wait_seconds": 120.0,
+  "fetch_log": [
+   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+   "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+   "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+open+house&sort=new&t=month&restrict_sr=on",
+   "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+   "rate-limit wait budget spent; giving up on this request, next run will pick it up",
+   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
+   "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+  ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-10-22T10:15:35+00:00"
+  "last_successful_crawl": "2026-10-22T15:20:58+00:00"
  }
 }
