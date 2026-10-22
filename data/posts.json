@@ -1,110 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-22T20:10:30+00:00",
+ "last_successful_crawl": "2026-10-22T23:26:16+00:00",
  "posts": {
-  "t3_1vwizlp": {
-   "author": "thegildedlionbooks",
-   "author_url": "https://www.reddit.com/user/thegildedlionbooks",
-   "comments": 38,
-   "created_utc": 1787519120,
-   "domain": "",
-   "excerpt": "Hello all! I am a collector of bookstore bookmarks. I have been working my way through my collection and cataloging/researching each bookstore, whether old or new. (I'm sharing all the stories to instagram @ bookstorebookmarks) My most recent deep dive is Green Apple Books, so I thought I would share here if anyone is interested in the...",
-   "external_url": "",
-   "first_seen": "2026-08-23T21:56:10+00:00",
-   "flair": "",
-   "found_via": "selling my house",
-   "has_body": true,
-   "hits": [
-    "victorian",
-    "Inner Sunset",
-    "Inner Richmond"
-   ],
-   "id": "t3_1vwizlp",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-31T17:22:06+00:00",
-   "neighborhoods": [
-    "Inner Sunset",
-    "Inner Richmond"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1vwizlp/green_apple_books_history/",
-   "relevance": 12,
-   "score": 545,
-   "sources": "old_search",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "neighborhoods": {
-     "count": 2,
-     "hits": [
-      "Inner Sunset",
-      "Inner Richmond"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 3.8
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "victorian"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "Green Apple Books History",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1vwkuon": {
-   "author": "almondsnow",
-   "author_url": "https://www.reddit.com/user/almondsnow",
-   "comments": 10,
-   "created_utc": 1787523732,
-   "domain": "redfin.com",
-   "excerpt": "",
-   "external_url": "https://www.redfin.com/CA/Santa-Clara/3318-Granada-Ave-95051/home/1661810",
-   "first_seen": "2026-08-23T22:58:56+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "sfh",
-    "redfin.com"
-   ],
-   "id": "t3_1vwkuon",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-26T14:10:13+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1vwkuon/why_is_this_95051_sfh_not_selling/",
-   "relevance": 13,
-   "score": 3,
-   "sources": "old_html+rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "redfin.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "sfh"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Why is this 95051 SFH not selling ?",
-   "unplaced": true,
-   "verdict": "watch"
-  },
   "t3_1vwrw0x": {
    "author": "Imaginary_Truth_3865",
    "author_url": "https://www.reddit.com/user/Imaginary_Truth_3865",
@@ -12022,7 +11919,7 @@
    "id": "t3_1wyz5to",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:40+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wyz5to/why_do_some_agents_hate_discounting_commissions/",
@@ -12067,7 +11964,7 @@
    "id": "t3_1wzcf3u",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:40+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -12378,7 +12275,7 @@
    "id": "t3_1x09wqk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:39+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x09wqk/will_surging_mortgage_rates_cool_san_franciscos/",
@@ -12547,7 +12444,7 @@
    "id": "t3_1x13wv4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:39+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x13wv4/mortgage_lender_recommendations/",
@@ -12604,7 +12501,7 @@
    "id": "t3_1x14tng",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:08:19+00:00",
+   "last_seen": "2026-10-22T23:24:43+00:00",
    "neighborhoods": [
     "Mission Bay"
    ],
@@ -12885,7 +12782,7 @@
    "id": "t3_1x1u813",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:39+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -13051,7 +12948,7 @@
    "id": "t3_1x1ypjr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:39+00:00",
+   "last_seen": "2026-10-22T23:25:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x1ypjr/i_read_22_bay_area_inspection_reports_front_to/",
@@ -13101,7 +12998,7 @@
    "id": "t3_1x20hgc",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:38+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x20hgc/house_disclosures/",
@@ -13204,7 +13101,7 @@
    "id": "t3_1x2361s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:38+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2361s/oof_not_sure_on_this_renovation/",
@@ -13427,7 +13324,7 @@
    "id": "t3_1x2vwgo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:38+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x2vwgo/property_tax_decline_in_value/",
@@ -13492,7 +13389,7 @@
    "id": "t3_1x3i266",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:38+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x3i266/what_if_any_obligation_does_a_realtor_have_when/",
@@ -13763,7 +13660,7 @@
    "id": "t3_1x58y9p",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:37+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [
     "Noe Valley"
    ],
@@ -13975,7 +13872,7 @@
    "id": "t3_1x5hvo6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:37+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5hvo6/home_insurance_recommendations/",
@@ -14018,7 +13915,7 @@
    "id": "t3_1x5ll8w",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:37+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x5ll8w/sfusd_votes_to_overhaul_current_lottery_system/",
@@ -14118,7 +14015,7 @@
    "id": "t3_1x64c16",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:37+00:00",
+   "last_seen": "2026-10-22T23:25:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x64c16/jumbo_loan_832k_rate_survey_10142026_76_arm/",
@@ -14240,7 +14137,7 @@
    "id": "t3_1x66j7s",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:37+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x66j7s/200k_attic_conversion_worth_it/",
@@ -14612,7 +14509,7 @@
    "id": "t3_1x74op9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:36+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x74op9/sf_prop_tax_dropped_40_from_last_year/",
@@ -14827,7 +14724,7 @@
    "id": "t3_1x7n3wk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:36+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "daly city",
@@ -14910,7 +14807,7 @@
    "id": "t3_1x7qs12",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:36+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -15180,7 +15077,7 @@
    "id": "t3_1x8loqu",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:35+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x8loqu/how_do_you_start_working_with_a_realtor_to_buy_a/",
@@ -15232,7 +15129,7 @@
    "id": "t3_1x8o3el",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:08:16+00:00",
+   "last_seen": "2026-10-22T23:24:42+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -15292,7 +15189,7 @@
    "id": "t3_1x97clu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:35+00:00",
+   "last_seen": "2026-10-22T23:25:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x97clu/reasonable_timeline_for_reno/",
@@ -15411,7 +15308,7 @@
    "id": "t3_1x9njvz",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:35+00:00",
+   "last_seen": "2026-10-22T23:25:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1x9njvz/if_a_house_has_knob_and_tube_does_that_have/",
@@ -15506,7 +15403,7 @@
    "id": "t3_1xahynp",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:34+00:00",
+   "last_seen": "2026-10-22T23:25:14+00:00",
    "neighborhoods": [
     "Downtown SF"
    ],
@@ -15580,7 +15477,7 @@
    "id": "t3_1xauukr",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:07:46+00:00",
+   "last_seen": "2026-10-22T23:23:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xauukr/nimbys_lost_the_big_arguments_now_theyre_fighting/",
@@ -15630,7 +15527,7 @@
    "id": "t3_1xawmbe",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:07:46+00:00",
+   "last_seen": "2026-10-22T23:23:26+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xawmbe/doxxed_but_not_deterred_the_72yearold_embroiled/",
@@ -15678,7 +15575,7 @@
    "id": "t3_1xay2w5",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:07:51+00:00",
+   "last_seen": "2026-10-22T23:23:33+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1xay2w5/halloween_night_out_should_we_buy_tickets_or_can/",
@@ -15725,7 +15622,7 @@
    "id": "t3_1xb37cs",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:08:16+00:00",
+   "last_seen": "2026-10-22T23:24:41+00:00",
    "neighborhoods": [
     "Marina District",
     "Cow Hollow",
@@ -15900,7 +15797,7 @@
    "id": "t3_1xbo1qm",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:07:43+00:00",
+   "last_seen": "2026-10-22T23:23:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xbo1qm/instacart_to_pay_5m_to_settle_allegations_it/",
@@ -15950,7 +15847,7 @@
    "id": "t3_1xbqkb5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:34+00:00",
+   "last_seen": "2026-10-22T23:25:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xbqkb5/am_i_crazy_to_buy_million_dollar_house_on_a/",
@@ -15999,7 +15896,7 @@
    "id": "t3_1xc1nw6",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:33+00:00",
+   "last_seen": "2026-10-22T23:25:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xc1nw6/preemptive_offers_in_sf/",
@@ -16041,7 +15938,7 @@
    "id": "t3_1xc5vmp",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-22T20:09:33+00:00",
+   "last_seen": "2026-10-22T23:25:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xc5vmp/multifamily_reno_project_manager_making_130_k_how/",
@@ -16090,8 +15987,8 @@
    ],
    "id": "t3_1xcmahi",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-10-22T20:07:42+00:00",
+   "is_new": false,
+   "last_seen": "2026-10-22T23:23:24+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xcmahi/in_san_francisco_a_family_earning_325000/",
@@ -16123,47 +16020,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 557,
-   "duration_seconds": 166.9,
-   "fetch_log": [],
-   "fetched": 600,
-   "finished_at": "2026-10-15T19:11:50+00:00",
-   "healthy": true,
-   "hot": 7,
-   "kept": 32,
-   "last_successful_crawl": "2026-10-15T19:11:50+00:00",
-   "leads": 7,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 3,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "housing market",
-    "property tax",
-    "hoa",
-    "should i buy"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 600
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 470,
@@ -17806,9 +17662,69 @@
     "pullpush": 0,
     "rss": 413
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 474,
+   "duration_seconds": 197.1,
+   "fetch_log": [
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Brealtor%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+realtor&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   ],
+   "fetched": 500,
+   "finished_at": "2026-10-22T23:26:16+00:00",
+   "healthy": true,
+   "hot": 7,
+   "kept": 33,
+   "last_successful_crawl": "2026-10-22T23:26:16+00:00",
+   "leads": 7,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 120.0,
+   "rate_limited": 6,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "RealEstate"
+   ],
+   "subreddits_ok": 5,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "realtor",
+    "real estate agent",
+    "buying a house",
+    "selling my house"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 500
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 0,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 4,
  "version": 1
 }
