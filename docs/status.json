@@ -1,66 +1,63 @@
 {
- "generated_at": "2026-10-24T20:54:19+00:00",
+ "generated_at": "2026-10-24T23:19:09+00:00",
  "last_run": {
-  "subreddits_ok": 4,
+  "subreddits_ok": 5,
   "subreddits_failed": [
-   "BayAreaRealEstate",
-   "SouthBay"
+   "RealEstate"
   ],
-  "fetched": 313,
-  "considered": 272,
-  "kept": 9,
+  "fetched": 500,
+  "considered": 471,
+  "kept": 30,
   "new": 0,
-  "hot": 0,
-  "leads": 0,
+  "hot": 4,
+  "leads": 4,
   "transport_counts": {
-   "rss": 313,
+   "rss": 500,
    "old_html": 0,
    "old_search": 0,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "housing market",
-   "property tax",
-   "hoa",
-   "should i buy"
+   "rent vs buy",
+   "escrow",
+   "down payment",
+   "realtor"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "subreddits_configured": 12,
-  "pruned": 2,
-  "duration_seconds": 198.7,
-  "finished_at": "2026-10-24T20:54:18+00:00",
+  "pruned": 1,
+  "duration_seconds": 201.3,
+  "finished_at": "2026-10-24T23:19:09+00:00",
   "blocked_hosts": {
    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403",
    "old.reddit.com": "HTTP 403"
   },
-  "rate_limited": 7,
+  "rate_limited": 6,
   "rate_limit_wait_seconds": 120.0,
   "fetch_log": [
-   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-   "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+housing+market&sort=new&t=month&restrict_sr=on",
+   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Brent%2Bvs%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+   "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+rent+vs+buy&sort=new&t=month&restrict_sr=on",
    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
   ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-10-24T20:54:18+00:00"
+  "last_successful_crawl": "2026-10-24T23:19:09+00:00"
  }
 }
