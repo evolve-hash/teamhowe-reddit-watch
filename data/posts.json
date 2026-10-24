@@ -1,96 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-10-24T18:13:13+00:00",
+ "last_successful_crawl": "2026-10-24T20:54:18+00:00",
  "posts": {
-  "t3_1vy908e": {
-   "author": "aleimpala",
-   "author_url": "https://www.reddit.com/user/aleimpala",
-   "comments": 423,
-   "created_utc": 1787684415,
-   "domain": "",
-   "excerpt": "I'll go first, I'm 30F, I live 25 mins away from my office that I have to go in 5 days a week, but with traffic - unless I leave ungodly early it ends up being 45 mins - 1 hr each way. It has been driving me crazy but I had to choose my apartment midway between mine and my partners workplace. I am dealing with it right now but sometimes...",
-   "external_url": "",
-   "first_seen": "2026-08-25T20:06:22+00:00",
-   "flair": "",
-   "found_via": "rent vs buy",
-   "has_body": true,
-   "hits": [
-    "buy a house"
-   ],
-   "id": "t3_1vy908e",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-30T22:24:34+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1vy908e/how_bad_is_your_commute_do_you_see_yourself_doing/",
-   "relevance": 14,
-   "score": 244,
-   "sources": "old_search",
-   "subreddit": "bayarea",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buy a house"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    }
-   },
-   "title": "How bad is your commute? Do you see yourself doing it long term or move out of the area some day?",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1vyc52z": {
-   "author": "myshini256",
-   "author_url": "https://www.reddit.com/user/myshini256",
-   "comments": 0,
-   "created_utc": 1787691026,
-   "domain": "self.bayarea",
-   "excerpt": "Hey all, Getting close to getting my building permit for my Adu, my structural plans just cleared the county with the only thing missing is a sewage permit from Ora Loma Sanitary District. Started the process of getting a permit for our sewage plan way back in February but jeez has it been an absolute hassle to get anything back. Unsure...",
-   "external_url": "/r/bayarea/comments/1vyc52z/ora_loma_adu_permitting_help/",
-   "first_seen": "2026-08-26T03:41:38+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "building permit",
-    "adu"
-   ],
-   "id": "t3_1vyc52z",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-08-26T14:10:52+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1vyc52z/ora_loma_adu_permitting_help/",
-   "relevance": 14,
-   "score": 0,
-   "sources": "old_html+rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "building permit"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "adu"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "Ora Loma ADU permitting help",
-   "unplaced": true,
-   "verdict": "watch"
-  },
   "t3_1vyf9od": {
    "author": "DrRealBug",
    "author_url": "https://www.reddit.com/user/DrRealBug",
@@ -11984,7 +11895,7 @@
    "id": "t3_1x14tng",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:11:39+00:00",
+   "last_seen": "2026-10-24T20:53:11+00:00",
    "neighborhoods": [
     "Mission Bay"
    ],
@@ -14612,7 +14523,7 @@
    "id": "t3_1x8o3el",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:11:37+00:00",
+   "last_seen": "2026-10-24T20:53:09+00:00",
    "neighborhoods": [
     "Cole Valley"
    ],
@@ -15105,7 +15016,7 @@
    "id": "t3_1xb37cs",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:11:37+00:00",
+   "last_seen": "2026-10-24T20:53:09+00:00",
    "neighborhoods": [
     "Marina District",
     "Cow Hollow",
@@ -15471,7 +15382,7 @@
    "id": "t3_1xcmahi",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:10:22+00:00",
+   "last_seen": "2026-10-24T20:51:27+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xcmahi/in_san_francisco_a_family_earning_325000/",
@@ -15524,7 +15435,7 @@
    "id": "t3_1xd5nsu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:11:36+00:00",
+   "last_seen": "2026-10-24T20:53:09+00:00",
    "neighborhoods": [
     "Eureka Valley / Dolores Heights",
     "Crocker Amazon",
@@ -15589,7 +15500,7 @@
    "id": "t3_1xd9s08",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:10:25+00:00",
+   "last_seen": "2026-10-24T20:52:37+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1xd9s08/considering_a_move_from_dallas_to_sf_looking_for/",
@@ -15646,7 +15557,7 @@
    "id": "t3_1xdg9tw",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:10:19+00:00",
+   "last_seen": "2026-10-24T20:51:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xdg9tw/this_25m_san_francisco_mansion_has_been_an_opium/",
@@ -15697,7 +15608,7 @@
    "id": "t3_1xdiofb",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-10-24T18:10:19+00:00",
+   "last_seen": "2026-10-24T20:51:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xdiofb/do_chan_and_wiener_nimby_or_yimby_records_heres/",
@@ -15748,8 +15659,8 @@
    ],
    "id": "t3_1xef8q1",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-10-24T18:10:17+00:00",
+   "is_new": false,
+   "last_seen": "2026-10-24T20:51:24+00:00",
    "neighborhoods": [
     "Inner Sunset",
     "North Beach"
@@ -15785,47 +15696,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {},
-   "considered": 383,
-   "duration_seconds": 162.8,
-   "fetch_log": [],
-   "fetched": 513,
-   "finished_at": "2026-10-17T17:14:02+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 32,
-   "last_successful_crawl": "2026-10-17T17:14:02+00:00",
-   "leads": 6,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 0.0,
-   "rate_limited": 0,
-   "subreddits_configured": 12,
-   "subreddits_failed": [],
-   "subreddits_ok": 6,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "marincounty",
-    "SouthBay"
-   ],
-   "sweeps_this_run": [
-    "selling my house",
-    "home prices",
-    "first time home buyer",
-    "condo"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 513
-   }
-  },
   {
    "blocked_hosts": {},
    "considered": 552,
@@ -17680,9 +17550,72 @@
     "pullpush": 0,
     "rss": 500
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 272,
+   "duration_seconds": 198.7,
+   "fetch_log": [
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+housing+market&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
+    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   ],
+   "fetched": 313,
+   "finished_at": "2026-10-24T20:54:18+00:00",
+   "healthy": true,
+   "hot": 0,
+   "kept": 9,
+   "last_successful_crawl": "2026-10-24T20:54:18+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 120.0,
+   "rate_limited": 7,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "BayAreaRealEstate",
+    "SouthBay"
+   ],
+   "subreddits_ok": 4,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "marincounty",
+    "SouthBay"
+   ],
+   "sweeps_this_run": [
+    "housing market",
+    "property tax",
+    "hoa",
+    "should i buy"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 313
+   }
   }
  ],
- "subreddit_cursor": 4,
- "sweep_cursor": 10,
+ "subreddit_cursor": 6,
+ "sweep_cursor": 14,
  "version": 1
 }
