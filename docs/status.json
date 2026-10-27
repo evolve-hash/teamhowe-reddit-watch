@@ -1,40 +1,40 @@
 {
- "generated_at": "2026-10-27T16:43:13+00:00",
+ "generated_at": "2026-10-27T21:23:15+00:00",
  "last_run": {
   "subreddits_ok": 5,
   "subreddits_failed": [
-   "OaklandCA"
+   "SouthBay"
   ],
-  "fetched": 402,
-  "considered": 379,
-  "kept": 30,
-  "new": 2,
-  "hot": 3,
-  "leads": 3,
+  "fetched": 413,
+  "considered": 380,
+  "kept": 27,
+  "new": 0,
+  "hot": 2,
+  "leads": 2,
   "transport_counts": {
-   "rss": 402,
+   "rss": 413,
    "old_html": 0,
    "old_search": 0,
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "buying a house",
-   "selling my house",
-   "home prices",
-   "first time home buyer"
+   "condo",
+   "tenants in common",
+   "mortgage",
+   "open house"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "SFHousing",
-   "OaklandCA"
+   "marincounty",
+   "SouthBay"
   ],
   "subreddits_configured": 12,
-  "pruned": 1,
-  "duration_seconds": 193.1,
-  "finished_at": "2026-10-27T16:43:13+00:00",
+  "pruned": 0,
+  "duration_seconds": 192.5,
+  "finished_at": "2026-10-27T21:23:15+00:00",
   "blocked_hosts": {
    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403",
    "old.reddit.com": "HTTP 403"
@@ -44,20 +44,20 @@
   "fetch_log": [
    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bbuying%2Ba%2Bhouse%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+   "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bcondo%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+buying+a+house&sort=new&t=month&restrict_sr=on",
+   "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+condo&sort=new&t=month&restrict_sr=on",
    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
   ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": true,
-  "last_successful_crawl": "2026-10-27T16:43:13+00:00"
+  "last_successful_crawl": "2026-10-27T21:23:15+00:00"
  }
 }
