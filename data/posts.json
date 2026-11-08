@@ -1,6 +1,6 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-11-07T20:56:33+00:00",
+ "last_successful_crawl": "2026-11-08T00:40:13+00:00",
  "posts": {
   "t3_1wbryys": {
    "author": "_TurboHome",
@@ -11501,7 +11501,7 @@
    "id": "t3_1xb37cs",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:20+00:00",
+   "last_seen": "2026-11-08T00:39:06+00:00",
    "neighborhoods": [
     "Marina District",
     "Cow Hollow",
@@ -11920,7 +11920,7 @@
    "id": "t3_1xd5nsu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:20+00:00",
+   "last_seen": "2026-11-08T00:39:06+00:00",
    "neighborhoods": [
     "Eureka Valley / Dolores Heights",
     "Crocker Amazon",
@@ -12818,7 +12818,7 @@
    "id": "t3_1xgvofk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:20+00:00",
+   "last_seen": "2026-11-08T00:39:05+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1xgvofk/looking_for_flatmates_and_housing/",
@@ -13078,7 +13078,7 @@
    "id": "t3_1xhxoy8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:19+00:00",
+   "last_seen": "2026-11-08T00:39:05+00:00",
    "neighborhoods": [
     "Noe Valley",
     "Mission Dolores",
@@ -13778,7 +13778,7 @@
    "id": "t3_1xjp666",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:19+00:00",
+   "last_seen": "2026-11-08T00:39:05+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -14704,7 +14704,7 @@
    "id": "t3_1xmd0l6",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:53:54+00:00",
+   "last_seen": "2026-11-08T00:38:34+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1xmd0l6/city_says_lower_duplex_unit_currently_used_by/",
@@ -14753,7 +14753,7 @@
    "id": "t3_1xme8dd",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:53:54+00:00",
+   "last_seen": "2026-11-08T00:38:34+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/AskSF/comments/1xme8dd/advice_application_sent_and_showing_for_an/",
@@ -15199,7 +15199,7 @@
    "id": "t3_1xo9ltv",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-07T20:53:47+00:00",
+   "last_seen": "2026-11-08T00:37:22+00:00",
    "neighborhoods": [
     "Excelsior",
     "Ingleside"
@@ -15262,7 +15262,7 @@
    "id": "t3_1xopjhh",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:53:47+00:00",
+   "last_seen": "2026-11-08T00:37:22+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xopjhh/one_of_market_streets_most_iconic_buildings_faces/",
@@ -15785,7 +15785,7 @@
    "id": "t3_1xplo1z",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:53:46+00:00",
+   "last_seen": "2026-11-08T00:37:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xplo1z/sf_to_get_925_million_gift_to_tackle_conditions/",
@@ -15841,7 +15841,7 @@
    "id": "t3_1xptsl9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-07T20:54:18+00:00",
+   "last_seen": "2026-11-08T00:39:04+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -16020,66 +16020,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
-   "considered": 379,
-   "duration_seconds": 193.3,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bfirst%2Btime%2Bhome%2Bbuyer%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+first+time+home+buyer&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 413,
-   "finished_at": "2026-10-28T21:09:18+00:00",
-   "healthy": true,
-   "hot": 2,
-   "kept": 29,
-   "last_successful_crawl": "2026-10-28T21:09:18+00:00",
-   "leads": 2,
-   "new": 6,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 2,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "SouthBay"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "marincounty",
-    "SouthBay"
-   ],
-   "sweeps_this_run": [
-    "first time home buyer",
-    "condo",
-    "tenants in common",
-    "mortgage"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 413
-   }
-  },
   {
    "blocked_hosts": {
     "old.reddit.com": "HTTP 403",
@@ -18445,9 +18385,72 @@
     "pullpush": 0,
     "rss": 402
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 271,
+   "duration_seconds": 198.7,
+   "fetch_log": [
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+hoa&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
+    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   ],
+   "fetched": 311,
+   "finished_at": "2026-11-08T00:40:13+00:00",
+   "healthy": true,
+   "hot": 1,
+   "kept": 11,
+   "last_successful_crawl": "2026-11-08T00:40:13+00:00",
+   "leads": 1,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 0,
+   "rate_limit_wait_seconds": 120.0,
+   "rate_limited": 7,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "BayAreaRealEstate",
+    "SouthBay"
+   ],
+   "subreddits_ok": 4,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "marincounty",
+    "SouthBay"
+   ],
+   "sweeps_this_run": [
+    "hoa",
+    "should i buy",
+    "rent vs buy",
+    "escrow"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 311
+   }
   }
  ],
- "subreddit_cursor": 4,
- "sweep_cursor": 12,
+ "subreddit_cursor": 6,
+ "sweep_cursor": 16,
  "version": 1
 }
