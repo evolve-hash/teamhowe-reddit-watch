@@ -1,480 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-11-09T06:34:53+00:00",
+ "last_successful_crawl": "2026-11-09T17:33:09+00:00",
  "posts": {
-  "t3_1wcfbl6": {
-   "author": "waterchestnut_tree",
-   "author_url": "https://www.reddit.com/user/waterchestnut_tree",
-   "comments": null,
-   "created_utc": 1789036176,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Exclude landscaping When we were buying we benefited a lot from real data points shared by other people. as we know renovation costs so much here and no one wants to buy an old house just find out they can’t afford to remodel it. Now our project is complete, I want to share a cost breakdown to help anyone currently budgeting or...",
-   "external_url": "",
-   "first_seen": "2026-09-10T14:29:38+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "considering buying",
-    "sfh",
-    "remodel",
-    "renovation",
-    "$392k",
-    "$161,857",
-    "2000sqft"
-   ],
-   "id": "t3_1wcfbl6",
-   "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-09-10T14:29:38+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wcfbl6/cost_breakdown_full_remodel_for_an_80yo_peninsula/",
-   "relevance": 30,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "considering buying"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "market": {
-     "count": 3,
-     "hits": [
-      "sfh",
-      "remodel",
-      "renovation"
-     ],
-     "label": "Market talk",
-     "points": 9.0
-    },
-    "patterns": {
-     "count": 3,
-     "hits": [
-      "$392k",
-      "$161,857",
-      "2000sqft"
-     ],
-     "label": "Price / listing pattern",
-     "points": 7.5
-    }
-   },
-   "title": "Cost Breakdown: Full remodel for an 80yo Peninsula SFH ($392k total)",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1wclhh8": {
-   "author": "ShopProp",
-   "author_url": "https://www.reddit.com/user/ShopProp",
-   "comments": null,
-   "created_utc": 1789052050,
-   "domain": "self.bayarea",
-   "excerpt": "Construction has officially started on the redevelopment of the former Candlestick Park site , a project that has been discussed, redesigned and delayed for roughly 25 years. The full plan calls for 7,200 homes, 100 acres of parks/open space, retail, a hotel and 2.8 million square feet of office space. The first phase will prepare seven...",
-   "external_url": "",
-   "first_seen": "2026-09-11T04:44:56+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "sfchronicle.com",
-    "Candlestick Point"
-   ],
-   "id": "t3_1wclhh8",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-11T21:46:31+00:00",
-   "neighborhoods": [
-    "Candlestick Point"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wclhh8/after_25_years_of_delays_san_francisco_finally/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Candlestick Point"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    }
-   },
-   "title": "After 25 years of delays, San Francisco finally broke ground on 7,200 homes at Candlestick Point It’s actually happening.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wcljj5": {
-   "author": "ShopProp",
-   "author_url": "https://www.reddit.com/user/ShopProp",
-   "comments": null,
-   "created_utc": 1789052171,
-   "domain": "self.sanfrancisco",
-   "excerpt": "Construction has officially started on the redevelopment of the former Candlestick Park site , a project that has been discussed, redesigned and delayed for roughly 25 years. The full plan calls for 7,200 homes, 100 acres of parks/open space, retail, a hotel and 2.8 million square feet of office space. The first phase will prepare seven...",
-   "external_url": "",
-   "first_seen": "2026-09-10T18:30:08+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "sfchronicle.com",
-    "Candlestick Point"
-   ],
-   "id": "t3_1wcljj5",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-12T22:19:17+00:00",
-   "neighborhoods": [
-    "Candlestick Point"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wcljj5/after_25_years_of_delays_san_francisco_finally/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Candlestick Point"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    }
-   },
-   "title": "After 25 years of delays, San Francisco finally broke ground on 7,200 homes at Candlestick Point",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wclkmg": {
-   "author": "ShopProp",
-   "author_url": "https://www.reddit.com/user/ShopProp",
-   "comments": null,
-   "created_utc": 1789052237,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Construction has officially started on the redevelopment of the former Candlestick Park site , a project that has been discussed, redesigned and delayed for roughly 25 years. The full plan calls for 7,200 homes, 100 acres of parks/open space, retail, a hotel and 2.8 million square feet of office space. The first phase will prepare seven...",
-   "external_url": "",
-   "first_seen": "2026-09-10T18:31:56+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "sfchronicle.com",
-    "Candlestick Point"
-   ],
-   "id": "t3_1wclkmg",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-22T22:12:03+00:00",
-   "neighborhoods": [
-    "Candlestick Point"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wclkmg/after_25_years_of_delays_san_francisco_finally/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Candlestick Point"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    }
-   },
-   "title": "After 25 years of delays, San Francisco finally broke ground on 7,200 homes at Candlestick Point",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wcm0v1": {
-   "author": "Krinjay",
-   "author_url": "https://www.reddit.com/user/Krinjay",
-   "comments": null,
-   "created_utc": 1789053211,
-   "domain": "sfstandard.com",
-   "excerpt": "Anything but accelerate housing production, I guess???",
-   "external_url": "https://sfstandard.com/2026/09/10/lurie-declares-san-francisco-rent-emergency/",
-   "first_seen": "2026-09-10T18:30:07+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "sf housing",
-    "sfstandard.com"
-   ],
-   "id": "t3_1wcm0v1",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-13T01:01:58+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wcm0v1/lurie_declares_rent_emergency_as_sf_housing_costs/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfstandard.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "sf housing"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "Lurie declares rent emergency as SF housing costs surge",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wcndyo": {
-   "author": "AcademicSand1034",
-   "author_url": "https://www.reddit.com/user/AcademicSand1034",
-   "comments": null,
-   "created_utc": 1789056219,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/bayarea/article/marin-affordable-housing-22422539.php",
-   "first_seen": "2026-09-11T04:44:56+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "affordable housing",
-    "sfchronicle.com",
-    "$1 million",
-    "marin"
-   ],
-   "id": "t3_1wcndyo",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-11T21:46:31+00:00",
-   "neighborhoods": [],
-   "out_of_area": [
-    "marin"
-   ],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wcndyo/sf_chronicle_west_marins_biggest_affordable/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 2,
-     "hits": [
-      "housing",
-      "affordable housing"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "marin"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$1 million"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "SF Chronicle: West Marin’s biggest affordable housing project in decades moves ahead — at $1 million per home",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wcoxxe": {
-   "author": "Medical-Decision-125",
-   "author_url": "https://www.reddit.com/user/Medical-Decision-125",
-   "comments": null,
-   "created_utc": 1789059594,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/sf/article/sf-mayor-lure-rent-emergency-housing-crisis-22424912.php",
-   "first_seen": "2026-09-11T04:44:56+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1wcoxxe",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-12T14:11:46+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wcoxxe/sf_mayor_lurie_unveils_plan_to_protect_renters/",
-   "relevance": 13,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "S.F. Mayor Lurie unveils plan to protect renters amid AI-fueled housing ‘emergency’",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wcoy5e": {
-   "author": "Medical-Decision-125",
-   "author_url": "https://www.reddit.com/user/Medical-Decision-125",
-   "comments": null,
-   "created_utc": 1789059605,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/sf/article/sf-mayor-lure-rent-emergency-housing-crisis-22424912.php",
-   "first_seen": "2026-09-10T18:30:07+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1wcoy5e",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-13T01:01:58+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wcoy5e/sf_mayor_lurie_unveils_plan_to_protect_renters/",
-   "relevance": 13,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "S.F. Mayor Lurie unveils plan to protect renters amid AI-fueled housing ‘emergency’",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wd1tq8": {
    "author": "Remarkable_Host6827",
    "author_url": "https://www.reddit.com/user/Remarkable_Host6827",
@@ -11122,7 +10649,7 @@
    "id": "t3_1xb37cs",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:26+00:00",
+   "last_seen": "2026-11-09T17:31:44+00:00",
    "neighborhoods": [
     "Marina District",
     "Cow Hollow",
@@ -11541,7 +11068,7 @@
    "id": "t3_1xd5nsu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:25+00:00",
+   "last_seen": "2026-11-09T17:31:43+00:00",
    "neighborhoods": [
     "Eureka Valley / Dolores Heights",
     "Crocker Amazon",
@@ -12051,7 +11578,7 @@
    "id": "t3_1xfjxrv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:34+00:00",
+   "last_seen": "2026-11-09T17:32:18+00:00",
    "neighborhoods": [
     "West Portal"
    ],
@@ -12183,7 +11710,7 @@
    "id": "t3_1xg19v4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:34+00:00",
+   "last_seen": "2026-11-09T17:32:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xg19v4/plans_to_turn_tanforan_mall_from_death_spiral/",
@@ -12232,7 +11759,7 @@
    "id": "t3_1xg7ahu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:34+00:00",
+   "last_seen": "2026-11-09T17:32:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xg7ahu/would_you_buy_a_house_on_a_semibusy_road/",
@@ -12390,7 +11917,7 @@
    "id": "t3_1xgum52",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:34+00:00",
+   "last_seen": "2026-11-09T17:32:18+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xgum52/california_court_opens_door_to_lawsuits_over/",
@@ -12439,7 +11966,7 @@
    "id": "t3_1xgvofk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:25+00:00",
+   "last_seen": "2026-11-09T17:31:42+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1xgvofk/looking_for_flatmates_and_housing/",
@@ -12537,7 +12064,7 @@
    "id": "t3_1xhszr3",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhszr3/the_scammer_posed_as_the_landlord_to_her_and_as/",
@@ -12586,7 +12113,7 @@
    "id": "t3_1xhudf4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhudf4/pending_home_sales_hit_the_lowest_level_redfin/",
@@ -12699,7 +12226,7 @@
    "id": "t3_1xhxoy8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:25+00:00",
+   "last_seen": "2026-11-09T17:31:42+00:00",
    "neighborhoods": [
     "Noe Valley",
     "Mission Dolores",
@@ -12766,7 +12293,7 @@
    "id": "t3_1xhxug0",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhxug0/my_experience_selling_my_home_with_a_flatfee/",
@@ -12873,7 +12400,7 @@
    "id": "t3_1xi0wsk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:17+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xi0wsk/seller_keeps_delaying_inspection_reports_and_we/",
@@ -12972,7 +12499,7 @@
    "id": "t3_1xibql8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:16+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xibql8/cambrian_vs_berryessa/",
@@ -13399,7 +12926,7 @@
    "id": "t3_1xjp666",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:25+00:00",
+   "last_seen": "2026-11-09T17:31:42+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -13475,7 +13002,7 @@
    "id": "t3_1xjpl1c",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:16+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -13640,7 +13167,7 @@
    "id": "t3_1xjvhz8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xjvhz8/anyone_nervous_about_how_the_anthropic_ipo_is/",
@@ -13789,7 +13316,7 @@
    "id": "t3_1xkiudv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xkiudv/the_real_reason_nothing_gets_built_in_san/",
@@ -13949,7 +13476,7 @@
    "id": "t3_1xl951v",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xl951v/rent_is_so_expensive_is_it_better_to_just_buy_a/",
@@ -14174,7 +13701,7 @@
    "id": "t3_1xltk9g",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:33+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xltk9g/anthropic/",
@@ -14473,7 +14000,7 @@
    "id": "t3_1xmf5p1",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmf5p1/how_to_learn_about_sf_real_estate/",
@@ -14522,7 +14049,7 @@
    "id": "t3_1xmlqjn",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmlqjn/getting_to_40_down/",
@@ -14562,7 +14089,7 @@
    "id": "t3_1xmngte",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:15+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmngte/looking_for_suggestions_on_buying_a_house_in_the/",
@@ -14659,7 +14186,7 @@
    "id": "t3_1xnuhj9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xnuhj9/sell_condo_in_sj_or_keep/",
@@ -14720,7 +14247,7 @@
    "id": "t3_1xo4tl5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xo4tl5/why_this_house_not_selling/",
@@ -14932,7 +14459,7 @@
    "id": "t3_1xoss0j",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:14+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xoss0j/renovation_update_process_things_i_should_know/",
@@ -14985,7 +14512,7 @@
    "id": "t3_1xossng",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:14+00:00",
    "neighborhoods": [
     "Downtown SF"
    ],
@@ -15058,7 +14585,7 @@
    "id": "t3_1xozwl1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:32+00:00",
+   "last_seen": "2026-11-09T17:32:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xozwl1/someone_should_post_this_on_the_san_francisco_sub/",
@@ -15115,7 +14642,7 @@
    "id": "t3_1xphjqi",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:31+00:00",
+   "last_seen": "2026-11-09T17:32:13+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "brisbane",
@@ -15339,7 +14866,7 @@
    "id": "t3_1xpkr2i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:31+00:00",
+   "last_seen": "2026-11-09T17:32:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xpkr2i/prop_37_passed_with_a_61_majority_will_it_provide/",
@@ -15406,7 +14933,7 @@
    "id": "t3_1xplo1z",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:32:07+00:00",
+   "last_seen": "2026-11-09T17:30:25+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xplo1z/sf_to_get_925_million_gift_to_tackle_conditions/",
@@ -15462,7 +14989,7 @@
    "id": "t3_1xptsl9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:33:24+00:00",
+   "last_seen": "2026-11-09T17:31:40+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -15541,7 +15068,7 @@
    "id": "t3_1xpynyg",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:31+00:00",
+   "last_seen": "2026-11-09T17:32:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xpynyg/why_is_this_house_not_selling_300k_price_drop/",
@@ -15600,7 +15127,7 @@
    "id": "t3_1xq2xl1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:31+00:00",
+   "last_seen": "2026-11-09T17:32:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xq2xl1/has_anyone_successfully_sold_their_own_home_with/",
@@ -15659,7 +15186,7 @@
    "id": "t3_1xr1t3c",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:34:31+00:00",
+   "last_seen": "2026-11-09T17:32:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xr1t3c/renting_to_buying/",
@@ -15709,7 +15236,7 @@
    "id": "t3_1xr39jn",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-09T06:32:05+00:00",
+   "last_seen": "2026-11-09T17:30:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xr39jn/san_francisco_supervisor_wants_to_permanently/",
@@ -15757,8 +15284,8 @@
    ],
    "id": "t3_1xrggfu",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-09T06:32:05+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-09T17:30:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xrggfu/san_francisco_approves_controversial_marina/",
@@ -15790,66 +15317,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
-   "considered": 372,
-   "duration_seconds": 193.6,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bhoa%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+hoa&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 402,
-   "finished_at": "2026-10-30T07:11:05+00:00",
-   "healthy": true,
-   "hot": 4,
-   "kept": 32,
-   "last_successful_crawl": "2026-10-30T07:11:05+00:00",
-   "leads": 4,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 2,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "bayarea"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "hoa",
-    "should i buy",
-    "rent vs buy",
-    "escrow"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 402
-   }
-  },
   {
    "blocked_hosts": {
     "old.reddit.com": "HTTP 403",
@@ -18219,9 +17686,69 @@
     "pullpush": 0,
     "rss": 400
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 367,
+   "duration_seconds": 193.4,
+   "fetch_log": [
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bbuying%2Ba%2Bhouse%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+buying+a+house&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   ],
+   "fetched": 402,
+   "finished_at": "2026-11-09T17:33:09+00:00",
+   "healthy": true,
+   "hot": 4,
+   "kept": 36,
+   "last_successful_crawl": "2026-11-09T17:33:09+00:00",
+   "leads": 4,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 8,
+   "rate_limit_wait_seconds": 120.0,
+   "rate_limited": 6,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "bayarea"
+   ],
+   "subreddits_ok": 5,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "buying a house",
+    "selling my house",
+    "home prices",
+    "first time home buyer"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 402
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 2,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 6,
  "version": 1
 }
