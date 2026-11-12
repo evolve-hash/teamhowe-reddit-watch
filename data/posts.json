@@ -1,58 +1,7 @@
 {
  "alerted": {},
- "last_successful_crawl": "2026-11-11T22:01:55+00:00",
+ "last_successful_crawl": "2026-11-12T03:03:07+00:00",
  "posts": {
-  "t3_1weqpbv": {
-   "author": "AcademicSand1034",
-   "author_url": "https://www.reddit.com/user/AcademicSand1034",
-   "comments": null,
-   "created_utc": 1789253317,
-   "domain": "sfchronicle.com",
-   "excerpt": "",
-   "external_url": "https://www.sfchronicle.com/sf/article/housing-yimby-lurie-san-francisco-22416344.php",
-   "first_seen": "2026-09-13T01:01:54+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "yimby",
-    "sfchronicle.com"
-   ],
-   "id": "t3_1weqpbv",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-15T13:34:39+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1weqpbv/sf_chronicle_is_lurie_a_yimby_san_francisco/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 2,
-     "hits": [
-      "housing",
-      "yimby"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    }
-   },
-   "title": "SF Chronicle: Is Lurie a YIMBY? San Francisco housing advocates are pushing back against his plans",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wf0oqg": {
    "author": "Enough_Watch4876",
    "author_url": "https://www.reddit.com/user/Enough_Watch4876",
@@ -9987,7 +9936,7 @@
    "id": "t3_1xd5nsu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:00:30+00:00",
+   "last_seen": "2026-11-12T03:01:40+00:00",
    "neighborhoods": [
     "Eureka Valley / Dolores Heights",
     "Crocker Amazon",
@@ -10629,7 +10578,7 @@
    "id": "t3_1xg19v4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:39+00:00",
+   "last_seen": "2026-11-12T03:02:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xg19v4/plans_to_turn_tanforan_mall_from_death_spiral/",
@@ -10678,7 +10627,7 @@
    "id": "t3_1xg7ahu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:39+00:00",
+   "last_seen": "2026-11-12T03:02:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xg7ahu/would_you_buy_a_house_on_a_semibusy_road/",
@@ -10836,7 +10785,7 @@
    "id": "t3_1xgum52",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:39+00:00",
+   "last_seen": "2026-11-12T03:02:13+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xgum52/california_court_opens_door_to_lawsuits_over/",
@@ -10885,7 +10834,7 @@
    "id": "t3_1xgvofk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:00:29+00:00",
+   "last_seen": "2026-11-12T03:01:40+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1xgvofk/looking_for_flatmates_and_housing/",
@@ -10983,7 +10932,7 @@
    "id": "t3_1xhszr3",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:38+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhszr3/the_scammer_posed_as_the_landlord_to_her_and_as/",
@@ -11032,7 +10981,7 @@
    "id": "t3_1xhudf4",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:38+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhudf4/pending_home_sales_hit_the_lowest_level_redfin/",
@@ -11145,7 +11094,7 @@
    "id": "t3_1xhxoy8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:00:28+00:00",
+   "last_seen": "2026-11-12T03:01:39+00:00",
    "neighborhoods": [
     "Noe Valley",
     "Mission Dolores",
@@ -11212,7 +11161,7 @@
    "id": "t3_1xhxug0",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:38+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xhxug0/my_experience_selling_my_home_with_a_flatfee/",
@@ -11319,7 +11268,7 @@
    "id": "t3_1xi0wsk",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:38+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xi0wsk/seller_keeps_delaying_inspection_reports_and_we/",
@@ -11418,7 +11367,7 @@
    "id": "t3_1xibql8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:37+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xibql8/cambrian_vs_berryessa/",
@@ -11845,7 +11794,7 @@
    "id": "t3_1xjp666",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:00:28+00:00",
+   "last_seen": "2026-11-12T03:01:39+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -11921,7 +11870,7 @@
    "id": "t3_1xjpl1c",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:37+00:00",
+   "last_seen": "2026-11-12T03:02:12+00:00",
    "neighborhoods": [
     "Bernal Heights",
     "Noe Valley",
@@ -12086,7 +12035,7 @@
    "id": "t3_1xjvhz8",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xjvhz8/anyone_nervous_about_how_the_anthropic_ipo_is/",
@@ -12235,7 +12184,7 @@
    "id": "t3_1xkiudv",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xkiudv/the_real_reason_nothing_gets_built_in_san/",
@@ -12395,7 +12344,7 @@
    "id": "t3_1xl951v",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xl951v/rent_is_so_expensive_is_it_better_to_just_buy_a/",
@@ -12620,7 +12569,7 @@
    "id": "t3_1xltk9g",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xltk9g/anthropic/",
@@ -12919,7 +12868,7 @@
    "id": "t3_1xmf5p1",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmf5p1/how_to_learn_about_sf_real_estate/",
@@ -12968,7 +12917,7 @@
    "id": "t3_1xmlqjn",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmlqjn/getting_to_40_down/",
@@ -13008,7 +12957,7 @@
    "id": "t3_1xmngte",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:36+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xmngte/looking_for_suggestions_on_buying_a_house_in_the/",
@@ -13105,7 +13054,7 @@
    "id": "t3_1xnuhj9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:35+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xnuhj9/sell_condo_in_sj_or_keep/",
@@ -13166,7 +13115,7 @@
    "id": "t3_1xo4tl5",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:35+00:00",
+   "last_seen": "2026-11-12T03:02:11+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xo4tl5/why_this_house_not_selling/",
@@ -13378,7 +13327,7 @@
    "id": "t3_1xoss0j",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:35+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xoss0j/renovation_update_process_things_i_should_know/",
@@ -13431,7 +13380,7 @@
    "id": "t3_1xossng",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:35+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [
     "Downtown SF"
    ],
@@ -13504,7 +13453,7 @@
    "id": "t3_1xozwl1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xozwl1/someone_should_post_this_on_the_san_francisco_sub/",
@@ -13561,7 +13510,7 @@
    "id": "t3_1xphjqi",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "brisbane",
@@ -13785,7 +13734,7 @@
    "id": "t3_1xpkr2i",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xpkr2i/prop_37_passed_with_a_61_majority_will_it_provide/",
@@ -13908,7 +13857,7 @@
    "id": "t3_1xptsl9",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:00:27+00:00",
+   "last_seen": "2026-11-12T03:01:38+00:00",
    "neighborhoods": [
     "Inner Richmond",
     "West Portal",
@@ -13987,7 +13936,7 @@
    "id": "t3_1xpynyg",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xpynyg/why_is_this_house_not_selling_300k_price_drop/",
@@ -14046,7 +13995,7 @@
    "id": "t3_1xq2xl1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xq2xl1/has_anyone_successfully_sold_their_own_home_with/",
@@ -14105,7 +14054,7 @@
    "id": "t3_1xr1t3c",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:34+00:00",
+   "last_seen": "2026-11-12T03:02:10+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xr1t3c/renting_to_buying/",
@@ -14204,7 +14153,7 @@
    "id": "t3_1xrggfu",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T21:59:10+00:00",
+   "last_seen": "2026-11-12T03:00:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xrggfu/san_francisco_approves_controversial_marina/",
@@ -14355,7 +14304,7 @@
    "id": "t3_1xs2y46",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T21:59:08+00:00",
+   "last_seen": "2026-11-12T03:00:21+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xs2y46/sf_rec_parks_has_a_year_to_decide_how_to_spend_a/",
@@ -14462,7 +14411,7 @@
    "id": "t3_1xse6bo",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:33+00:00",
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [
     "berkeley",
@@ -14545,7 +14494,7 @@
    "id": "t3_1xsqc6w",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T21:59:07+00:00",
+   "last_seen": "2026-11-12T03:00:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xsqc6w/san_francisco_social_housing_measure_loses_after/",
@@ -14594,7 +14543,7 @@
    "id": "t3_1xsrmwh",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:33+00:00",
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xsrmwh/i_got_tired_of_digging_through_city_websites_for/",
@@ -14643,7 +14592,7 @@
    "id": "t3_1xsscp1",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T21:59:07+00:00",
+   "last_seen": "2026-11-12T03:00:20+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xsscp1/anthropic_commits_50_million_to_bay_area/",
@@ -14741,7 +14690,7 @@
    "id": "t3_1xsumni",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:33+00:00",
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xsumni/any_successful_fsbo_in_bayarea_for_2m_house/",
@@ -14791,7 +14740,7 @@
    "id": "t3_1xt0qcg",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:33+00:00",
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xt0qcg/is_it_crazy_to_buy_an_700800k_townhouse_on_a_220k/",
@@ -14849,7 +14798,7 @@
    "id": "t3_1xt4yds",
    "is_lead": false,
    "is_new": false,
-   "last_seen": "2026-11-11T21:59:06+00:00",
+   "last_seen": "2026-11-12T03:00:19+00:00",
    "neighborhoods": [
     "Sea Cliff"
    ],
@@ -14917,7 +14866,7 @@
    "id": "t3_1xt8r2e",
    "is_lead": true,
    "is_new": false,
-   "last_seen": "2026-11-11T22:01:32+00:00",
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xt8r2e/what_i_wish_id_known_before_buying_our_first_bay/",
@@ -14996,8 +14945,8 @@
    ],
    "id": "t3_1xtlteb",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-11T22:00:25+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-12T03:01:37+00:00",
    "neighborhoods": [
     "SoMa"
    ],
@@ -15056,8 +15005,8 @@
    ],
    "id": "t3_1xtm9in",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-11T21:59:05+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-12T03:00:19+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1xtm9in/marina_neighbors_federal_lawsuit_could_delay/",
@@ -15108,8 +15057,8 @@
    ],
    "id": "t3_1xtpfdf",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-11T21:59:12+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-12T03:00:26+00:00",
    "neighborhoods": [
     "Inner Richmond"
    ],
@@ -15150,6 +15099,66 @@
    "unplaced": false,
    "verdict": "watch"
   },
+  "t3_1xtqho2": {
+   "author": "patchsour28",
+   "author_url": "https://www.reddit.com/user/patchsour28",
+   "comments": null,
+   "created_utc": 1794423852,
+   "domain": "reddit.com",
+   "excerpt": "Hey! Nice to meet you. My name is Jay, I'm a 24-year-old guy looking for a place to share with some cool people in SF. My budget is around $1,400, and I'm hoping to move sometime in mid-to-late December with my two-year-old cat (he's super sweet, I promise!). Ideally, I'd love to find somewhere close to the UCSF Mission Bay campus or...",
+   "external_url": "https://www.reddit.com/gallery/1xtqho2",
+   "first_seen": "2026-11-12T03:01:37+00:00",
+   "flair": "",
+   "found_via": null,
+   "has_body": true,
+   "hits": [
+    "housing",
+    "sf housing",
+    "Mission Bay"
+   ],
+   "id": "t3_1xtqho2",
+   "is_lead": false,
+   "is_new": true,
+   "last_seen": "2026-11-12T03:01:37+00:00",
+   "neighborhoods": [
+    "Mission Bay"
+   ],
+   "out_of_area": [],
+   "permalink": "https://www.reddit.com/r/SFBayHousing/comments/1xtqho2/looking_for_sf_housing/",
+   "relevance": 15,
+   "score": null,
+   "sources": "rss",
+   "subreddit": "SFBayHousing",
+   "tiers": {
+    "market": {
+     "count": 1,
+     "hits": [
+      "housing"
+     ],
+     "label": "Market talk",
+     "points": 6.0
+    },
+    "neighborhoods": {
+     "count": 1,
+     "hits": [
+      "Mission Bay"
+     ],
+     "label": "Team Howe neighborhood",
+     "points": 1.0
+    },
+    "sf_specific": {
+     "count": 1,
+     "hits": [
+      "sf housing"
+     ],
+     "label": "SF-specific real estate signals",
+     "points": 8.0
+    }
+   },
+   "title": "Looking for SF Housing",
+   "unplaced": false,
+   "verdict": "watch"
+  },
   "t3_1xtql37": {
    "author": "ComprehensiveAd8804",
    "author_url": "https://www.reddit.com/user/ComprehensiveAd8804",
@@ -15167,8 +15176,8 @@
    ],
    "id": "t3_1xtql37",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-11T22:01:32+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [],
    "out_of_area": [],
    "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1xtql37/buying_a_house_in_peninsula_with_drywood_termites/",
@@ -15266,8 +15275,8 @@
    ],
    "id": "t3_1xttd3x",
    "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-11-11T22:01:32+00:00",
+   "is_new": false,
+   "last_seen": "2026-11-12T03:02:09+00:00",
    "neighborhoods": [
     "Russian Hill"
    ],
@@ -15337,66 +15346,6 @@
   }
  },
  "runs": [
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
-   "considered": 469,
-   "duration_seconds": 192.7,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bhousing%2Bmarket%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+housing+market&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-01T01:14:27+00:00",
-   "healthy": true,
-   "hot": 4,
-   "kept": 33,
-   "last_successful_crawl": "2026-11-01T01:14:27+00:00",
-   "leads": 4,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "sanfranciscohousing"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "housing market",
-    "property tax",
-    "hoa",
-    "should i buy"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
   {
    "blocked_hosts": {
     "old.reddit.com": "HTTP 403",
@@ -17766,9 +17715,69 @@
     "pullpush": 0,
     "rss": 400
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 373,
+   "duration_seconds": 192.4,
+   "fetch_log": [
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
+    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Brealtor%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+realtor&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
+   ],
+   "fetched": 402,
+   "finished_at": "2026-11-12T03:03:07+00:00",
+   "healthy": true,
+   "hot": 6,
+   "kept": 47,
+   "last_successful_crawl": "2026-11-12T03:03:07+00:00",
+   "leads": 6,
+   "new": 1,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 1,
+   "rate_limit_wait_seconds": 120.0,
+   "rate_limited": 6,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "bayarea"
+   ],
+   "subreddits_ok": 5,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "realtor",
+    "real estate agent",
+    "buying a house",
+    "selling my house"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 402
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 0,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 4,
  "version": 1
 }
