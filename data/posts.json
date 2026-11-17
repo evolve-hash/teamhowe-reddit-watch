@@ -2,436 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wjqe67": {
-   "author": "thisisinsider",
-   "author_url": "https://www.reddit.com/user/thisisinsider",
-   "comments": null,
-   "created_utc": 1789738509,
-   "domain": "businessinsider.com",
-   "excerpt": "",
-   "external_url": "https://www.businessinsider.com/san-francisco-permanent-underclass-ai-tech-boom-small-businesses-2026-9?utm_source=reddit&utm_medium=social_manual&utm_campaign=reddit_dist_r_sanfrancisco&utm_content=manual_v1&utm_term=3b955699",
-   "first_seen": "2026-09-18T15:01:50+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "san francisco home",
-    "$1 million"
-   ],
-   "id": "t3_1wjqe67",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-21T23:18:17+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wjqe67/a_1_million_san_francisco_home_drew_a_186_million/",
-   "relevance": 19,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$1 million"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "san francisco home"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "A $1 million San Francisco home drew a $1.86 million bid as residents describe an AI-boom housing squeeze",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wjwzc6": {
-   "author": "Ok-Delay5473",
-   "author_url": "https://www.reddit.com/user/Ok-Delay5473",
-   "comments": null,
-   "created_utc": 1789753325,
-   "domain": "self.sanfrancisco",
-   "excerpt": "https://abc7news.com/post/confirmed-mountain-lion-sighting-san-franciscos-outer-sunset-district/19847030/",
-   "external_url": "",
-   "first_seen": "2026-09-18T18:30:06+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "abc7news.com",
-    "Inner Sunset",
-    "Outer Sunset"
-   ],
-   "id": "t3_1wjwzc6",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-21T23:18:17+00:00",
-   "neighborhoods": [
-    "Inner Sunset",
-    "Outer Sunset"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wjwzc6/confirmed_mountain_lion_sighting_in_san/",
-   "relevance": 11,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "abc7news.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "neighborhoods": {
-     "count": 2,
-     "hits": [
-      "Inner Sunset",
-      "Outer Sunset"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 3.8
-    }
-   },
-   "title": "Confirmed mountain lion sighting in San Francisco's Outer Sunset District",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wjz5tx": {
-   "author": "Informal-Carrot-9766",
-   "author_url": "https://www.reddit.com/user/Informal-Carrot-9766",
-   "comments": null,
-   "created_utc": 1789758103,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "I live near Mission Bay/Showplace Square and was surprised by how few people I’ve talked to know about the Amazon project planned for 900 7th Street. And the scale of this thing is worth understanding. The current proposal is for an approximately 710,000-square-foot building, with roughly 706,000 square feet dedicated to parcel-delivery...",
-   "external_url": "",
-   "first_seen": "2026-09-18T21:44:21+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "affordable housing",
-    "housing shortage",
-    "000 sq. ft",
-    "Inner Mission",
-    "Potrero Hill",
-    "Central Waterfront / Dogpatch",
-    "Mission Bay",
-    "SoMa"
-   ],
-   "id": "t3_1wjz5tx",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-01T23:55:19+00:00",
-   "neighborhoods": [
-    "Inner Mission",
-    "Potrero Hill",
-    "Central Waterfront / Dogpatch",
-    "Mission Bay",
-    "SoMa"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wjz5tx/amazon_is_proposing_a_710000_sq_ft_delivery/",
-   "relevance": 20,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 3,
-     "hits": [
-      "housing",
-      "affordable housing",
-      "housing shortage"
-     ],
-     "label": "Market talk",
-     "points": 9.0
-    },
-    "neighborhoods": {
-     "count": 5,
-     "hits": [
-      "Inner Mission",
-      "Potrero Hill",
-      "Central Waterfront / Dogpatch",
-      "Mission Bay",
-      "SoMa"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "000 sq. ft"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "Amazon is proposing a ~710,000 sq. ft. delivery facility in the middle of San Francisco — why aren’t more people talking about this?",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wk0e8y": {
-   "author": "DrRealBug",
-   "author_url": "https://www.reddit.com/user/DrRealBug",
-   "comments": null,
-   "created_utc": 1789760873,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Everything below is sorted most expensive first , grouped by neighborhood, so you can jump straight to your own pocket of the map. This weekend there are 121 open houses across 41 San Francisco neighborhoods. Asking prices run from $0.77M in Bayview to $8.00M in Lake Street , and the homes range from about 1 square feet to 5,133 square...",
-   "external_url": "",
-   "first_seen": "2026-09-18T21:44:20+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "open house",
-    "real estate",
-    "renovation",
-    "$0.77m",
-    "133 square feet",
-    "santa rosa",
-    "Bernal Heights",
-    "Noe Valley",
-    "Parkside",
-    "Hayes Valley",
-    "Eureka Valley / Dolores Heights",
-    "Excelsior"
-   ],
-   "id": "t3_1wk0e8y",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-02T12:39:06+00:00",
-   "neighborhoods": [
-    "Bernal Heights",
-    "Noe Valley",
-    "Parkside",
-    "Hayes Valley",
-    "Eureka Valley / Dolores Heights",
-    "Excelsior",
-    "Inner Sunset",
-    "Lake Street",
-    "Miraloma Park",
-    "Outer Sunset",
-    "Glen Park",
-    "Inner Richmond",
-    "Outer Richmond",
-    "Sunnyside",
-    "Central Richmond",
-    "Midtown Terrace",
-    "Portola",
-    "Central Sunset",
-    "Ingleside",
-    "Outer Parkside",
-    "Mission Terrace",
-    "West Portal",
-    "Potrero Hill",
-    "Ingleside Heights",
-    "Nob Hill",
-    "Buena Vista / Ashbury Heights",
-    "Haight Ashbury",
-    "Crocker Amazon",
-    "Diamond Heights",
-    "Merced Heights",
-    "Little Hollywood",
-    "Sea Cliff",
-    "St. Francis Wood",
-    "Clarendon Heights",
-    "North Beach",
-    "Silver Terrace"
-   ],
-   "out_of_area": [
-    "santa rosa"
-   ],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wk0e8y/open_houses_sept_1920_san_francisco_all/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 2,
-     "hits": [
-      "real estate",
-      "renovation"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "neighborhoods": {
-     "count": 36,
-     "hits": [
-      "Bernal Heights",
-      "Noe Valley",
-      "Parkside",
-      "Hayes Valley",
-      "Eureka Valley / Dolores Heights",
-      "Excelsior",
-      "Inner Sunset",
-      "Lake Street"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 6.0
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "santa rosa"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 2,
-     "hits": [
-      "$0.77m",
-      "133 square feet"
-     ],
-     "label": "Price / listing pattern",
-     "points": 6.2
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "open house"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "Open Houses Sept 19-20: San Francisco - all neighborhoods. Single Family",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wk25md": {
-   "author": "Valuable-Eye-1708",
-   "author_url": "https://www.reddit.com/user/Valuable-Eye-1708",
-   "comments": null,
-   "created_utc": 1789764888,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "We're mid 30s expecting our first kid pretty soon, and hope to have more over the next few years. Budget is $3m-4m for a 4bedroom house with yard and garage. We've gotten pretty close on a few offers in North Berkeley. I've started to wonder, if we're willing to spend that much in the Berkeley flats... would we be better off just buying...",
-   "external_url": "",
-   "first_seen": "2026-09-18T21:44:20+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "buying in san francisco",
-    "$3m",
-    "berkeley",
-    "Downtown SF"
-   ],
-   "id": "t3_1wk25md",
-   "is_lead": true,
-   "is_new": false,
-   "last_seen": "2026-10-02T23:00:33+00:00",
-   "neighborhoods": [
-    "Downtown SF"
-   ],
-   "out_of_area": [
-    "berkeley"
-   ],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wk25md/buying_in_berkeley_or_san_francisco_for_raising/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buying in san francisco"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Downtown SF"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "berkeley"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$3m"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "Buying in Berkeley or San Francisco for raising kids",
-   "unplaced": false,
-   "verdict": "hot"
-  },
-  "t3_1wk34pg": {
-   "author": "DeliciousRich5944",
-   "author_url": "https://www.reddit.com/user/DeliciousRich5944",
-   "comments": null,
-   "created_utc": 1789767171,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Way too far for me to be buying a house, but I’m just curious currently in my 20s debating on whether or not it’ll be worth it to stay here in the Bay Area currently applying to finance and supply chain internships at tech companies. Curious if anyone who is non-engineering rules at tech companies would say it’s worth it or not to stay...",
-   "external_url": "",
-   "first_seen": "2026-09-18T21:44:20+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "buying a house"
-   ],
-   "id": "t3_1wk34pg",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-02T23:00:33+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wk34pg/those_of_you_in_non_engineering_roles_in_tech_can/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buying a house"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    }
-   },
-   "title": "Those of you in non engineering roles in tech.. can you guys still afford a house in the bay?",
-   "unplaced": true,
-   "verdict": "watch"
-  },
   "t3_1wkc9b2": {
    "author": "RedditCakeisalie",
    "author_url": "https://www.reddit.com/user/RedditCakeisalie",
@@ -15348,66 +14918,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 367,
-   "duration_seconds": 193.1,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bfirst%2Btime%2Bhome%2Bbuyer%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+first+time+home+buyer&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 402,
-   "finished_at": "2026-11-06T18:01:07+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 36,
-   "last_successful_crawl": "2026-11-06T18:01:07+00:00",
-   "leads": 6,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "bayarea"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "first time home buyer",
-    "condo",
-    "tenants in common",
-    "mortgage"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 402
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 366,
    "duration_seconds": 192.7,
    "fetch_log": [
@@ -17775,9 +17285,79 @@
     "pullpush": 0,
     "rss": 500
    }
+  },
+  {
+   "blocked_hosts": {
+    "old.reddit.com": "HTTP 403",
+    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
+   },
+   "considered": 0,
+   "duration_seconds": 290.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fbayarea%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Abayarea%2Brent%2Bvs%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Abayarea+rent+vs+buy&sort=new&t=month&restrict_sr=on",
+    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Abayarea%2Bescrow%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
+    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
+    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Abayarea+escrow&sort=new&t=month&restrict_sr=on",
+    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
+    "HTTP 404 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-17T22:29:40+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 6,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "hoa",
+    "should i buy",
+    "rent vs buy",
+    "escrow"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 12,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 16,
  "version": 1
 }
