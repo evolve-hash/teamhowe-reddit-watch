@@ -2,144 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wksp3f": {
-   "author": "Helena7x7",
-   "author_url": "https://www.reddit.com/user/Helena7x7",
-   "comments": null,
-   "created_utc": 1789840257,
-   "domain": "self.bayarea",
-   "excerpt": "The August numbers: Single-family homes Median sale price: $1.8M — up 23.33% year-over-year Average days on market: 26 — down 10 days Homes sold: 153 — down 4.97% Condos Median sale price: $1.2M — up 22.33% year-over-year Average days on market: 51 — down 23 days Condos sold: 220 — up 13.99% Compared with August 2025, both segments...",
-   "external_url": "",
-   "first_seen": "2026-09-20T01:13:27+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "days on market",
-    "mls",
-    "housing",
-    "single-family home",
-    "$1.8m"
-   ],
-   "id": "t3_1wksp3f",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-21T14:13:03+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wksp3f/august_2026_san_francisco_housing_data/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "market": {
-     "count": 2,
-     "hits": [
-      "housing",
-      "single-family home"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$1.8m"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "transaction": {
-     "count": 2,
-     "hits": [
-      "days on market",
-      "mls"
-     ],
-     "label": "Transaction mechanics",
-     "points": 8.8
-    }
-   },
-   "title": "August 2026 San Francisco Housing Data",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wkuejm": {
-   "author": "Federal_Eagle_6565",
-   "author_url": "https://www.reddit.com/user/Federal_Eagle_6565",
-   "comments": null,
-   "created_utc": 1789844281,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Please help us make a rent vs buy decision. Here is our personal situation. NW of $1.2 million, all liquid, with annual household TC of $550k (single income household with $7.5k non household expenses per month. 2 kids in public schools). US Citizens (just adding to say that I have no immigration uncertainty that many of our friends here...",
-   "external_url": "",
-   "first_seen": "2026-09-19T20:44:00+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "rent vs buy",
-    "down payment",
-    "$550k",
-    "$1.2 m",
-    "7% interest",
-    "san ramon",
-    "south bay"
-   ],
-   "id": "t3_1wkuejm",
-   "is_lead": true,
-   "is_new": false,
-   "last_seen": "2026-10-04T12:26:28+00:00",
-   "neighborhoods": [],
-   "out_of_area": [
-    "san ramon",
-    "south bay"
-   ],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wkuejm/12_m_nw_550k_hhi_continue_renting_vs_buy_now/",
-   "relevance": 22,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "rent vs buy"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "out_of_area": {
-     "count": 2,
-     "hits": [
-      "san ramon",
-      "south bay"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 3,
-     "hits": [
-      "$550k",
-      "$1.2 m",
-      "7% interest"
-     ],
-     "label": "Price / listing pattern",
-     "points": 7.5
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "down payment"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "($1.2 M NW; $550k HHI) Continue renting vs buy now?",
-   "unplaced": false,
-   "verdict": "hot"
-  },
   "t3_1wl85r6": {
    "author": "rkac",
    "author_url": "https://www.reddit.com/user/rkac",
@@ -14869,68 +14731,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 371,
-   "duration_seconds": 192.5,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Brealtor%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+realtor&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-    "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 400,
-   "finished_at": "2026-11-07T10:14:44+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 39,
-   "last_successful_crawl": "2026-11-07T10:14:44+00:00",
-   "leads": 5,
-   "new": 2,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "subreddits_ok": 4,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "realtor",
-    "real estate agent",
-    "buying a house",
-    "selling my house"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 400
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 469,
    "duration_seconds": 192.6,
    "fetch_log": [
@@ -17317,9 +17117,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 284.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FFirstTimeHomeBuyer%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-18T22:02:15+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "tenants in common",
+    "mortgage",
+    "open house",
+    "housing market"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 7,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 11,
  "version": 1
 }
