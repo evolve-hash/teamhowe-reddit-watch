@@ -2,46 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wmjjmk": {
-   "author": "Candid_Drag_6805",
-   "author_url": "https://www.reddit.com/user/Candid_Drag_6805",
-   "comments": null,
-   "created_utc": 1790012027,
-   "domain": "",
-   "excerpt": "",
-   "external_url": "/r/AskSF/comments/1wmjijd/neighborhood_considerations_for_buying_a_house/",
-   "first_seen": "2026-09-21T19:30:35+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "buying a house"
-   ],
-   "id": "t3_1wmjjmk",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-05T22:40:25+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wmjjmk/neighborhood_considerations_for_buying_a_house_in/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buying a house"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    }
-   },
-   "title": "Neighborhood considerations for buying a house in San Francisco",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wmpt88": {
    "author": "DangerousBullfrog245",
    "author_url": "https://www.reddit.com/user/DangerousBullfrog245",
@@ -14515,66 +14475,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 444,
-   "duration_seconds": 196.5,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Btenants%2Bin%2Bcommon%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+tenants+in+common&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-08T19:46:11+00:00",
-   "healthy": true,
-   "hot": 4,
-   "kept": 35,
-   "last_successful_crawl": "2026-11-08T19:46:11+00:00",
-   "leads": 4,
-   "new": 2,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "SFHousing"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "tenants in common",
-    "mortgage",
-    "open house",
-    "housing market"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 369,
    "duration_seconds": 198.4,
    "fetch_log": [
@@ -16969,9 +16869,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 374.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FOaklandCA%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-20T20:28:30+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 1,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "rent vs buy",
+    "escrow",
+    "down payment",
+    "realtor"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 14,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 1,
  "version": 1
 }
