@@ -2,48 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wm45xa": {
-   "author": "pinkpastelshorts",
-   "author_url": "https://www.reddit.com/user/pinkpastelshorts",
-   "comments": null,
-   "created_utc": 1789969743,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Assuming openai and anthropic choose to buy new houses or intends to upgrade their existing house, maybe they buy in sf now as it is closer to the office. However, for lifestyle reasons, when they want more space, start family or have kids they send schools to, dont want to continue to send kids to private school, wouldnt they move...",
-   "external_url": "",
-   "first_seen": "2026-09-21T06:24:31+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "buying in sf",
-    "buy in sf"
-   ],
-   "id": "t3_1wm45xa",
-   "is_lead": true,
-   "is_new": false,
-   "last_seen": "2026-10-05T22:40:25+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wm45xa/buying_in_sf_vs_penninsula/",
-   "relevance": 18,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 2,
-     "hits": [
-      "buying in sf",
-      "buy in sf"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 17.5
-    }
-   },
-   "title": "Buying in sf vs penninsula",
-   "unplaced": false,
-   "verdict": "hot"
-  },
   "t3_1wmjjmk": {
    "author": "Candid_Drag_6805",
    "author_url": "https://www.reddit.com/user/Candid_Drag_6805",
@@ -14557,68 +14515,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 370,
-   "duration_seconds": 193.5,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bselling%2Bmy%2Bhouse%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+selling+my+house&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-    "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 400,
-   "finished_at": "2026-11-08T15:16:49+00:00",
-   "healthy": true,
-   "hot": 4,
-   "kept": 36,
-   "last_successful_crawl": "2026-11-08T15:16:49+00:00",
-   "leads": 4,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "subreddits_ok": 4,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "selling my house",
-    "home prices",
-    "first time home buyer",
-    "condo"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 400
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 444,
    "duration_seconds": 196.5,
    "fetch_log": [
@@ -17011,9 +16907,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 380.4,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fbayarea%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfranciscohousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-20T11:59:54+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 1,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "housing market",
+    "property tax",
+    "hoa",
+    "should i buy"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 10,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 14,
  "version": 1
 }
