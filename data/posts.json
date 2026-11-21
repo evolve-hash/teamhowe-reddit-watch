@@ -2,195 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wnglqi": {
-   "author": "Kooky_Bird_9188",
-   "author_url": "https://www.reddit.com/user/Kooky_Bird_9188",
-   "comments": null,
-   "created_utc": 1790099466,
-   "domain": "i.redd.it",
-   "excerpt": "Just went through the process for the first time for the 2025 tax year. In most games, it's difficult to win when your opponent is more familiar with the rules. So here's some information to help level the playing field. If you sell your home after the lien date, they can use your sale price as a comp My case wasn't successful because I...",
-   "external_url": "https://i.redd.it/a9jm7ncgx3rh1.png",
-   "first_seen": "2026-09-23T00:36:40+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "appraisal",
-    "appraised",
-    "mls",
-    "real estate",
-    "price per square foot",
-    "property values",
-    "property tax",
-    "assessed value",
-    "comps",
-    "200 sq. ft"
-   ],
-   "id": "t3_1wnglqi",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-07T22:01:29+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wnglqi/learnings_from_sf_property_tax_hearing/",
-   "relevance": 28,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 7,
-     "hits": [
-      "real estate",
-      "price per square foot",
-      "property values",
-      "property tax",
-      "assessed value",
-      "comps",
-      "comparable sales"
-     ],
-     "label": "Market talk",
-     "points": 12.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "200 sq. ft"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "transaction": {
-     "count": 3,
-     "hits": [
-      "appraisal",
-      "appraised",
-      "mls"
-     ],
-     "label": "Transaction mechanics",
-     "points": 10.5
-    }
-   },
-   "title": "Learnings from SF Property Tax Hearing",
-   "unplaced": false,
-   "verdict": "hot"
-  },
-  "t3_1wnkd6q": {
-   "author": "ServiceOk1839",
-   "author_url": "https://www.reddit.com/user/ServiceOk1839",
-   "comments": null,
-   "created_utc": 1790107524,
-   "domain": "zillow.com",
-   "excerpt": "Genuine thoughts on this house? It’s on a very quiet street with no neighbor directly across. Very good price per square foot for the area. The market seems a little weird right now like things are taking a longer time to sell? Anyone else agree with that?",
-   "external_url": "https://www.zillow.com/homedetails/1567-Glencrest-Dr-San-Jose-CA-95118/19697943_zpid/",
-   "first_seen": "2026-09-22T22:11:59+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "time to sell",
-    "real estate",
-    "price per square foot",
-    "zillow.com"
-   ],
-   "id": "t3_1wnkd6q",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-08T01:58:44+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wnkd6q/cambrian_park_real_estate/",
-   "relevance": 28,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "zillow.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "intent": {
-     "count": 1,
-     "hits": [
-      "time to sell"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "market": {
-     "count": 2,
-     "hits": [
-      "real estate",
-      "price per square foot"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    }
-   },
-   "title": "Cambrian Park Real Estate",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1wnnr63": {
-   "author": "Fantastic_Chef_2664",
-   "author_url": "https://www.reddit.com/user/Fantastic_Chef_2664",
-   "comments": null,
-   "created_utc": 1790115263,
-   "domain": "i.redd.it",
-   "excerpt": "The consensus on this sub is it’s a fate worse than death to live in the Richmond or the Sunset yet everyone here has a hard-on about zoning and traffic on those areas. Why aren’t people as motivated to talk about getting rid of single family homes and motor traffic in this area that’s full of low density housing and where they say they...",
-   "external_url": "https://i.redd.it/zfkysizqb5rh1.jpeg",
-   "first_seen": "2026-09-23T00:34:51+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "upzoning",
-    "Inner Sunset",
-    "Inner Richmond"
-   ],
-   "id": "t3_1wnnr63",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-25T22:22:01+00:00",
-   "neighborhoods": [
-    "Inner Sunset",
-    "Inner Richmond"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wnnr63/why_arent_people_as_obsessed_with_upzoning_and/",
-   "relevance": 11,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "market": {
-     "count": 2,
-     "hits": [
-      "housing",
-      "upzoning"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "neighborhoods": {
-     "count": 2,
-     "hits": [
-      "Inner Sunset",
-      "Inner Richmond"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 3.8
-    }
-   },
-   "title": "Why aren’t people as obsessed with upzoning and pedestrianizing this area?",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wnyh7u": {
    "author": "dennismcneilmbr817",
    "author_url": "https://www.reddit.com/user/dennismcneilmbr817",
@@ -14145,66 +13956,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 442,
-   "duration_seconds": 200.1,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+condo&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-10T01:35:13+00:00",
-   "healthy": true,
-   "hot": 4,
-   "kept": 37,
-   "last_successful_crawl": "2026-11-10T01:35:13+00:00",
-   "leads": 4,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "SFHousing"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "condo",
-    "tenants in common",
-    "mortgage",
-    "open house"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 382,
    "duration_seconds": 197.0,
    "fetch_log": [
@@ -16603,9 +16354,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 374.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FOaklandCA%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-21T23:23:44+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 3,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "should i buy",
+    "rent vs buy",
+    "escrow",
+    "down payment"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 13,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 0,
  "version": 1
 }
