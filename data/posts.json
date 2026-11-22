@@ -2,155 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wofja8": {
-   "author": "Frosty-Abroad6535",
-   "author_url": "https://www.reddit.com/user/Frosty-Abroad6535",
-   "comments": null,
-   "created_utc": 1790191335,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Would you consider purchasing a home with a partially demolished pool? Please share all horror stories as well as positive ones.",
-   "external_url": "",
-   "first_seen": "2026-09-23T20:24:54+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "purchasing a home"
-   ],
-   "id": "t3_1wofja8",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-08T16:31:42+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wofja8/partially_demolished_pool/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "purchasing a home"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    }
-   },
-   "title": "Partially Demolished Pool",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1wohuod": {
-   "author": "RateEagle",
-   "author_url": "https://www.reddit.com/user/RateEagle",
-   "comments": null,
-   "created_utc": 1790196630,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Just a friendly alert to all homebuyers: If you can, consider locking your mortgage rate today! It’s been a brutal day for bonds and Treasuries, which means mortgage rates will most likely move higher tomorrow. If you’re under contract and have a rate you’re comfortable with, today is a good time to lock rather than risk a higher rate...",
-   "external_url": "",
-   "first_seen": "2026-09-23T23:44:57+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "under contract",
-    "loan officer",
-    "mortgage rate",
-    "mortgage rates"
-   ],
-   "id": "t3_1wohuod",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-09T16:15:56+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wohuod/homebuyers_friendly_headsup_from_a_loan_officer/",
-   "relevance": 28,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "under contract"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "market": {
-     "count": 2,
-     "hits": [
-      "mortgage rate",
-      "mortgage rates"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "loan officer"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "Homebuyers: Friendly Heads-Up From a Loan Officer — Lock Your Rate Today!",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1woj9vn": {
-   "author": "ncsudrn",
-   "author_url": "https://www.reddit.com/user/ncsudrn",
-   "comments": null,
-   "created_utc": 1790199979,
-   "domain": "instagram.com",
-   "excerpt": "Most people in SF haven't dealt with a remodel or business opening and therefore do not hate SF DBI enough. Needs to be burnt to the ground and restarted from scratch.",
-   "external_url": "https://www.instagram.com/p/Ddo-39KD3L_/?img_index=2&stkn=MXF3ZmtkdHloMWpqeA==",
-   "first_seen": "2026-09-23T23:43:10+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "remodel",
-    "dbi"
-   ],
-   "id": "t3_1woj9vn",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-26T22:52:47+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1woj9vn/sf_dbi_blocks_opening_of_new_butter_crumble/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "remodel"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "sf_specific": {
-     "count": 1,
-     "hits": [
-      "dbi"
-     ],
-     "label": "SF-specific real estate signals",
-     "points": 8.0
-    }
-   },
-   "title": "SF DBI blocks opening of new Butter & Crumble location; team gives up on plans",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1won8z5": {
    "author": "knockdowncenter",
    "author_url": "https://www.reddit.com/user/knockdowncenter",
@@ -13796,66 +13647,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 467,
-   "duration_seconds": 192.6,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Breal%2Bestate%2Bagent%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+real+estate+agent&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-10T23:26:26+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 45,
-   "last_successful_crawl": "2026-11-10T23:26:26+00:00",
-   "leads": 5,
-   "new": 6,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 4,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "sanfranciscohousing"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "bayarea",
-    "sanfranciscohousing"
-   ],
-   "sweeps_this_run": [
-    "real estate agent",
-    "buying a house",
-    "selling my house",
-    "home prices"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 366,
    "duration_seconds": 198.6,
    "fetch_log": [
@@ -16260,9 +16051,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 464.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fbayarea%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/bayarea/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfranciscohousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfranciscohousing/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-22T21:53:40+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 3,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "bayarea",
+    "sanfranciscohousing"
+   ],
+   "sweeps_this_run": [
+    "mortgage",
+    "open house",
+    "housing market",
+    "property tax"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 0,
- "sweep_cursor": 8,
+ "subreddit_cursor": 2,
+ "sweep_cursor": 12,
  "version": 1
 }
