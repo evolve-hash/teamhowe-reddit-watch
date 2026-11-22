@@ -2,113 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wo5v23": {
-   "author": "CyberGuySeaX5",
-   "author_url": "https://www.reddit.com/user/CyberGuySeaX5",
-   "comments": null,
-   "created_utc": 1790169702,
-   "domain": "self.bayarea",
-   "excerpt": "I'm hoping to buy my 1st condo soon here in the Bay Area. Born and raised here. I'm hoping the purchase price is $490K or less. If I'm putting between 40% - 45% as a down payment, what is a realistic monthly cost (principle mortgage, intrest, home insurance, HOA, etc) I'll be looking at?",
-   "external_url": "",
-   "first_seen": "2026-09-23T20:25:32+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "down payment",
-    "hoa",
-    "$490k"
-   ],
-   "id": "t3_1wo5v23",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-26T01:37:47+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wo5v23/1st_time_home_condo_buyer_in_the_bay_area/",
-   "relevance": 18,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "hoa"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$490k"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "down payment"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "1st time home (condo) buyer in the Bay Area.",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1wo6fej": {
-   "author": "jowens510",
-   "author_url": "https://www.reddit.com/user/jowens510",
-   "comments": null,
-   "created_utc": 1790171085,
-   "domain": "bizjournals.com",
-   "excerpt": "Corgi ditched the executives who were leading its efforts to open 100 24/7 cafes across the country in six months, even as they had moved 16 locations in San Francisco to the point of signing a lease. One of the dismissed execs wrote an email to the team leading their real estate efforts to let them know of his dismissal, which the...",
-   "external_url": "https://www.bizjournals.com/sanfrancisco/news/2026/09/23/corgi-cafe-lease-employee-dismissal-newmark.html",
-   "first_seen": "2026-09-23T17:01:06+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "real estate",
-    "bizjournals.com"
-   ],
-   "id": "t3_1wo6fej",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-26T01:35:22+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wo6fej/corgi_halts_cafe_expansion_while_in_process_of/",
-   "relevance": 13,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "bizjournals.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "real estate"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Corgi halts cafe expansion while in process of opening 16 more in San Francisco",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wofja8": {
    "author": "Frosty-Abroad6535",
    "author_url": "https://www.reddit.com/user/Frosty-Abroad6535",
@@ -13903,66 +13796,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 465,
-   "duration_seconds": 201.7,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Brent%2Bvs%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+rent+vs+buy&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-10T17:54:18+00:00",
-   "healthy": true,
-   "hot": 5,
-   "kept": 40,
-   "last_successful_crawl": "2026-11-10T17:54:18+00:00",
-   "leads": 5,
-   "new": 3,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 2,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "RealEstate"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "rent vs buy",
-    "escrow",
-    "down payment",
-    "realtor"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 467,
    "duration_seconds": 192.6,
    "fetch_log": [
@@ -16365,9 +16198,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 368.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FFirstTimeHomeBuyer%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-22T15:24:19+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "home prices",
+    "first time home buyer",
+    "condo",
+    "tenants in common"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 4,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 8,
  "version": 1
 }
