@@ -2,217 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wp6uny": {
-   "author": "Dafty_duck",
-   "author_url": "https://www.reddit.com/user/Dafty_duck",
-   "comments": null,
-   "created_utc": 1790268468,
-   "domain": "sfstandard.com",
-   "excerpt": "",
-   "external_url": "https://sfstandard.com/2026/09/24/office-boom-san-francisco-housing-shortage/",
-   "first_seen": "2026-09-24T19:11:25+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": false,
-   "hits": [
-    "housing",
-    "sfstandard.com"
-   ],
-   "id": "t3_1wp6uny",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-27T18:25:30+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wp6uny/why_developers_keep_building_risky_offices/",
-   "relevance": 13,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfstandard.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    }
-   },
-   "title": "Why developers keep building risky offices instead of stable housing",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wp8dpx": {
-   "author": "New_Vigornian",
-   "author_url": "https://www.reddit.com/user/New_Vigornian",
-   "comments": null,
-   "created_utc": 1790271896,
-   "domain": "sfchronicle.com",
-   "excerpt": "San Francisco firefighter Gabriel Shin was assaulted by a colleague, Robert Muhammad, who was upset about a discussion of his daughter’s suicide. The fire department allegedly retaliated against Shin for pursuing criminal charges, cutting off his pay and benefits while keeping Muhammad on paid leave. The city has agreed to a $6 million...",
-   "external_url": "https://www.sfchronicle.com/sf/article/sf-firefighter-6-million-settlement-wrench-attack-22428135.php?link_source=ta_bluesky_link&taid=6aa9d8ab42d5dc0001471a9b&utm_campaign=trueanthem%2B3988&utm_medium=social&utm_source=bluesky",
-   "first_seen": "2026-09-24T19:11:24+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "sfchronicle.com",
-    "$580k",
-    "$6 million"
-   ],
-   "id": "t3_1wp8dpx",
-   "is_lead": false,
-   "is_new": true,
-   "last_seen": "2026-09-24T19:11:24+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wp8dpx/firefighter_violently_assaults_colleague_gets/",
-   "relevance": 13,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfchronicle.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "patterns": {
-     "count": 2,
-     "hits": [
-      "$580k",
-      "$6 million"
-     ],
-     "label": "Price / listing pattern",
-     "points": 6.2
-    }
-   },
-   "title": "Firefighter violently assaults colleague, gets paid $580k salary while on leave and is then fired. What a waste of taxpayer dollars.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wpagcy": {
-   "author": "kenji4861",
-   "author_url": "https://www.reddit.com/user/kenji4861",
-   "comments": null,
-   "created_utc": 1790276521,
-   "domain": "reddit.com",
-   "excerpt": "There is a property near me that has been on sale \"for a while\". The realtor tried to sell at $900k, removed it. Then they raised it to $920k, removed it It's still sitting there with the realtor's sign so I assume it's coming back All the price history is removed from zillow / some other real estate websites. I see this pattern a lot...",
-   "external_url": "https://www.reddit.com/gallery/1wpagcy",
-   "first_seen": "2026-09-24T19:13:13+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "days on market",
-    "real estate",
-    "realtor",
-    "realtors",
-    "$900k"
-   ],
-   "id": "t3_1wpagcy",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-09T20:58:57+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wpagcy/how_are_realtors_able_to_delete_the_history_of_a/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 3,
-     "hits": [
-      "real estate",
-      "realtor",
-      "realtors"
-     ],
-     "label": "Market talk",
-     "points": 9.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$900k"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "days on market"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "How are realtors able to delete the history of a property? Is \"Days on Market\" accurate at all?",
-   "unplaced": true,
-   "verdict": "watch"
-  },
-  "t3_1wpgezk": {
-   "author": "Ok-Stomach-",
-   "author_url": "https://www.reddit.com/user/Ok-Stomach-",
-   "comments": null,
-   "created_utc": 1790291048,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "https://www.redfin.com/CA/Mountain-View/1166-Fordham-Way-94040/home/780654 plenty of money sloshing around for higher end properties",
-   "external_url": "",
-   "first_seen": "2026-09-25T01:33:46+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "all cash",
-    "redfin.com"
-   ],
-   "id": "t3_1wpgezk",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-10T13:45:54+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wpgezk/speaking_of_rate_this_house_just_closed_today_72m/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "redfin.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "all cash"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "speaking of rate, this house just closed today, 7.2M all cash",
-   "unplaced": true,
-   "verdict": "watch"
-  },
   "t3_1wporre": {
    "author": "throwingitaway_00",
    "author_url": "https://www.reddit.com/user/throwingitaway_00",
@@ -13556,68 +13345,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 371,
-   "duration_seconds": 194.0,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bshould%2Bi%2Bbuy%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+should+i+buy&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up",
-    "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 400,
-   "finished_at": "2026-11-11T22:01:55+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 49,
-   "last_successful_crawl": "2026-11-11T22:01:55+00:00",
-   "leads": 6,
-   "new": 6,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 2,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "subreddits_ok": 4,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "should i buy",
-    "rent vs buy",
-    "escrow",
-    "down payment"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 400
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 373,
    "duration_seconds": 192.4,
    "fetch_log": [
@@ -16024,9 +15751,72 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 346.6,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FFirstTimeHomeBuyer%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-24T00:57:13+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 4,
+   "rate_limit_wait_seconds": 40.0,
+   "rate_limited": 2,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "selling my house",
+    "home prices",
+    "first time home buyer",
+    "condo"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 3,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 7,
  "version": 1
 }
