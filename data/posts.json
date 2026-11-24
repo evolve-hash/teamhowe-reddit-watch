@@ -2,350 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wq5ocw": {
-   "author": "emilyrobinowitz",
-   "author_url": "https://www.reddit.com/user/emilyrobinowitz",
-   "comments": null,
-   "created_utc": 1790364961,
-   "domain": "self.sanfrancisco",
-   "excerpt": "The SF public school system has been using an AI reading tutor since last year, though it did not inform parents of this fact. I learned midway through the year last year that the person named Amira that my 1st grader was always complaining about was not an incompetent human teacher's assistant, but rather a glitchy app that the district...",
-   "external_url": "",
-   "first_seen": "2026-09-25T22:21:58+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "sfstandard.com",
-    "$400k"
-   ],
-   "id": "t3_1wq5ocw",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-28T15:29:45+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wq5ocw/i_thought_my_kids_had_a_new_reading_tutor_at/",
-   "relevance": 12,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "domains": {
-     "count": 1,
-     "hits": [
-      "sfstandard.com"
-     ],
-     "label": "Real estate news / listing source",
-     "points": 7.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "$400k"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    }
-   },
-   "title": "I thought my kids had a new reading tutor at school named Amira. Turns out it was an AI app.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wq66kv": {
-   "author": "the-man-in-black-b",
-   "author_url": "https://www.reddit.com/user/the-man-in-black-b",
-   "comments": null,
-   "created_utc": 1790366174,
-   "domain": "self.bayarea",
-   "excerpt": "Hi all! I'd love some advice since my partner have been looking at moving in together for the past few months, and are at a bit of a loss. I (34F) live in Glen Park and BART to work in FiDi in SF three days a week. My partner (39M) owns a condo in San Jose and drives to work in downtown Palo Alto four days a week. Our budget is...",
-   "external_url": "",
-   "first_seen": "2026-09-26T01:37:43+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "housing",
-    "1500sqft",
-    "2bed/1.5bath",
-    "daly city",
-    "san bruno",
-    "pacifica",
-    "burlingame",
-    "palo alto",
-    "san jose",
-    "Excelsior",
-    "Glen Park",
-    "Outer Mission"
-   ],
-   "id": "t3_1wq66kv",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-27T14:02:40+00:00",
-   "neighborhoods": [
-    "Excelsior",
-    "Glen Park",
-    "Outer Mission",
-    "Downtown SF"
-   ],
-   "out_of_area": [
-    "burlingame",
-    "daly city",
-    "pacifica",
-    "palo alto",
-    "san bruno",
-    "san jose",
-    "santa cruz",
-    "the peninsula"
-   ],
-   "permalink": "https://www.reddit.com/r/bayarea/comments/1wq66kv/sf_palo_alto_housing_advice/",
-   "relevance": 12,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "bayarea",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "housing"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 4,
-     "hits": [
-      "Excelsior",
-      "Glen Park",
-      "Outer Mission",
-      "Downtown SF"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 5.2
-    },
-    "out_of_area": {
-     "count": 8,
-     "hits": [
-      "daly city",
-      "san bruno",
-      "pacifica",
-      "burlingame",
-      "palo alto",
-      "san jose",
-      "the peninsula",
-      "santa cruz"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 2,
-     "hits": [
-      "1500sqft",
-      "2bed/1.5bath"
-     ],
-     "label": "Price / listing pattern",
-     "points": 6.2
-    }
-   },
-   "title": "SF - Palo Alto Housing Advice",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wq6zb6": {
-   "author": "Beginning_Editor2841",
-   "author_url": "https://www.reddit.com/user/Beginning_Editor2841",
-   "comments": null,
-   "created_utc": 1790368064,
-   "domain": "self.sanfrancisco",
-   "excerpt": "Thinking about buying a condo that is 375k about 500 sq fr with parking hoa 850 no amenities in between 7th st and Howard! .. is it worth it? How’s the neighborhood now?",
-   "external_url": "",
-   "first_seen": "2026-09-25T22:21:58+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "thinking about buying",
-    "buying a condo",
-    "about buying",
-    "hoa",
-    "SoMa"
-   ],
-   "id": "t3_1wq6zb6",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-28T15:29:45+00:00",
-   "neighborhoods": [
-    "SoMa"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/sanfrancisco/comments/1wq6zb6/buying_condo_in_soma/",
-   "relevance": 28,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "sanfrancisco",
-   "tiers": {
-    "intent": {
-     "count": 3,
-     "hits": [
-      "thinking about buying",
-      "buying a condo",
-      "about buying"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 21.0
-    },
-    "market": {
-     "count": 1,
-     "hits": [
-      "hoa"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "SoMa"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 1.0
-    }
-   },
-   "title": "Buying condo in SOMA",
-   "unplaced": false,
-   "verdict": "hot"
-  },
-  "t3_1wq79tc": {
-   "author": "DrRealBug",
-   "author_url": "https://www.reddit.com/user/DrRealBug",
-   "comments": null,
-   "created_utc": 1790368755,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Everything below is grouped by neighborhood, better-known areas first, and sorted most expensive first inside each one, so you can jump straight to your own pocket of the map. This weekend there are 124 open houses across 43 San Francisco neighborhoods. Asking prices run from $0.55M in Outer Mission to $14.00M in Presidio Heights , and...",
-   "external_url": "",
-   "first_seen": "2026-09-25T22:23:46+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "open house",
-    "real estate",
-    "renovation",
-    "$0.55m",
-    "174 square feet",
-    "santa rosa",
-    "Bernal Heights",
-    "Noe Valley",
-    "Parkside",
-    "Eureka Valley / Dolores Heights",
-    "Excelsior",
-    "Inner Sunset"
-   ],
-   "id": "t3_1wq79tc",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-11T20:20:31+00:00",
-   "neighborhoods": [
-    "Bernal Heights",
-    "Noe Valley",
-    "Parkside",
-    "Eureka Valley / Dolores Heights",
-    "Excelsior",
-    "Inner Sunset",
-    "Lake Street",
-    "Miraloma Park",
-    "Outer Sunset",
-    "Glen Park",
-    "Inner Richmond",
-    "Outer Richmond",
-    "Sunnyside",
-    "Central Richmond",
-    "Inner Parkside",
-    "Portola",
-    "Central Sunset",
-    "Ingleside",
-    "Outer Mission",
-    "Outer Parkside",
-    "Mission Terrace",
-    "Forest Hill",
-    "Potrero Hill",
-    "Nob Hill",
-    "Cole Valley",
-    "Cow Hollow",
-    "Haight Ashbury",
-    "Crocker Amazon",
-    "Diamond Heights",
-    "Merced Heights",
-    "SoMa",
-    "Little Hollywood",
-    "St. Francis Wood",
-    "Clarendon Heights",
-    "North Beach",
-    "Twin Peaks"
-   ],
-   "out_of_area": [
-    "santa rosa"
-   ],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wq79tc/open_houses_sept_2627_san_francisco_single_family/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 2,
-     "hits": [
-      "real estate",
-      "renovation"
-     ],
-     "label": "Market talk",
-     "points": 7.5
-    },
-    "neighborhoods": {
-     "count": 36,
-     "hits": [
-      "Bernal Heights",
-      "Noe Valley",
-      "Parkside",
-      "Eureka Valley / Dolores Heights",
-      "Excelsior",
-      "Inner Sunset",
-      "Lake Street",
-      "Miraloma Park"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 6.0
-    },
-    "out_of_area": {
-     "count": 1,
-     "hits": [
-      "santa rosa"
-     ],
-     "label": "Outside Team Howe's area",
-     "points": 0.0
-    },
-    "patterns": {
-     "count": 2,
-     "hits": [
-      "$0.55m",
-      "174 square feet"
-     ],
-     "label": "Price / listing pattern",
-     "points": 6.2
-    },
-    "transaction": {
-     "count": 1,
-     "hits": [
-      "open house"
-     ],
-     "label": "Transaction mechanics",
-     "points": 7.0
-    }
-   },
-   "title": "Open Houses Sept 26-27: San Francisco: Single Family Homes - All Neighborhoods",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wqa696": {
    "author": "nosotros_road_sodium",
    "author_url": "https://www.reddit.com/user/nosotros_road_sodium",
@@ -13277,66 +12933,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 374,
-   "duration_seconds": 192.3,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bhome%2Bprices%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+home+prices&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 402,
-   "finished_at": "2026-11-12T11:16:16+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 46,
-   "last_successful_crawl": "2026-11-12T11:16:16+00:00",
-   "leads": 6,
-   "new": 1,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 3,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "OaklandCA"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "SFHousing",
-    "OaklandCA"
-   ],
-   "sweeps_this_run": [
-    "home prices",
-    "first time home buyer",
-    "condo",
-    "tenants in common"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 402
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 372,
    "duration_seconds": 192.6,
    "fetch_log": [
@@ -15748,9 +15344,71 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 332.3,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FOaklandCA%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/OaklandCA/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-24T21:17:12+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 4,
+   "rate_limit_wait_seconds": 20.0,
+   "rate_limited": 1,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "SFHousing",
+    "OaklandCA"
+   ],
+   "sweeps_this_run": [
+    "property tax",
+    "hoa",
+    "should i buy",
+    "rent vs buy"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 2,
- "sweep_cursor": 11,
+ "subreddit_cursor": 4,
+ "sweep_cursor": 15,
  "version": 1
 }
