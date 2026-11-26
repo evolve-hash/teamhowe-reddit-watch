@@ -2,144 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wrlf8b": {
-   "author": "BlockMediocre3204",
-   "author_url": "https://www.reddit.com/user/BlockMediocre3204",
-   "comments": null,
-   "created_utc": 1790518806,
-   "domain": "self.AskSF",
-   "excerpt": "Hi all! I'm relocating to San Francisco soon and my office will be in SoMa, near 8th St & Brannan. I'm looking for a 1 bed / 1 bath around $4,000/month and would love advice from locals. What I'm looking for: Safety first. A neighborhood where I'd feel comfortable walking home in the evening Reasonable commute. Walking, biking, Muni or...",
-   "external_url": "",
-   "first_seen": "2026-09-27T18:26:03+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "moving to sf",
-    "relocating to san francisco",
-    "1 bed / 1 bath",
-    "Hayes Valley",
-    "Potrero Hill",
-    "Central Waterfront / Dogpatch",
-    "Mission Bay",
-    "SoMa"
-   ],
-   "id": "t3_1wrlf8b",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-30T19:22:26+00:00",
-   "neighborhoods": [
-    "Hayes Valley",
-    "Potrero Hill",
-    "Central Waterfront / Dogpatch",
-    "Mission Bay",
-    "SoMa"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/AskSF/comments/1wrlf8b/moving_to_sf_for_work_near_8th_brannan_soma_safe/",
-   "relevance": 21,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "AskSF",
-   "tiers": {
-    "neighborhoods": {
-     "count": 5,
-     "hits": [
-      "Hayes Valley",
-      "Potrero Hill",
-      "Central Waterfront / Dogpatch",
-      "Mission Bay",
-      "SoMa"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 6.0
-    },
-    "patterns": {
-     "count": 1,
-     "hits": [
-      "1 bed / 1 bath"
-     ],
-     "label": "Price / listing pattern",
-     "points": 5.0
-    },
-    "relocation": {
-     "count": 2,
-     "hits": [
-      "moving to sf",
-      "relocating to san francisco"
-     ],
-     "label": "Moving to the area",
-     "points": 10.0
-    }
-   },
-   "title": "Moving to SF for work near 8th & Brannan (SoMa). Safe 1b/1b neighborhoods around $4k?",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1wroptn": {
-   "author": "DrRealBug",
-   "author_url": "https://www.reddit.com/user/DrRealBug",
-   "comments": null,
-   "created_utc": 1790526755,
-   "domain": "self.BayAreaRealEstate",
-   "excerpt": "Short version of a longer post and video I put in another subreddit. If you'd rather watch than read, the video is in that post, linked at the bottom. The problem: Noe Valley single-family, last 12 months (126 sales): 4 of 5 sold over asking, median 26% over list. The ask is a marketing number. \"Bid strong\" is what everyone else was told...",
-   "external_url": "",
-   "first_seen": "2026-09-27T18:27:15+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "over asking",
-    "sold over asking",
-    "mls",
-    "sfh",
-    "Noe Valley"
-   ],
-   "id": "t3_1wroptn",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-10-14T00:22:25+00:00",
-   "neighborhoods": [
-    "Noe Valley"
-   ],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/BayAreaRealEstate/comments/1wroptn/lost_an_offer_in_sf_this_year_heres_the_method_id/",
-   "relevance": 20,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "BayAreaRealEstate",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "sfh"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "neighborhoods": {
-     "count": 1,
-     "hits": [
-      "Noe Valley"
-     ],
-     "label": "Team Howe neighborhood",
-     "points": 3.0
-    },
-    "transaction": {
-     "count": 3,
-     "hits": [
-      "over asking",
-      "sold over asking",
-      "mls"
-     ],
-     "label": "Transaction mechanics",
-     "points": 10.5
-    }
-   },
-   "title": "Lost an offer in SF this year? Here's the method I'd use instead of \"just go strong.\" Tell me what I'm missing.",
-   "unplaced": false,
-   "verdict": "watch"
-  },
   "t3_1wrtpls": {
    "author": "SwagBuns",
    "author_url": "https://www.reddit.com/user/SwagBuns",
@@ -12769,66 +12631,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 372,
-   "duration_seconds": 193.1,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Btenants%2Bin%2Bcommon%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+tenants+in+common&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 411,
-   "finished_at": "2026-11-13T22:41:27+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 47,
-   "last_successful_crawl": "2026-11-13T22:41:27+00:00",
-   "leads": 6,
-   "new": 5,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 0,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "SouthBay"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "marincounty",
-    "SouthBay"
-   ],
-   "sweeps_this_run": [
-    "tenants in common",
-    "mortgage",
-    "open house",
-    "housing market"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 411
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 477,
    "duration_seconds": 198.4,
    "fetch_log": [
@@ -15252,9 +15054,73 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 307.7,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fmarincounty%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSouthBay%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+    "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/SouthBay/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-26T19:05:55+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 85.0,
+   "rate_limited": 3,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "marincounty",
+    "SouthBay"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "marincounty",
+    "SouthBay"
+   ],
+   "sweeps_this_run": [
+    "rent vs buy",
+    "escrow",
+    "down payment",
+    "realtor"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 4,
- "sweep_cursor": 14,
+ "subreddit_cursor": 6,
+ "sweep_cursor": 1,
  "version": 1
 }
