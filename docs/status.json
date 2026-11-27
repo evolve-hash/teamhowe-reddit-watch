@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:05:55+00:00",
+ "generated_at": "2026-11-27T02:16:33+00:00",
  "last_run": {
   "subreddits_ok": 0,
   "subreddits_failed": [
@@ -7,8 +7,8 @@
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "fetched": 0,
   "considered": 0,
@@ -23,25 +23,25 @@
    "pullpush": 0
   },
   "sweeps_this_run": [
-   "rent vs buy",
-   "escrow",
-   "down payment",
-   "realtor"
+   "real estate agent",
+   "buying a house",
+   "selling my house",
+   "home prices"
   ],
   "subreddits_this_run": [
    "sanfrancisco",
    "AskSF",
    "SFBayHousing",
    "BayAreaRealEstate",
-   "marincounty",
-   "SouthBay"
+   "RealEstate",
+   "FirstTimeHomeBuyer"
   ],
   "subreddits_configured": 12,
   "pruned": 2,
-  "duration_seconds": 307.7,
-  "finished_at": "2026-11-26T19:05:55+00:00",
+  "duration_seconds": 349.6,
+  "finished_at": "2026-11-27T02:16:33+00:00",
   "blocked_hosts": {},
-  "rate_limited": 3,
+  "rate_limited": 4,
   "rate_limit_wait_seconds": 85.0,
   "fetch_log": [
    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
@@ -51,14 +51,14 @@
    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-   "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fmarincounty%2Fnew%2F.rss%3Flimit%3D100",
-   "HTTP 429 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-   "HTTP 404 https://www.reddit.com/r/marincounty/new/.rss?limit=100",
-   "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSouthBay%2Fnew%2F.rss%3Flimit%3D100",
-   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-   "HTTP 429 https://www.reddit.com/r/SouthBay/new/.rss?limit=100",
-   "HTTP 404 https://www.reddit.com/r/SouthBay/new/.rss?limit=100"
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 404 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+   "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FFirstTimeHomeBuyer%2Fnew%2F.rss%3Flimit%3D100",
+   "HTTP 404 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
   ],
   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
   "healthy": false,

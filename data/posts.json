@@ -2,134 +2,6 @@
  "alerted": {},
  "last_successful_crawl": "2026-11-17T13:31:19+00:00",
  "posts": {
-  "t3_1wrtpls": {
-   "author": "SwagBuns",
-   "author_url": "https://www.reddit.com/user/SwagBuns",
-   "comments": null,
-   "created_utc": 1790538536,
-   "domain": "self.AskSF",
-   "excerpt": "Hi yall! I'm moving to SF soon for work and I was wondering if I could beg yall for any insight on where to be looking for apartments. I'm trying my best to minimize commute to chinatown/union square, with a 3-4k rent budget for a studio or 1bd place. Does anyone have any recommendations what areas I should be looking in? I'm trying to...",
-   "external_url": "",
-   "first_seen": "2026-09-27T22:13:39+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "moving to sf",
-    "apartments"
-   ],
-   "id": "t3_1wrtpls",
-   "is_lead": false,
-   "is_new": false,
-   "last_seen": "2026-09-30T23:52:03+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/AskSF/comments/1wrtpls/moving_to_sf_looking_for_recs_please/",
-   "relevance": 14,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "AskSF",
-   "tiers": {
-    "market": {
-     "count": 1,
-     "hits": [
-      "apartments"
-     ],
-     "label": "Market talk",
-     "points": 6.0
-    },
-    "relocation": {
-     "count": 1,
-     "hits": [
-      "moving to sf"
-     ],
-     "label": "Moving to the area",
-     "points": 8.0
-    }
-   },
-   "title": "Moving to SF, looking for recs please!",
-   "unplaced": false,
-   "verdict": "watch"
-  },
-  "t3_1ws1exz": {
-   "author": "mudmonkey93",
-   "author_url": "https://www.reddit.com/user/mudmonkey93",
-   "comments": null,
-   "created_utc": 1790558766,
-   "domain": "self.FirstTimeHomeBuyer",
-   "excerpt": "EDIT: For anyone still curious. I fixed my spreadsheet. I also spoke with my lender and was able to get a firm number on the principal, interest, tax and insurance. It's a lot lower than what I had entered here (previously had 4500). I spoke with both my realtor and lender this morning. I definitely got it wrong. We're not \"closing,\" and...",
-   "external_url": "",
-   "first_seen": "2026-09-29T02:01:29+00:00",
-   "flair": "",
-   "found_via": null,
-   "has_body": true,
-   "hits": [
-    "buying a home",
-    "escrow",
-    "closing costs",
-    "contingency",
-    "appraisal",
-    "realtor",
-    "hoa",
-    "hoa fees",
-    "$100k",
-    "6.75% interest"
-   ],
-   "id": "t3_1ws1exz",
-   "is_lead": true,
-   "is_new": false,
-   "last_seen": "2026-09-30T00:30:59+00:00",
-   "neighborhoods": [],
-   "out_of_area": [],
-   "permalink": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1ws1exz/closing_in_a_week_nervous_if_i_should_go_through/",
-   "relevance": 42,
-   "score": null,
-   "sources": "rss",
-   "subreddit": "FirstTimeHomeBuyer",
-   "tiers": {
-    "intent": {
-     "count": 1,
-     "hits": [
-      "buying a home"
-     ],
-     "label": "Buyer / seller intent",
-     "points": 14.0
-    },
-    "market": {
-     "count": 3,
-     "hits": [
-      "realtor",
-      "hoa",
-      "hoa fees"
-     ],
-     "label": "Market talk",
-     "points": 9.0
-    },
-    "patterns": {
-     "count": 2,
-     "hits": [
-      "$100k",
-      "6.75% interest"
-     ],
-     "label": "Price / listing pattern",
-     "points": 6.2
-    },
-    "transaction": {
-     "count": 4,
-     "hits": [
-      "escrow",
-      "closing costs",
-      "contingency",
-      "appraisal"
-     ],
-     "label": "Transaction mechanics",
-     "points": 12.2
-    }
-   },
-   "title": "Closing in a week, nervous if I should go through with it or bail",
-   "unplaced": false,
-   "verdict": "hot"
-  },
   "t3_1ws2m0m": {
    "author": "sunshine_010",
    "author_url": "https://www.reddit.com/user/sunshine_010",
@@ -12631,66 +12503,6 @@
     "old.reddit.com": "HTTP 403",
     "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
    },
-   "considered": 477,
-   "duration_seconds": 198.4,
-   "fetch_log": [
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F%3Flimit%3D100",
-    "HTTP 403 https://old.reddit.com/r/sanfrancisco/new/?limit=100",
-    "HTTP 403 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fold.reddit.com%2Fsearch%2F%3Fq%3Dsubreddit%253Asanfrancisco%2Bproperty%2Btax%26sort%3Dnew%26t%3Dmonth%26restrict_sr%3Don",
-    "SKIPPING teamhowe-reddit-watch.teamhowe.workers.dev for the rest of this run (403 refused 2 times)",
-    "HTTP 403 https://old.reddit.com/search/?q=subreddit%3Asanfrancisco+property+tax&sort=new&t=month&restrict_sr=on",
-    "SKIPPING old.reddit.com for the rest of this run (403 refused 2 times)",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "HTTP 429 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
-    "rate-limit wait budget spent; giving up on this request, next run will pick it up"
-   ],
-   "fetched": 500,
-   "finished_at": "2026-11-14T03:20:05+00:00",
-   "healthy": true,
-   "hot": 6,
-   "kept": 46,
-   "last_successful_crawl": "2026-11-14T03:20:05+00:00",
-   "leads": 6,
-   "new": 0,
-   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
-   "pruned": 1,
-   "rate_limit_wait_seconds": 120.0,
-   "rate_limited": 6,
-   "subreddits_configured": 12,
-   "subreddits_failed": [
-    "RealEstate"
-   ],
-   "subreddits_ok": 5,
-   "subreddits_this_run": [
-    "sanfrancisco",
-    "AskSF",
-    "SFBayHousing",
-    "BayAreaRealEstate",
-    "RealEstate",
-    "FirstTimeHomeBuyer"
-   ],
-   "sweeps_this_run": [
-    "property tax",
-    "hoa",
-    "should i buy",
-    "rent vs buy"
-   ],
-   "transport_counts": {
-    "old_html": 0,
-    "old_search": 0,
-    "pullpush": 0,
-    "rss": 500
-   }
-  },
-  {
-   "blocked_hosts": {
-    "old.reddit.com": "HTTP 403",
-    "teamhowe-reddit-watch.teamhowe.workers.dev": "HTTP 403"
-   },
    "considered": 377,
    "duration_seconds": 198.7,
    "fetch_log": [
@@ -15118,9 +14930,73 @@
     "pullpush": 0,
     "rss": 0
    }
+  },
+  {
+   "blocked_hosts": {},
+   "considered": 0,
+   "duration_seconds": 349.6,
+   "fetch_log": [
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsanfrancisco%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/sanfrancisco/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskSF%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/AskSF/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSFBayHousing%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/SFBayHousing/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBayAreaRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 404 https://www.reddit.com/r/BayAreaRealEstate/new/.rss?limit=100",
+    "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 429 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRealEstate%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/RealEstate/new/.rss?limit=100",
+    "HTTP 404 https://teamhowe-reddit-watch.teamhowe.workers.dev/fetch?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FFirstTimeHomeBuyer%2Fnew%2F.rss%3Flimit%3D100",
+    "HTTP 404 https://www.reddit.com/r/FirstTimeHomeBuyer/new/.rss?limit=100"
+   ],
+   "fetched": 0,
+   "finished_at": "2026-11-27T02:16:33+00:00",
+   "healthy": false,
+   "hot": 0,
+   "kept": 0,
+   "last_successful_crawl": "2026-11-17T13:31:19+00:00",
+   "leads": 0,
+   "new": 0,
+   "proxy_base": "https://teamhowe-reddit-watch.teamhowe.workers.dev",
+   "pruned": 2,
+   "rate_limit_wait_seconds": 85.0,
+   "rate_limited": 4,
+   "subreddits_configured": 12,
+   "subreddits_failed": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "subreddits_ok": 0,
+   "subreddits_this_run": [
+    "sanfrancisco",
+    "AskSF",
+    "SFBayHousing",
+    "BayAreaRealEstate",
+    "RealEstate",
+    "FirstTimeHomeBuyer"
+   ],
+   "sweeps_this_run": [
+    "real estate agent",
+    "buying a house",
+    "selling my house",
+    "home prices"
+   ],
+   "transport_counts": {
+    "old_html": 0,
+    "old_search": 0,
+    "pullpush": 0,
+    "rss": 0
+   }
   }
  ],
- "subreddit_cursor": 6,
- "sweep_cursor": 1,
+ "subreddit_cursor": 0,
+ "sweep_cursor": 5,
  "version": 1
 }
